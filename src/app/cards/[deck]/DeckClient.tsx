@@ -234,10 +234,10 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
           </div>
           <div className="grid grid-cols-4 gap-2">
             <button type="button" onClick={prev} disabled={index === 0}
-              className="rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed bg-gradient-to-b from-violet-500 to-violet-600">Previous</button>
+              className="rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:cursor-not-allowed bg-gradient-to-b from-violet-500 to-violet-600">Previous</button>
             {GRADES.map(([g, label, cls]) => (
               <button key={g} type="button" onClick={() => grade(g)} disabled={!flipped}
-                className={`rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed ${cls}`}>{label}</button>
+                className={`rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:cursor-not-allowed ${cls}`}>{label}</button>
             ))}
           </div>
           {!flipped && <p className="text-center text-sm text-slate-500">Flip the card to grade it / Сначала переверните карточку</p>}
