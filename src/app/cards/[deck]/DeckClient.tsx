@@ -195,7 +195,7 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
           <p className="text-xl font-bold">{sStats.complete ? `Group ${group} complete — all words Easy!` : `Session finished: ${sStats.easy}/${sStats.total} words learned`}</p>
           {!sStats.complete && <p className="text-sm opacity-90">{sStats.hard + sStats.good} Hard/Good words will be carried into the next group. / Слова Hard/Good перейдут в следующую группу.</p>}
           <div className="flex flex-wrap justify-center gap-2">
-            {index > 0 && <button type="button" onClick={prev} className="rounded-xl bg-white/20 hover:bg-white/30 px-4 py-2 font-medium">← Previous</button>}
+            {index > 0 && <button type="button" onClick={prev} className="rounded-xl bg-white/20 hover:bg-white/30 px-4 py-2 font-medium">Previous</button>}
             {!sStats.complete && <button type="button" onClick={() => newSession(group, true)} className="rounded-xl bg-white/20 hover:bg-white/30 px-4 py-2 font-medium">🔁 Repeat not-Easy words</button>}
             <button type="button" onClick={() => newSession(group, false)} className="rounded-xl bg-white/20 hover:bg-white/30 px-4 py-2 font-medium">Restart group</button>
             <button type="button" onClick={() => go(null)} className="rounded-xl bg-white/20 hover:bg-white/30 px-4 py-2 font-medium">All groups</button>
@@ -234,7 +234,7 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
           </div>
           <div className="grid grid-cols-4 gap-2">
             <button type="button" onClick={prev} disabled={index === 0}
-              className="rounded-2xl py-3 font-bold shadow-md active:scale-95 transition bg-gradient-to-b from-slate-200 to-slate-300 text-slate-800 dark:from-slate-700 dark:to-slate-800 dark:text-white disabled:opacity-40 disabled:cursor-not-allowed">← Previous</button>
+              className="rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed bg-gradient-to-b from-violet-400 to-purple-600">Previous</button>
             {GRADES.map(([g, label, cls]) => (
               <button key={g} type="button" onClick={() => grade(g)} disabled={!flipped}
                 className={`rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed ${cls}`}>{label}</button>
