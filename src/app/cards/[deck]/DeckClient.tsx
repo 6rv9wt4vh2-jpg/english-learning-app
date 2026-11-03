@@ -10,9 +10,9 @@ import {
 } from "@/lib/decks";
 
 const GRADES: [CardStatus, string, string][] = [
-  ["hard", "Hard", "bg-gradient-to-b from-orange-400 to-orange-600"],
-  ["good", "Good", "bg-gradient-to-b from-emerald-400 to-green-600"],
-  ["easy", "Easy ✓", "bg-gradient-to-b from-sky-400 to-blue-600"],
+  ["hard", "Hard", "bg-gradient-to-b from-orange-500 to-orange-600"],
+  ["good", "Good", "bg-gradient-to-b from-green-500 to-green-600"],
+  ["easy", "Easy ✓", "bg-gradient-to-b from-blue-500 to-blue-600"],
 ];
 
 function Counts({ s, light }: { s: { easy: number; fresh: number; hard: number; good: number }; light?: boolean }) {
@@ -234,7 +234,7 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
           </div>
           <div className="grid grid-cols-4 gap-2">
             <button type="button" onClick={prev} disabled={index === 0}
-              className="rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed bg-gradient-to-b from-violet-400 to-purple-600">Previous</button>
+              className="rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed bg-gradient-to-b from-violet-500 to-violet-600">Previous</button>
             {GRADES.map(([g, label, cls]) => (
               <button key={g} type="button" onClick={() => grade(g)} disabled={!flipped}
                 className={`rounded-2xl py-3 text-white font-bold shadow-md active:scale-95 transition disabled:opacity-40 disabled:cursor-not-allowed ${cls}`}>{label}</button>
