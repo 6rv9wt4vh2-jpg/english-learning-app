@@ -1,0 +1,60 @@
+typically|adv.|обычно, типично|It typically takes an hour.|Обычно это занимает час.
+tyre|n.|шина|I've got a flat tyre.|У меня спустило колесо.
+ugly|adj.|уродливый|What an ugly building!|Какое уродливое здание!
+unable|adj.|неспособный|I'm unable to come.|Я не смогу прийти.
+uncomfortable|adj.|неудобный|This chair is uncomfortable.|Этот стул неудобный.
+underwear|n.|нижнее бельё|Pack some clean underwear.|Возьми чистое бельё.
+unemployed|adj.|безработный|He's been unemployed for a year.|Он без работы уже год.
+unemployment|n.|безработица|Unemployment is rising.|Безработица растёт.
+unfair|adj.|несправедливый|That's unfair!|Это несправедливо!
+union|n.|союз; профсоюз|The European Union.|Европейский союз.
+unless|conj.|если не|Don't come unless I call.|Не приходи, если я не позвоню.
+unlike|prep.|в отличие от|Unlike me, she loves sport.|В отличие от меня, она любит спорт.
+unlikely|adj.|маловероятный|It's unlikely to rain.|Дождь вряд ли пойдёт.
+unnecessary|adj.|ненужный|Avoid unnecessary risks.|Избегайте лишнего риска.
+unpleasant|adj.|неприятный|It was an unpleasant surprise.|Это был неприятный сюрприз.
+update|v., n.|обновлять; обновление|Update your phone.|Обнови телефон.
+upset|adj., v.|расстроенный; расстраивать|She's upset about it.|Она расстроена из-за этого.
+used|adj.|подержанный, б/у|We bought a used car.|Мы купили подержанную машину.
+used to|adj.|привыкший|I'm used to the cold.|Я привык к холоду.
+valuable|adj.|ценный|It's a valuable lesson.|Это ценный урок.
+value|n.|ценность, стоимость|The value of the house went up.|Стоимость дома выросла.
+various|adj.|различный|There are various options.|Есть разные варианты.
+version|n.|версия|Download the latest version.|Скачайте последнюю версию.
+victim|n.|жертва|The victim was taken to hospital.|Пострадавшего доставили в больницу.
+view|v.|смотреть, рассматривать|You can view the photos online.|Фото можно посмотреть онлайн.
+viewer|n.|зритель|Millions of viewers watched.|Смотрели миллионы зрителей.
+violent|adj.|жестокий, насильственный|It's a violent film.|Это жестокий фильм.
+volunteer|n., v.|волонтёр; вызываться|She volunteered to help.|Она вызвалась помочь.
+vote|n., v.|голос; голосовать|Who did you vote for?|За кого ты голосовал?
+warm|v.|греть|Warm your hands by the fire.|Погрей руки у огня.
+warn|v.|предупреждать|I warned you!|Я тебя предупреждал!
+warning|n.|предупреждение|There's a storm warning.|Объявлено штормовое предупреждение.
+waste|n., v., adj.|трата; тратить впустую; отходы|It's a waste of time.|Это пустая трата времени.
+water|v.|поливать|Water the plants.|Полей растения.
+wave|v.|махать|She waved goodbye.|Она помахала на прощание.
+weapon|n.|оружие|He had no weapon.|У него не было оружия.
+weigh|v.|весить; взвешивать|How much do you weigh?|Сколько ты весишь?
+western|adj.|западный|Western culture.|Западная культура.
+whatever|det./pron.|что бы ни; что угодно|Do whatever you want.|Делай что хочешь.
+whenever|conj.|когда бы ни|Come whenever you like.|Приходи, когда захочешь.
+whether|conj.|ли|I don't know whether he'll come.|Не знаю, придёт ли он.
+while|n.|некоторое время|Wait a while.|Подожди немного.
+whole|n.|целое|As a whole, it was good.|В целом было хорошо.
+Wi-Fi|n.|вай-фай|What's the Wi-Fi password?|Какой пароль от вай-фая?
+will|n.|воля; завещание|She has a strong will.|У неё сильная воля.
+win|n.|победа|It was a big win.|Это была крупная победа.
+wing|n.|крыло|The bird hurt its wing.|Птица повредила крыло.
+within|prep.|в пределах, в течение|I'll reply within a day.|Я отвечу в течение дня.
+wonder|v., n.|интересоваться; чудо|I wonder why.|Интересно, почему.
+wool|n.|шерсть|The sweater is made of wool.|Свитер из шерсти.
+worldwide|adj., adv.|всемирный; по всему миру|It's sold worldwide.|Это продаётся по всему миру.
+worry|n.|беспокойство|Money is my biggest worry.|Деньги — моя главная забота.
+worse|adv.|хуже|He played worse than usual.|Он играл хуже обычного.
+worst|adv.|хуже всего|Who did worst in the test?|Кто хуже всех написал тест?
+worth|adj.|стоящий|The film is worth seeing.|Фильм стоит посмотреть.
+written|adj.|письменный|A written exam.|Письменный экзамен.
+wrong|adv.|неправильно|You spelled it wrong.|Ты написал это неправильно.
+yard|n.|двор; ярд|The kids play in the yard.|Дети играют во дворе.
+young|n.|детёныши; молодёжь|The bird feeds its young.|Птица кормит птенцов.
+youth|n.|молодость; молодёжь|In my youth I played football.|В молодости я играл в футбол.

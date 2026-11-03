@@ -1,0 +1,150 @@
+ability|n.|способность|She has the ability to learn fast.|У неё есть способность быстро учиться.
+able|adj.|способный; мочь|Will you be able to come?|Ты сможешь прийти?
+abroad|adv.|за границей, за границу|I want to study abroad.|Я хочу учиться за границей.
+accept|v.|принимать|Please accept my apologies.|Пожалуйста, примите мои извинения.
+accident|n.|авария, несчастный случай|He had a car accident.|Он попал в аварию.
+according to|prep.|согласно, по словам|According to the news, it will snow.|Согласно новостям, пойдёт снег.
+achieve|v.|достигать|She achieved her goal.|Она достигла своей цели.
+act|v.|действовать; играть роль|We must act now.|Мы должны действовать сейчас.
+active|adj.|активный|My grandmother is very active.|Моя бабушка очень активная.
+actually|adv.|на самом деле|Actually, I don't like coffee.|Вообще-то я не люблю кофе.
+adult|adj.|взрослый|Adult tickets cost ten euros.|Взрослые билеты стоят десять евро.
+advantage|n.|преимущество|Speaking English is a big advantage.|Знание английского — большое преимущество.
+adventure|n.|приключение|It was a real adventure.|Это было настоящее приключение.
+advertise|v.|рекламировать|They advertise on TV.|Они дают рекламу на телевидении.
+advertisement|n.|реклама, объявление|I saw an advertisement for the job.|Я увидел объявление о работе.
+advertising|n.|реклама (сфера)|She works in advertising.|Она работает в рекламе.
+affect|v.|влиять|The weather affects my mood.|Погода влияет на моё настроение.
+after|conj., adv.|после того как; потом|Call me after you finish.|Позвони мне, когда закончишь.
+against|prep.|против|Are you for or against the plan?|Ты за или против плана?
+ah|exclam.|а!, ах!|Ah, now I understand.|А, теперь понятно.
+airline|n.|авиакомпания|Which airline are you flying with?|Какой авиакомпанией ты летишь?
+alive|adj.|живой|Is the fish still alive?|Рыба ещё жива?
+all|adv.|совсем, полностью|She was all alone.|Она была совсем одна.
+all right|adj./adv., exclam.|в порядке; ладно|Are you all right?|Ты в порядке?
+allow|v.|разрешать|Smoking is not allowed here.|Курить здесь запрещено.
+almost|adv.|почти|It's almost ten o'clock.|Почти десять часов.
+alone|adj./adv.|один, в одиночестве|I live alone.|Я живу один.
+along|prep., adv.|вдоль, по|We walked along the river.|Мы шли вдоль реки.
+already|adv.|уже|I've already eaten.|Я уже поел.
+alternative|n.|альтернатива|Is there an alternative?|Есть ли альтернатива?
+although|conj.|хотя|Although it was cold, we went out.|Хотя было холодно, мы вышли.
+among|prep.|среди|She is popular among students.|Она популярна среди студентов.
+amount|n.|количество, сумма|A large amount of money.|Большая сумма денег.
+ancient|adj.|древний|We visited an ancient temple.|Мы посетили древний храм.
+ankle|n.|лодыжка|I hurt my ankle.|Я повредил лодыжку.
+any|adv.|сколько-нибудь, ещё|I can't walk any further.|Я не могу идти дальше.
+anybody|pron.|кто-нибудь, кто-то|Is anybody home?|Есть кто-нибудь дома?
+any more|adv.|больше (не)|I don't live there any more.|Я там больше не живу.
+anyway|adv.|в любом случае, всё равно|It was raining, but we went anyway.|Шёл дождь, но мы всё равно пошли.
+anywhere|adv., pron.|где-нибудь, куда угодно|Sit anywhere you like.|Садитесь где хотите.
+app|n.|приложение|Download the app.|Скачайте приложение.
+appear|v.|появляться; казаться|A man appeared at the door.|В дверях появился мужчина.
+appearance|n.|внешность; появление|She cares about her appearance.|Она следит за своей внешностью.
+apply|v.|подавать заявление|I applied for the job.|Я подал заявку на эту работу.
+architect|n.|архитектор|My father is an architect.|Мой отец архитектор.
+architecture|n.|архитектура|I love old architecture.|Я люблю старую архитектуру.
+argue|v.|спорить|They always argue about money.|Они всегда спорят о деньгах.
+argument|n.|спор, ссора; довод|We had an argument.|Мы поссорились.
+army|n.|армия|He joined the army.|Он пошёл в армию.
+arrange|v.|организовать, договориться|Let's arrange a meeting.|Давайте назначим встречу.
+arrangement|n.|договорённость; расположение|We made arrangements for the trip.|Мы обо всём договорились насчёт поездки.
+as|adv., conj.|как; так же; когда|She is as tall as me.|Она такого же роста, как я.
+asleep|adj.|спящий|The baby is asleep.|Ребёнок спит.
+assistant|n., adj.|помощник|Ask the shop assistant.|Спроси продавца.
+athlete|n.|спортсмен|He's a professional athlete.|Он профессиональный спортсмен.
+attack|n., v.|нападение; нападать|The dog attacked the cat.|Собака напала на кошку.
+attend|v.|посещать|I attend English classes.|Я посещаю занятия по английскому.
+attention|n., exclam.|внимание|Pay attention, please.|Будьте внимательны, пожалуйста.
+attractive|adj.|привлекательный|She's very attractive.|Она очень привлекательна.
+audience|n.|публика, зрители|The audience loved the show.|Зрителям очень понравилось шоу.
+audio|n., adj.|аудио|Listen to the audio.|Послушайте аудиозапись.
+author|n.|автор|Who is the author of this book?|Кто автор этой книги?
+available|adj.|доступный, свободный|Is this room available?|Эта комната свободна?
+average|adj., n.|средний|The average age is 30.|Средний возраст — 30 лет.
+avoid|v.|избегать|Avoid sugar.|Избегайте сахара.
+award|n.|награда|She won an award.|Она получила награду.
+awful|adj.|ужасный|The food was awful.|Еда была ужасной.
+back|adj.|задний|Sit in the back seat.|Садись на заднее сиденье.
+background|n.|фон; происхождение|The photo has a blue background.|У фото синий фон.
+badly|adv.|плохо; сильно|He was badly hurt.|Он сильно пострадал.
+baseball|n.|бейсбол|They play baseball.|Они играют в бейсбол.
+based|adj.|основанный; базирующийся|The film is based on a true story.|Фильм основан на реальной истории.
+basketball|n.|баскетбол|I play basketball.|Я играю в баскетбол.
+bean|n.|фасоль, боб|Coffee beans smell great.|Кофейные зёрна чудесно пахнут.
+bear (animal)|n.|медведь|We saw a bear in the forest.|Мы видели медведя в лесу.
+beef|n.|говядина|I don't eat beef.|Я не ем говядину.
+before|conj., adv.|прежде чем; раньше|I've seen this film before.|Я уже видел этот фильм.
+behave|v.|вести себя|Behave yourself!|Веди себя прилично!
+behaviour|n.|поведение|His behaviour was strange.|Его поведение было странным.
+belong|v.|принадлежать|This bag belongs to me.|Эта сумка принадлежит мне.
+belt|n.|ремень|Fasten your seat belt.|Пристегните ремень.
+benefit|n.|польза, выгода|Exercise has many benefits.|Упражнения очень полезны.
+best|adv., n.|лучше всего; лучшее|I like this one best.|Этот мне нравится больше всего.
+better|adv.|лучше|I feel better now.|Мне теперь лучше.
+between|adv.|между, в промежутке|Two shops with a café in between.|Два магазина, а между ними кафе.
+billion|number|миллиард|A billion people use it.|Этим пользуется миллиард людей.
+bin|n.|мусорное ведро|Put it in the bin.|Выбрось это в ведро.
+biology|n.|биология|I study biology.|Я изучаю биологию.
+birth|n.|рождение|What's your date of birth?|Какая у вас дата рождения?
+biscuit|n.|печенье|Would you like a biscuit?|Хочешь печенье?
+bit|n.|кусочек; немного|I'm a bit tired.|Я немного устал.
+blood|n.|кровь|He lost a lot of blood.|Он потерял много крови.
+blow|v.|дуть|The wind is blowing.|Дует ветер.
+board|n.|доска; совет (директоров)|Write it on the board.|Напишите это на доске.
+boil|v.|кипятить, варить|Boil the water first.|Сначала вскипяти воду.
+bone|n.|кость|He broke a bone.|Он сломал кость.
+book|v.|бронировать|I booked a table for two.|Я забронировал столик на двоих.
+borrow|v.|брать взаймы|Can I borrow your pen?|Можно одолжить твою ручку?
+boss|n.|начальник|My boss is very nice.|Мой начальник очень приятный.
+bottom|n., adj.|низ, дно; нижний|It's at the bottom of the page.|Это внизу страницы.
+bowl|n.|миска, чаша|A bowl of soup, please.|Тарелку супа, пожалуйста.
+brain|n.|мозг|The brain needs sleep.|Мозгу нужен сон.
+bridge|n.|мост|We crossed the bridge.|Мы перешли мост.
+bright|adj.|яркий; умный|The room is bright.|Комната светлая.
+brilliant|adj.|блестящий, отличный|That's a brilliant idea!|Это блестящая идея!
+broken|adj.|сломанный|My phone is broken.|Мой телефон сломан.
+brush|v., n.|чистить щёткой; щётка|Brush your teeth.|Почисти зубы.
+burn|v.|жечь, гореть|I burned my hand.|Я обжёг руку.
+businessman|n.|бизнесмен|He's a successful businessman.|Он успешный бизнесмен.
+button|n.|кнопка; пуговица|Press the green button.|Нажмите зелёную кнопку.
+camp|n., v.|лагерь; жить в палатке|We camped by the lake.|Мы разбили лагерь у озера.
+camping|n.|кемпинг, поход|We go camping every summer.|Каждое лето мы ходим в поход.
+can|n.|банка|A can of cola, please.|Банку колы, пожалуйста.
+care|n., v.|забота; заботиться|I don't care.|Мне всё равно.
+careful|adj.|осторожный|Be careful!|Осторожно!
+carefully|adv.|осторожно, внимательно|Read the text carefully.|Внимательно прочитайте текст.
+carpet|n.|ковёр|The carpet is red.|Ковёр красный.
+cartoon|n.|мультфильм; карикатура|Kids love cartoons.|Дети любят мультфильмы.
+case|n.|случай; чемодан, футляр|In that case, I'll stay.|В таком случае я останусь.
+cash|n.|наличные|Can I pay in cash?|Можно заплатить наличными?
+castle|n.|замок|We visited an old castle.|Мы посетили старый замок.
+catch|v.|ловить; успеть на|I need to catch the bus.|Мне нужно успеть на автобус.
+cause|n., v.|причина; вызывать|What caused the accident?|Что стало причиной аварии?
+celebrate|v.|праздновать|Let's celebrate!|Давайте отпразднуем!
+celebrity|n.|знаменитость|She's a TV celebrity.|Она телезвезда.
+certain|adj.|уверенный; определённый|Are you certain?|Ты уверен?
+certainly|adv.|конечно, несомненно|Certainly, sir.|Конечно, сэр.
+chance|n.|шанс, возможность|Give me a chance.|Дай мне шанс.
+character|n.|персонаж; характер|Who is your favourite character?|Какой твой любимый персонаж?
+charity|n.|благотворительность|She works for a charity.|Она работает в благотворительной организации.
+chat|v., n.|болтать; беседа|We chatted for hours.|Мы болтали часами.
+check|n.|проверка; счёт|Can we have the check, please?|Можно счёт, пожалуйста?
+chef|n.|шеф-повар|The chef cooked a great meal.|Шеф-повар приготовил отличное блюдо.
+chemistry|n.|химия|Chemistry is difficult.|Химия трудная.
+chip|n.|чипс; картофель фри|Fish and chips, please.|Рыбу с картошкой фри, пожалуйста.
+choice|n.|выбор|You have no choice.|У тебя нет выбора.
+church|n.|церковь|There's an old church in the village.|В деревне есть старая церковь.
+cigarette|n.|сигарета|He gave up cigarettes.|Он бросил курить.
+circle|n., v.|круг; обводить|Circle the right answer.|Обведите правильный ответ.
+classical|adj.|классический|I like classical music.|Я люблю классическую музыку.
+clear|adj.|ясный, понятный|Is that clear?|Это понятно?
+clearly|adv.|ясно, чётко|Please speak clearly.|Пожалуйста, говорите чётко.
+clever|adj.|умный|She's a clever girl.|Она умная девочка.
+climate|n.|климат|The climate here is mild.|Климат здесь мягкий.
+close|adj.|близкий|We are close friends.|Мы близкие друзья.
+closed|adj.|закрытый|The shop is closed.|Магазин закрыт.
+clothing|n.|одежда|Bring warm clothing.|Возьмите тёплую одежду.
+cloud|n.|облако|There isn't a cloud in the sky.|На небе ни облачка.
+coach|n.|тренер; автобус|Our coach is very strict.|Наш тренер очень строгий.
+coast|n.|побережье|We drove along the coast.|Мы ехали вдоль побережья.

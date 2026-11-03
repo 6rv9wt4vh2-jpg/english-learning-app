@@ -1,0 +1,150 @@
+require|v.|требовать|The job requires experience.|Для работы требуется опыт.
+reservation|n.|бронирование|I have a reservation for two.|У меня бронь на двоих.
+resource|n.|ресурс|We need more resources.|Нам нужно больше ресурсов.
+respect|n., v.|уважение; уважать|I respect your opinion.|Я уважаю твоё мнение.
+responsibility|n.|ответственность|It's your responsibility.|Это твоя ответственность.
+responsible|adj.|ответственный|Who is responsible for this?|Кто за это отвечает?
+result|v.|приводить (к), возникать|The fire resulted in damage.|Пожар привёл к ущербу.
+retire|v.|выходить на пенсию|He retired at 60.|Он вышел на пенсию в 60.
+retired|adj.|на пенсии|My dad is retired.|Мой папа на пенсии.
+revise|v.|повторять (к экзамену); пересматривать|I'm revising for my exams.|Я готовлюсь к экзаменам.
+ring|n.|звонок|Give me a ring tomorrow.|Звякни мне завтра.
+rise|n.|рост, повышение|There's been a rise in prices.|Цены выросли.
+risk|n., v.|риск; рисковать|It's not worth the risk.|Это не стоит риска.
+robot|n.|робот|Robots build the cars.|Машины собирают роботы.
+roll|v., n.|катить(ся); булочка; рулон|The ball rolled away.|Мяч укатился.
+romantic|adj.|романтичный|It was a romantic dinner.|Это был романтический ужин.
+rope|n.|верёвка|Hold on to the rope.|Держись за верёвку.
+rough|adj.|грубый; шершавый; приблизительный|The sea was rough.|Море было неспокойным.
+row|n.|ряд|We sat in the front row.|Мы сидели в первом ряду.
+royal|adj.|королевский|The royal family.|Королевская семья.
+rugby|n.|регби|He plays rugby.|Он играет в регби.
+rule|v.|править|The king ruled for 40 years.|Король правил 40 лет.
+safety|n.|безопасность|Safety comes first.|Безопасность прежде всего.
+sail|n.|парус|The boat has a red sail.|У лодки красный парус.
+sailor|n.|моряк|He was a sailor.|Он был моряком.
+sample|n.|образец, проба|Take a free sample.|Возьмите бесплатный образец.
+sand|n.|песок|The kids played in the sand.|Дети играли в песке.
+scan|v.|сканировать|Scan the document.|Отсканируйте документ.
+scientific|adj.|научный|It's a scientific fact.|Это научный факт.
+script|n.|сценарий|He wrote the script.|Он написал сценарий.
+secondary|adj.|второстепенный; средний (о школе)|She teaches at a secondary school.|Она преподаёт в средней школе.
+security|n.|безопасность; охрана|Call security!|Вызовите охрану!
+seed|n.|семя|Plant the seeds in spring.|Посадите семена весной.
+sensible|adj.|разумный|That's a sensible idea.|Это разумная мысль.
+separate|v.|разделять; расставаться|Her parents separated.|Её родители разошлись.
+seriously|adv.|серьёзно|Are you seriously going?|Ты серьёзно идёшь?
+servant|n.|слуга|They had two servants.|У них было двое слуг.
+set|v.|ставить, класть; устанавливать|Set the alarm for seven.|Поставь будильник на семь.
+set|n.|набор, комплект|A set of keys.|Связка ключей.
+setting|n.|обстановка, место действия; настройка|Check your phone settings.|Проверь настройки телефона.
+sex|n.|пол; секс|Please state your sex.|Укажите ваш пол.
+sexual|adj.|сексуальный, половой|Sexual health.|Половое здоровье.
+shake|n.|встряска; молочный коктейль|A chocolate shake, please.|Шоколадный коктейль, пожалуйста.
+share|n.|доля; акция|I paid my share.|Я заплатил свою долю.
+sharp|adj.|острый|Be careful, the knife is sharp.|Осторожно, нож острый.
+shelf|n.|полка|Put it on the shelf.|Поставь это на полку.
+shell|n.|раковина, скорлупа|We collected shells on the beach.|Мы собирали ракушки на пляже.
+shift|n.|смена; сдвиг|I work the night shift.|Я работаю в ночную смену.
+shine|v.|светить, сиять|The sun is shining.|Светит солнце.
+shiny|adj.|блестящий|A shiny new car.|Блестящая новая машина.
+shoot|v.|стрелять; снимать (фильм)|They shot the film in Spain.|Фильм снимали в Испании.
+shy|adj.|застенчивый|Don't be shy.|Не стесняйся.
+sight|n.|зрение; вид; достопримечательность|We saw the sights of Rome.|Мы посмотрели достопримечательности Рима.
+signal|n., v.|сигнал; подавать сигнал|There's no signal here.|Здесь нет сигнала.
+silent|adj.|безмолвный, тихий|Keep your phone on silent.|Держи телефон в беззвучном режиме.
+silly|adj.|глупый|Don't be silly.|Не глупи.
+similarity|n.|сходство|There are many similarities.|Есть много общего.
+similarly|adv.|аналогично|Similarly, prices went up.|Аналогично выросли цены.
+simply|adv.|просто|I simply don't know.|Я просто не знаю.
+since|adv.|с тех пор|I haven't seen him since.|С тех пор я его не видел.
+sink|v.|тонуть|The ship sank.|Корабль затонул.
+slice|n., v.|ломтик; нарезать|A slice of pizza.|Кусок пиццы.
+slightly|adv.|слегка|I'm slightly tired.|Я немного устал.
+slow|v.|замедлять(ся)|Slow down!|Притормози!
+smart|adj.|умный; нарядный|She's really smart.|Она очень умная.
+smooth|adj.|гладкий|Her skin is smooth.|У неё гладкая кожа.
+software|n.|программное обеспечение|Update the software.|Обновите программы.
+soil|n.|почва|The soil is very dry.|Почва очень сухая.
+solid|adj., n.|твёрдый; твёрдое тело|The ice is solid.|Лёд твёрдый.
+sort|v.|сортировать|Sort the files by date.|Отсортируйте файлы по дате.
+southern|adj.|южный|Southern Spain is hot.|На юге Испании жарко.
+specifically|adv.|конкретно, специально|I came specifically to see you.|Я пришёл специально к тебе.
+spending|n.|расходы|Government spending is up.|Государственные расходы выросли.
+spicy|adj.|острый (о еде)|I love spicy food.|Я люблю острую еду.
+spirit|n.|дух|Team spirit is important.|Командный дух важен.
+spoken|adj.|устный, разговорный|Spoken English.|Разговорный английский.
+spot|n.|место; пятно|It's a nice spot for a picnic.|Хорошее место для пикника.
+spread|v.|распространять(ся); намазывать|The news spread fast.|Новость быстро распространилась.
+spring|v.|прыгать, вскакивать|He sprang to his feet.|Он вскочил на ноги.
+stadium|n.|стадион|The stadium was full.|Стадион был полон.
+staff|n.|персонал|The staff are very friendly.|Персонал очень дружелюбный.
+standard|n., adj.|стандарт; стандартный|The standard of work is high.|Уровень работы высокий.
+state|adj., v.|государственный; заявлять|She goes to a state school.|Она ходит в государственную школу.
+statistic|n.|статистика (данные)|The statistics are worrying.|Статистика тревожная.
+statue|n.|статуя|There's a statue in the square.|На площади стоит статуя.
+stick|v.|втыкать; приклеивать|Stick a stamp on the letter.|Наклей марку на письмо.
+stick|n.|палка|The dog brought a stick.|Собака принесла палку.
+still|adj.|неподвижный, тихий|Keep still!|Не двигайся!
+store|v.|хранить|Store in a cool place.|Хранить в прохладном месте.
+stranger|n.|незнакомец|Don't talk to strangers.|Не разговаривай с незнакомцами.
+strength|n.|сила|He has great strength.|Он очень сильный.
+string|n.|верёвка, струна|A guitar has six strings.|У гитары шесть струн.
+strongly|adv.|сильно, решительно|I strongly disagree.|Я категорически не согласен.
+studio|n.|студия|They recorded it in a studio.|Они записали это в студии.
+stuff|n.|вещи, штуки|Take your stuff with you.|Забери свои вещи.
+substance|n.|вещество|It's a dangerous substance.|Это опасное вещество.
+successfully|adv.|успешно|He successfully passed the test.|Он успешно сдал тест.
+sudden|adj.|внезапный|There was a sudden noise.|Раздался внезапный шум.
+suffer|v.|страдать|She suffers from headaches.|Она страдает от головных болей.
+suit|v.|подходить, идти|That colour suits you.|Этот цвет тебе идёт.
+suitable|adj.|подходящий|Is it suitable for children?|Это подходит для детей?
+summarize|v.|подводить итог|Summarize the text.|Кратко изложите текст.
+summary|n.|краткое изложение|Write a summary.|Напишите краткое изложение.
+supply|n., v.|запас, поставка; снабжать|We have a supply of water.|У нас есть запас воды.
+supporter|n.|болельщик; сторонник|He's a Spartak supporter.|Он болеет за «Спартак».
+surely|adv.|наверняка, ведь|Surely you know that!|Ты же наверняка это знаешь!
+surface|n.|поверхность|The surface of the moon.|Поверхность Луны.
+survive|v.|выживать|Only two people survived.|Выжили только два человека.
+swim|n.|заплыв, купание|Let's go for a swim.|Пойдём поплаваем.
+switch|v.|переключать, менять|Switch off the light.|Выключи свет.
+symptom|n.|симптом|What are your symptoms?|Какие у вас симптомы?
+tail|n.|хвост|The dog wagged its tail.|Собака виляла хвостом.
+talent|n.|талант|She has a talent for music.|У неё талант к музыке.
+talented|adj.|талантливый|He's a talented player.|Он талантливый игрок.
+tax|n., v.|налог; облагать налогом|We pay a lot of tax.|Мы платим много налогов.
+technical|adj.|технический|We have a technical problem.|У нас техническая проблема.
+technique|n.|техника, метод|Learn a new technique.|Освойте новую технику.
+tend|v.|иметь тенденцию, обычно|I tend to eat late.|Я обычно ем поздно.
+tent|n.|палатка|We slept in a tent.|Мы спали в палатке.
+that|adv.|так, настолько|It's not that bad.|Не так уж и плохо.
+theirs|pron.|их (принадлежащий им)|The car is theirs.|Машина их.
+theme|n.|тема|The theme of the party is the 80s.|Тема вечеринки — 80-е.
+theory|n.|теория|In theory, it works.|Теоретически это работает.
+therefore|adv.|поэтому, следовательно|I think, therefore I am.|Я мыслю, следовательно, существую.
+this|adv.|так, настолько|I didn't expect it to be this hard.|Я не ожидал, что будет так трудно.
+though|conj., adv.|хотя; впрочем|It's cold. Nice, though.|Холодно. Впрочем, приятно.
+throat|n.|горло|I have a sore throat.|У меня болит горло.
+throughout|prep./adv.|на протяжении, повсюду|It rained throughout the day.|Дождь шёл весь день.
+tight|adj.|тесный, тугой|These jeans are too tight.|Эти джинсы слишком тесные.
+till|conj./prep.|до, пока не|Wait till I come back.|Подожди, пока я вернусь.
+tin|n.|олово; консервная банка|A tin of beans.|Банка фасоли.
+tiny|adj.|крошечный|It's a tiny flat.|Это крошечная квартира.
+tip|v.|давать чаевые|Do you tip in restaurants?|Вы оставляете чаевые в ресторанах?
+toe|n.|палец ноги|I hurt my toe.|Я ушиб палец на ноге.
+tongue|n.|язык (орган)|Don't stick your tongue out.|Не показывай язык.
+total|adj., n.|полный; итог|The total is $50.|Итого 50 долларов.
+totally|adv.|полностью|I totally agree.|Полностью согласен.
+touch|n.|прикосновение; связь|Let's keep in touch.|Давай оставаться на связи.
+tour|v.|гастролировать, путешествовать|The band is touring Europe.|Группа гастролирует по Европе.
+trade|n., v.|торговля; торговать|Trade between the countries grew.|Торговля между странами выросла.
+translate|v.|переводить|Translate this into English.|Переведи это на английский.
+translation|n.|перевод|The translation is good.|Перевод хороший.
+transport|v.|перевозить|The goods are transported by sea.|Товары перевозят морем.
+treat|v.|обращаться; лечить; угощать|I'll treat you to lunch.|Я угощаю тебя обедом.
+treatment|n.|лечение; обращение|The treatment worked.|Лечение помогло.
+trend|n.|тенденция, тренд|It's the latest trend.|Это последний тренд.
+trick|n., v.|трюк, фокус; обманывать|He tricked me.|Он меня обманул.
+truth|n.|правда|Tell me the truth.|Скажи мне правду.
+tube|n.|трубка, тюбик; метро (в Лондоне)|A tube of toothpaste.|Тюбик зубной пасты.
+type|v.|печатать (на клавиатуре)|I can type fast.|Я быстро печатаю.

@@ -1,0 +1,150 @@
+code|n.|код|Enter the code.|Введите код.
+colleague|n.|коллега|She's my colleague.|Она моя коллега.
+collect|v.|собирать, коллекционировать|He collects stamps.|Он собирает марки.
+column|n.|колонка, столбец|Fill in the first column.|Заполните первый столбец.
+comedy|n.|комедия|Let's watch a comedy.|Давай посмотрим комедию.
+comfortable|adj.|удобный|This chair is comfortable.|Этот стул удобный.
+comment|n.|комментарий|Thanks for your comments.|Спасибо за комментарии.
+communicate|v.|общаться|We communicate by email.|Мы общаемся по электронной почте.
+community|n.|сообщество|It's a friendly community.|Это дружное сообщество.
+compete|v.|соревноваться|Ten teams will compete.|Будут соревноваться десять команд.
+competition|n.|конкурс, соревнование|She won the competition.|Она выиграла конкурс.
+complain|v.|жаловаться|He always complains.|Он всё время жалуется.
+completely|adv.|полностью|I completely forgot.|Я совсем забыл.
+condition|n.|состояние; условие|The car is in good condition.|Машина в хорошем состоянии.
+conference|n.|конференция|I'm going to a conference.|Я еду на конференцию.
+connect|v.|соединять, подключать|Connect to Wi-Fi.|Подключитесь к Wi-Fi.
+connected|adj.|связанный, подключённый|Are you connected to the internet?|Вы подключены к интернету?
+consider|v.|рассматривать, обдумывать|I'll consider your offer.|Я обдумаю ваше предложение.
+contain|v.|содержать|This drink contains sugar.|Этот напиток содержит сахар.
+context|n.|контекст|Guess the word from the context.|Угадайте слово по контексту.
+continent|n.|континент|Asia is the largest continent.|Азия — самый большой континент.
+continue|v.|продолжать|Please continue.|Пожалуйста, продолжайте.
+control|n., v.|контроль; управлять|He lost control of the car.|Он потерял управление машиной.
+cook|n.|повар|My mum is a great cook.|Моя мама прекрасно готовит.
+cooker|n.|плита|Put the pan on the cooker.|Поставь сковороду на плиту.
+copy|n., v.|копия; копировать|Can I have a copy?|Можно мне копию?
+corner|n.|угол|The shop is on the corner.|Магазин на углу.
+correctly|adv.|правильно|Spell it correctly.|Напишите это правильно.
+count|v.|считать|Count to ten.|Посчитай до десяти.
+couple|n.|пара|They are a nice couple.|Они милая пара.
+cover|v.|покрывать, накрывать|Snow covered the ground.|Снег покрыл землю.
+crazy|adj.|сумасшедший|That's a crazy idea.|Это безумная идея.
+creative|adj.|творческий|She's very creative.|Она очень творческий человек.
+credit|n.|кредит|I paid by credit card.|Я заплатил кредитной картой.
+crime|n.|преступление|Crime is falling.|Преступность снижается.
+criminal|n.|преступник|The police caught the criminal.|Полиция поймала преступника.
+cross|v., n.|пересекать; крест|Cross the road carefully.|Переходи дорогу осторожно.
+crowd|n.|толпа|There was a big crowd.|Там была большая толпа.
+crowded|adj.|переполненный|The bus was crowded.|Автобус был переполнен.
+cry|v.|плакать|Don't cry.|Не плачь.
+cupboard|n.|шкаф (кухонный)|The cups are in the cupboard.|Чашки в шкафу.
+curly|adj.|кудрявый|She has curly hair.|У неё кудрявые волосы.
+cycle|n., v.|цикл; ездить на велосипеде|I cycle to work.|Я езжу на работу на велосипеде.
+daily|adj.|ежедневный|It's part of my daily routine.|Это часть моего ежедневного распорядка.
+danger|n.|опасность|You're in danger!|Ты в опасности!
+dark|n.|темнота|I'm afraid of the dark.|Я боюсь темноты.
+data|n.|данные|We collected a lot of data.|Мы собрали много данных.
+dead|adj.|мёртвый|The plant is dead.|Растение погибло.
+deal|v.|иметь дело, справляться|I'll deal with it.|Я разберусь с этим.
+dear|exclam.|боже!|Oh dear, I forgot!|Ой, я забыл!
+death|n.|смерть|His death was a shock.|Его смерть стала шоком.
+decision|n.|решение|It's a difficult decision.|Это трудное решение.
+deep|adj.|глубокий|The lake is very deep.|Озеро очень глубокое.
+definitely|adv.|определённо|I'll definitely come.|Я обязательно приду.
+degree|n.|градус; учёная степень|It's 30 degrees today.|Сегодня 30 градусов.
+dentist|n.|стоматолог|I'm going to the dentist.|Я иду к стоматологу.
+department|n.|отдел|She works in the sales department.|Она работает в отделе продаж.
+depend|v.|зависеть|It depends on the weather.|Это зависит от погоды.
+desert|n.|пустыня|The Sahara is a huge desert.|Сахара — огромная пустыня.
+designer|n.|дизайнер|She's a fashion designer.|Она модельер.
+dessert|n.|десерт|What's for dessert?|Что на десерт?
+destroy|v.|разрушать|The fire destroyed the house.|Пожар уничтожил дом.
+detective|n.|детектив|I love detective stories.|Я обожаю детективы.
+develop|v.|развивать(ся)|Children develop quickly.|Дети быстро развиваются.
+device|n.|устройство|Turn off all devices.|Выключите все устройства.
+diary|n.|дневник, ежедневник|I keep a diary.|Я веду дневник.
+differently|adv.|по-другому|We think differently.|Мы думаем по-разному.
+digital|adj.|цифровой|I have a digital camera.|У меня цифровой фотоаппарат.
+direct|adj.|прямой|Is there a direct flight?|Есть прямой рейс?
+direction|n.|направление|We went in the wrong direction.|Мы пошли не в ту сторону.
+director|n.|директор; режиссёр|Who is the director of the film?|Кто режиссёр фильма?
+disagree|v.|не соглашаться|I disagree with you.|Я с тобой не согласен.
+disappear|v.|исчезать|My keys disappeared.|Мои ключи пропали.
+disaster|n.|катастрофа|The party was a disaster.|Вечеринка была провальной.
+discover|v.|обнаруживать, открывать|They discovered a new planet.|Они открыли новую планету.
+discovery|n.|открытие|It's an important discovery.|Это важное открытие.
+discussion|n.|обсуждение|We had a long discussion.|У нас было долгое обсуждение.
+disease|n.|болезнь|It's a serious disease.|Это серьёзная болезнь.
+distance|n.|расстояние|What's the distance to Moscow?|Какое расстояние до Москвы?
+divorced|adj.|разведённый|My parents are divorced.|Мои родители в разводе.
+document|n.|документ|Sign this document.|Подпишите этот документ.
+double|adj., det., pron., v.|двойной; удваивать|A double room, please.|Двухместный номер, пожалуйста.
+download|v., n.|скачивать; загрузка|Download the file.|Скачайте файл.
+downstairs|adj.|нижний (этаж)|There's a downstairs bathroom.|Внизу есть ванная.
+drama|n.|драма|I'm studying drama.|Я изучаю драматическое искусство.
+drawing|n.|рисунок|What a beautiful drawing!|Какой красивый рисунок!
+dream|n., v.|мечта, сон; мечтать|I had a strange dream.|Мне приснился странный сон.
+drive|n.|поездка|Let's go for a drive.|Давай прокатимся.
+driving|n.|вождение|She's learning driving.|Она учится водить.
+drop|v.|ронять|I dropped my phone.|Я уронил телефон.
+drug|n.|лекарство; наркотик|This drug helps with pain.|Это лекарство помогает от боли.
+dry|adj., v.|сухой; сушить|Dry your hair.|Высуши волосы.
+earn|v.|зарабатывать|How much do you earn?|Сколько ты зарабатываешь?
+earth|n.|земля, Земля|The Earth goes round the Sun.|Земля вращается вокруг Солнца.
+easily|adv.|легко|I can do it easily.|Я легко могу это сделать.
+education|n.|образование|Education is important.|Образование важно.
+effect|n.|эффект, влияние|The medicine had no effect.|Лекарство не подействовало.
+either|det./pron., adv.|любой из двух; тоже (не)|I don't like it either.|Мне это тоже не нравится.
+electric|adj.|электрический|He drives an electric car.|Он ездит на электромобиле.
+electrical|adj.|электрический (о приборах)|We sell electrical goods.|Мы продаём электротовары.
+electricity|n.|электричество|The electricity is off.|Нет электричества.
+electronic|adj.|электронный|Buy an electronic ticket.|Купите электронный билет.
+employ|v.|нанимать|The company employs 500 people.|В компании работает 500 человек.
+employee|n.|сотрудник|She's a new employee.|Она новая сотрудница.
+employer|n.|работодатель|My employer pays well.|Мой работодатель хорошо платит.
+empty|adj.|пустой|The fridge is empty.|Холодильник пуст.
+ending|n.|концовка|The film has a happy ending.|У фильма счастливый конец.
+energy|n.|энергия|I have no energy today.|У меня сегодня нет сил.
+engine|n.|двигатель|The engine won't start.|Двигатель не заводится.
+engineer|n.|инженер|My brother is an engineer.|Мой брат инженер.
+enormous|adj.|огромный|They live in an enormous house.|Они живут в огромном доме.
+enter|v.|входить; вводить|Enter your password.|Введите пароль.
+environment|n.|окружающая среда|We must protect the environment.|Мы должны защищать окружающую среду.
+equipment|n.|оборудование, снаряжение|We need new equipment.|Нам нужно новое оборудование.
+error|n.|ошибка|There's an error in the text.|В тексте ошибка.
+especially|adv.|особенно|I love fruit, especially apples.|Я люблю фрукты, особенно яблоки.
+essay|n.|эссе, сочинение|Write an essay about your town.|Напишите сочинение о своём городе.
+everyday|adj.|повседневный|These are everyday problems.|Это повседневные проблемы.
+everywhere|adv.|везде|I looked everywhere.|Я искал везде.
+evidence|n.|доказательства|There is no evidence.|Нет доказательств.
+exact|adj.|точный|What's the exact time?|Какое точное время?
+exactly|adv.|точно, именно|That's exactly right.|Совершенно верно.
+excellent|adj.|отличный|Excellent work!|Отличная работа!
+except|prep.|кроме|Everyone came except Tom.|Пришли все, кроме Тома.
+exist|v.|существовать|Do ghosts exist?|Призраки существуют?
+expect|v.|ожидать|I didn't expect that.|Я этого не ожидал.
+experience|n.|опыт; впечатление|Do you have any experience?|У вас есть опыт?
+experiment|n.|эксперимент|We did an experiment in class.|Мы провели эксперимент на уроке.
+expert|n.,adj.|эксперт; опытный|She's an expert in IT.|Она эксперт в ИТ.
+explanation|n.|объяснение|Thanks for the explanation.|Спасибо за объяснение.
+express|v.|выражать|It's hard to express my feelings.|Трудно выразить мои чувства.
+expression|n.|выражение|It's a common expression.|Это распространённое выражение.
+extreme|adj.|крайний, экстремальный|Extreme heat is dangerous.|Сильная жара опасна.
+extremely|adv.|чрезвычайно|It's extremely cold.|Ужасно холодно.
+factor|n.|фактор|Price is an important factor.|Цена — важный фактор.
+factory|n.|завод, фабрика|He works in a factory.|Он работает на заводе.
+fail|v.|проваливать; терпеть неудачу|I failed the exam.|Я провалил экзамен.
+fair|adj.|справедливый; светлый|That's not fair!|Это нечестно!
+fall|n.|падение; осень (амер.)|He had a bad fall.|Он сильно упал.
+fan|n.|фанат; вентилятор|I'm a big fan of this band.|Я большой фанат этой группы.
+farm|v.|заниматься фермерством|They farm the land.|Они обрабатывают землю.
+farming|n.|сельское хозяйство|Farming is hard work.|Сельское хозяйство — тяжёлый труд.
+fashion|n.|мода|She loves fashion.|Она обожает моду.
+fat|n.|жир|This food is high in fat.|В этой еде много жира.
+fear|n.|страх|He has a fear of flying.|Он боится летать.
+feature|n.|особенность, функция|The phone has many features.|У телефона много функций.
+feed|v.|кормить|Don't forget to feed the cat.|Не забудь покормить кошку.
+female|adj., n.|женский; женщина|Most of the students are female.|Большинство студентов — девушки.
+fiction|n.|художественная литература|I read a lot of fiction.|Я читаю много художественной литературы.
+field|n.|поле; сфера|Cows are in the field.|Коровы в поле.

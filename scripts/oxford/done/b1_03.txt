@@ -1,0 +1,150 @@
+frozen|adj.|замороженный, замёрзший|Buy some frozen peas.|Купи замороженного горошка.
+fry|v.|жарить|Fry the onions.|Обжарьте лук.
+fuel|n.|топливо|We're running out of fuel.|У нас заканчивается топливо.
+function|n.|функция|What's the function of this button?|Для чего эта кнопка?
+fur|n.|мех|The cat has soft fur.|У кошки мягкая шерсть.
+further|adv.|дальше|I can't walk any further.|Я не могу идти дальше.
+garage|n.|гараж; автосервис|The car is in the garage.|Машина в гараже.
+gather|v.|собирать(ся)|A crowd gathered outside.|Снаружи собралась толпа.
+generally|adv.|обычно, в целом|I generally get up early.|Обычно я встаю рано.
+generation|n.|поколение|Three generations live in the house.|В доме живут три поколения.
+generous|adj.|щедрый|He's very generous.|Он очень щедрый.
+gentle|adj.|мягкий, нежный|Be gentle with the baby.|Будь нежен с малышом.
+ghost|n.|призрак|Do you believe in ghosts?|Ты веришь в привидения?
+giant|adj., n.|гигантский; великан|There was a giant TV screen.|Там был огромный телеэкран.
+glad|adj.|довольный, радый|I'm glad you came.|Я рад, что ты пришёл.
+global|adj.|глобальный|Global warming is a big issue.|Глобальное потепление — серьёзная проблема.
+glove|n.|перчатка|Wear gloves, it's cold.|Надень перчатки, холодно.
+go|n.|попытка; очередь|Can I have a go?|Можно мне попробовать?
+goods|n.|товары|They sell electrical goods.|Они продают электротовары.
+grade|n.|оценка; класс|She got good grades.|Она получила хорошие оценки.
+graduate|n., v.|выпускник; окончить вуз|He graduated last year.|Он окончил вуз в прошлом году.
+grain|n.|зерно; крупинка|A grain of sand.|Песчинка.
+grateful|adj.|благодарный|I'm very grateful.|Я очень благодарен.
+growth|n.|рост|Economic growth is slow.|Экономический рост медленный.
+guard|n., v.|охранник; охранять|The guard checked our bags.|Охранник проверил наши сумки.
+guilty|adj.|виновный|I feel guilty.|Я чувствую себя виноватым.
+hand|v.|вручать, передавать|Hand me the keys.|Дай мне ключи.
+hang|v.|вешать; висеть|Hang your coat here.|Повесь пальто сюда.
+happiness|n.|счастье|Money can't buy happiness.|Счастье не купишь за деньги.
+hardly|adv.|едва, почти не|I can hardly hear you.|Я тебя почти не слышу.
+hate|n.|ненависть|Love is stronger than hate.|Любовь сильнее ненависти.
+head|v.|направляться; возглавлять|We're heading home.|Мы направляемся домой.
+headline|n.|заголовок|Did you see the headlines?|Ты видел заголовки?
+heating|n.|отопление|The heating isn't working.|Отопление не работает.
+heavily|adv.|сильно|It rained heavily.|Шёл сильный дождь.
+helicopter|n.|вертолёт|A helicopter landed on the roof.|На крышу сел вертолёт.
+highlight|v., n.|выделять; лучший момент|Highlight the key words.|Выделите ключевые слова.
+highly|adv.|высоко, очень|I highly recommend it.|Очень рекомендую.
+hire|v.|нанимать; брать напрокат|We hired a car.|Мы взяли машину напрокат.
+historic|adj.|исторический (значимый)|It was a historic moment.|Это был исторический момент.
+historical|adj.|исторический (о прошлом)|I like historical novels.|Я люблю исторические романы.
+honest|adj.|честный|Be honest with me.|Будь со мной честен.
+horrible|adj.|ужасный|What a horrible day!|Какой ужасный день!
+horror|n.|ужас|I don't watch horror films.|Я не смотрю фильмы ужасов.
+host|n.|хозяин; ведущий|Thank our host for dinner.|Поблагодари хозяина за ужин.
+hunt|v.|охотиться; искать|Lions hunt at night.|Львы охотятся ночью.
+hurricane|n.|ураган|The hurricane destroyed many homes.|Ураган разрушил много домов.
+hurry|n., v.|спешка; торопиться|I'm in a hurry.|Я спешу.
+identity|n.|личность|Show your identity card.|Покажите удостоверение личности.
+ignore|v.|игнорировать|He ignored my advice.|Он проигнорировал мой совет.
+illegal|adj.|незаконный|It's illegal to park here.|Здесь парковаться запрещено.
+imaginary|adj.|воображаемый|She has an imaginary friend.|У неё есть воображаемый друг.
+immediate|adj.|немедленный|We need an immediate answer.|Нам нужен немедленный ответ.
+immigrant|n.|иммигрант|His parents were immigrants.|Его родители были иммигрантами.
+impact|n., v.|влияние; влиять|It had a big impact on me.|Это сильно на меня повлияло.
+import|n., v.|импорт; импортировать|We import coffee from Brazil.|Мы импортируем кофе из Бразилии.
+importance|n.|важность|Don't forget the importance of sleep.|Не забывайте о важности сна.
+impression|n.|впечатление|She made a good impression.|Она произвела хорошее впечатление.
+impressive|adj.|впечатляющий|The view is impressive.|Вид впечатляет.
+improvement|n.|улучшение|There's been a big improvement.|Есть большое улучшение.
+incredibly|adv.|невероятно|It's incredibly hot.|Невероятно жарко.
+indeed|adv.|действительно|It was very good indeed.|Это было действительно очень хорошо.
+indicate|v.|указывать|The sign indicates the exit.|Знак указывает на выход.
+indirect|adj.|косвенный, непрямой|It was an indirect question.|Это был косвенный вопрос.
+indoor|adj.|закрытый (в помещении)|There's an indoor pool.|Есть крытый бассейн.
+indoors|adv.|в помещении|Let's stay indoors.|Давай останемся дома.
+influence|n., v.|влияние; влиять|He's a bad influence.|Он плохо на всех влияет.
+ingredient|n.|ингредиент|What are the ingredients?|Какие ингредиенты?
+injure|v.|ранить, травмировать|He injured his back.|Он повредил спину.
+injured|adj.|раненый, травмированный|Two people were injured.|Два человека пострадали.
+innocent|adj.|невиновный; невинный|He's innocent.|Он невиновен.
+intelligence|n.|интеллект; разведка|She has great intelligence.|У неё высокий интеллект.
+intend|v.|намереваться|I intend to finish today.|Я собираюсь закончить сегодня.
+intention|n.|намерение|I have no intention of leaving.|У меня нет намерения уходить.
+invest|v.|инвестировать|He invested in property.|Он вложил деньги в недвижимость.
+investigate|v.|расследовать|The police are investigating.|Полиция ведёт расследование.
+involved|adj.|вовлечённый, участвующий|I don't want to get involved.|Я не хочу в это ввязываться.
+iron|n., v.|железо; утюг; гладить|I need to iron my shirt.|Мне нужно погладить рубашку.
+issue|n.|вопрос, проблема; выпуск|It's an important issue.|Это важный вопрос.
+IT|n.|ИТ, информационные технологии|He works in IT.|Он работает в ИТ.
+journal|n.|журнал (научный); дневник|She keeps a journal.|Она ведёт дневник.
+judge|n., v.|судья; судить|Don't judge people.|Не суди людей.
+keen|adj.|увлечённый|He's keen on football.|Он увлекается футболом.
+key|v.|вводить (с клавиатуры)|Key in your password.|Введите пароль.
+keyboard|n.|клавиатура|My keyboard is broken.|Моя клавиатура сломалась.
+kick|v., n.|пинать; удар ногой|He kicked the ball.|Он пнул мяч.
+killing|n.|убийство|There was a killing in the area.|В районе произошло убийство.
+kind|adj.|добрый|She's very kind.|Она очень добрая.
+kiss|v., n.|целовать; поцелуй|Give me a kiss.|Поцелуй меня.
+knock|n.|стук|There was a knock at the door.|В дверь постучали.
+label|n., v.|ярлык, этикетка; маркировать|Read the label.|Прочитайте этикетку.
+laboratory|n.|лаборатория|She works in a laboratory.|Она работает в лаборатории.
+lack|n., v.|нехватка; не хватать|There's a lack of water.|Не хватает воды.
+latest|adj.|последний, новейший|Have you heard the latest news?|Ты слышал последние новости?
+lay|v.|класть; накрывать (стол)|Lay the table, please.|Накрой на стол, пожалуйста.
+layer|n.|слой|There's a layer of dust.|Лежит слой пыли.
+lead|n.|лидерство; главная роль|Our team is in the lead.|Наша команда лидирует.
+leading|adj.|ведущий|She's a leading expert.|Она ведущий эксперт.
+leaf|n.|лист (дерева)|The leaves are turning yellow.|Листья желтеют.
+leather|n.|кожа (материал)|It's a leather jacket.|Это кожаная куртка.
+legal|adj.|законный, юридический|Is it legal?|Это законно?
+leisure|n.|досуг|What do you do in your leisure time?|Что ты делаешь в свободное время?
+length|n.|длина|What's the length of the room?|Какая длина комнаты?
+level|adj.|ровный|The floor isn't level.|Пол неровный.
+lie|v., n.|лгать; ложь|Don't lie to me.|Не лги мне.
+like|n.|предпочтения (likes)|Tell me your likes and dislikes.|Расскажи, что тебе нравится и что нет.
+limit|n., v.|предел; ограничивать|There's a speed limit.|Есть ограничение скорости.
+lip|n.|губа|She bit her lip.|Она прикусила губу.
+liquid|n., adj.|жидкость; жидкий|No liquids in hand luggage.|Никаких жидкостей в ручной клади.
+literature|n.|литература|I love Russian literature.|Я люблю русскую литературу.
+live|adj., adv.|живой; в прямом эфире|The match is live on TV.|Матч транслируется в прямом эфире.
+living|adj., n.|живой; средства к существованию|What do you do for a living?|Чем ты зарабатываешь на жизнь?
+local|n.|местный житель|Ask one of the locals.|Спроси кого-нибудь из местных.
+locate|v.|определять местоположение|We couldn't locate the problem.|Мы не смогли найти проблему.
+located|adj.|расположенный|The hotel is located in the centre.|Отель расположен в центре.
+location|n.|место, местоположение|It's a great location.|Это отличное место.
+lonely|adj.|одинокий|He feels lonely.|Ему одиноко.
+loss|n.|потеря; убыток|Sorry for your loss.|Соболезную вашей утрате.
+luxury|n.|роскошь|They live in luxury.|Они живут в роскоши.
+mad|adj.|сумасшедший; злой|Are you mad?|Ты с ума сошёл?
+magic|n., adj.|магия; волшебный|He does magic tricks.|Он показывает фокусы.
+mainly|adv.|главным образом|The team is mainly women.|В команде в основном женщины.
+mall|n.|торговый центр|Let's go to the mall.|Пойдём в торговый центр.
+management|n.|управление; руководство|The management made a decision.|Руководство приняло решение.
+market|v.|продвигать на рынке|They market the product online.|Они продвигают товар в интернете.
+marketing|n.|маркетинг|She works in marketing.|Она работает в маркетинге.
+marriage|n.|брак|They have a happy marriage.|У них счастливый брак.
+meanwhile|adv.|тем временем|Meanwhile, I'll make dinner.|Тем временем я приготовлю ужин.
+measure|v., n.|измерять; мера|Measure the room.|Измерьте комнату.
+medium|adj.|средний|A medium coffee, please.|Средний кофе, пожалуйста.
+mental|adj.|психический, умственный|Mental health is important.|Психическое здоровье важно.
+mention|n.|упоминание|There was no mention of it.|Об этом не упоминалось.
+mess|n.|беспорядок|Your room is a mess!|В твоей комнате бардак!
+mild|adj.|мягкий|We had a mild winter.|Зима была мягкой.
+mine|n.|шахта|He worked in a coal mine.|Он работал на угольной шахте.
+mix|v., n.|смешивать; смесь|Mix the flour and sugar.|Смешайте муку и сахар.
+mixture|n.|смесь|Pour the mixture into a bowl.|Вылейте смесь в миску.
+mood|n.|настроение|I'm in a good mood.|У меня хорошее настроение.
+move|n.|ход; шаг; переезд|It's your move.|Твой ход.
+mud|n.|грязь|The car got stuck in the mud.|Машина застряла в грязи.
+murder|n., v.|убийство; убивать|He was charged with murder.|Его обвинили в убийстве.
+muscle|n.|мышца|My muscles ache.|У меня болят мышцы.
+musical|n.|мюзикл|We saw a musical in London.|Мы посмотрели мюзикл в Лондоне.
+mystery|n.|тайна, загадка|It's a mystery to me.|Для меня это загадка.
+nail|n.|ноготь; гвоздь|She painted her nails.|Она накрасила ногти.
+narrative|n., adj.|повествование|The narrative is very clear.|Повествование очень ясное.
+nation|n.|нация, страна|The whole nation watched.|Вся страна смотрела.
+native|adj., n.|родной; уроженец|Russian is my native language.|Русский — мой родной язык.
+naturally|adv.|естественно, конечно|Naturally, I said yes.|Конечно, я согласился.
+necessarily|adv.|обязательно, непременно|Expensive isn't necessarily better.|Дорогое не обязательно лучше.

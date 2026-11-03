@@ -1,0 +1,122 @@
+steal|v.|красть|Someone stole my bike.|Кто-то украл мой велосипед.
+step|n.|шаг; ступенька|Take one step forward.|Сделайте шаг вперёд.
+stomach|n.|желудок, живот|My stomach hurts.|У меня болит живот.
+stone|n.|камень|The house is made of stone.|Дом построен из камня.
+store|n.|магазин|The store opens at nine.|Магазин открывается в девять.
+storm|n., v.|буря, гроза|There was a storm last night.|Прошлой ночью была гроза.
+straight|adv., adj.|прямо; прямой|Go straight ahead.|Идите прямо.
+strange|adj.|странный|That's strange.|Странно.
+strategy|n.|стратегия|We need a new strategy.|Нам нужна новая стратегия.
+stress|n., v.|стресс; подчёркивать|I'm under a lot of stress.|Я в сильном стрессе.
+structure|n.|структура|Look at the structure of the sentence.|Посмотрите на структуру предложения.
+stupid|adj.|глупый|It was a stupid mistake.|Это была глупая ошибка.
+succeed|v.|преуспеть, добиться успеха|If you work hard, you'll succeed.|Если будешь усердно работать, добьёшься успеха.
+successful|adj.|успешный|She's a successful writer.|Она успешная писательница.
+such|det./pron.|такой|It was such a nice day.|Был такой хороший день.
+suddenly|adv.|вдруг|Suddenly, the lights went out.|Вдруг погас свет.
+suggest|v.|предлагать|I suggest we leave now.|Предлагаю уйти сейчас.
+suggestion|n.|предложение, совет|Do you have any suggestions?|У вас есть предложения?
+suit|n.|костюм|He wore a dark suit.|Он был в тёмном костюме.
+support|v., n.|поддерживать; поддержка|Thanks for your support.|Спасибо за поддержку.
+suppose|v.|предполагать|I suppose you're right.|Полагаю, ты прав.
+sure|adv.|конечно|Sure, no problem.|Конечно, без проблем.
+surprise|n., v.|сюрприз; удивлять|What a surprise!|Какой сюрприз!
+surprised|adj.|удивлённый|I was surprised to see him.|Я удивился, увидев его.
+surprising|adj.|удивительный|The results were surprising.|Результаты были удивительными.
+survey|n.|опрос|Please complete our survey.|Пожалуйста, пройдите наш опрос.
+sweet|adj., n.|сладкий; конфета|This cake is too sweet.|Этот торт слишком сладкий.
+symbol|n.|символ|The dove is a symbol of peace.|Голубь — символ мира.
+system|n.|система|The system isn't working.|Система не работает.
+tablet|n.|таблетка; планшет|Take two tablets a day.|Принимайте две таблетки в день.
+talk|n.|разговор; доклад|We had a long talk.|У нас был долгий разговор.
+target|n.|цель|We hit our sales target.|Мы выполнили план продаж.
+task|n.|задача, задание|Complete the task.|Выполните задание.
+taste|n., v.|вкус; пробовать на вкус|It tastes delicious.|Это очень вкусно.
+teaching|n.|преподавание|She loves teaching.|Она любит преподавать.
+technology|n.|технология, техника|Technology changes fast.|Технологии быстро меняются.
+teenage|adj.|подростковый|They have two teenage children.|У них двое детей-подростков.
+temperature|n.|температура|What's the temperature today?|Какая сегодня температура?
+term|n.|семестр; термин; срок|The new term starts in September.|Новый семестр начинается в сентябре.
+themselves|pron.|себя, сами|They did it themselves.|Они сделали это сами.
+thick|adj.|толстый, густой|It's a thick book.|Это толстая книга.
+thief|n.|вор|The thief ran away.|Вор убежал.
+thin|adj.|тонкий, худой|She is tall and thin.|Она высокая и худая.
+thinking|n.|мышление, размышление|That's good thinking!|Хорошая мысль!
+third|n.|треть|A third of the class was absent.|Треть класса отсутствовала.
+thought|n.|мысль|That's an interesting thought.|Интересная мысль.
+throw|v.|бросать|Throw me the ball.|Брось мне мяч.
+tidy|adj., v.|опрятный; убирать|Tidy your room!|Убери в своей комнате!
+tie|v., n.|завязывать; галстук|He's wearing a red tie.|На нём красный галстук.
+tip|n.|совет; чаевые; кончик|Leave a tip for the waiter.|Оставь чаевые официанту.
+tool|n.|инструмент|We need the right tools.|Нам нужны подходящие инструменты.
+top|n., adj.|верх, вершина; верхний|It's on the top shelf.|Это на верхней полке.
+touch|v.|трогать|Don't touch that!|Не трогай это!
+tour|n.|тур, экскурсия|We went on a city tour.|Мы съездили на экскурсию по городу.
+tourism|n.|туризм|Tourism is important here.|Туризм здесь очень важен.
+towards|prep.|по направлению к|He walked towards me.|Он пошёл ко мне.
+towel|n.|полотенце|Can I have a clean towel?|Можно чистое полотенце?
+tower|n.|башня|Have you seen the Eiffel Tower?|Ты видел Эйфелеву башню?
+toy|n., adj.|игрушка|The kids are playing with toys.|Дети играют с игрушками.
+track|n.|дорожка; трек|Run around the track.|Пробегите по дорожке.
+tradition|n.|традиция|It's an old family tradition.|Это старая семейная традиция.
+traditional|adj.|традиционный|We ate traditional food.|Мы ели традиционную еду.
+train|v.|тренировать(ся); обучать|She trains every day.|Она тренируется каждый день.
+trainer|n.|тренер; кроссовка|I need new trainers.|Мне нужны новые кроссовки.
+training|n.|тренировка, обучение|The training lasts a week.|Обучение длится неделю.
+transport|n.|транспорт|Public transport is cheap here.|Общественный транспорт здесь дешёвый.
+traveller|n.|путешественник|She's an experienced traveller.|Она опытная путешественница.
+trouble|n.|проблема, беда|Are you in trouble?|У тебя неприятности?
+truck|n.|грузовик|A big truck stopped outside.|Снаружи остановился большой грузовик.
+twin|n., adj.|близнец|They're twins.|Они близнецы.
+typical|adj.|типичный|It's a typical English breakfast.|Это типичный английский завтрак.
+underground|adj., adv.|подземный; метро|Take the underground.|Поезжайте на метро.
+understanding|n.|понимание|Thanks for your understanding.|Спасибо за понимание.
+unfortunately|adv.|к сожалению|Unfortunately, I can't come.|К сожалению, я не смогу прийти.
+unhappy|adj.|несчастный, недовольный|He looks unhappy.|Он выглядит несчастным.
+uniform|n.|форма (одежда)|Students wear a uniform.|Ученики носят форму.
+unit|n.|раздел; единица|Open your books at unit five.|Откройте учебники на пятом разделе.
+united|adj.|объединённый|The United Kingdom.|Соединённое Королевство.
+unusual|adj.|необычный|That's an unusual name.|Это необычное имя.
+upstairs|adj.|верхний (этаж)|The upstairs bedroom is mine.|Спальня наверху — моя.
+use|n.|использование|This is for personal use.|Это для личного пользования.
+used to|modal v.|раньше (бывало)|I used to live in London.|Раньше я жил в Лондоне.
+user|n.|пользователь|The app has a million users.|У приложения миллион пользователей.
+usual|adj.|обычный|Let's meet at the usual place.|Встретимся на обычном месте.
+valley|n.|долина|The village is in a valley.|Деревня в долине.
+van|n.|фургон|He drives a white van.|Он ездит на белом фургоне.
+variety|n.|разнообразие|There's a variety of food.|Есть разнообразная еда.
+vehicle|n.|транспортное средство|Park your vehicle here.|Оставьте машину здесь.
+view|n.|вид; мнение|What a beautiful view!|Какой красивый вид!
+virus|n.|вирус|My computer has a virus.|У меня на компьютере вирус.
+voice|n.|голос|She has a beautiful voice.|У неё красивый голос.
+wait|n.|ожидание|It was a long wait.|Пришлось долго ждать.
+war|n.|война|The war ended in 1945.|Война закончилась в 1945 году.
+wash|n.|мытьё, стирка|Your shirt is in the wash.|Твоя рубашка в стирке.
+washing|n.|стирка; бельё|I'll do the washing.|Я постираю.
+wave|n.|волна; взмах|The waves are big today.|Сегодня большие волны.
+weak|adj.|слабый|I feel weak.|Я чувствую слабость.
+web|n.|паутина; интернет|I found it on the web.|Я нашёл это в интернете.
+wedding|n.|свадьба|We're going to a wedding.|Мы идём на свадьбу.
+weight|n.|вес|I want to lose weight.|Я хочу похудеть.
+welcome|n.|приём, приветствие|They gave us a warm welcome.|Нас тепло встретили.
+wet|adj.|мокрый|My shoes are wet.|Мои туфли мокрые.
+wheel|n.|колесо|The car has four wheels.|У машины четыре колеса.
+while|conj.|пока, в то время как|I read while I wait.|Я читаю, пока жду.
+whole|adj.|целый, весь|I ate the whole pizza.|Я съел всю пиццу.
+whose|det./pron.|чей|Whose bag is this?|Чья это сумка?
+wide|adj.|широкий|The river is wide here.|Здесь река широкая.
+wild|adj.|дикий|We saw wild animals.|Мы видели диких животных.
+wind|n.|ветер|The wind is strong today.|Сегодня сильный ветер.
+winner|n.|победитель|And the winner is...|И победитель...
+wish|v., n.|желать; желание|I wish you luck.|Желаю удачи.
+wood|n.|дерево (материал); лес|The table is made of wood.|Стол сделан из дерева.
+wooden|adj.|деревянный|We have a wooden floor.|У нас деревянный пол.
+working|adj.|рабочий|What are your working hours?|Какой у тебя рабочий график?
+worried|adj.|обеспокоенный|I'm worried about you.|Я волнуюсь за тебя.
+worry|v.|волноваться|Don't worry.|Не волнуйся.
+worse|adj.|хуже|The weather is worse today.|Сегодня погода хуже.
+worst|adj.|худший|It was the worst day of my life.|Это был худший день в моей жизни.
+wow|exclam.|ух ты!|Wow, that's amazing!|Ух ты, потрясающе!
+yet|adv.|ещё; уже (в вопросе)|I haven't finished yet.|Я ещё не закончил.
+yours|pron.|твой, ваш|Is this pen yours?|Это твоя ручка?
+zero|number|ноль|It's zero degrees outside.|На улице ноль градусов.

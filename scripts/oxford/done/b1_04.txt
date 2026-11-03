@@ -1,0 +1,150 @@
+need|modal v.|нужно (needn't — не нужно)|You needn't worry.|Тебе не нужно волноваться.
+needle|n.|игла|I need a needle and thread.|Мне нужны иголка с ниткой.
+neighbourhood|n.|район, окрестности|It's a quiet neighbourhood.|Это тихий район.
+neither|adv.|тоже не|I can't swim, and neither can he.|Я не умею плавать, и он тоже.
+net|n.|сеть, сетка|The ball hit the net.|Мяч попал в сетку.
+next|n.|следующий (человек)|Who's next?|Кто следующий?
+nor|conj./adv.|и не, тоже не|Neither he nor I knew.|Ни он, ни я не знали.
+normal|n.|норма|Temperatures are above normal.|Температура выше нормы.
+northern|adj.|северный|Northern Europe.|Северная Европа.
+note|v.|замечать, отмечать|Please note the time.|Обратите внимание на время.
+now|conj.|теперь, когда|Now that you're here, let's start.|Раз ты здесь, давай начнём.
+nuclear|adj.|ядерный|It's a nuclear power station.|Это атомная электростанция.
+obvious|adj.|очевидный|The answer is obvious.|Ответ очевиден.
+obviously|adv.|очевидно|Obviously, he was wrong.|Очевидно, он ошибался.
+occasion|n.|случай, событие|It's a special occasion.|Это особый случай.
+occur|v.|происходить|When did the accident occur?|Когда произошла авария?
+odd|adj.|странный; нечётный|That's odd.|Странно.
+official|adj.|официальный|It's the official website.|Это официальный сайт.
+old-fashioned|adj.|старомодный|His clothes are old-fashioned.|Его одежда старомодная.
+once|conj.|как только|Once you finish, call me.|Как закончишь, позвони мне.
+operation|n.|операция|She needs an operation.|Ей нужна операция.
+organized|adj.|организованный|She's very organized.|Она очень организованна.
+organizer|n.|организатор|Talk to the organizers.|Поговорите с организаторами.
+original|n.|оригинал|This is a copy, not the original.|Это копия, а не оригинал.
+originally|adv.|изначально|I'm originally from Kazan.|Я родом из Казани.
+ought|modal v.|следует, должен|You ought to see a doctor.|Тебе следует сходить к врачу.
+ours|pron.|наш (принадлежащий нам)|This house is ours.|Этот дом наш.
+outdoor|adj.|на открытом воздухе|There's an outdoor pool.|Есть открытый бассейн.
+outdoors|adv.|на улице|Kids should play outdoors.|Детям нужно играть на улице.
+pack|n.|пачка, упаковка; рюкзак|A pack of cards.|Колода карт.
+package|n.|посылка; пакет|A package arrived for you.|Тебе пришла посылка.
+painful|adj.|болезненный|Is it painful?|Это больно?
+pale|adj.|бледный|You look pale.|Ты выглядишь бледным.
+pan|n.|кастрюля, сковорода|Heat oil in a pan.|Разогрейте масло на сковороде.
+participate|v.|участвовать|Everyone can participate.|Участвовать могут все.
+particularly|adv.|особенно|I'm not particularly hungry.|Я не особо голоден.
+pass|n.|пропуск; передача (мяча)|Show your pass at the gate.|Покажите пропуск на входе.
+passion|n.|страсть|Music is my passion.|Музыка — моя страсть.
+path|n.|тропинка, путь|Follow the path.|Идите по тропинке.
+payment|n.|оплата, платёж|We accept card payments.|Мы принимаем оплату картой.
+peaceful|adj.|мирный, спокойный|It's a peaceful village.|Это тихая деревня.
+percentage|n.|процент, доля|A high percentage of people agree.|Большой процент людей согласен.
+perfectly|adv.|совершенно, идеально|She speaks English perfectly.|Она идеально говорит по-английски.
+performance|n.|выступление; производительность|It was a great performance.|Это было отличное выступление.
+personally|adv.|лично|Personally, I don't like it.|Лично мне это не нравится.
+persuade|v.|убеждать, уговаривать|He persuaded me to stay.|Он уговорил меня остаться.
+photographer|n.|фотограф|She's a wedding photographer.|Она свадебный фотограф.
+photography|n.|фотография (искусство)|I'm interested in photography.|Я увлекаюсь фотографией.
+pin|n., v.|булавка; ПИН; прикалывать|Enter your PIN.|Введите ПИН-код.
+pipe|n.|труба; трубка|A water pipe burst.|Прорвало водопроводную трубу.
+place|v.|помещать, ставить|Place the box on the table.|Поставьте коробку на стол.
+planning|n.|планирование|The trip needs careful planning.|Поездку нужно тщательно спланировать.
+pleasant|adj.|приятный|We had a pleasant evening.|Мы приятно провели вечер.
+pleasure|n.|удовольствие|It's a pleasure to meet you.|Очень приятно познакомиться.
+plenty|pron.|много, достаточно|We have plenty of time.|У нас полно времени.
+plot|n.|сюжет; заговор|The plot is very complicated.|Сюжет очень запутанный.
+plus|prep.|плюс|Two plus two is four.|Два плюс два — четыре.
+podcast|n.|подкаст|I listen to podcasts in the car.|Я слушаю подкасты в машине.
+poem|n.|стихотворение|She wrote a poem.|Она написала стихотворение.
+poet|n.|поэт|Pushkin is a great poet.|Пушкин — великий поэт.
+poetry|n.|поэзия|I love poetry.|Я люблю поэзию.
+point|v.|указывать|Don't point at people.|Не показывай на людей пальцем.
+poison|n., v.|яд; отравлять|This mushroom contains poison.|Этот гриб содержит яд.
+poisonous|adj.|ядовитый|Some snakes are poisonous.|Некоторые змеи ядовиты.
+policy|n.|политика, правила|What's your return policy?|Какие у вас правила возврата?
+political|adj.|политический|It's a political issue.|Это политический вопрос.
+politician|n.|политик|He's a famous politician.|Он известный политик.
+politics|n.|политика|I'm not interested in politics.|Я не интересуюсь политикой.
+port|n.|порт|The ship left the port.|Корабль покинул порт.
+portrait|n.|портрет|He painted her portrait.|Он написал её портрет.
+possibly|adv.|возможно|It's possibly the best film ever.|Возможно, это лучший фильм в истории.
+pot|n.|горшок; кастрюля|A pot of tea, please.|Чайник чая, пожалуйста.
+pour|v.|наливать; лить|Pour me some water.|Налей мне воды.
+poverty|n.|бедность|Many people live in poverty.|Многие люди живут в бедности.
+powder|n.|порошок|Washing powder.|Стиральный порошок.
+powerful|adj.|мощный, влиятельный|He's a powerful man.|Он влиятельный человек.
+practical|adj.|практичный, практический|It's a practical solution.|Это практичное решение.
+pray|v.|молиться|She prays every day.|Она молится каждый день.
+prayer|n.|молитва|He said a prayer.|Он прочитал молитву.
+prediction|n.|прогноз, предсказание|What's your prediction?|Какой у тебя прогноз?
+prepared|adj.|готовый, подготовленный|Be prepared for rain.|Будьте готовы к дождю.
+presentation|n.|презентация|I'm giving a presentation tomorrow.|Завтра я выступаю с презентацией.
+press|n., v.|пресса; нажимать|Press the red button.|Нажмите красную кнопку.
+pressure|n.|давление|I work well under pressure.|Я хорошо работаю под давлением.
+pretend|v.|притворяться|He pretended to be asleep.|Он притворился спящим.
+previous|adj.|предыдущий|My previous job was boring.|Моя предыдущая работа была скучной.
+previously|adv.|ранее|I previously worked in a bank.|Раньше я работал в банке.
+priest|n.|священник|The priest blessed the couple.|Священник благословил пару.
+primary|adj.|основной; начальный|My son goes to primary school.|Мой сын ходит в начальную школу.
+prince|n.|принц|The prince married a princess.|Принц женился на принцессе.
+princess|n.|принцесса|She dressed as a princess.|Она нарядилась принцессой.
+printing|n.|печать|Printing costs extra.|Печать оплачивается отдельно.
+prisoner|n.|заключённый|The prisoner escaped.|Заключённый сбежал.
+private|adj.|частный, личный|This is a private conversation.|Это личный разговор.
+producer|n.|продюсер; производитель|He's a film producer.|Он кинопродюсер.
+production|n.|производство|Production has increased.|Производство выросло.
+profession|n.|профессия|What's your profession?|Какая у вас профессия?
+profit|n.|прибыль|The company made a profit.|Компания получила прибыль.
+program|v.|программировать|She programs computers.|Она программирует компьютеры.
+promote|v.|продвигать; повышать (в должности)|She was promoted to manager.|Её повысили до менеджера.
+proper|adj.|настоящий, надлежащий|Eat a proper meal.|Поешь как следует.
+properly|adv.|правильно, как следует|Do it properly.|Сделай это как следует.
+property|n.|собственность, недвижимость|This is private property.|Это частная собственность.
+protest|n., v.|протест; протестовать|People protested in the streets.|Люди протестовали на улицах.
+proud|adj.|гордый|I'm proud of you.|Я горжусь тобой.
+prove|v.|доказывать|Can you prove it?|Можешь доказать?
+pull|n.|рывок, тяга|Give the rope a pull.|Дёрни за верёвку.
+punish|v.|наказывать|He was punished for lying.|Его наказали за ложь.
+punishment|n.|наказание|The punishment was too hard.|Наказание было слишком суровым.
+push|n.|толчок|Give the door a push.|Толкни дверь.
+qualification|n.|квалификация, диплом|What qualifications do you have?|Какая у вас квалификация?
+qualified|adj.|квалифицированный|She's a qualified nurse.|Она дипломированная медсестра.
+qualify|v.|получать квалификацию; проходить отбор|Our team qualified for the final.|Наша команда вышла в финал.
+queue|n., v.|очередь; стоять в очереди|There's a long queue.|Там длинная очередь.
+quit|v.|бросать, уходить|He quit his job.|Он уволился с работы.
+quotation|n.|цитата; смета|It's a quotation from Tolstoy.|Это цитата из Толстого.
+quote|v., n.|цитировать; цитата|Can I quote you?|Можно вас процитировать?
+race|n.|раса|People of every race.|Люди всех рас.
+racing|n.|гонки|He loves car racing.|Он любит автогонки.
+range|n.|диапазон, ассортимент|We sell a wide range of products.|Мы продаём широкий ассортимент товаров.
+rare|adj.|редкий|It's a rare bird.|Это редкая птица.
+rarely|adv.|редко|I rarely eat meat.|Я редко ем мясо.
+reaction|n.|реакция|What was his reaction?|Какая была его реакция?
+reality|n.|реальность|Face reality.|Посмотри правде в глаза.
+receipt|n.|чек, квитанция|Keep your receipt.|Сохраните чек.
+recommendation|n.|рекомендация|Thanks for the recommendation.|Спасибо за рекомендацию.
+reference|n.|ссылка, упоминание; рекомендация|My old boss gave me a reference.|Мой бывший начальник дал мне рекомендацию.
+reflect|v.|отражать|The lake reflects the mountains.|В озере отражаются горы.
+regularly|adv.|регулярно|I exercise regularly.|Я регулярно занимаюсь спортом.
+reject|v.|отклонять|They rejected my application.|Они отклонили моё заявление.
+relate|v.|относиться, быть связанным|I can relate to that.|Мне это близко.
+related|adj.|связанный; родственный|Are you two related?|Вы родственники?
+relation|n.|отношение, связь|Relations between the countries are good.|Отношения между странами хорошие.
+relative|adj., n.|относительный; родственник|We're visiting relatives.|Мы едем к родственникам.
+relaxed|adj.|расслабленный|You look relaxed.|Ты выглядишь расслабленным.
+relaxing|adj.|расслабляющий|It was a relaxing holiday.|Это был спокойный отпуск.
+release|v., n.|выпускать; освобождать; релиз|The film was released in May.|Фильм вышел в мае.
+reliable|adj.|надёжный|He's very reliable.|Он очень надёжный.
+religion|n.|религия|What religion are you?|Какой вы веры?
+religious|adj.|религиозный|She's very religious.|Она очень религиозна.
+remain|v.|оставаться|Please remain seated.|Пожалуйста, оставайтесь на местах.
+remind|v.|напоминать|Remind me to call her.|Напомни мне ей позвонить.
+remote|adj.|отдалённый; удалённый|I work remotely in a remote village.|Я работаю удалённо в отдалённой деревне.
+renewable|adj.|возобновляемый|Solar is a renewable energy.|Солнечная энергия — возобновляемая.
+rent|n., v.|аренда; снимать, арендовать|We rent a flat.|Мы снимаем квартиру.
+repair|n.|ремонт|The car needs repairs.|Машина нуждается в ремонте.
+repeat|n.|повтор|It's a repeat of last year.|Это повторение прошлого года.
+repeated|adj.|повторный, неоднократный|Despite repeated warnings, he went.|Несмотря на неоднократные предупреждения, он пошёл.
+represent|v.|представлять|He represents our company.|Он представляет нашу компанию.
+request|v.|просить, запрашивать|Guests requested more towels.|Гости попросили больше полотенец.

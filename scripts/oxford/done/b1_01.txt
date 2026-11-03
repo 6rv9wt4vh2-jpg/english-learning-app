@@ -1,0 +1,150 @@
+about|adj.|собирающийся (be about to)|The film is about to start.|Фильм вот-вот начнётся.
+absolutely|adv.|абсолютно, совершенно|You're absolutely right.|Ты совершенно прав.
+academic|adj.|академический, учебный|The academic year starts in September.|Учебный год начинается в сентябре.
+access|n., v.|доступ; получать доступ|Do you have internet access?|У тебя есть доступ в интернет?
+accommodation|n.|жильё|We need to find accommodation.|Нам нужно найти жильё.
+account|n.|счёт; аккаунт|I opened a bank account.|Я открыл банковский счёт.
+achievement|n.|достижение|It's a great achievement.|Это большое достижение.
+act|n.|поступок; акт; закон|It was an act of kindness.|Это был добрый поступок.
+ad|n.|реклама, объявление|I saw an ad for the job.|Я увидел объявление о работе.
+addition|n.|добавление; сложение|In addition, it's cheap.|Кроме того, это дёшево.
+admire|v.|восхищаться|I admire your courage.|Я восхищаюсь твоей смелостью.
+admit|v.|признавать|He admitted his mistake.|Он признал свою ошибку.
+advanced|adj.|продвинутый|She's in the advanced class.|Она в продвинутой группе.
+advise|v.|советовать|I advise you to rest.|Советую тебе отдохнуть.
+afford|v.|позволить себе (по деньгам)|I can't afford a new car.|Я не могу позволить себе новую машину.
+age|v.|стареть|He has aged a lot.|Он сильно постарел.
+aged|adj.|в возрасте|Children aged 5 to 10.|Дети в возрасте от 5 до 10 лет.
+agent|n.|агент|Talk to a travel agent.|Обратитесь к турагенту.
+agreement|n.|соглашение; согласие|We reached an agreement.|Мы пришли к соглашению.
+ahead|adv.|вперёд, впереди|Go straight ahead.|Идите прямо.
+AI|n.|ИИ, искусственный интеллект|AI is changing many jobs.|ИИ меняет многие профессии.
+aim|v., n.|стремиться; цель|Our aim is to help people.|Наша цель — помогать людям.
+alarm|n.|будильник; тревога|Set the alarm for six.|Поставь будильник на шесть.
+album|n.|альбом|Their new album is great.|Их новый альбом отличный.
+alcohol|n.|алкоголь|I don't drink alcohol.|Я не пью алкоголь.
+alcoholic|adj.|алкогольный|Non-alcoholic drinks are free.|Безалкогольные напитки бесплатны.
+alternative|adj.|альтернативный|We need an alternative plan.|Нам нужен запасной план.
+amazed|adj.|изумлённый|I was amazed by the view.|Я был поражён видом.
+ambition|n.|амбиция, стремление|Her ambition is to be a doctor.|Она мечтает стать врачом.
+ambitious|adj.|амбициозный|He's very ambitious.|Он очень амбициозен.
+analyse|v.|анализировать|We need to analyse the data.|Нам нужно проанализировать данные.
+analysis|n.|анализ|The analysis took weeks.|Анализ занял несколько недель.
+announce|v.|объявлять|They announced their wedding.|Они объявили о свадьбе.
+announcement|n.|объявление|Listen to the announcement.|Послушайте объявление.
+annoy|v.|раздражать|Don't annoy your sister.|Не досаждай сестре.
+annoyed|adj.|раздражённый|I'm annoyed with him.|Я на него раздражён.
+annoying|adj.|раздражающий|That noise is annoying.|Этот шум раздражает.
+apart|adv.|отдельно, на расстоянии|They live apart now.|Теперь они живут раздельно.
+apologize|v.|извиняться|I apologize for being late.|Прошу прощения за опоздание.
+application|n.|заявление; приложение|Fill in the application form.|Заполните анкету.
+appointment|n.|запись (к врачу), встреча|I have a doctor's appointment.|Я записан к врачу.
+appreciate|v.|ценить|I appreciate your help.|Я ценю твою помощь.
+approximately|adv.|приблизительно|It takes approximately an hour.|Это занимает примерно час.
+arrest|v., n.|арестовывать; арест|The police arrested him.|Полиция арестовала его.
+arrival|n.|прибытие|What's the arrival time?|Какое время прибытия?
+assignment|n.|задание|Finish your assignment by Friday.|Закончите задание к пятнице.
+assist|v.|помогать|Can I assist you?|Могу я вам помочь?
+atmosphere|n.|атмосфера|The café has a nice atmosphere.|В кафе приятная атмосфера.
+attach|v.|прикреплять|I attached the file.|Я прикрепил файл.
+attitude|n.|отношение, позиция|She has a positive attitude.|У неё позитивный настрой.
+attract|v.|привлекать|The city attracts many tourists.|Город привлекает много туристов.
+attraction|n.|достопримечательность; притяжение|It's a popular tourist attraction.|Это популярная достопримечательность.
+authority|n.|власть; орган власти|Contact the local authorities.|Обратитесь в местные органы власти.
+average|v.|составлять в среднем|We average 50 customers a day.|У нас в среднем 50 клиентов в день.
+award|v.|награждать|She was awarded a prize.|Ей вручили премию.
+aware|adj.|осведомлённый|Are you aware of the risks?|Вы знаете о рисках?
+backwards|adv.|назад, задом наперёд|Count backwards from ten.|Посчитайте от десяти в обратном порядке.
+bake|v.|печь|I baked a cake.|Я испёк торт.
+balance|n., v.|равновесие, баланс|I lost my balance.|Я потерял равновесие.
+ban|v., n.|запрещать; запрет|Smoking is banned here.|Курение здесь запрещено.
+bank|n.|берег (реки)|We sat on the river bank.|Мы сидели на берегу реки.
+base|n., v.|основа, база; основывать|The film is based on a book.|Фильм снят по книге.
+basic|adj.|основной, базовый|I have basic computer skills.|У меня базовые навыки работы с компьютером.
+basis|n.|основа|We meet on a regular basis.|Мы встречаемся регулярно.
+battery|n.|батарея, аккумулятор|My battery is low.|У меня садится батарея.
+battle|n.|битва|They won the battle.|Они выиграли битву.
+beat|v.|побеждать; бить|We beat them 3–0.|Мы обыграли их 3:0.
+beauty|n.|красота|The beauty of nature.|Красота природы.
+bee|n.|пчела|A bee stung me.|Меня ужалила пчела.
+belief|n.|вера, убеждение|It's a common belief.|Это распространённое мнение.
+bell|n.|колокол; звонок|The bell rang.|Прозвенел звонок.
+bend|v., n.|сгибать; поворот|Bend your knees.|Согните колени.
+benefit|v.|приносить пользу|The plan will benefit everyone.|План принесёт пользу всем.
+better|n.|лучшее|Things changed for the better.|Всё изменилось к лучшему.
+bite|v., n.|кусать; укус|The dog bit me.|Меня укусила собака.
+block|n., v.|квартал; блок; блокировать|Walk two blocks.|Пройдите два квартала.
+board|v.|садиться (на самолёт, поезд)|Passengers can now board.|Пассажиры могут проходить на посадку.
+bomb|n., v.|бомба; бомбить|A bomb exploded.|Взорвалась бомба.
+border|n.|граница|We crossed the border.|Мы пересекли границу.
+bother|v.|беспокоить|Sorry to bother you.|Извините за беспокойство.
+branch|n.|ветка; филиал|The bank has a branch here.|У банка здесь отделение.
+brand|n., v.|бренд, марка|What brand is your phone?|Какой марки твой телефон?
+brave|adj.|храбрый|She was very brave.|Она была очень храброй.
+breathe|v.|дышать|Breathe deeply.|Дышите глубоко.
+breathing|n.|дыхание|Her breathing was slow.|Её дыхание было медленным.
+bride|n.|невеста|The bride looked beautiful.|Невеста выглядела прекрасно.
+bubble|n.|пузырь|The kids are blowing bubbles.|Дети пускают мыльные пузыри.
+bury|v.|хоронить; закапывать|The dog buried a bone.|Собака закопала кость.
+by|adv.|мимо|A car went by.|Мимо проехала машина.
+calm|adj., v., n.|спокойный; успокаивать|Stay calm.|Сохраняйте спокойствие.
+campaign|n., v.|кампания; агитировать|They started a new campaign.|Они начали новую кампанию.
+campus|n.|кампус|She lives on campus.|Она живёт в студгородке.
+candidate|n.|кандидат|There are three candidates.|Есть три кандидата.
+cap|n.|кепка; крышка|He's wearing a baseball cap.|На нём бейсболка.
+captain|n.|капитан|He's the team captain.|Он капитан команды.
+careless|adj.|небрежный, невнимательный|It was a careless mistake.|Это была ошибка по невнимательности.
+category|n.|категория|Choose a category.|Выберите категорию.
+ceiling|n.|потолок|The ceiling is very high.|Потолок очень высокий.
+celebration|n.|празднование|It was a big celebration.|Это был большой праздник.
+central|adj.|центральный|The hotel is very central.|Отель находится в самом центре.
+centre|v.|сосредоточивать (вокруг)|The story centres on a family.|История сосредоточена вокруг одной семьи.
+ceremony|n.|церемония|The ceremony starts at noon.|Церемония начинается в полдень.
+chain|n.|цепь; сеть (магазинов)|It's a chain of hotels.|Это сеть отелей.
+challenge|n.|вызов, трудная задача|It's a real challenge.|Это настоящее испытание.
+champion|n.|чемпион|She's the world champion.|Она чемпионка мира.
+channel|n.|канал|Change the channel.|Переключи канал.
+chapter|n.|глава|Read chapter three.|Прочитайте третью главу.
+charge|n., v.|плата; заряжать; взимать|There's no charge.|Это бесплатно.
+cheap|adv.|дёшево|I got it cheap.|Я купил это дёшево.
+cheat|v., n.|обманывать, списывать; обманщик|He cheated in the exam.|Он списывал на экзамене.
+cheerful|adj.|жизнерадостный|She's always cheerful.|Она всегда жизнерадостна.
+chemical|adj., n.|химический; химикат|Don't use strong chemicals.|Не используйте сильные химикаты.
+chest|n.|грудь; сундук|I have a pain in my chest.|У меня боль в груди.
+childhood|n.|детство|I had a happy childhood.|У меня было счастливое детство.
+claim|v., n.|утверждать; требование|He claims he's innocent.|Он утверждает, что невиновен.
+clause|n.|придаточное предложение; пункт|This is a relative clause.|Это определительное придаточное.
+clear|v.|убирать, очищать|Clear the table, please.|Убери со стола, пожалуйста.
+click|v., n.|щёлкать; щелчок|Click here.|Нажмите здесь.
+client|n.|клиент|I'm meeting a client.|У меня встреча с клиентом.
+climb|n.|подъём, восхождение|It was a hard climb.|Это был тяжёлый подъём.
+close|adv.|близко|Don't stand so close.|Не стой так близко.
+cloth|n.|ткань; тряпка|Wipe it with a cloth.|Протри это тряпкой.
+clue|n.|подсказка, улика|I have no clue.|Понятия не имею.
+coach|v.|тренировать|He coaches the youth team.|Он тренирует молодёжную команду.
+coal|n.|уголь|They burn coal for heat.|Они топят углём.
+coin|n.|монета|I have some coins.|У меня есть монеты.
+collection|n.|коллекция|He has a big stamp collection.|У него большая коллекция марок.
+coloured|adj.|цветной|Use coloured pencils.|Используйте цветные карандаши.
+combine|v.|сочетать, объединять|Combine the eggs and flour.|Смешайте яйца и муку.
+comment|v.|комментировать|He refused to comment.|Он отказался от комментариев.
+commercial|adj., n.|коммерческий; реклама|It's a commercial success.|Это коммерческий успех.
+commit|v.|совершать (преступление)|He committed a crime.|Он совершил преступление.
+communication|n.|общение, связь|Good communication is key.|Хорошее общение — это главное.
+comparison|n.|сравнение|There's no comparison.|Даже сравнивать нельзя.
+competitor|n.|конкурент, участник|We have many competitors.|У нас много конкурентов.
+competitive|adj.|конкурентный; азартный|It's a competitive market.|Это конкурентный рынок.
+complaint|n.|жалоба|I want to make a complaint.|Я хочу подать жалобу.
+complex|adj.|сложный|It's a complex problem.|Это сложная проблема.
+concentrate|v.|сосредоточиться|I can't concentrate.|Я не могу сосредоточиться.
+conclude|v.|заключать, делать вывод|We concluded that he was right.|Мы пришли к выводу, что он прав.
+conclusion|n.|вывод, заключение|What's your conclusion?|Каков твой вывод?
+confident|adj.|уверенный|I'm confident we'll win.|Я уверен, что мы победим.
+confirm|v.|подтверждать|Please confirm your booking.|Пожалуйста, подтвердите бронирование.
+confuse|v.|сбивать с толку; путать|I always confuse the twins.|Я всегда путаю близнецов.
+confused|adj.|сбитый с толку|I'm confused.|Я запутался.
+connection|n.|связь, соединение; пересадка|The connection is slow.|Соединение медленное.
+consequence|n.|последствие|Think about the consequences.|Подумай о последствиях.
+consist|v.|состоять|The team consists of five people.|Команда состоит из пяти человек.
+consume|v.|потреблять|We consume too much sugar.|Мы потребляем слишком много сахара.
+consumer|n.|потребитель|Consumers want lower prices.|Потребители хотят более низких цен.
