@@ -1,5 +1,6 @@
 "use client";
 
+import { PageHero } from "@/components/ui";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { words } from "@/data/words";
 import { useProgress } from "@/lib/hooks";
@@ -61,12 +62,7 @@ export default function ListeningPage() {
 
   return (
     <div className="space-y-6 max-w-lg mx-auto">
-      <header>
-        <h1 className="text-2xl font-bold">Аудирование</h1>
-        <p className="text-slate-500 mt-1">
-          Слушайте слово (Web Speech API) и выберите правильный перевод
-        </p>
-      </header>
+      <PageHero title="Listening" subtitle="Аудирование · слушайте слово и выберите правильный перевод" emoji="🎧" gradient="from-cyan-400 to-blue-600" />
 
       <div className="flex gap-3 text-sm text-slate-500">
         <span>Раунд {round}</span>

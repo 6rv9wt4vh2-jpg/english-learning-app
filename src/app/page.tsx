@@ -4,108 +4,113 @@ import Link from "next/link";
 import { useMemo } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
-import { lessons } from "@/data/lessons";
+import { Loading } from "@/components/ui";
+import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel } from "@/data/course";
+import { deckCards } from "@/data/decks";
 import { words } from "@/data/words";
-import { b2Cards } from "@/data/b2";
+import { DECKS } from "@/lib/decks";
 import { useProgress } from "@/lib/hooks";
 import { countLearnedWords, getAccuracy } from "@/lib/storage";
 import { isDue } from "@/lib/srs";
+import { useUnitProgress } from "@/lib/units";
+
+const totalCards = DECKS.reduce((s, d) => s + deckCards[d.slug].length, 0);
+
+function Bi({ en, ru }: { en: string; ru: string }) {
+  return <>{en} <span className="font-medium opacity-60">/ {ru}</span></>;
+}
+
+const TILES = [
+  { href: "/vocabulary", emoji: "📚", en: "Words", ru: "Словарь", grad: "from-emerald-400 to-teal-600" },
+  { href: "/cards", emoji: "🃏", en: "Cards", ru: "Карточки", grad: "from-amber-400 to-orange-600" },
+  { href: "/lessons", emoji: "🎓", en: "Lessons", ru: "Уроки", grad: "from-fuchsia-500 to-purple-600" },
+  { href: "/practice", emoji: "🧠", en: "Practice", ru: "Тренировка", grad: "from-pink-500 to-rose-600" },
+  { href: "/listening", emoji: "🎧", en: "Listening", ru: "Аудирование", grad: "from-cyan-400 to-blue-600" },
+  { href: "/progress", emoji: "📊", en: "Progress", ru: "Прогресс", grad: "from-lime-400 to-green-600" },
+];
 
 export default function HomePage() {
   const { progress, ready } = useProgress();
-
-  const dueCount = useMemo(() => {
-    return words.filter((w) => isDue(progress.words[w.id])).length;
-  }, [progress.words]);
-
-  const nextLesson = useMemo(() => {
-    return lessons.find((l) => !progress.completedLessons.includes(l.id)) ?? lessons[0];
-  }, [progress.completedLessons]);
-
+  const units = useUnitProgress();
+  const dueCount = useMemo(() => words.filter((w) => isDue(progress.words[w.id])).length, [progress.words]);
+  const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
   const learned = countLearnedWords(progress);
   const accuracy = getAccuracy(progress);
   const goal = progress.dailyGoal || 20;
   const today = progress.reviewsToday || 0;
 
-  if (!ready) {
-    return <div className="text-slate-500">Загрузка…</div>;
-  }
+  if (!ready || !units.ready) return <Loading />;
+  const tm = TYPE_META[nextUnit.type];
 
   return (
     <div className="space-y-8">
-      <header className="space-y-2">
-        <p className="text-sm font-medium text-sky-600 dark:text-sky-400">Добро пожаловать</p>
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
-          Учим английский спокойно
-        </h1>
-        <p className="text-slate-600 dark:text-slate-400 max-w-xl">
-          Словарь, интервальные повторения, уроки грамматики и аудирование — всё офлайн в браузере,
-          прогресс хранится на этом устройстве.
+      <header className="pop-in relative overflow-hidden rounded-3xl p-6 sm:p-8 text-white shadow-xl bg-gradient-to-br from-sky-400 via-indigo-500 to-fuchsia-500">
+        <div className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-white/15" />
+        <div className="absolute right-16 -bottom-12 h-28 w-28 rounded-full bg-white/10" />
+        <p className="relative text-sm font-semibold opacity-90">Welcome! · Добро пожаловать!</p>
+        <h1 className="relative mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight">Learn English calmly</h1>
+        <p className="relative text-lg font-semibold opacity-90">Учим английский спокойно</p>
+        <p className="relative mt-3 max-w-xl text-sm opacity-90">
+          Words, spaced repetition, lessons and listening — offline in your browser.
+          <br /><span className="opacity-80">Слова, интервальные повторения, уроки и аудирование — всё офлайн в браузере.</span>
         </p>
       </header>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <StatCard label="Серия дней" value={progress.streak} emoji="🔥" hint="занимайтесь каждый день" />
-        <StatCard label="Выучено слов" value={learned} emoji="✨" hint={`из ${words.length + b2Cards.length}`} />
-        <StatCard label="Точность" value={`${accuracy}%`} emoji="🎯" />
-        <StatCard label="К повторению" value={dueCount} emoji="🧠" />
+        <StatCard index={0} label="Streak / Серия" value={progress.streak} emoji="🔥" hint="days / дней" />
+        <StatCard index={1} label="Learned / Выучено" value={learned} emoji="✨" hint={`of / из ${totalCards}`} />
+        <StatCard index={2} label="Accuracy / Точность" value={`${accuracy}%`} emoji="🎯" />
+        <StatCard index={3} label="Lessons / Уроки" value={`${units.done.length}/${allUnits.length}`} emoji="🎓" />
       </div>
 
       <section className="card p-5 space-y-4">
         <div className="flex items-center justify-between gap-3">
-          <h2 className="font-semibold text-lg">Цель на сегодня</h2>
-          <span className="text-sm text-slate-500">{today} / {goal} повторений</span>
+          <h2 className="font-bold text-lg"><Bi en="Today's goal" ru="Цель на сегодня" /></h2>
+          <span className="text-sm text-slate-500">{today} / {goal} reviews · повторений</span>
         </div>
         <ProgressBar value={today} max={goal} />
         <div className="flex flex-wrap gap-3 pt-1">
-          <Link
-            href="/practice"
-            className="inline-flex items-center justify-center rounded-xl bg-sky-600 hover:bg-sky-700 text-white px-5 py-2.5 text-sm font-medium transition shadow-sm"
-          >
-            Практиковать карточки
-          </Link>
-          <Link
-            href="/listening"
-            className="inline-flex items-center justify-center rounded-xl border border-slate-200 dark:border-slate-700 px-5 py-2.5 text-sm font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition"
-          >
-            Аудирование
-          </Link>
+          <Link href="/practice" className="btn-primary">🧠 Practice <span className="opacity-75">/ Тренировать</span>{dueCount ? ` (${dueCount})` : ""}</Link>
+          <Link href="/cards" className="btn-warm">🃏 Learn cards <span className="opacity-75">/ Учить</span></Link>
+          <Link href="/listening" className="btn-ghost">🎧 Listening <span className="opacity-60">/ Аудирование</span></Link>
         </div>
       </section>
 
-      <section className="card p-5 space-y-3">
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <p className="text-xs uppercase tracking-wide text-slate-500">Урок дня</p>
-            <h2 className="text-xl font-semibold mt-1">{nextLesson.titleRu}</h2>
-            <p className="text-sm text-slate-500 mt-1">{nextLesson.title} · {nextLesson.level}</p>
-            <p className="text-slate-600 dark:text-slate-400 mt-2 text-sm">{nextLesson.descriptionRu}</p>
-          </div>
-          <span className="shrink-0 rounded-full bg-teal-100 text-teal-800 dark:bg-teal-900/40 dark:text-teal-200 text-xs font-medium px-2.5 py-1">
-            {progress.completedLessons.includes(nextLesson.id) ? "Пройден" : "Новый"}
-          </span>
+      <Link href={`/lessons/${nextUnit.id}`} className={`block pop-in relative overflow-hidden rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${tm.gradient} hover:scale-[1.01] transition`}>
+        <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/15" />
+        <p className="text-xs font-bold uppercase tracking-wide opacity-90">Lesson of the day · Урок дня</p>
+        <h2 className="mt-1 text-xl font-extrabold">{tm.emoji} {nextUnit.title}</h2>
+        <p className="text-sm opacity-90">{nextUnit.titleRu} · {nextUnit.level} · {tm.label} / {tm.ru}</p>
+        <span className="mt-3 inline-block rounded-xl bg-white/25 px-4 py-2 text-sm font-semibold">Open lesson / Открыть урок →</span>
+      </Link>
+
+      <section className="space-y-3">
+        <h2 className="font-bold text-lg"><Bi en="Your levels" ru="Ваши уровни" /></h2>
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          {LEVELS.map((l) => {
+            const u = unitsByLevel[l];
+            const d = u.filter((x) => units.done.includes(x.id)).length;
+            return (
+              <Link key={l} href="/lessons" className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${LEVEL_META[l].gradient} hover:scale-105 transition`}>
+                <div className="text-2xl">{LEVEL_META[l].emoji}</div>
+                <div className="text-xl font-extrabold">{l}</div>
+                <div className="text-xs opacity-90">{LEVEL_META[l].ru}</div>
+                <div className="mt-2 h-1.5 rounded-full bg-white/30"><div className="h-full rounded-full bg-white" style={{ width: `${(d / u.length) * 100}%` }} /></div>
+                <div className="mt-1 text-[11px] font-semibold">{d}/{u.length} lessons</div>
+              </Link>
+            );
+          })}
         </div>
-        <Link
-          href={`/lessons/${nextLesson.id}`}
-          className="inline-flex rounded-xl bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 text-sm font-medium transition"
-        >
-          Открыть урок →
-        </Link>
       </section>
 
-      <section className="grid sm:grid-cols-2 gap-3">
-        <Link href="/vocabulary" className="card p-4 hover:border-sky-300 dark:hover:border-sky-700 transition">
-          <div className="text-2xl mb-2">📚</div>
-          <h3 className="font-semibold">Словарь</h3>
-          <p className="text-sm text-slate-500 mt-1">{words.length} слов с примерами и озвучкой</p>
-        </Link>
-        <Link href="/lessons" className="card p-4 hover:border-sky-300 dark:hover:border-sky-700 transition">
-          <div className="text-2xl mb-2">📖</div>
-          <h3 className="font-semibold">Все уроки</h3>
-          <p className="text-sm text-slate-500 mt-1">
-            {progress.completedLessons.length}/{lessons.length} пройдено
-          </p>
-        </Link>
+      <section className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {TILES.map((t) => (
+          <Link key={t.href} href={t.href} className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${t.grad} hover:scale-[1.03] transition`}>
+            <div className="text-3xl">{t.emoji}</div>
+            <div className="mt-1 font-bold">{t.en}</div>
+            <div className="text-sm opacity-90">{t.ru}</div>
+          </Link>
+        ))}
       </section>
     </div>
   );

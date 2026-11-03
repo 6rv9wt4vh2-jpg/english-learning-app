@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { PageHero } from "@/components/ui";
 import { useState } from "react";
 import { useProgress } from "@/lib/hooks";
 
@@ -16,10 +17,7 @@ export default function SettingsPage() {
 
   return (
     <div className="space-y-8 max-w-lg">
-      <header>
-        <h1 className="text-2xl font-bold">Настройки</h1>
-        <p className="text-slate-500 mt-1">Без аккаунта · всё локально</p>
-      </header>
+      <PageHero title="Settings" subtitle="Настройки · без аккаунта, всё локально" emoji="⚙️" gradient="from-slate-500 to-indigo-600" />
 
       <section className="card p-5 space-y-4">
         <h2 className="font-semibold">Дневная цель</h2>

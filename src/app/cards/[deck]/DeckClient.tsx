@@ -137,7 +137,7 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
           </div>
           <div className="flex justify-center gap-2">
             <SpeakButton text={current.en} />
-            <SpeakButton text={current.example} />
+            <SpeakButton text={current.example} label="Pronounce phrase" />
           </div>
           {flipped ? (
             <div className="grid grid-cols-4 gap-2">

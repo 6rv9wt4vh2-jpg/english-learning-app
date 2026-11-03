@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "English RU — английский для русскоязычных",
-  description: "Изучайте английский (A1–B1): словарь, SRS-карточки, уроки и аудирование.",
+  description: "Изучайте английский (A1–C1): словарь, SRS-карточки, уроки и аудирование.",
 };
 
 export default function RootLayout({

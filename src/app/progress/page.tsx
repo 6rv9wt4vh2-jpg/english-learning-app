@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { PageHero } from "@/components/ui";
 import { useMemo } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
@@ -10,6 +11,8 @@ import { b2Cards } from "@/data/b2";
 import { useProgress } from "@/lib/hooks";
 import { countLearnedWords, getAccuracy } from "@/lib/storage";
 import { isDue } from "@/lib/srs";
+import { useUnitProgress } from "@/lib/units";
+import { LEVELS, LEVEL_META, unitsByLevel } from "@/data/course";
 
 export default function ProgressPage() {
   const { progress, ready } = useProgress();
@@ -43,10 +46,8 @@ export default function ProgressPage() {
 
   return (
     <div className="space-y-8">
-      <header>
-        <h1 className="text-2xl font-bold">Прогресс</h1>
-        <p className="text-slate-500 mt-1">Данные хранятся в localStorage этого браузера</p>
-      </header>
+      <PageHero title="Progress" subtitle="Прогресс · данные хранятся в localStorage этого браузера" emoji="📊" gradient="from-lime-400 to-green-600" />
+      <UnitLevels />
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard label="Серия" value={`${progress.streak} дн.`} emoji="🔥" />
@@ -96,5 +97,19 @@ export default function ProgressPage() {
         </Link>
       </section>
     </div>
+  );
+}
+
+function UnitLevels() {
+  const { done, ready } = useUnitProgress();
+  if (!ready) return null;
+  return (
+    <section className="card p-5 space-y-3">
+      <h2 className="font-bold text-lg">Lessons by level <span className="text-sm font-medium text-slate-400">/ Уроки по уровням</span></h2>
+      {LEVELS.map((l) => {
+        const u = unitsByLevel[l];
+        return <ProgressBar key={l} label={`${LEVEL_META[l].emoji} ${l}`} value={u.filter((x) => done.includes(x.id)).length} max={u.length} />;
+      })}
+    </section>
   );
 }

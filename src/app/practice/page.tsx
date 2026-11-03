@@ -1,5 +1,6 @@
 "use client";
 
+import { PageHero } from "@/components/ui";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import SpeakButton from "@/components/SpeakButton";
 import { words } from "@/data/words";
@@ -69,7 +70,7 @@ export default function PracticePage() {
     return (
       <div className="space-y-6 text-center py-10">
         <div className="text-5xl">🎉</div>
-        <h1 className="text-2xl font-bold">Сессия завершена</h1>
+        <h1 className="text-2xl font-bold">Session complete! / Сессия завершена</h1>
         <p className="text-slate-500">Повторено карточек: {sessionDone}</p>
         <p className="text-sm text-slate-500">К повторению сейчас: {dueWords.length}</p>
         <button
@@ -85,15 +86,9 @@ export default function PracticePage() {
 
   return (
     <div className="space-y-6 max-w-lg mx-auto">
-      <header className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold">Карточки SRS</h1>
-          <p className="text-sm text-slate-500">Again / Hard / Good / Easy</p>
-        </div>
-        <span className="text-sm text-slate-500">
-          {index + 1}/{queue.length}
-        </span>
-      </header>
+      <PageHero title="Practice" subtitle="Тренировка SRS · Again / Hard / Good / Easy" emoji="🧠" gradient="from-pink-500 to-rose-600">
+        <p className="mt-2 text-sm font-semibold">{index + 1}/{queue.length}</p>
+      </PageHero>
 
       <button
         type="button"

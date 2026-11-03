@@ -1,22 +1,15 @@
-export default function StatCard({
-  label,
-  value,
-  hint,
-  emoji,
-}: {
-  label: string;
-  value: string | number;
-  hint?: string;
-  emoji?: string;
+const GRADS = ["from-orange-400 to-rose-500", "from-emerald-400 to-teal-600", "from-sky-400 to-indigo-600", "from-fuchsia-500 to-purple-600"];
+export default function StatCard({ label, value, hint, emoji, index = 0 }: {
+  label: string; value: string | number; hint?: string; emoji?: string; index?: number;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 shadow-sm">
+    <div className={`pop-in rounded-3xl p-4 text-white shadow-lg bg-gradient-to-br ${GRADS[index % GRADS.length]}`}>
       <div className="flex items-start justify-between gap-2">
-        <div className="text-sm text-slate-500 dark:text-slate-400">{label}</div>
+        <div className="text-xs font-semibold opacity-90">{label}</div>
         {emoji && <span className="text-xl">{emoji}</span>}
       </div>
-      <div className="mt-1 text-2xl font-semibold text-slate-900 dark:text-slate-50">{value}</div>
-      {hint && <div className="mt-1 text-xs text-slate-500">{hint}</div>}
+      <div className="mt-1 text-2xl font-extrabold">{value}</div>
+      {hint && <div className="mt-1 text-xs opacity-85">{hint}</div>}
     </div>
   );
 }

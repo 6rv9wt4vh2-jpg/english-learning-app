@@ -1,23 +1,34 @@
-import Link from "next/link";
-import { DECKS, groupCount } from "@/lib/decks";
-import { deckCards } from "@/data/decks";
+"use client";
 
-export default function CardsHome() {
+import Link from "next/link";
+import { useState } from "react";
+import { Chip, FilterRow, PageHero } from "@/components/ui";
+import { deckCards } from "@/data/decks";
+import { DECKS, groupCount } from "@/lib/decks";
+
+const BANDS = [["all", "All"], ["a", "A1–A2"], ["b", "B1–B2"], ["c", "C1"]] as const;
+
+export default function CardsIndex() {
+  const [band, setBand] = useState<string>("all");
+  const list = DECKS.filter((d) => band === "all" || d.slug.startsWith(band));
   return (
-    <div className="space-y-6 max-w-2xl mx-auto">
-      <header>
-        <h1 className="text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-violet-500 to-sky-500 bg-clip-text text-transparent">Карточки по уровням</h1>
-        <p className="text-sm text-slate-500">Слова Oxford 3000 / 5000 по уровням CEFR. Каждая колода разбита на группы по 20 карточек.</p>
-      </header>
+    <div className="space-y-6">
+      <PageHero title="Cards" subtitle="Карточки по уровням CEFR · Oxford 3000 / 5000 · группы по 20" emoji="🃏" gradient="from-amber-400 to-orange-600" />
+      <div className="card p-4">
+        <FilterRow label="Level / Уровень">
+          {BANDS.map(([k, l]) => <Chip key={k} active={band === k} onClick={() => setBand(k)} color="bg-gradient-to-r from-amber-400 to-orange-600">{l}</Chip>)}
+          {DECKS.map((d) => <Chip key={d.slug} active={band === d.slug} onClick={() => setBand(d.slug)} color={`bg-gradient-to-r ${d.gradient}`}>{d.emoji} {d.title}</Chip>)}
+        </FilterRow>
+      </div>
       <div className="grid sm:grid-cols-2 gap-4">
-        {DECKS.map((d) => {
+        {list.map((d) => {
           const n = deckCards[d.slug].length;
           const inner = (
-            <div className={`rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${d.gradient} ${n ? "hover:scale-[1.02] transition" : "opacity-50"}`}>
+            <div className={`pop-in rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${d.gradient} ${n ? "hover:scale-[1.02] transition" : "opacity-50"}`}>
               <div className="text-4xl">{d.emoji}</div>
               <div className="mt-2 text-2xl font-bold">{d.title}</div>
               <div className="text-sm opacity-90">{d.subtitle} · {d.source}</div>
-              <div className="mt-3 text-sm font-medium">{n ? `${n} карточек · ${groupCount(n)} групп` : "Скоро"}</div>
+              <div className="mt-3 text-sm font-medium">{n ? `${n} cards · ${groupCount(n)} groups` : "Soon"}</div>
             </div>
           );
           return n ? <Link key={d.slug} href={`/cards/${d.slug}`}>{inner}</Link> : <div key={d.slug}>{inner}</div>;

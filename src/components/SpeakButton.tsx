@@ -4,7 +4,7 @@ import { speakEnglish } from "@/lib/speech";
 
 export default function SpeakButton({
   text,
-  label = "Произнести",
+  label = "Pronounce word",
   className = "",
 }: {
   text: string;
@@ -14,8 +14,8 @@ export default function SpeakButton({
   return (
     <button
       type="button"
-      onClick={() => speakEnglish(text)}
-      className={`inline-flex items-center gap-1.5 rounded-full bg-sky-100 text-sky-800 dark:bg-sky-900/50 dark:text-sky-200 px-3 py-1.5 text-sm font-medium hover:bg-sky-200 dark:hover:bg-sky-800/60 transition ${className}`}
+      onClick={(e) => { e.stopPropagation(); speakEnglish(text); }}
+      className={`inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white px-3.5 py-1.5 text-sm font-semibold shadow-md hover:scale-105 active:scale-95 transition ${className}`}
       aria-label={label}
     >
       <span aria-hidden>🔊</span>
