@@ -1,0 +1,150 @@
+seize|v.|хватать; захватывать|Seize the opportunity.|Воспользуйтесь возможностью.
+selective|adj.|избирательный, разборчивый|She's selective about friends.|Она разборчива в друзьях.
+senator|n.|сенатор|A US senator.|Американский сенатор.
+sensation|n.|ощущение; сенсация|A burning sensation.|Жжение.
+sensitivity|n.|чувствительность; деликатность|Handle it with sensitivity.|Подойдите к этому деликатно.
+sentiment|n.|настроение, мнение|Public sentiment.|Общественные настроения.
+separation|n.|разделение; разлука|A long separation.|Долгая разлука.
+sequel|n.|продолжение (фильма, книги)|The sequel was better.|Продолжение было лучше.
+serial|adj.|серийный|A serial killer.|Серийный убийца.
+settlement|n.|соглашение; поселение|A peace settlement.|Мирное урегулирование.
+set-up|n.|устройство, организация|The office set-up.|Организация офиса.
+sexuality|n.|сексуальность|Human sexuality.|Человеческая сексуальность.
+shareholder|n.|акционер|A meeting of shareholders.|Собрание акционеров.
+shatter|v.|разбивать вдребезги|The glass shattered.|Стекло разбилось вдребезги.
+shed|v.|сбрасывать, проливать|Shed some light on it.|Прояснить ситуацию.
+sheer|adj.|чистый, явный; отвесный|Sheer luck.|Чистое везение.
+shipping|n.|доставка; судоходство|Free shipping.|Бесплатная доставка.
+shoot|n.|съёмка; побег (растения)|A photo shoot.|Фотосессия.
+shrink|v.|сжиматься, садиться|My shirt shrank in the wash.|Рубашка села после стирки.
+sigh|v., n.|вздыхать; вздох|She sighed with relief.|Она вздохнула с облегчением.
+simulation|n.|моделирование, симуляция|A computer simulation.|Компьютерная симуляция.
+simultaneously|adv.|одновременно|They spoke simultaneously.|Они заговорили одновременно.
+sin|n.|грех|It's a sin to waste food.|Грех выбрасывать еду.
+situated|adj.|расположенный|The hotel is situated near the beach.|Отель расположен у пляжа.
+sketch|n.|набросок, эскиз; скетч|A rough sketch.|Черновой набросок.
+skip|v.|пропускать; прыгать|Don't skip breakfast.|Не пропускай завтрак.
+slam|v.|хлопать (дверью); резко критиковать|She slammed the door.|Она хлопнула дверью.
+slap|v.|шлёпать, давать пощёчину|She slapped his face.|Она дала ему пощёчину.
+slash|v.|резко сокращать; полоснуть|Prices slashed!|Цены резко снижены!
+slavery|n.|рабство|The abolition of slavery.|Отмена рабства.
+slot|n.|слот, щель; время|A time slot.|Временной интервал.
+smash|v.|разбивать|He smashed the window.|Он разбил окно.
+snap|v.|ломаться с треском; огрызаться|Don't snap at me!|Не огрызайся!
+soak|v.|замачивать, промокать|I got soaked in the rain.|Я промок под дождём.
+soar|v.|взлетать, стремительно расти|Prices soared.|Цены взлетели.
+socialist|adj.|социалистический|A socialist party.|Социалистическая партия.
+sole|adj.|единственный|The sole survivor.|Единственный выживший.
+solely|adv.|исключительно|Solely responsible.|Полностью ответственный.
+solicitor|n.|адвокат, юрист (брит.)|Speak to a solicitor.|Обратитесь к юристу.
+solidarity|n.|солидарность|In solidarity with the workers.|В знак солидарности с рабочими.
+solo|adj., n.|сольный; соло|A solo album.|Сольный альбом.
+sound|adj.|здравый, надёжный|Sound advice.|Здравый совет.
+sovereignty|n.|суверенитет|National sovereignty.|Национальный суверенитет.
+span|v., n.|охватывать; промежуток|A career spanning 40 years.|Карьера длиной в 40 лет.
+spare|v.|уделять; щадить|Can you spare a minute?|Уделишь минутку?
+spark|v.|вызывать, провоцировать|It sparked a debate.|Это вызвало споры.
+specialized|adj.|специализированный|Specialized equipment.|Специальное оборудование.
+specification|n.|спецификация, характеристики|Technical specifications.|Технические характеристики.
+specimen|n.|образец, экземпляр|A blood specimen.|Образец крови.
+spectacle|n.|зрелище|A magnificent spectacle.|Великолепное зрелище.
+spectrum|n.|спектр|A wide spectrum of opinions.|Широкий спектр мнений.
+spell|n.|период; заклинание|A cold spell.|Период похолодания.
+sphere|n.|сфера; шар|The political sphere.|Политическая сфера.
+spin|v., n.|вращать(ся); вращение|My head is spinning.|У меня голова кружится.
+spine|n.|позвоночник; корешок (книги)|A spine injury.|Травма позвоночника.
+spotlight|n.|прожектор; центр внимания|In the spotlight.|В центре внимания.
+spouse|n.|супруг(а)|You and your spouse.|Вы и ваш супруг.
+spray|n., v.|спрей; распылять|Hair spray.|Лак для волос.
+spy|n.|шпион|A Cold War spy.|Шпион времён холодной войны.
+squad|n.|отряд; состав команды|The England squad.|Сборная Англии.
+squeeze|v.|сжимать, выжимать|Squeeze a lemon.|Выжмите лимон.
+stab|v.|колоть, ударить ножом|He was stabbed.|Его ударили ножом.
+stability|n.|стабильность|Political stability.|Политическая стабильность.
+stabilize|v.|стабилизировать(ся)|His condition has stabilized.|Его состояние стабилизировалось.
+stake|n.|доля; ставка|At stake.|На кону.
+stark|adj.|резкий, суровый|A stark contrast.|Резкий контраст.
+start-up|n., adj.|стартап|A tech start-up.|Технологический стартап.
+statistical|adj.|статистический|Statistical data.|Статистические данные.
+steer|v.|управлять, направлять|Steer the conversation.|Направлять разговор.
+stem|n., v.|стебель; происходить (stem from)|The problem stems from stress.|Проблема возникает из-за стресса.
+stereotype|n.|стереотип|A gender stereotype.|Гендерный стереотип.
+stimulus|n.|стимул|An economic stimulus.|Экономический стимул.
+stir|v.|помешивать; волновать|Stir the soup.|Помешай суп.
+storage|n.|хранение, хранилище|Cloud storage.|Облачное хранилище.
+straightforward|adj.|простой, прямой|A straightforward question.|Простой вопрос.
+strain|n.|напряжение, нагрузка|Under a lot of strain.|Под большим давлением.
+strategic|adj.|стратегический|A strategic decision.|Стратегическое решение.
+streaming|n.|стриминг, потоковая передача|A streaming service.|Стриминговый сервис.
+striking|adj.|поразительный, яркий|A striking resemblance.|Поразительное сходство.
+strip|n.|полоса|A strip of paper.|Полоска бумаги.
+strip|v.|раздеваться; снимать (слой)|Strip the paint off the wall.|Соскоблите краску со стены.
+strive|v.|стремиться|Strive for excellence.|Стремитесь к совершенству.
+structural|adj.|структурный|Structural damage.|Повреждение конструкции.
+stumble|v.|спотыкаться|He stumbled on the stairs.|Он споткнулся на лестнице.
+stun|v.|ошеломлять, оглушать|I was stunned by the news.|Я был ошеломлён новостью.
+submission|n.|подача; подчинение|The deadline for submission.|Срок подачи.
+subscribe|v.|подписываться|Subscribe to our channel.|Подпишитесь на наш канал.
+subscriber|n.|подписчик|A million subscribers.|Миллион подписчиков.
+subscription|n.|подписка|A monthly subscription.|Ежемесячная подписка.
+subsidy|n.|субсидия|Farm subsidies.|Сельскохозяйственные субсидии.
+substantial|adj.|значительный, существенный|A substantial amount.|Значительная сумма.
+substantially|adv.|существенно|Prices rose substantially.|Цены существенно выросли.
+substitute|n., v.|замена; заменять|Use honey as a substitute for sugar.|Используйте мёд вместо сахара.
+substitution|n.|замена|A late substitution.|Поздняя замена.
+subtle|adj.|тонкий, едва заметный|A subtle difference.|Тонкое различие.
+suburban|adj.|пригородный|Suburban life.|Жизнь в пригороде.
+succession|n.|последовательность; наследование|In quick succession.|Одно за другим.
+successive|adj.|последовательный, подряд|Three successive wins.|Три победы подряд.
+successor|n.|преемник|He named his successor.|Он назвал своего преемника.
+suck|v.|сосать; отстой (разг.)|This movie sucks.|Этот фильм — отстой.
+sue|v.|подавать в суд|I'll sue you!|Я подам на тебя в суд!
+suicide|n.|самоубийство|Suicide prevention.|Профилактика самоубийств.
+suite|n.|номер люкс; набор|A hotel suite.|Номер люкс.
+summit|n.|саммит; вершина|A G7 summit.|Саммит G7.
+superb|adj.|превосходный|A superb meal.|Превосходный обед.
+superior|adj.|высший, превосходящий|Superior quality.|Высшее качество.
+supervise|v.|руководить, контролировать|She supervises the staff.|Она руководит персоналом.
+supervision|n.|надзор, руководство|Under supervision.|Под присмотром.
+supervisor|n.|руководитель, начальник|Ask your supervisor.|Спросите своего руководителя.
+supplement|n., v.|добавка; дополнять|Vitamin supplements.|Витаминные добавки.
+supportive|adj.|поддерживающий|My family is very supportive.|Моя семья очень меня поддерживает.
+supposedly|adv.|якобы, предположительно|It's supposedly the best.|Это якобы лучшее.
+suppress|v.|подавлять|She suppressed a smile.|Она сдержала улыбку.
+surge|n.|всплеск, резкий рост|A surge in demand.|Резкий рост спроса.
+surgical|adj.|хирургический|A surgical mask.|Медицинская маска.
+surpass|v.|превосходить|Sales surpassed expectations.|Продажи превзошли ожидания.
+surplus|n.|излишек, профицит|A budget surplus.|Профицит бюджета.
+surrender|v.|сдаваться|The army surrendered.|Армия сдалась.
+surveillance|n.|наблюдение, слежка|Under surveillance.|Под наблюдением.
+suspension|n.|отстранение; подвеска|A two-match suspension.|Дисквалификация на два матча.
+suspicion|n.|подозрение|Arrested on suspicion of theft.|Арестован по подозрению в краже.
+suspicious|adj.|подозрительный|A suspicious package.|Подозрительный пакет.
+sustain|v.|поддерживать; получать (травму)|He sustained serious injuries.|Он получил серьёзные травмы.
+sustainability|n.|устойчивость, экологичность|Environmental sustainability.|Экологическая устойчивость.
+swing|v., n.|качаться; качели|The kids are on the swings.|Дети на качелях.
+sword|n.|меч|A sharp sword.|Острый меч.
+symbolic|adj.|символический|A symbolic gesture.|Символический жест.
+syndrome|n.|синдром|Down syndrome.|Синдром Дауна.
+systematic|adj.|систематический|A systematic approach.|Системный подход.
+tackle|n.|подкат, захват (в спорте)|A hard tackle.|Жёсткий подкат.
+tactic|n.|тактика|A clever tactic.|Хитрая тактика.
+tactical|adj.|тактический|A tactical error.|Тактическая ошибка.
+taxpayer|n.|налогоплательщик|Taxpayers' money.|Деньги налогоплательщиков.
+tempt|v.|соблазнять|I'm tempted to say yes.|Мне хочется согласиться.
+tenant|n.|арендатор, жилец|The tenants pay rent monthly.|Жильцы платят ежемесячно.
+tenure|n.|срок пребывания (в должности)|During his tenure.|За время его руководства.
+terminal|adj.|неизлечимый; конечный|Terminal cancer.|Неизлечимый рак.
+terminate|v.|прекращать, расторгать|The contract was terminated.|Договор расторгли.
+terrain|n.|местность, рельеф|Rough terrain.|Пересечённая местность.
+terrific|adj.|потрясающий|You look terrific!|Ты выглядишь потрясающе!
+testify|v.|давать показания|She testified in court.|Она дала показания в суде.
+testimony|n.|показания; свидетельство|Her testimony was crucial.|Её показания были решающими.
+texture|n.|текстура|A smooth texture.|Гладкая текстура.
+thankfully|adv.|к счастью|Thankfully, nobody was hurt.|К счастью, никто не пострадал.
+theoretical|adj.|теоретический|Theoretical physics.|Теоретическая физика.
+thereafter|adv.|после этого|Shortly thereafter.|Вскоре после этого.
+thereby|adv.|тем самым|Thereby saving time.|Тем самым экономя время.
+thoughtful|adj.|заботливый; задумчивый|How thoughtful of you!|Как заботливо с твоей стороны!
+thread|n.|нить; ветка (обсуждения)|A needle and thread.|Иголка с ниткой.
+threshold|n.|порог|The pain threshold.|Болевой порог.

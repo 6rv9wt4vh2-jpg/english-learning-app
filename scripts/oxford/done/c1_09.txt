@@ -1,0 +1,113 @@
+thrilled|adj.|в восторге|I'm thrilled to bits!|Я на седьмом небе!
+thrive|v.|процветать, преуспевать|The business is thriving.|Бизнес процветает.
+tide|n.|прилив, отлив; течение|The tide is coming in.|Начинается прилив.
+tighten|v.|затягивать, ужесточать|Tighten your seat belt.|Затяните ремень.
+timber|n.|древесина|A timber house.|Деревянный дом.
+timely|adj.|своевременный|A timely reminder.|Своевременное напоминание.
+tobacco|n.|табак|Tobacco products.|Табачные изделия.
+tolerance|n.|терпимость; переносимость|Zero tolerance.|Нулевая терпимость.
+tolerate|v.|терпеть|I won't tolerate rudeness.|Я не потерплю грубости.
+toll|n.|плата за проезд; число жертв|The death toll rose.|Число погибших выросло.
+top|v.|превышать; возглавлять|Sales topped $1 million.|Продажи превысили миллион долларов.
+torture|n., v.|пытка; пытать|It was torture!|Это была пытка!
+toss|v.|подбрасывать, бросать|Toss a coin.|Подбрось монетку.
+total|v.|составлять в сумме|Sales totalled $5 million.|Продажи составили 5 миллионов долларов.
+toxic|adj.|токсичный|A toxic relationship.|Токсичные отношения.
+trace|n.|след|Without a trace.|Бесследно.
+trademark|n.|товарный знак|A registered trademark.|Зарегистрированный товарный знак.
+trafficking|n.|незаконная торговля|Drug trafficking.|Наркоторговля.
+trail|n., v.|тропа, след; отставать|A hiking trail.|Пешеходная тропа.
+trailer|n.|трейлер (фильма); прицеп|Watch the trailer.|Посмотри трейлер.
+trans|adj.|трансгендерный|Trans rights.|Права трансгендеров.
+transaction|n.|сделка, транзакция|A bank transaction.|Банковская операция.
+transcript|n.|расшифровка, стенограмма|A transcript of the interview.|Расшифровка интервью.
+transformation|n.|преобразование|A complete transformation.|Полное преображение.
+transit|n.|транзит, перевозка|Lost in transit.|Потерялось при перевозке.
+transmission|n.|передача; трансмиссия|Disease transmission.|Передача болезни.
+transparency|n.|прозрачность|Financial transparency.|Финансовая прозрачность.
+transparent|adj.|прозрачный|A transparent process.|Прозрачный процесс.
+trauma|n.|травма|Emotional trauma.|Психологическая травма.
+treaty|n.|договор (международный)|A peace treaty.|Мирный договор.
+tremendous|adj.|огромный, потрясающий|A tremendous success.|Огромный успех.
+tribal|adj.|племенной|Tribal leaders.|Вожди племён.
+tribunal|n.|трибунал|An employment tribunal.|Суд по трудовым спорам.
+tribute|n.|дань уважения|They paid tribute to him.|Они почтили его память.
+trigger|n.|спусковой крючок; толчок|A trigger for the crisis.|Повод для кризиса.
+trio|n.|трио|A jazz trio.|Джазовое трио.
+triumph|n.|триумф|A triumph of science.|Триумф науки.
+trophy|n.|трофей, кубок|They won the trophy.|Они выиграли кубок.
+troubled|adj.|обеспокоенный; проблемный|A troubled teenager.|Трудный подросток.
+trustee|n.|попечитель, доверительный управляющий|A board of trustees.|Попечительский совет.
+tuition|n.|обучение; плата за обучение|Tuition fees.|Плата за обучение.
+turnout|n.|явка|Voter turnout was high.|Явка избирателей была высокой.
+turnover|n.|оборот; текучесть кадров|Annual turnover.|Годовой оборот.
+twist|v., n.|крутить, скручивать; поворот|A twist in the plot.|Поворот сюжета.
+underlying|adj.|лежащий в основе|The underlying cause.|Глубинная причина.
+undermine|v.|подрывать|It undermined his confidence.|Это подорвало его уверенность.
+undoubtedly|adv.|несомненно|Undoubtedly the best.|Несомненно лучший.
+unify|v.|объединять|Unify the country.|Объединить страну.
+unprecedented|adj.|беспрецедентный|An unprecedented crisis.|Беспрецедентный кризис.
+unveil|v.|открывать, представлять|They unveiled a new model.|Они представили новую модель.
+upcoming|adj.|предстоящий|Upcoming events.|Предстоящие события.
+upgrade|v., n.|модернизировать; апгрейд|Upgrade your phone.|Обнови телефон.
+uphold|v.|поддерживать, отстаивать|Uphold the law.|Соблюдать закон.
+utility|n.|коммунальная услуга; полезность|Utility bills.|Счета за коммунальные услуги.
+utilize|v.|использовать|Utilize your skills.|Используйте свои навыки.
+utterly|adv.|совершенно, полностью|Utterly ridiculous.|Совершенно нелепо.
+vacuum|n.|вакуум; пылесос|Vacuum the carpet.|Пропылесось ковёр.
+vague|adj.|расплывчатый|A vague answer.|Расплывчатый ответ.
+vanish|v.|исчезать|He vanished without a trace.|Он исчез без следа.
+variable|n., adj.|переменная; изменчивый|Variable weather.|Переменчивая погода.
+varied|adj.|разнообразный|A varied diet.|Разнообразное питание.
+vegan|n., adj.|веган; веганский|I'm a vegan.|Я веган.
+vein|n.|вена|Blood flows through the veins.|Кровь течёт по венам.
+vendor|n.|продавец, поставщик|A street vendor.|Уличный торговец.
+venture|n., v.|предприятие, начинание; рисковать|A business venture.|Деловое начинание.
+verbal|adj.|устный, словесный|A verbal agreement.|Устное соглашение.
+verdict|n.|вердикт, приговор|The jury reached a verdict.|Присяжные вынесли вердикт.
+verify|v.|проверять, подтверждать|Verify your email.|Подтвердите свой email.
+verse|n.|стих, куплет|The first verse.|Первый куплет.
+versus|conj.|против|Spartak versus CSKA.|«Спартак» против ЦСКА.
+vessel|n.|судно; сосуд|A fishing vessel.|Рыболовецкое судно.
+veteran|n.|ветеран|A war veteran.|Ветеран войны.
+viable|adj.|жизнеспособный, осуществимый|A viable option.|Реальный вариант.
+vibrant|adj.|яркий, живой|A vibrant city.|Яркий, живой город.
+vice|n.|порок|Smoking is my only vice.|Курение — мой единственный порок.
+vicious|adj.|злобный, жестокий|A vicious attack.|Жестокое нападение.
+villager|n.|сельский житель|The villagers were friendly.|Жители деревни были дружелюбны.
+violate|v.|нарушать|Violate the rules.|Нарушать правила.
+violation|n.|нарушение|A human rights violation.|Нарушение прав человека.
+viral|adj.|вирусный|The video went viral.|Видео стало вирусным.
+virtue|n.|добродетель; достоинство|Patience is a virtue.|Терпение — добродетель.
+vocal|adj.|голосовой; громко высказывающийся|A vocal critic.|Открытый критик.
+vow|v.|клясться|He vowed to return.|Он поклялся вернуться.
+vulnerability|n.|уязвимость|A security vulnerability.|Уязвимость в безопасности.
+vulnerable|adj.|уязвимый|Vulnerable groups.|Уязвимые группы.
+ward|n.|палата (в больнице); округ|A hospital ward.|Больничная палата.
+warehouse|n.|склад|A huge warehouse.|Огромный склад.
+warfare|n.|война, ведение войны|Modern warfare.|Современная война.
+warrant|n., v.|ордер; оправдывать|An arrest warrant.|Ордер на арест.
+warrior|n.|воин|A brave warrior.|Храбрый воин.
+weaken|v.|ослаблять|The illness weakened him.|Болезнь его ослабила.
+weave|v.|ткать, плести|Weave a basket.|Сплести корзину.
+weed|n.|сорняк|Pull out the weeds.|Выдерни сорняки.
+well|n.|колодец|Water from the well.|Вода из колодца.
+whatsoever|adv.|вообще, совсем|No idea whatsoever.|Понятия не имею.
+whip|v.|взбивать; хлестать|Whip the cream.|Взбейте сливки.
+wholly|adv.|полностью|Wholly unacceptable.|Совершенно неприемлемо.
+widen|v.|расширять(ся)|They widened the road.|Дорогу расширили.
+widow|n.|вдова|She's a widow.|Она вдова.
+width|n.|ширина|The width of the room.|Ширина комнаты.
+wildfire|n.|лесной пожар|Wildfires in California.|Лесные пожары в Калифорнии.
+willingness|n.|готовность|Willingness to learn.|Готовность учиться.
+wipe|v.|вытирать|Wipe the table.|Вытри стол.
+wit|n.|остроумие|She has a quick wit.|Она очень остроумна.
+withdrawal|n.|снятие (денег); вывод (войск)|A cash withdrawal.|Снятие наличных.
+workout|n.|тренировка|A morning workout.|Утренняя тренировка.
+worsen|v.|ухудшать(ся)|The weather worsened.|Погода ухудшилась.
+worship|n., v.|богослужение; поклоняться|A place of worship.|Место поклонения.
+worthwhile|adj.|стоящий|A worthwhile cause.|Стоящее дело.
+worthy|adj.|достойный|A worthy winner.|Достойный победитель.
+yell|v.|кричать, орать|Don't yell at me!|Не ори на меня!
+yield|n., v.|урожай, доход; уступать|Yield to traffic.|Уступите дорогу.
+youngster|n.|юноша, ребёнок|The youngsters played outside.|Ребята играли на улице.

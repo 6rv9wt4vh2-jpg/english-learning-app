@@ -1,0 +1,150 @@
+ideology|n.|идеология|Political ideology.|Политическая идеология.
+ignorance|n.|невежество, незнание|Ignorance is no excuse.|Незнание не оправдание.
+imagery|n.|образы, образность|The poem is full of imagery.|Стихотворение полно образов.
+immense|adj.|огромный|An immense amount of work.|Огромный объём работы.
+imminent|adj.|неминуемый|The storm is imminent.|Шторм вот-вот начнётся.
+immunity|n.|иммунитет|Immunity to disease.|Иммунитет к болезни.
+implementation|n.|внедрение, реализация|The implementation of the plan.|Реализация плана.
+imprisonment|n.|тюремное заключение|Life imprisonment.|Пожизненное заключение.
+inability|n.|неспособность|His inability to focus.|Его неспособность сосредоточиться.
+inadequate|adj.|недостаточный, неадекватный|Inadequate funding.|Недостаточное финансирование.
+inappropriate|adj.|неуместный|That's an inappropriate comment.|Это неуместный комментарий.
+incidence|n.|частота, распространённость|A high incidence of disease.|Высокая заболеваемость.
+inclined|adj.|склонный|I'm inclined to agree.|Я склонен согласиться.
+inclusion|n.|включение|Inclusion in the team.|Включение в команду.
+inclusive|adj.|инклюзивный; включающий|The price is inclusive of tax.|Цена включает налог.
+incur|v.|навлекать; нести (расходы)|We incurred extra costs.|Мы понесли дополнительные расходы.
+indicator|n.|показатель, индикатор|An economic indicator.|Экономический показатель.
+indictment|n.|обвинительный акт|An indictment for fraud.|Обвинение в мошенничестве.
+indigenous|adj.|коренной|Indigenous peoples.|Коренные народы.
+induce|v.|вызывать, побуждать|The drug induces sleep.|Лекарство вызывает сон.
+indulge|v.|баловать(ся), потакать|Indulge yourself!|Побалуй себя!
+inequality|n.|неравенство|Income inequality.|Неравенство доходов.
+infamous|adj.|печально известный|An infamous criminal.|Печально известный преступник.
+infant|n.|младенец|Infants need lots of sleep.|Младенцам нужно много спать.
+infect|v.|заражать|The wound got infected.|Рана воспалилась.
+infectious|adj.|заразный|An infectious disease.|Инфекционная болезнь.
+inflict|v.|наносить, причинять|The storm inflicted damage.|Шторм нанёс ущерб.
+influential|adj.|влиятельный|An influential writer.|Влиятельный писатель.
+inherent|adj.|присущий, неотъемлемый|Risks inherent in the job.|Риски, присущие работе.
+inhibit|v.|сдерживать, подавлять|Fear inhibits learning.|Страх мешает учёбе.
+initiate|v.|начинать, инициировать|They initiated talks.|Они начали переговоры.
+inject|v.|вводить (укол); вкладывать|Inject money into the economy.|Вливать деньги в экономику.
+injection|n.|укол, инъекция|I had an injection.|Мне сделали укол.
+injustice|n.|несправедливость|Social injustice.|Социальная несправедливость.
+inmate|n.|заключённый|Prison inmates.|Заключённые.
+insider|n.|инсайдер, свой человек|According to an insider.|По словам осведомлённого источника.
+inspect|v.|проверять, осматривать|They inspected the car.|Они осмотрели машину.
+inspection|n.|проверка, осмотр|A safety inspection.|Проверка безопасности.
+inspiration|n.|вдохновение|She's an inspiration to us all.|Она всех нас вдохновляет.
+instinct|n.|инстинкт, чутьё|Follow your instincts.|Следуй своему чутью.
+institutional|adj.|институциональный|Institutional investors.|Институциональные инвесторы.
+instruct|v.|инструктировать, поручать|I was instructed to wait.|Мне велели подождать.
+instrumental|adj.|сыгравший важную роль; инструментальный|She was instrumental in the deal.|Она сыграла ключевую роль в сделке.
+insufficient|adj.|недостаточный|Insufficient evidence.|Недостаточно доказательств.
+insult|n.|оскорбление|That's an insult!|Это оскорбление!
+intact|adj.|нетронутый, целый|The house remained intact.|Дом остался целым.
+intake|n.|потребление; набор|Reduce your sugar intake.|Уменьшите потребление сахара.
+integral|adj.|неотъемлемый|An integral part of the plan.|Неотъемлемая часть плана.
+integrated|adj.|интегрированный|An integrated system.|Единая система.
+integration|n.|интеграция|The integration of immigrants.|Интеграция иммигрантов.
+integrity|n.|честность, порядочность|A man of integrity.|Порядочный человек.
+intellectual|n.|интеллектуал|He's an intellectual.|Он интеллектуал.
+intensify|v.|усиливать(ся)|The storm intensified.|Шторм усилился.
+intensity|n.|интенсивность|The intensity of the light.|Яркость света.
+intensive|adj.|интенсивный|Intensive care.|Реанимация.
+intent|n.|намерение|With intent to kill.|С умыслом убить.
+interactive|adj.|интерактивный|An interactive map.|Интерактивная карта.
+interface|n.|интерфейс|A user-friendly interface.|Удобный интерфейс.
+interfere|v.|вмешиваться; мешать|Don't interfere!|Не вмешивайся!
+interference|n.|вмешательство; помехи|Radio interference.|Радиопомехи.
+interim|adj.|временный|An interim manager.|Временный менеджер.
+interior|n., adj.|интерьер; внутренний|Interior design.|Дизайн интерьера.
+intervene|v.|вмешиваться|The police intervened.|Вмешалась полиция.
+intervention|n.|вмешательство|Military intervention.|Военное вмешательство.
+intimate|adj.|близкий, интимный|An intimate friend.|Близкий друг.
+intriguing|adj.|интригующий|An intriguing question.|Интересный вопрос.
+investigator|n.|следователь|A private investigator.|Частный детектив.
+invisible|adj.|невидимый|Invisible to the naked eye.|Невидимый невооружённым глазом.
+invoke|v.|ссылаться на; вызывать|He invoked his right to silence.|Он воспользовался правом хранить молчание.
+involvement|n.|участие, причастность|His involvement in the crime.|Его причастность к преступлению.
+ironically|adv.|по иронии судьбы|Ironically, he was late.|По иронии судьбы он опоздал.
+irony|n.|ирония|The irony is that...|Ирония в том, что...
+irrelevant|adj.|не относящийся к делу|That's irrelevant.|Это к делу не относится.
+isolation|n.|изоляция, одиночество|In isolation.|В изоляции.
+joint|adj., n.|совместный; сустав|A joint account.|Совместный счёт.
+judicial|adj.|судебный|The judicial system.|Судебная система.
+junction|n.|перекрёсток, развязка|Turn left at the next junction.|На следующем перекрёстке поверните налево.
+jurisdiction|n.|юрисдикция|Outside our jurisdiction.|Вне нашей юрисдикции.
+just|adj.|справедливый|A just society.|Справедливое общество.
+justification|n.|оправдание, обоснование|There's no justification for violence.|Насилию нет оправдания.
+kidnap|v.|похищать (человека)|He was kidnapped.|Его похитили.
+kidney|n.|почка|A kidney transplant.|Пересадка почки.
+kingdom|n.|королевство|The United Kingdom.|Соединённое Королевство.
+lad|n.|парень|He's a good lad.|Он хороший парень.
+landlord|n.|арендодатель, хозяин|Call the landlord.|Позвони хозяину квартиры.
+landmark|n.|достопримечательность; веха|A historic landmark.|Историческая достопримечательность.
+lap|n.|колени; круг (в гонке)|The cat sat on my lap.|Кошка сидела у меня на коленях.
+large-scale|adj.|крупномасштабный|A large-scale project.|Масштабный проект.
+laser|n.|лазер|Laser surgery.|Лазерная хирургия.
+latter|adj., n.|последний (из двух)|Of tea or coffee, I prefer the latter.|Из чая и кофе я предпочитаю второе.
+lawn|n.|газон|Mow the lawn.|Подстриги газон.
+lawsuit|n.|судебный иск|They filed a lawsuit.|Они подали иск.
+layout|n.|планировка, макет|The layout of the flat.|Планировка квартиры.
+leak|v., n.|протекать; утечка|The roof is leaking.|Крыша протекает.
+leap|v., n.|прыгать; прыжок|A giant leap for mankind.|Гигантский скачок для человечества.
+legacy|n.|наследие|He left a great legacy.|Он оставил большое наследие.
+legendary|adj.|легендарный|A legendary singer.|Легендарный певец.
+legislation|n.|законодательство|New legislation.|Новое законодательство.
+legislative|adj.|законодательный|Legislative power.|Законодательная власть.
+legislature|n.|законодательный орган|The state legislature.|Законодательное собрание штата.
+legitimate|adj.|законный, обоснованный|A legitimate question.|Обоснованный вопрос.
+lengthy|adj.|длительный, длинный|A lengthy process.|Длительный процесс.
+lesbian|adj.|лесбийский|A lesbian couple.|Лесбийская пара.
+lesser|adj.|меньший|The lesser of two evils.|Меньшее из двух зол.
+lethal|adj.|смертельный|A lethal dose.|Смертельная доза.
+levy|n., v.|сбор, налог; взимать|A levy on plastic bags.|Сбор за пластиковые пакеты.
+liable|adj.|ответственный; склонный|You'll be liable for damage.|Вы будете отвечать за ущерб.
+liberal|adj., n.|либеральный; либерал|Liberal views.|Либеральные взгляды.
+liberty|n.|свобода|Personal liberty.|Личная свобода.
+license|v.|лицензировать|A licensed taxi.|Лицензированное такси.
+lifelong|adj.|пожизненный|A lifelong friend.|Друг на всю жизнь.
+likelihood|n.|вероятность|In all likelihood.|По всей вероятности.
+limb|n.|конечность|He broke a limb.|Он сломал руку или ногу.
+linear|adj.|линейный|Linear growth.|Линейный рост.
+line-up|n.|состав, программа|The festival line-up.|Программа фестиваля.
+linger|v.|задерживаться, медлить|The smell lingered.|Запах держался долго.
+listing|n.|список; объявление|TV listings.|Телепрограмма.
+literacy|n.|грамотность|Computer literacy.|Компьютерная грамотность.
+liver|n.|печень|Liver disease.|Заболевание печени.
+lobby|n., v.|вестибюль; лоббировать|Meet me in the lobby.|Встретимся в вестибюле.
+logic|n.|логика|There's no logic in that.|В этом нет логики.
+long-standing|adj.|давний|A long-standing problem.|Давняя проблема.
+long-time|adj.|давний, многолетний|A long-time friend.|Давний друг.
+loom|v.|вырисовываться, надвигаться|Exams are looming.|Надвигаются экзамены.
+loop|n.|петля, цикл|Keep me in the loop.|Держи меня в курсе.
+loyalty|n.|верность, лояльность|Customer loyalty.|Лояльность клиентов.
+machinery|n.|техника, механизмы|Farm machinery.|Сельхозтехника.
+magical|adj.|волшебный|A magical evening.|Волшебный вечер.
+magistrate|n.|мировой судья|He appeared before the magistrates.|Он предстал перед мировым судом.
+magnetic|adj.|магнитный|A magnetic field.|Магнитное поле.
+magnitude|n.|величина, масштаб|The magnitude of the problem.|Масштаб проблемы.
+mainland|n.|материк|The island is close to the mainland.|Остров близко к материку.
+mainstream|n., adj.|мейнстрим; основной|Mainstream media.|Основные СМИ.
+maintenance|n.|обслуживание, ремонт|Car maintenance.|Техобслуживание автомобиля.
+major|n.|профильный предмет; майор|Her major is history.|Её специальность — история.
+mandate|n.|мандат, полномочия|A mandate to govern.|Мандат на управление.
+mandatory|adj.|обязательный|Wearing a helmet is mandatory.|Шлем обязателен.
+manifest|v.|проявлять(ся)|Symptoms manifest later.|Симптомы проявляются позже.
+manipulate|v.|манипулировать|He manipulated the data.|Он подтасовал данные.
+manipulation|n.|манипуляция|Emotional manipulation.|Эмоциональная манипуляция.
+march|n., v.|марш; маршировать|A protest march.|Марш протеста.
+marginal|adj.|незначительный; маргинальный|A marginal increase.|Незначительный рост.
+marine|adj.|морской|Marine life.|Морские обитатели.
+marketplace|n.|рынок, торговая площадка|An online marketplace.|Онлайн-маркетплейс.
+mask|n.|маска|Wear a mask.|Наденьте маску.
+massacre|n.|резня, бойня|A brutal massacre.|Жестокая бойня.
+mathematical|adj.|математический|A mathematical problem.|Математическая задача.
+mature|adj.|зрелый|He's very mature for his age.|Он очень зрелый для своего возраста.
+maximize|v.|максимизировать|Maximize profits.|Максимизировать прибыль.
+meaningful|adj.|значимый, осмысленный|A meaningful relationship.|Серьёзные отношения.

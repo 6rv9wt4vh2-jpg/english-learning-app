@@ -1,0 +1,150 @@
+abolish|v.|отменять, упразднять|The death penalty was abolished.|Смертная казнь была отменена.
+abortion|n.|аборт|Abortion is a sensitive topic.|Аборт — деликатная тема.
+absence|n.|отсутствие|In his absence, I'm in charge.|В его отсутствие главный я.
+absent|adj.|отсутствующий|Two students are absent today.|Сегодня отсутствуют два студента.
+absurd|adj.|абсурдный, нелепый|That's an absurd idea.|Это нелепая идея.
+abundance|n.|изобилие|There's an abundance of fruit.|Здесь изобилие фруктов.
+abuse|n., v.|злоупотребление; жестокое обращение|It was an abuse of power.|Это было злоупотребление властью.
+academy|n.|академия|She studied at a music academy.|Она училась в музыкальной академии.
+accelerate|v.|ускорять(ся)|The car accelerated quickly.|Машина быстро разогналась.
+acceptance|n.|принятие, согласие|Acceptance of the plan was slow.|План принимали неохотно.
+accessible|adj.|доступный|The building is accessible by wheelchair.|Здание доступно для инвалидных колясок.
+accessory|n.|аксессуар|Phone accessories are sold here.|Здесь продаются аксессуары для телефонов.
+accomplishment|n.|достижение|Finishing the marathon was a real accomplishment.|Пробежать марафон — настоящее достижение.
+accordance|n.|соответствие (in accordance with)|In accordance with the rules.|В соответствии с правилами.
+accordingly|adv.|соответственно|Dress accordingly.|Одевайтесь соответственно.
+accountability|n.|подотчётность, ответственность|We need more accountability.|Нужно больше ответственности.
+accountable|adj.|подотчётный, ответственный|Politicians must be held accountable.|Политики должны нести ответственность.
+accumulate|v.|накапливать(ся)|Dust accumulated on the shelves.|На полках скопилась пыль.
+accumulation|n.|накопление|The accumulation of wealth.|Накопление богатства.
+accusation|n.|обвинение|He denied the accusations.|Он отрицал обвинения.
+accused|n.|обвиняемый|The accused was found guilty.|Обвиняемого признали виновным.
+acid|adj.|кислотный, кислый|Acid rain damages forests.|Кислотные дожди вредят лесам.
+acquisition|n.|приобретение|The company's latest acquisition.|Последнее приобретение компании.
+acre|n.|акр|The farm covers 200 acres.|Ферма занимает 200 акров.
+activation|n.|активация|Card activation takes a minute.|Активация карты занимает минуту.
+activist|n.|активист|She's a climate activist.|Она климатическая активистка.
+acute|adj.|острый (о боли, проблеме)|He felt acute pain.|Он почувствовал острую боль.
+adaptation|n.|адаптация; экранизация|It's a film adaptation of the novel.|Это экранизация романа.
+adhere|v.|придерживаться|Adhere to the rules.|Придерживайтесь правил.
+adjacent|adj.|соседний, смежный|The adjacent room is empty.|Соседняя комната пуста.
+adjustment|n.|корректировка, настройка|I made a few adjustments.|Я внёс несколько поправок.
+administer|v.|управлять; назначать (лекарство)|The nurse administered the drug.|Медсестра ввела лекарство.
+administrative|adj.|административный|Administrative costs are high.|Административные расходы высоки.
+administrator|n.|администратор|Contact the system administrator.|Обратитесь к системному администратору.
+admission|n.|вход, приём; признание|Admission is free.|Вход бесплатный.
+adolescent|n.|подросток|Adolescents need more sleep.|Подросткам нужно больше сна.
+adoption|n.|усыновление; принятие|The adoption of new technology.|Внедрение новых технологий.
+adverse|adj.|неблагоприятный|Adverse weather conditions.|Неблагоприятные погодные условия.
+advocate|n., v.|сторонник, защитник; выступать за|She advocates for women's rights.|Она выступает за права женщин.
+aesthetic|adj.|эстетический|The aesthetic value of the building.|Эстетическая ценность здания.
+affection|n.|привязанность, нежность|He shows his affection openly.|Он открыто проявляет нежность.
+aftermath|n.|последствия|In the aftermath of the war.|После войны.
+aggression|n.|агрессия|Acts of aggression.|Акты агрессии.
+agricultural|adj.|сельскохозяйственный|Agricultural land.|Сельскохозяйственные угодья.
+aide|n.|помощник, советник|A presidential aide.|Помощник президента.
+albeit|conj.|хотя и|It worked, albeit slowly.|Это сработало, хотя и медленно.
+alert|v., n., adj.|предупреждать; тревога; бдительный|Stay alert while driving.|Будьте внимательны за рулём.
+algorithm|n.|алгоритм|The search algorithm changed.|Алгоритм поиска изменился.
+alien|adj.|чуждый; инопланетный|The idea is alien to me.|Эта идея мне чужда.
+align|v.|выравнивать; согласовывать|Align the text to the left.|Выровняйте текст по левому краю.
+alignment|n.|выравнивание; согласованность|The wheels are out of alignment.|Колёса не отрегулированы.
+alike|adv., adj.|одинаково; похожий|The twins look alike.|Близнецы похожи.
+allegation|n.|обвинение (недоказанное)|He denies the allegations.|Он отрицает обвинения.
+allege|v.|утверждать (без доказательств)|It is alleged that he lied.|Утверждается, что он солгал.
+allegedly|adv.|предположительно, якобы|He allegedly stole the money.|Он якобы украл деньги.
+alliance|n.|союз, альянс|They formed an alliance.|Они заключили союз.
+allocate|v.|выделять, распределять|Funds were allocated to schools.|Средства выделили школам.
+allocation|n.|распределение, выделение|The allocation of resources.|Распределение ресурсов.
+allowance|n.|пособие; карманные деньги; норма|The baggage allowance is 20 kg.|Норма багажа — 20 кг.
+all-time|adj.|рекордный, за всё время|Prices hit an all-time high.|Цены достигли рекордного уровня.
+ally|n.|союзник|They are close allies.|Они близкие союзники.
+alongside|prep.|рядом с, наряду с|I worked alongside him for years.|Я годами работал рядом с ним.
+aluminium|n.|алюминий|Aluminium cans can be recycled.|Алюминиевые банки перерабатываются.
+amateur|adj., n.|любительский; любитель|He's an amateur photographer.|Он фотограф-любитель.
+ambassador|n.|посол|The British ambassador to Russia.|Посол Великобритании в России.
+amend|v.|вносить поправки|The law was amended.|В закон внесли поправки.
+amendment|n.|поправка|An amendment to the constitution.|Поправка к конституции.
+amid|prep.|среди, на фоне|Amid rising prices, sales fell.|На фоне роста цен продажи упали.
+analogy|n.|аналогия|Let me use an analogy.|Позвольте привести аналогию.
+analytics|n.|аналитика|Website analytics.|Аналитика сайта.
+anchor|n.|якорь; ведущий новостей|The ship dropped anchor.|Корабль бросил якорь.
+angel|n.|ангел|You're an angel!|Ты просто ангел!
+anonymous|adj.|анонимный|An anonymous donor gave $1 million.|Анонимный жертвователь дал миллион долларов.
+appealing|adj.|привлекательный|The idea is very appealing.|Идея очень привлекательна.
+appetite|n.|аппетит|I've lost my appetite.|У меня пропал аппетит.
+applaud|v.|аплодировать|The audience applauded.|Зрители аплодировали.
+applicable|adj.|применимый|The rule is not applicable here.|Это правило здесь неприменимо.
+appoint|v.|назначать|She was appointed director.|Её назначили директором.
+appreciation|n.|признательность; понимание|A token of appreciation.|Знак признательности.
+architectural|adj.|архитектурный|An architectural masterpiece.|Архитектурный шедевр.
+archive|n.|архив|The photos are in the archive.|Фотографии в архиве.
+arena|n.|арена|The concert is at the arena.|Концерт проходит на арене.
+arguably|adv.|пожалуй, вероятно|He's arguably the best player.|Он, пожалуй, лучший игрок.
+arm|v.|вооружать|The soldiers were armed.|Солдаты были вооружены.
+array|n.|множество, набор|A wide array of options.|Широкий выбор вариантов.
+articulate|v.|чётко выражать|She articulated her ideas well.|Она чётко изложила свои мысли.
+ash|n.|пепел, зола|The house was reduced to ashes.|Дом сгорел дотла.
+aspiration|n.|стремление|He has political aspirations.|У него политические амбиции.
+aspire|v.|стремиться|She aspires to be a doctor.|Она мечтает стать врачом.
+assassination|n.|убийство (политическое)|The assassination of the president.|Убийство президента.
+assault|n., v.|нападение; нападать|He was charged with assault.|Его обвинили в нападении.
+assemble|v.|собирать(ся)|Assemble the furniture yourself.|Соберите мебель сами.
+assembly|n.|собрание; сборка|The school assembly starts at nine.|Школьная линейка начинается в девять.
+assert|v.|утверждать, отстаивать|He asserted his innocence.|Он настаивал на своей невиновности.
+assertion|n.|утверждение|I disagree with that assertion.|Я не согласен с этим утверждением.
+assurance|n.|заверение, гарантия|He gave me his assurance.|Он заверил меня.
+asylum|n.|убежище|They applied for asylum.|Они попросили убежища.
+attain|v.|достигать|She attained her goal.|Она достигла своей цели.
+attendance|n.|посещаемость|Attendance is compulsory.|Посещение обязательно.
+attorney|n.|адвокат, юрист|Talk to your attorney.|Поговорите со своим адвокатом.
+attribute|v., n.|приписывать; качество, свойство|He attributes his success to luck.|Он объясняет свой успех удачей.
+audit|n.|аудит, проверка|The company had an audit.|В компании прошла проверка.
+authentic|adj.|подлинный, аутентичный|Authentic Italian food.|Настоящая итальянская еда.
+authorize|v.|разрешать, уполномочивать|Who authorized this payment?|Кто разрешил этот платёж?
+auto|n.|автомобиль|The auto industry.|Автомобильная промышленность.
+autonomy|n.|автономия, самостоятельность|Workers want more autonomy.|Работники хотят больше самостоятельности.
+availability|n.|наличие, доступность|Check room availability.|Проверьте наличие номеров.
+await|v.|ожидать|We await your reply.|Ждём вашего ответа.
+awkward|adj.|неловкий, неудобный|There was an awkward silence.|Повисла неловкая тишина.
+backdrop|n.|фон|Against a backdrop of mountains.|На фоне гор.
+backing|n.|поддержка|The plan has government backing.|План поддерживает правительство.
+backup|n.|резервная копия; поддержка|Make a backup of your files.|Сделайте резервную копию файлов.
+bail|n.|залог (под залог)|He was released on bail.|Его освободили под залог.
+ballot|n.|бюллетень; голосование|A secret ballot.|Тайное голосование.
+bang|v., n.|хлопать, стучать; грохот|He banged on the door.|Он колотил в дверь.
+banner|n.|баннер, транспарант|Protesters carried banners.|Протестующие несли транспаранты.
+bare|adj.|голый; пустой|He walked in bare feet.|Он шёл босиком.
+barrel|n.|бочка; баррель|Oil costs $80 a barrel.|Нефть стоит 80 долларов за баррель.
+bass|n.|бас; бас-гитара|He plays bass in a band.|Он играет на бас-гитаре в группе.
+bat|v.|бить битой|It's your turn to bat.|Твоя очередь отбивать.
+battlefield|n.|поле боя|Soldiers died on the battlefield.|Солдаты погибли на поле боя.
+beam|n.|луч; балка|A beam of light.|Луч света.
+beast|n.|зверь|A wild beast.|Дикий зверь.
+behalf|n.|от имени (on behalf of)|I'm writing on behalf of my client.|Я пишу от имени моего клиента.
+beloved|adj.|любимый, возлюбленный|His beloved wife.|Его любимая жена.
+bench|n.|скамейка|We sat on a bench in the park.|Мы сидели на скамейке в парке.
+benchmark|n.|ориентир, эталон|It set a benchmark for others.|Это стало эталоном для других.
+beneath|prep.|под, ниже|Beneath the surface.|Под поверхностью.
+beneficiary|n.|получатель выгоды, бенефициар|She's the main beneficiary of the will.|Она главная наследница по завещанию.
+betray|v.|предавать|He betrayed his friends.|Он предал своих друзей.
+bind|v.|связывать; обязывать|The contract binds both sides.|Договор обязывает обе стороны.
+biography|n.|биография|I'm reading a biography of Einstein.|Я читаю биографию Эйнштейна.
+bishop|n.|епископ; слон (шахматы)|The bishop led the service.|Епископ вёл службу.
+bizarre|adj.|странный, причудливый|What a bizarre story!|Какая странная история!
+blade|n.|лезвие|The blade is very sharp.|Лезвие очень острое.
+blast|n., v.|взрыв; взрывать|The blast was heard for miles.|Взрыв было слышно за много миль.
+blaze|n., v.|пожар, пламя; пылать|Firefighters fought the blaze.|Пожарные боролись с огнём.
+bleed|v.|кровоточить|Your nose is bleeding.|У тебя кровь из носа.
+blend|v.|смешивать|Blend the fruit with yogurt.|Смешайте фрукты с йогуртом.
+bless|v.|благословлять|Bless you!|Будь здоров!
+blessing|n.|благословение; благо|It's a blessing in disguise.|Не было бы счастья, да несчастье помогло.
+blow|n.|удар|It was a terrible blow to him.|Это был для него страшный удар.
+boast|v.|хвастаться|He boasts about his car.|Он хвастается своей машиной.
+bolster|v.|укреплять, поддерживать|It bolstered her confidence.|Это укрепило её уверенность.
+bonus|n.|премия, бонус|I got a Christmas bonus.|Я получил рождественскую премию.
+boom|n.|бум, подъём|There's a property boom.|На рынке недвижимости бум.
+boost|v., n.|повышать; стимул|It boosted sales.|Это повысило продажи.
+bounce|v.|отскакивать, подпрыгивать|The ball bounced off the wall.|Мяч отскочил от стены.
+boundary|n.|граница|Know your boundaries.|Знай свои границы.
+bout|n.|приступ; схватка|A bout of flu.|Приступ гриппа.
