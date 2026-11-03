@@ -1,0 +1,150 @@
+clock|n.|часы (настенные)|The clock is slow.|Часы отстают.
+close|v.|закрывать|Please close the door.|Пожалуйста, закрой дверь.
+clothes|n.|одежда|I need new clothes.|Мне нужна новая одежда.
+club|n.|клуб|He joined a tennis club.|Он вступил в теннисный клуб.
+coat|n.|пальто|Put on your coat.|Надень пальто.
+coffee|n.|кофе|A cup of coffee, please.|Чашку кофе, пожалуйста.
+cold|adj., n.|холодный; простуда|It's cold today.|Сегодня холодно.
+college|n.|колледж|My sister goes to college.|Моя сестра учится в колледже.
+colour|n.|цвет|What colour is your car?|Какого цвета твоя машина?
+come|v.|приходить, приезжать|Come here, please.|Подойди сюда, пожалуйста.
+common|adj.|распространённый, общий|It's a common name.|Это распространённое имя.
+company|n.|компания|He works for a big company.|Он работает в большой компании.
+compare|v.|сравнивать|Compare the two pictures.|Сравните две картинки.
+complete|adj., v.|полный; завершать|Complete the sentences.|Закончите предложения.
+computer|n.|компьютер|My computer is old.|Мой компьютер старый.
+concert|n.|концерт|We went to a concert.|Мы ходили на концерт.
+conversation|n.|разговор|We had a long conversation.|У нас был долгий разговор.
+cook|v.|готовить (еду)|My dad cooks dinner.|Мой папа готовит ужин.
+cooking|n.|готовка, кулинария|I love cooking.|Я люблю готовить.
+cool|adj.|прохладный; классный|That's a cool jacket.|Классная куртка.
+correct|adj., v.|правильный; исправлять|Your answer is correct.|Твой ответ правильный.
+cost|n., v.|стоимость; стоить|How much does it cost?|Сколько это стоит?
+could|modal v.|мог(ла); не могли бы|Could you help me?|Не могли бы вы мне помочь?
+country|n.|страна; сельская местность|Which country are you from?|Из какой ты страны?
+course|n.|курс|I'm doing an English course.|Я прохожу курс английского.
+cousin|n.|двоюродный брат, сестра|My cousin lives in Kazan.|Мой двоюродный брат живёт в Казани.
+cow|n.|корова|The cows are in the field.|Коровы в поле.
+cream|n.|сливки; крем|Coffee with cream, please.|Кофе со сливками, пожалуйста.
+create|v.|создавать|Let's create a new account.|Давай создадим новый аккаунт.
+culture|n.|культура|I love Japanese culture.|Я люблю японскую культуру.
+cup|n.|чашка|A cup of tea?|Чашку чая?
+customer|n.|клиент, покупатель|The customer is always right.|Клиент всегда прав.
+cut|v.|резать|Cut the bread, please.|Нарежь хлеб, пожалуйста.
+dad|n.|папа|My dad is a doctor.|Мой папа врач.
+dance|n., v.|танец; танцевать|Do you want to dance?|Хочешь потанцевать?
+dancer|n.|танцор|She's a great dancer.|Она прекрасно танцует.
+dancing|n.|танцы|I love dancing.|Я обожаю танцы.
+dangerous|adj.|опасный|This road is dangerous.|Эта дорога опасная.
+dark|adj.|тёмный|It's dark outside.|На улице темно.
+date|n.|дата; свидание|What's the date today?|Какое сегодня число?
+daughter|n.|дочь|Their daughter is five.|Их дочери пять лет.
+day|n.|день|Have a nice day!|Хорошего дня!
+dear|adj.|дорогой|Dear Anna, thank you for your letter.|Дорогая Анна, спасибо за письмо.
+December|n.|декабрь|Christmas is in December.|Рождество в декабре.
+decide|v.|решать|I can't decide.|Я не могу решить.
+delicious|adj.|вкусный|This soup is delicious.|Этот суп очень вкусный.
+describe|v.|описывать|Describe your house.|Опиши свой дом.
+description|n.|описание|Read the description.|Прочитайте описание.
+design|n., v.|дизайн; проектировать|I like the design of this phone.|Мне нравится дизайн этого телефона.
+desk|n.|письменный стол, парта|My books are on the desk.|Мои книги на столе.
+detail|n.|деталь, подробность|Tell me the details.|Расскажи мне подробности.
+dialogue|n.|диалог|Listen to the dialogue.|Послушайте диалог.
+dictionary|n.|словарь|Look it up in the dictionary.|Посмотри в словаре.
+die|v.|умирать|The plant died.|Растение погибло.
+diet|n.|диета, рацион|I'm on a diet.|Я на диете.
+difference|n.|разница|What's the difference?|В чём разница?
+different|adj.|разный, другой|We are very different.|Мы очень разные.
+difficult|adj.|трудный|This test is difficult.|Этот тест трудный.
+dinner|n.|ужин|What's for dinner?|Что на ужин?
+dirty|adj.|грязный|My shoes are dirty.|Мои туфли грязные.
+discuss|v.|обсуждать|Let's discuss it tomorrow.|Давай обсудим это завтра.
+dish|n.|блюдо; тарелка|This is my favourite dish.|Это моё любимое блюдо.
+do|v., auxiliary v.|делать|What do you do?|Чем ты занимаешься?
+doctor|n.|врач|I need to see a doctor.|Мне нужно к врачу.
+dog|n.|собака|Our dog is very friendly.|Наша собака очень дружелюбная.
+dollar|n.|доллар|It costs ten dollars.|Это стоит десять долларов.
+door|n.|дверь|Open the door, please.|Открой дверь, пожалуйста.
+down|adv., prep.|вниз|Sit down, please.|Садитесь, пожалуйста.
+downstairs|adv.|внизу, вниз (по лестнице)|The kitchen is downstairs.|Кухня внизу.
+draw|v.|рисовать|My son likes to draw.|Мой сын любит рисовать.
+dress|n., v.|платье; одеваться|She's wearing a red dress.|На ней красное платье.
+drink|n., v.|напиток; пить|What would you like to drink?|Что бы вы хотели выпить?
+drive|v.|водить (машину), ехать|Can you drive?|Ты умеешь водить?
+driver|n.|водитель|The bus driver was friendly.|Водитель автобуса был приветливым.
+during|prep.|во время|Don't talk during the film.|Не разговаривай во время фильма.
+each|det./pron./adv.|каждый|Each student has a book.|У каждого ученика есть книга.
+ear|n.|ухо|My ear hurts.|У меня болит ухо.
+early|adj., adv.|ранний; рано|I get up early.|Я встаю рано.
+east|n., adj., adv.|восток; восточный|The sun rises in the east.|Солнце встаёт на востоке.
+easy|adj.|лёгкий|The test was easy.|Тест был лёгким.
+eat|v.|есть, кушать|Let's eat!|Давай поедим!
+egg|n.|яйцо|I had two eggs for breakfast.|Я съел на завтрак два яйца.
+eight|number|восемь|I get up at eight.|Я встаю в восемь.
+eighteen|number|восемнадцать|She is eighteen.|Ей восемнадцать.
+eighty|number|восемьдесят|My grandmother is eighty.|Моей бабушке восемьдесят.
+elephant|n.|слон|Elephants are very big.|Слоны очень большие.
+eleven|number|одиннадцать|The shop opens at eleven.|Магазин открывается в одиннадцать.
+else|adv.|ещё, кроме|Anything else?|Что-нибудь ещё?
+email|n., v.|электронное письмо; писать по почте|Send me an email.|Пришли мне письмо.
+end|n., v.|конец; заканчивать(ся)|The film ends at ten.|Фильм заканчивается в десять.
+enjoy|v.|наслаждаться, получать удовольствие|Enjoy your meal!|Приятного аппетита!
+enough|det., pron., adv.|достаточно|Do we have enough time?|У нас достаточно времени?
+euro|n.|евро|It costs five euros.|Это стоит пять евро.
+even|adv.|даже|Even my mum likes it.|Даже моей маме это нравится.
+evening|n.|вечер|Good evening!|Добрый вечер!
+event|n.|событие, мероприятие|It was a big event.|Это было крупное событие.
+ever|adv.|когда-либо|Have you ever been to London?|Ты когда-нибудь был в Лондоне?
+every|det.|каждый|I go running every day.|Я бегаю каждый день.
+everybody|pron.|все, каждый|Everybody knows him.|Все его знают.
+everyone|pron.|все, каждый|Hello, everyone!|Всем привет!
+everything|pron.|всё|Everything is fine.|Всё хорошо.
+exam|n.|экзамен|I passed my exam.|Я сдал экзамен.
+example|n.|пример|Give me an example.|Приведи пример.
+excited|adj.|взволнованный, в восторге|I'm so excited about the trip!|Я так жду эту поездку!
+exciting|adj.|захватывающий|It was an exciting game.|Это была захватывающая игра.
+exercise|n., v.|упражнение; заниматься спортом|Do exercise 3.|Выполните упражнение 3.
+expensive|adj.|дорогой|This watch is expensive.|Эти часы дорогие.
+explain|v.|объяснять|Can you explain this word?|Можешь объяснить это слово?
+extra|adj.|дополнительный|Do you need an extra blanket?|Вам нужно дополнительное одеяло?
+eye|n.|глаз|She has blue eyes.|У неё голубые глаза.
+face|n.|лицо|Wash your face.|Умой лицо.
+fact|n.|факт|That's a fact.|Это факт.
+fall|v.|падать|Be careful, don't fall!|Осторожно, не упади!
+false|adj.|ложный, неверный|True or false?|Верно или неверно?
+family|n., adj.|семья; семейный|I have a big family.|У меня большая семья.
+famous|adj.|знаменитый|She's a famous singer.|Она знаменитая певица.
+fantastic|adj.|фантастический, замечательный|The party was fantastic!|Вечеринка была замечательной!
+far|adv.|далеко|Is it far from here?|Это далеко отсюда?
+farm|n.|ферма|They live on a farm.|Они живут на ферме.
+farmer|n.|фермер|The farmer has many cows.|У фермера много коров.
+fast|adj., adv.|быстрый; быстро|He runs fast.|Он быстро бегает.
+fat|adj.|толстый|The cat is very fat.|Кот очень толстый.
+father|n.|отец|My father is a teacher.|Мой отец учитель.
+favourite|adj., n.|любимый|What's your favourite food?|Какая твоя любимая еда?
+February|n.|февраль|February is a cold month.|Февраль — холодный месяц.
+feel|v.|чувствовать(ся)|How do you feel?|Как ты себя чувствуешь?
+feeling|n.|чувство|I have a good feeling about this.|У меня хорошее предчувствие.
+festival|n.|фестиваль|We went to a music festival.|Мы ездили на музыкальный фестиваль.
+few|det./adj., pron.|немного, несколько|I have a few friends here.|У меня здесь несколько друзей.
+fifteen|number|пятнадцать|He's fifteen years old.|Ему пятнадцать лет.
+fifth|number|пятый|It's my fifth visit.|Это мой пятый визит.
+fifty|number|пятьдесят|It costs fifty euros.|Это стоит пятьдесят евро.
+fill|v.|наполнять, заполнять|Fill the glass with water.|Наполни стакан водой.
+film|n.|фильм|Let's watch a film.|Давай посмотрим фильм.
+final|adj.|последний, финальный|This is the final question.|Это последний вопрос.
+find|v.|находить|I can't find my keys.|Не могу найти ключи.
+fine|adj.|прекрасный; в порядке|"How are you?" "Fine, thanks."|«Как дела?» — «Хорошо, спасибо».
+finish|v.|заканчивать|I finish work at five.|Я заканчиваю работу в пять.
+fire|n.|огонь, пожар|Call the fire brigade!|Вызовите пожарных!
+first|det./number, adv.|первый; сначала|This is my first time here.|Я здесь впервые.
+fish|n.|рыба|We had fish for lunch.|На обед у нас была рыба.
+five|number|пять|I have five cousins.|У меня пять двоюродных братьев и сестёр.
+flat|n.|квартира|They have a flat in the centre.|У них квартира в центре.
+flight|n.|рейс, полёт|My flight is at 10 a.m.|Мой рейс в 10 утра.
+floor|n.|пол; этаж|I live on the third floor.|Я живу на третьем этаже.
+flower|n.|цветок|These flowers are for you.|Эти цветы тебе.
+fly|v.|летать|Birds can fly.|Птицы умеют летать.
+follow|v.|следовать, идти за|Follow me.|Следуйте за мной.
+food|n.|еда|I love Italian food.|Я люблю итальянскую еду.
+foot|n.|ступня, нога|My foot hurts.|У меня болит нога.

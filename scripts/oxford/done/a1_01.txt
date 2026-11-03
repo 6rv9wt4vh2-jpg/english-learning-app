@@ -1,0 +1,149 @@
+a, an|indefinite article|неопределённый артикль (один, какой-то)|I have a dog and an apple.|У меня есть собака и яблоко.
+about|prep., adv.|о, про; около|Tell me about your family.|Расскажи мне о своей семье.
+above|prep., adv.|над, выше|The picture is above the bed.|Картина висит над кроватью.
+across|prep., adv.|через, поперёк|We walked across the road.|Мы перешли через дорогу.
+action|n.|действие|We need to take action now.|Нам нужно действовать сейчас.
+activity|n.|занятие, деятельность|Swimming is my favourite activity.|Плавание — моё любимое занятие.
+actor|n.|актёр|He's a famous actor.|Он известный актёр.
+actress|n.|актриса|She wants to be an actress.|Она хочет стать актрисой.
+add|v.|добавлять|Add some salt.|Добавь немного соли.
+address|n.|адрес|What's your address?|Какой у тебя адрес?
+adult|n.|взрослый|Tickets for adults cost $10.|Билеты для взрослых стоят 10 долларов.
+advice|n.|совет|Can you give me some advice?|Можешь дать мне совет?
+afraid|adj.|испуганный (be afraid — бояться)|I'm afraid of dogs.|Я боюсь собак.
+after|prep.|после|Let's meet after work.|Давай встретимся после работы.
+afternoon|n.|день, время после полудня|See you this afternoon.|Увидимся сегодня днём.
+again|adv.|снова, опять|Please say that again.|Пожалуйста, повтори.
+age|n.|возраст|What age is your son?|Сколько лет твоему сыну?
+ago|adv.|тому назад|I came here two years ago.|Я приехал сюда два года назад.
+agree|v.|соглашаться|I agree with you.|Я с тобой согласен.
+air|n.|воздух|The air is fresh here.|Здесь свежий воздух.
+airport|n.|аэропорт|I'll meet you at the airport.|Я встречу тебя в аэропорту.
+all|det., pron.|все, весь|All my friends are here.|Все мои друзья здесь.
+also|adv.|также, тоже|She also speaks French.|Она также говорит по-французски.
+always|adv.|всегда|I always drink coffee in the morning.|Я всегда пью кофе утром.
+amazing|adj.|удивительный, потрясающий|The view is amazing.|Вид потрясающий.
+and|conj.|и|I like tea and coffee.|Я люблю чай и кофе.
+angry|adj.|сердитый, злой|Why are you angry?|Почему ты злишься?
+animal|n.|животное|What's your favourite animal?|Какое твоё любимое животное?
+another|det./pron.|ещё один, другой|Can I have another cup?|Можно мне ещё одну чашку?
+answer|n., v.|ответ; отвечать|Please answer the question.|Пожалуйста, ответьте на вопрос.
+any|det., pron.|какой-нибудь, любой|Do you have any questions?|У вас есть вопросы?
+anyone|pron.|кто-нибудь, любой|Is anyone here?|Здесь кто-нибудь есть?
+anything|pron.|что-нибудь, что угодно|Do you need anything?|Тебе что-нибудь нужно?
+apartment|n.|квартира|We live in a small apartment.|Мы живём в маленькой квартире.
+apple|n.|яблоко|I eat an apple every day.|Я ем яблоко каждый день.
+April|n.|апрель|My birthday is in April.|У меня день рождения в апреле.
+area|n.|район, область|We live in a quiet area.|Мы живём в тихом районе.
+arm|n.|рука (от плеча до кисти)|He broke his arm.|Он сломал руку.
+around|prep., adv.|вокруг; около|We walked around the lake.|Мы гуляли вокруг озера.
+arrive|v.|прибывать, приезжать|The train arrives at six.|Поезд прибывает в шесть.
+art|n.|искусство|I love modern art.|Я люблю современное искусство.
+article|n.|статья|I read an interesting article.|Я прочитал интересную статью.
+artist|n.|художник|She is a talented artist.|Она талантливая художница.
+as|prep.|как, в качестве|She works as a teacher.|Она работает учителем.
+ask|v.|спрашивать, просить|Can I ask you a question?|Можно задать тебе вопрос?
+at|prep.|в, на, у|I'm at home.|Я дома.
+August|n.|август|We go on holiday in August.|Мы ездим в отпуск в августе.
+aunt|n.|тётя|My aunt lives in Moscow.|Моя тётя живёт в Москве.
+autumn|n.|осень|Leaves fall in autumn.|Осенью опадают листья.
+away|adv.|прочь; далеко|Go away!|Уходи!
+baby|n.|ребёнок, младенец|The baby is sleeping.|Малыш спит.
+back|n., adv.|спина; назад|I'll be back soon.|Я скоро вернусь.
+bad|adj.|плохой|The weather is bad today.|Сегодня плохая погода.
+bag|n.|сумка, пакет|My bag is heavy.|Моя сумка тяжёлая.
+ball|n.|мяч|Throw me the ball.|Брось мне мяч.
+banana|n.|банан|I'd like a banana.|Я хочу банан.
+band|n.|музыкальная группа|He plays in a band.|Он играет в группе.
+bank|n.|банк|I need to go to the bank.|Мне нужно сходить в банк.
+bar|n.|бар|Let's meet at the bar.|Давай встретимся в баре.
+bath|n.|ванна|I'm having a bath.|Я принимаю ванну.
+bathroom|n.|ванная комната|Where is the bathroom?|Где ванная?
+be|v., auxiliary v.|быть|I want to be a doctor.|Я хочу быть врачом.
+beach|n.|пляж|Let's go to the beach.|Пойдём на пляж.
+beautiful|adj.|красивый|What a beautiful day!|Какой прекрасный день!
+because|conj.|потому что|I'm tired because I worked late.|Я устал, потому что поздно работал.
+because of|prep.|из-за|We stayed home because of the rain.|Мы остались дома из-за дождя.
+become|v.|становиться|She became a doctor.|Она стала врачом.
+bed|n.|кровать|It's time for bed.|Пора спать.
+bedroom|n.|спальня|The flat has two bedrooms.|В квартире две спальни.
+beer|n.|пиво|Two beers, please.|Два пива, пожалуйста.
+before|prep.|до, перед|Wash your hands before dinner.|Мой руки перед ужином.
+begin|v.|начинать(ся)|The film begins at eight.|Фильм начинается в восемь.
+beginning|n.|начало|I missed the beginning of the film.|Я пропустил начало фильма.
+behind|prep., adv.|позади, за|The car is behind the house.|Машина за домом.
+believe|v.|верить|I don't believe you.|Я тебе не верю.
+below|adv., prep.|ниже, под|Write your name below.|Напишите своё имя ниже.
+best|adj.|лучший|She's my best friend.|Она моя лучшая подруга.
+better|adj.|лучше|This one is better.|Этот лучше.
+between|prep.|между|The shop is between the bank and the café.|Магазин находится между банком и кафе.
+bicycle|n.|велосипед|I ride my bicycle to work.|Я езжу на работу на велосипеде.
+big|adj.|большой|They have a big house.|У них большой дом.
+bike|n.|велосипед|Can you ride a bike?|Ты умеешь кататься на велосипеде?
+bill|n.|счёт|Can we have the bill, please?|Можно нам счёт, пожалуйста?
+bird|n.|птица|A bird is singing.|Поёт птица.
+birthday|n.|день рождения|Happy birthday!|С днём рождения!
+black|adj., n.|чёрный|I have a black cat.|У меня чёрная кошка.
+blog|n.|блог|She writes a travel blog.|Она ведёт блог о путешествиях.
+blonde|adj.|светловолосый|She has blonde hair.|У неё светлые волосы.
+blue|adj., n.|синий, голубой|The sky is blue.|Небо голубое.
+boat|n.|лодка|We went by boat.|Мы поплыли на лодке.
+body|n.|тело|Exercise is good for your body.|Упражнения полезны для тела.
+book|n.|книга|I'm reading a good book.|Я читаю хорошую книгу.
+boot|n.|ботинок, сапог|I need new boots.|Мне нужны новые сапоги.
+bored|adj.|скучающий|I'm bored.|Мне скучно.
+boring|adj.|скучный|The film was boring.|Фильм был скучный.
+born|v.|рождённый (be born — родиться)|I was born in 1995.|Я родился в 1995 году.
+both|det./pron.|оба|Both my sisters are doctors.|Обе мои сестры врачи.
+bottle|n.|бутылка|A bottle of water, please.|Бутылку воды, пожалуйста.
+box|n.|коробка|Put the toys in the box.|Положи игрушки в коробку.
+boy|n.|мальчик|The boy is playing football.|Мальчик играет в футбол.
+boyfriend|n.|парень (молодой человек)|This is my boyfriend, Tom.|Это мой парень Том.
+bread|n.|хлеб|I bought some bread.|Я купил хлеба.
+break|v., n.|ломать; перерыв|Let's take a break.|Давай сделаем перерыв.
+breakfast|n.|завтрак|What did you have for breakfast?|Что ты ел на завтрак?
+bring|v.|приносить|Bring your friends.|Приводи своих друзей.
+brother|n.|брат|I have one brother.|У меня один брат.
+brown|adj., n.|коричневый|He has brown eyes.|У него карие глаза.
+build|v.|строить|They are building a new school.|Они строят новую школу.
+building|n.|здание|It's a tall building.|Это высокое здание.
+bus|n.|автобус|I go to work by bus.|Я езжу на работу на автобусе.
+business|n.|бизнес, дело|She has her own business.|У неё свой бизнес.
+busy|adj.|занятый|I'm busy right now.|Я сейчас занят.
+but|conj.|но|I like it, but it's expensive.|Мне нравится, но это дорого.
+butter|n.|сливочное масло|Bread and butter, please.|Хлеб с маслом, пожалуйста.
+buy|v.|покупать|I want to buy a new phone.|Я хочу купить новый телефон.
+by|prep.|у, возле; на (транспорте)|We came by train.|Мы приехали на поезде.
+bye|exclam.|пока|Bye! See you tomorrow.|Пока! До завтра.
+cafe|n.|кафе|Let's meet at the cafe.|Давай встретимся в кафе.
+cake|n.|торт, пирожное|She made a chocolate cake.|Она испекла шоколадный торт.
+call|v., n.|звонить; звонок|I'll call you later.|Я позвоню тебе позже.
+camera|n.|фотоаппарат, камера|I forgot my camera.|Я забыл фотоаппарат.
+can|modal v.|мочь, уметь|I can swim.|Я умею плавать.
+cannot|modal v.|не мочь|I cannot come today.|Я не могу прийти сегодня.
+capital|n., adj.|столица; заглавный|Paris is the capital of France.|Париж — столица Франции.
+car|n.|машина, автомобиль|My car is red.|Моя машина красная.
+card|n.|карта, открытка|Can I pay by card?|Можно оплатить картой?
+career|n.|карьера|She has a great career.|У неё отличная карьера.
+carrot|n.|морковь|Rabbits like carrots.|Кролики любят морковь.
+carry|v.|нести|Can you carry this bag?|Можешь понести эту сумку?
+cat|n.|кошка, кот|My cat is sleeping.|Моя кошка спит.
+cent|n.|цент|It costs fifty cents.|Это стоит пятьдесят центов.
+centre|n.|центр|We live in the city centre.|Мы живём в центре города.
+century|n.|век, столетие|The house is from the 19th century.|Дом построен в XIX веке.
+chair|n.|стул|Sit on this chair.|Садись на этот стул.
+change|v., n.|менять; изменение; сдача|Keep the change.|Сдачи не надо.
+chart|n.|диаграмма, таблица|Look at the chart.|Посмотрите на диаграмму.
+cheap|adj.|дешёвый|This hotel is cheap.|Этот отель дешёвый.
+check|v.|проверять|Check your answers.|Проверьте свои ответы.
+cheese|n.|сыр|I love cheese.|Я обожаю сыр.
+chicken|n.|курица|We had chicken for dinner.|На ужин у нас была курица.
+child|n.|ребёнок|They have one child.|У них один ребёнок.
+chocolate|n.|шоколад|Do you like chocolate?|Ты любишь шоколад?
+choose|v.|выбирать|Choose a colour.|Выбери цвет.
+cinema|n.|кинотеатр|Let's go to the cinema.|Пойдём в кино.
+city|n.|город|Moscow is a big city.|Москва — большой город.
+class|n.|класс; урок, занятие|My English class starts at nine.|Мой урок английского начинается в девять.
+classroom|n.|классная комната|The classroom is on the first floor.|Класс находится на втором этаже.
+clean|adj., v.|чистый; убирать|Please clean your room.|Пожалуйста, убери свою комнату.
+climb|v.|взбираться, лазить|We climbed the mountain.|Мы поднялись на гору.

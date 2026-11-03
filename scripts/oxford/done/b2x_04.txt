@@ -1,0 +1,150 @@
+partnership|n.|партнёрство|They went into partnership.|Они стали партнёрами.
+part-time|adj./adv.|неполный рабочий день|She works part-time in a café.|Она работает в кафе неполный день.
+passionate|adj.|страстный, увлечённый|He's passionate about football.|Он страстно увлечён футболом.
+password|n.|пароль|Don't share your password.|Никому не сообщайте свой пароль.
+patience|n.|терпение|Teaching requires patience.|Преподавание требует терпения.
+pause|v.|делать паузу|She paused before answering.|Она помолчала, прежде чем ответить.
+peer|n.|ровесник, коллега|Teenagers care what their peers think.|Подростков волнует мнение сверстников.
+penalty|n.|штраф, наказание; пенальти|The penalty for speeding is a fine.|Наказание за превышение скорости — штраф.
+perceive|v.|воспринимать|How do others perceive you?|Как вас воспринимают другие?
+perception|n.|восприятие|Our perception of time changes with age.|С возрастом наше восприятие времени меняется.
+permanently|adv.|навсегда, постоянно|They moved abroad permanently.|Они навсегда переехали за границу.
+pharmacy|n.|аптека|Is there a pharmacy near here?|Здесь поблизости есть аптека?
+pill|n.|таблетка|Take one pill twice a day.|Принимайте по одной таблетке дважды в день.
+pity|n.|жалость; (как жаль)|What a pity you can't come.|Как жаль, что ты не можешь прийти.
+placement|n.|стажировка; размещение|She did a work placement at a bank.|Она проходила стажировку в банке.
+portion|n.|порция; часть|The portions here are huge.|Порции здесь огромные.
+potentially|adv.|потенциально|It's a potentially dangerous situation.|Это потенциально опасная ситуация.
+precede|v.|предшествовать|The meeting was preceded by lunch.|Встрече предшествовал обед.
+precious|adj.|драгоценный|Time is precious.|Время драгоценно.
+precise|adj.|точный|Can you be more precise?|Можете выразиться точнее?
+precisely|adv.|точно, именно|That's precisely what I mean.|Именно это я и имею в виду.
+predictable|adj.|предсказуемый|The ending was predictable.|Концовка была предсказуемой.
+preference|n.|предпочтение|Do you have a preference?|У вас есть предпочтения?
+preview|n., v.|предварительный просмотр|Watch a preview of the film.|Посмотрите анонс фильма.
+pride|n.|гордость|She takes pride in her work.|Она гордится своей работой.
+primarily|adv.|в основном, прежде всего|The course is primarily for beginners.|Курс предназначен прежде всего для начинающих.
+principal|adj.|главный, основной|Tourism is the principal industry.|Туризм — основная отрасль.
+prior|adj.|предыдущий, предварительный|No prior experience is needed.|Опыт не требуется.
+probability|n.|вероятность|What's the probability of rain?|Какова вероятность дождя?
+probable|adj.|вероятный|It's probable that he'll be late.|Вероятно, он опоздает.
+proceed|v.|продолжать, переходить (к)|Please proceed to gate 5.|Пожалуйста, пройдите к выходу 5.
+programming|n.|программирование|He's learning programming.|Он изучает программирование.
+progressive|adj.|прогрессивный; постепенный|It's a progressive school.|Это прогрессивная школа.
+prohibit|v.|запрещать|Smoking is prohibited.|Курение запрещено.
+promising|adj.|многообещающий|She's a promising young actress.|Она многообещающая молодая актриса.
+promotion|n.|повышение; продвижение, акция|He got a promotion at work.|Его повысили на работе.
+prompt|v.|побуждать, вызывать|The news prompted a lot of questions.|Новость вызвала много вопросов.
+proportion|n.|доля, пропорция|A large proportion of students work.|Значительная доля студентов работает.
+protein|n.|белок, протеин|Eggs are rich in protein.|Яйца богаты белком.
+protester|n.|протестующий|Protesters gathered outside.|Протестующие собрались снаружи.
+psychological|adj.|психологический|It's a psychological problem.|Это психологическая проблема.
+publicity|n.|реклама, огласка|The film got a lot of publicity.|Фильм получил большую огласку.
+publishing|n.|издательское дело|She works in publishing.|Она работает в издательском деле.
+punk|n.|панк|He listened to punk in the 80s.|В 80-е он слушал панк.
+pursuit|n.|стремление; преследование|the pursuit of happiness|стремление к счастью
+puzzle|n.|головоломка, загадка|I like doing puzzles.|Я люблю решать головоломки.
+questionnaire|n.|анкета, опросник|Please fill in the questionnaire.|Пожалуйста, заполните анкету.
+racial|adj.|расовый|We fight racial discrimination.|Мы боремся с расовой дискриминацией.
+racism|n.|расизм|Racism has no place here.|Расизму здесь не место.
+racist|adj., n.|расистский; расист|That's a racist comment.|Это расистское высказывание.
+radiation|n.|радиация, излучение|Too much radiation is dangerous.|Слишком большое облучение опасно.
+rail|n.|железная дорога; перила|We travelled by rail.|Мы ехали по железной дороге.
+random|adj.|случайный|Pick a random number.|Выберите случайное число.
+rat|n.|крыса|I saw a rat in the street.|Я видел крысу на улице.
+rating|n.|рейтинг, оценка|The hotel has a five-star rating.|У отеля пять звёзд.
+reasonably|adv.|достаточно; разумно|The food was reasonably good.|Еда была вполне неплохая.
+rebuild|v.|восстанавливать, перестраивать|They rebuilt the bridge.|Они восстановили мост.
+receiver|n.|трубка; получатель|She picked up the receiver.|Она подняла трубку.
+recession|n.|рецессия, спад|The economy is in recession.|Экономика в рецессии.
+reckon|v.|считать, полагать|I reckon he's right.|Я думаю, он прав.
+recognition|n.|признание; узнавание|She gained recognition as an artist.|Она получила признание как художница.
+recovery|n.|выздоровление; восстановление|He made a full recovery.|Он полностью выздоровел.
+recruit|v.|набирать, нанимать|We're recruiting new staff.|Мы набираем новых сотрудников.
+recruitment|n.|набор персонала|She works in recruitment.|Она занимается подбором персонала.
+referee|n.|судья (в спорте)|The referee blew the whistle.|Судья дал свисток.
+refugee|n.|беженец|Thousands of refugees crossed the border.|Тысячи беженцев пересекли границу.
+refund|n., v.|возврат денег; возвращать деньги|Can I get a refund?|Можно вернуть деньги?
+registration|n.|регистрация|Registration opens at 9 a.m.|Регистрация начинается в 9 утра.
+regulate|v.|регулировать|The law regulates food safety.|Закон регулирует безопасность продуктов.
+reinforce|v.|укреплять, усиливать|The film reinforces old stereotypes.|Фильм укрепляет старые стереотипы.
+relieve|v.|облегчать, снимать (боль)|This will relieve the pain.|Это облегчит боль.
+relieved|adj.|испытывающий облегчение|I was relieved to hear the news.|Я с облегчением услышал новость.
+remarkable|adj.|замечательный, удивительный|She made a remarkable recovery.|Она удивительно быстро поправилась.
+reporting|n.|репортаж, освещение|The reporting was fair.|Освещение событий было объективным.
+resign|v.|уходить в отставку, увольняться|He resigned from his job.|Он уволился с работы.
+resolution|n.|решение; резолюция; разрешение (экрана)|My New Year's resolution is to exercise.|Моё новогоднее обещание — заниматься спортом.
+restore|v.|восстанавливать, реставрировать|They restored the old church.|Они отреставрировали старую церковь.
+restrict|v.|ограничивать|Parking is restricted to residents.|Парковка только для жителей.
+restriction|n.|ограничение|There are restrictions on travel.|Есть ограничения на поездки.
+retail|n.|розничная торговля|She works in retail.|Она работает в рознице.
+retirement|n.|выход на пенсию; пенсия|He's enjoying his retirement.|Он наслаждается пенсией.
+revenue|n.|доход, выручка|The company's revenue grew.|Выручка компании выросла.
+revision|n.|повторение (к экзамену); пересмотр|I'm doing revision for my exams.|Я готовлюсь к экзаменам.
+ridiculous|adj.|нелепый, смешной|Don't be ridiculous!|Не говори глупостей!
+risky|adj.|рискованный|It's a risky plan.|Это рискованный план.
+rival|n., adj.|соперник; конкурирующий|They are old rivals.|Они давние соперники.
+rob|v.|грабить|They robbed a bank.|Они ограбили банк.
+robbery|n.|ограбление|There was a robbery last night.|Прошлой ночью было ограбление.
+rocket|n.|ракета|The rocket was launched into space.|Ракету запустили в космос.
+romance|n.|роман (любовный), романтика|It was a summer romance.|Это был летний роман.
+rose|n.|роза|He gave her a red rose.|Он подарил ей красную розу.
+roughly|adv.|приблизительно; грубо|It takes roughly an hour.|Это занимает примерно час.
+ruin|v., n.|разрушать, портить; руины|The rain ruined our picnic.|Дождь испортил наш пикник.
+satisfaction|n.|удовлетворение|She gets satisfaction from her job.|Работа приносит ей удовлетворение.
+scandal|n.|скандал|The scandal ended his career.|Скандал положил конец его карьере.
+scare|v.|пугать|You scared me!|Ты меня напугал!
+scenario|n.|сценарий, вариант развития|In the worst scenario, we lose everything.|В худшем случае мы потеряем всё.
+scholar|n.|учёный|He is a classical scholar.|Он специалист по античности.
+scholarship|n.|стипендия|She won a scholarship to Harvard.|Она получила стипендию в Гарварде.
+scratch|v.|царапать; чесать|The cat scratched me.|Кошка меня поцарапала.
+screening|n.|показ (фильма); обследование|There's a screening of the film tonight.|Сегодня вечером показ фильма.
+seeker|n.|ищущий|He's a job seeker.|Он ищет работу.
+seminar|n.|семинар|I have a seminar at ten.|У меня семинар в десять.
+sensor|n.|датчик|The light has a motion sensor.|У светильника есть датчик движения.
+settler|n.|поселенец|The first settlers arrived in 1620.|Первые поселенцы прибыли в 1620 году.
+severely|adv.|сильно, сурово|The house was severely damaged.|Дом был сильно повреждён.
+sexy|adj.|сексуальный|She wore a sexy dress.|На ней было сексуальное платье.
+shaped|adj.|в форме (чего-либо)|It's a heart-shaped cake.|Это торт в форме сердца.
+shocking|adj.|шокирующий|The news was shocking.|Новость была шокирующей.
+shore|n.|берег|We walked along the shore.|Мы гуляли вдоль берега.
+shortage|n.|нехватка, дефицит|There is a shortage of teachers.|Не хватает учителей.
+shortly|adv.|скоро, вскоре|The doctor will see you shortly.|Врач скоро вас примет.
+short-term|adj.|краткосрочный|It's only a short-term solution.|Это лишь краткосрочное решение.
+sibling|n.|брат или сестра|Do you have any siblings?|У тебя есть братья или сёстры?
+signature|n.|подпись|I need your signature here.|Мне нужна ваша подпись здесь.
+significance|n.|значение, важность|The date has special significance.|У этой даты особое значение.
+skilled|adj.|квалифицированный, умелый|We need skilled workers.|Нам нужны квалифицированные работники.
+skull|n.|череп|He fractured his skull.|У него перелом черепа.
+slave|n.|раб|He was sold as a slave.|Его продали в рабство.
+slogan|n.|лозунг, слоган|The company has a new slogan.|У компании новый слоган.
+so-called|adj.|так называемый|Where is this so-called expert?|Где этот так называемый эксперт?
+somehow|adv.|как-нибудь, каким-то образом|We'll finish it somehow.|Мы как-нибудь закончим.
+sometime|adv.|когда-нибудь|Let's meet sometime next week.|Давай встретимся как-нибудь на следующей неделе.
+sophisticated|adj.|сложный; утончённый|It's a sophisticated system.|Это сложная система.
+spare|adj.|запасной, свободный|Do you have a spare key?|У тебя есть запасной ключ?
+specialize|v.|специализироваться|She specializes in children's law.|Она специализируется на детском праве.
+specify|v.|указывать, уточнять|Please specify the size.|Пожалуйста, укажите размер.
+spectacular|adj.|захватывающий, эффектный|The view is spectacular.|Вид захватывающий.
+spectator|n.|зритель|There were 50,000 spectators.|Было 50 000 зрителей.
+speculate|v.|строить догадки|We can only speculate about why.|Мы можем лишь гадать почему.
+speculation|n.|домыслы, спекуляция|There's speculation that he'll resign.|Ходят слухи, что он уйдёт в отставку.
+spill|v.|проливать|I spilled coffee on my shirt.|Я пролил кофе на рубашку.
+spite|n.|злоба (in spite of — несмотря на)|We went out in spite of the rain.|Мы вышли, несмотря на дождь.
+spoil|v.|портить; баловать|Don't spoil the ending!|Не рассказывай концовку!
+spokesman|n.|представитель, пресс-секретарь|A spokesman denied the report.|Представитель опроверг сообщение.
+spokesperson|n.|представитель, пресс-секретарь|A spokesperson for the police said...|Представитель полиции сказал...
+spokeswoman|n.|представительница, пресс-секретарь|A spokeswoman confirmed the news.|Представительница подтвердила новость.
+sponsorship|n.|спонсорство|The team lost its sponsorship.|Команда лишилась спонсора.
+sporting|adj.|спортивный|It's a major sporting event.|Это крупное спортивное событие.
+stall|n.|ларёк, прилавок|She has a fruit stall at the market.|У неё фруктовый прилавок на рынке.
+stance|n.|позиция, точка зрения|What's your stance on this issue?|Какова ваша позиция по этому вопросу?
+steadily|adv.|постоянно, неуклонно|Prices rose steadily.|Цены неуклонно росли.
+steam|n.|пар|Steam rose from the cup.|Над чашкой поднимался пар.
+stimulate|v.|стимулировать|The plan will stimulate the economy.|План стимулирует экономику.
+strengthen|v.|укреплять|Exercise strengthens your muscles.|Упражнения укрепляют мышцы.
+strictly|adv.|строго|Smoking is strictly forbidden.|Курение строго запрещено.
+stroke|n.|инсульт; удар; взмах|He had a stroke last year.|В прошлом году у него был инсульт.
+stunning|adj.|потрясающий, ошеломляющий|She looked stunning.|Она выглядела потрясающе.
+subsequent|adj.|последующий|Subsequent tests showed no problem.|Последующие анализы не выявили проблем.
+subsequently|adv.|впоследствии|He was subsequently arrested.|Впоследствии его арестовали.

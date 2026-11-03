@@ -1,0 +1,2 @@
+your|det.|твой, ваш|What's your name?|Как тебя зовут?
+yourself|pron.|себя, сам|Help yourself!|Угощайся!

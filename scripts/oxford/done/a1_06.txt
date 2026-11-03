@@ -1,0 +1,150 @@
+sure|adj.|уверенный|Are you sure?|Ты уверен?
+sweater|n.|свитер|Put on a sweater.|Надень свитер.
+swim|v.|плавать|Can you swim?|Ты умеешь плавать?
+swimming|n.|плавание|I go swimming on Mondays.|По понедельникам я хожу плавать.
+table|n.|стол|Dinner is on the table.|Ужин на столе.
+take|v.|брать; занимать (время)|Take an umbrella.|Возьми зонт.
+talk|v.|разговаривать|Can we talk?|Можем поговорить?
+tall|adj.|высокий|He's very tall.|Он очень высокий.
+taxi|n.|такси|Let's take a taxi.|Давай возьмём такси.
+tea|n.|чай|Would you like some tea?|Хочешь чаю?
+teach|v.|учить, преподавать|She teaches English.|Она преподаёт английский.
+teacher|n.|учитель|My teacher is very kind.|Мой учитель очень добрый.
+team|n.|команда|Which team do you support?|За какую команду ты болеешь?
+teenager|n.|подросток|She's a teenager now.|Она теперь подросток.
+telephone|n., v.|телефон; звонить|The telephone is ringing.|Звонит телефон.
+television|n.|телевидение, телевизор|We watched television.|Мы смотрели телевизор.
+tell|v.|рассказывать, говорить|Tell me the truth.|Скажи мне правду.
+ten|number|десять|I have ten euros.|У меня десять евро.
+tennis|n.|теннис|Let's play tennis.|Давай поиграем в теннис.
+terrible|adj.|ужасный|The weather is terrible.|Погода ужасная.
+test|n., v.|тест, контрольная; проверять|I have a test tomorrow.|Завтра у меня контрольная.
+text|n.|текст; сообщение|Read the text.|Прочитайте текст.
+than|conj.|чем|He's taller than me.|Он выше меня.
+thank|v.|благодарить|Thank you!|Спасибо!
+thanks|exclam., n.|спасибо|Thanks for your help.|Спасибо за помощь.
+that|det., pron., conj.|тот, то; что|Who is that?|Кто это?
+the|definite article|определённый артикль|The sun is hot.|Солнце горячее.
+theatre|n.|театр|We went to the theatre.|Мы ходили в театр.
+their|det.|их|This is their house.|Это их дом.
+them|pron.|их, им|I saw them yesterday.|Я видел их вчера.
+then|adv.|тогда; потом|First eat, then play.|Сначала поешь, потом играй.
+there|adv.|там, туда|Put it there.|Положи это туда.
+they|pron.|они|They are my friends.|Они мои друзья.
+thing|n.|вещь|What's that thing?|Что это за штука?
+think|v.|думать|I think you're right.|Я думаю, ты прав.
+third|number|третий|It's his third book.|Это его третья книга.
+thirsty|adj.|испытывающий жажду|I'm thirsty.|Я хочу пить.
+thirteen|number|тринадцать|She's thirteen.|Ей тринадцать.
+thirty|number|тридцать|I'm thirty years old.|Мне тридцать лет.
+this|det./pron.|этот, это|This is my friend.|Это мой друг.
+thousand|number|тысяча|It costs a thousand dollars.|Это стоит тысячу долларов.
+three|number|три|I have three cats.|У меня три кошки.
+through|prep., adv.|через, сквозь|We drove through the forest.|Мы проехали через лес.
+Thursday|n.|четверг|See you on Thursday.|Увидимся в четверг.
+ticket|n.|билет|Two tickets, please.|Два билета, пожалуйста.
+time|n.|время; раз|What time is it?|Который час?
+tired|adj.|уставший|I'm very tired.|Я очень устал.
+title|n.|название, заголовок|What's the title of the book?|Как называется книга?
+to|prep., infinitive marker|к, в; (частица инфинитива)|I want to go to Paris.|Я хочу поехать в Париж.
+today|adv., n.|сегодня|What are you doing today?|Что ты делаешь сегодня?
+together|adv.|вместе|Let's go together.|Пойдём вместе.
+toilet|n.|туалет|Where is the toilet?|Где туалет?
+tomato|n.|помидор|Add some tomatoes.|Добавь помидоров.
+tomorrow|adv., n.|завтра|See you tomorrow.|До завтра.
+tonight|adv., n.|сегодня вечером|What are you doing tonight?|Что ты делаешь сегодня вечером?
+too|adv.|тоже; слишком|It's too hot.|Слишком жарко.
+tooth|n.|зуб|I have a bad tooth.|У меня болит зуб.
+topic|n.|тема|Choose a topic.|Выберите тему.
+tourist|n.|турист|The city is full of tourists.|Город полон туристов.
+town|n.|город, городок|I live in a small town.|Я живу в маленьком городе.
+traffic|n.|движение, пробки|There's a lot of traffic.|Большие пробки.
+train|n.|поезд|The train is late.|Поезд опаздывает.
+travel|v., n.|путешествовать; путешествия|I love to travel.|Я люблю путешествовать.
+tree|n.|дерево|There's a big tree in the garden.|В саду большое дерево.
+trip|n.|поездка|Have a nice trip!|Хорошей поездки!
+trousers|n.|брюки|These trousers are too long.|Эти брюки слишком длинные.
+true|adj.|правдивый, верный|Is it true?|Это правда?
+try|v.|пытаться; пробовать|Try this cake.|Попробуй этот торт.
+T-shirt|n.|футболка|I bought a new T-shirt.|Я купил новую футболку.
+Tuesday|n.|вторник|I have English on Tuesday.|Во вторник у меня английский.
+turn|v., n.|поворачивать; очередь|It's your turn.|Твоя очередь.
+TV|n.|телевизор, ТВ|What's on TV?|Что идёт по телевизору?
+twelve|number|двенадцать|Lunch is at twelve.|Обед в двенадцать.
+twenty|number|двадцать|She's twenty.|Ей двадцать.
+twice|adv.|дважды|I've been there twice.|Я был там дважды.
+two|number|два|I have two brothers.|У меня два брата.
+type|n.|тип, вид|What type of music do you like?|Какую музыку ты любишь?
+umbrella|n.|зонт|Take an umbrella.|Возьми зонт.
+uncle|n.|дядя|My uncle lives in Canada.|Мой дядя живёт в Канаде.
+under|prep., adv.|под|The cat is under the table.|Кошка под столом.
+understand|v.|понимать|I don't understand.|Я не понимаю.
+university|n.|университет|She studies at university.|Она учится в университете.
+until|conj./prep.|до, пока не|Wait until I come.|Подожди, пока я приду.
+up|adv., prep.|вверх|Stand up, please.|Встаньте, пожалуйста.
+upstairs|adv.|наверху, наверх|My room is upstairs.|Моя комната наверху.
+us|pron.|нас, нам|Come with us.|Пойдём с нами.
+use|v.|использовать|Can I use your phone?|Можно воспользоваться твоим телефоном?
+useful|adj.|полезный|This app is very useful.|Это приложение очень полезное.
+usually|adv.|обычно|I usually get up at seven.|Я обычно встаю в семь.
+vacation|n.|отпуск, каникулы|We're on vacation.|Мы в отпуске.
+vegetable|n.|овощ|Eat your vegetables.|Ешь овощи.
+very|adv.|очень|It's very good.|Это очень хорошо.
+video|n.|видео|Watch this video.|Посмотри это видео.
+village|n.|деревня|My grandparents live in a village.|Мои бабушка с дедушкой живут в деревне.
+visit|v., n.|посещать; визит|Come and visit us.|Приезжай к нам в гости.
+visitor|n.|посетитель, гость|The museum has many visitors.|В музее много посетителей.
+wait|v.|ждать|Wait for me!|Подожди меня!
+waiter|n.|официант|The waiter brought the menu.|Официант принёс меню.
+wake|v.|просыпаться, будить|I wake up at seven.|Я просыпаюсь в семь.
+walk|v., n.|ходить пешком; прогулка|Let's go for a walk.|Пойдём погуляем.
+wall|n.|стена|There's a picture on the wall.|На стене картина.
+want|v.|хотеть|I want a coffee.|Я хочу кофе.
+warm|adj.|тёплый|It's warm today.|Сегодня тепло.
+wash|v.|мыть, стирать|Wash your hands.|Помой руки.
+watch|v., n.|смотреть; часы (наручные)|I'm watching TV.|Я смотрю телевизор.
+water|n.|вода|A glass of water, please.|Стакан воды, пожалуйста.
+way|n.|путь, дорога; способ|Is this the way to the station?|Это дорога к вокзалу?
+we|pron.|мы|We are friends.|Мы друзья.
+wear|v.|носить (одежду)|She wears glasses.|Она носит очки.
+weather|n.|погода|What's the weather like?|Какая погода?
+website|n.|веб-сайт|Visit our website.|Посетите наш сайт.
+Wednesday|n.|среда|The meeting is on Wednesday.|Встреча в среду.
+week|n.|неделя|See you next week.|Увидимся на следующей неделе.
+weekend|n.|выходные|What are you doing at the weekend?|Что ты делаешь на выходных?
+welcome|exclam., v., adj.|добро пожаловать|Welcome to Moscow!|Добро пожаловать в Москву!
+well|adv., adj., exclam.|хорошо; ну|She speaks English well.|Она хорошо говорит по-английски.
+west|n., adj., adv.|запад; западный|The sun sets in the west.|Солнце садится на западе.
+what|pron./det.|что, какой|What is your name?|Как тебя зовут?
+when|adv., pron., conj.|когда|When is your birthday?|Когда у тебя день рождения?
+where|adv., conj.|где, куда|Where do you live?|Где ты живёшь?
+which|pron./det.|который, какой|Which one do you want?|Какой ты хочешь?
+white|adj., n.|белый|I have a white cat.|У меня белая кошка.
+who|pron.|кто|Who is that?|Кто это?
+why|adv.|почему|Why are you late?|Почему ты опоздал?
+wife|n.|жена|This is my wife, Maria.|Это моя жена Мария.
+will|modal v.|(вспомогательный глагол будущего времени)|I will call you tomorrow.|Я позвоню тебе завтра.
+win|v.|выигрывать|We won the game!|Мы выиграли игру!
+window|n.|окно|Open the window, please.|Открой окно, пожалуйста.
+wine|n.|вино|A glass of red wine, please.|Бокал красного вина, пожалуйста.
+winter|n.|зима|It's cold in winter.|Зимой холодно.
+with|prep.|с|I live with my parents.|Я живу с родителями.
+without|prep.|без|Coffee without sugar.|Кофе без сахара.
+woman|n.|женщина|Who is that woman?|Кто та женщина?
+wonderful|adj.|чудесный|We had a wonderful time.|Мы чудесно провели время.
+word|n.|слово|What does this word mean?|Что значит это слово?
+work|v., n.|работать; работа|I work in a bank.|Я работаю в банке.
+worker|n.|работник|He's a hard worker.|Он трудолюбивый работник.
+world|n.|мир|I want to travel the world.|Я хочу путешествовать по миру.
+would|modal v.|бы; хотел бы|I would like a tea.|Я бы хотел чаю.
+write|v.|писать|Write your name here.|Напишите здесь своё имя.
+writer|n.|писатель|Tolstoy is a famous writer.|Толстой — известный писатель.
+writing|n.|письмо (навык), написание|Her writing is very good.|Она очень хорошо пишет.
+wrong|adj.|неправильный|That's the wrong answer.|Это неправильный ответ.
+yeah|exclam.|да, ага|Yeah, I know.|Ага, я знаю.
+year|n.|год|I'm 25 years old.|Мне 25 лет.
+yellow|adj., n.|жёлтый|The taxi is yellow.|Такси жёлтое.
+yes|exclam.|да|Yes, please.|Да, пожалуйста.
+yesterday|adv., n.|вчера|I saw him yesterday.|Я видел его вчера.
+you|pron.|ты, вы|I love you.|Я тебя люблю.
+young|adj.|молодой|She's very young.|Она очень молода.

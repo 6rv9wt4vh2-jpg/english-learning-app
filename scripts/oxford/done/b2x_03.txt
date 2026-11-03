@@ -1,0 +1,150 @@
+hilarious|adj.|уморительный|The film was hilarious.|Фильм был уморительный.
+hip|n.|бедро|She broke her hip.|Она сломала бедро.
+historian|n.|историк|Historians disagree about the date.|Историки расходятся во мнениях о дате.
+homeless|adj.|бездомный|They help homeless people.|Они помогают бездомным.
+honesty|n.|честность|I value honesty above all.|Больше всего я ценю честность.
+hook|n.|крючок|Hang your coat on the hook.|Повесь пальто на крючок.
+hopefully|adv.|надеюсь, будем надеяться|Hopefully, we'll arrive on time.|Надеюсь, мы приедем вовремя.
+hug|v., n.|обнимать; объятие|She gave me a big hug.|Она крепко меня обняла.
+hunger|n.|голод|Millions suffer from hunger.|Миллионы людей страдают от голода.
+hypothesis|n.|гипотеза|We tested the hypothesis.|Мы проверили гипотезу.
+icon|n.|значок; кумир, символ|Click on the icon.|Нажмите на значок.
+identical|adj.|одинаковый, идентичный|They are identical twins.|Они однояйцевые близнецы.
+illusion|n.|иллюзия|The mirror creates an illusion of space.|Зеркало создаёт иллюзию простора.
+immigration|n.|иммиграция|Immigration is a big political issue.|Иммиграция — большой политический вопрос.
+immune|adj.|иммунный; невосприимчивый|The immune system fights infection.|Иммунная система борется с инфекцией.
+implement|v.|внедрять, осуществлять|We will implement the plan next year.|Мы реализуем план в следующем году.
+implication|n.|последствие; подтекст|Think about the implications.|Подумайте о последствиях.
+incentive|n.|стимул|There's no incentive to work harder.|Нет стимула работать усерднее.
+incorporate|v.|включать, объединять|We incorporated your ideas into the plan.|Мы включили ваши идеи в план.
+incorrect|adj.|неправильный|The answer is incorrect.|Ответ неверный.
+independence|n.|независимость|The country gained independence in 1991.|Страна получила независимость в 1991 году.
+index|n.|указатель, индекс|Look it up in the index.|Найдите это в указателе.
+indication|n.|признак, указание|There's no indication of a problem.|Нет никаких признаков проблемы.
+inevitable|adj.|неизбежный|Change is inevitable.|Перемены неизбежны.
+infer|v.|делать вывод|What can we infer from this?|Какой вывод мы можем из этого сделать?
+inflation|n.|инфляция|Inflation is rising.|Инфляция растёт.
+info|n.|информация, инфо|Click here for more info.|Нажмите здесь, чтобы узнать больше.
+infrastructure|n.|инфраструктура|The city needs better infrastructure.|Городу нужна лучшая инфраструктура.
+inhabitant|n.|житель|The town has 5,000 inhabitants.|В городе 5000 жителей.
+inherit|v.|наследовать|She inherited the house from her aunt.|Она унаследовала дом от тёти.
+ink|n.|чернила|Write in black ink.|Пишите чёрными чернилами.
+innovation|n.|инновация, нововведение|The company is known for innovation.|Компания известна своими инновациями.
+innovative|adj.|инновационный|It's an innovative design.|Это инновационный дизайн.
+input|n.|вклад; ввод (данных)|Thanks for your input.|Спасибо за ваш вклад.
+insert|v.|вставлять|Insert your card here.|Вставьте карту сюда.
+inspector|n.|инспектор, контролёр|The ticket inspector checked our tickets.|Контролёр проверил наши билеты.
+installation|n.|установка, монтаж|Installation takes an hour.|Установка занимает час.
+instant|adj.|мгновенный; растворимый|I only have instant coffee.|У меня только растворимый кофе.
+instantly|adv.|мгновенно|She recognized him instantly.|Она сразу его узнала.
+integrate|v.|интегрировать, объединять|The app integrates with your calendar.|Приложение синхронизируется с вашим календарём.
+intellectual|adj.|интеллектуальный|It's an intellectual challenge.|Это интеллектуальный вызов.
+interact|v.|взаимодействовать, общаться|Kids learn by interacting with others.|Дети учатся, общаясь с другими.
+interaction|n.|взаимодействие|There is little interaction between the groups.|Группы мало взаимодействуют.
+interpretation|n.|толкование, интерпретация|That's one interpretation of the poem.|Это одно из толкований стихотворения.
+interval|n.|интервал; антракт|We met at regular intervals.|Мы встречались через равные промежутки времени.
+invade|v.|вторгаться|The army invaded the country.|Армия вторглась в страну.
+invasion|n.|вторжение|The invasion began at dawn.|Вторжение началось на рассвете.
+investor|n.|инвестор|Investors are worried.|Инвесторы обеспокоены.
+isolate|v.|изолировать|The patient was isolated.|Пациента изолировали.
+isolated|adj.|изолированный, уединённый|They live in an isolated village.|Они живут в отдалённой деревне.
+jail|n., v.|тюрьма; сажать в тюрьму|He spent two years in jail.|Он провёл два года в тюрьме.
+jet|n.|реактивный самолёт; струя|They flew in a private jet.|Они летели на частном самолёте.
+journalism|n.|журналистика|She studied journalism.|Она изучала журналистику.
+jury|n.|присяжные; жюри|The jury found him guilty.|Присяжные признали его виновным.
+kit|n.|набор, комплект|Keep a first-aid kit in the car.|Держите аптечку в машине.
+ladder|n.|лестница (приставная)|He climbed the ladder.|Он залез на лестницу.
+landing|n.|посадка (самолёта); лестничная площадка|The plane made a safe landing.|Самолёт благополучно приземлился.
+lane|n.|переулок; полоса (движения)|Stay in the left lane.|Держитесь левой полосы.
+lately|adv.|в последнее время|Have you seen her lately?|Ты видел её в последнее время?
+legend|n.|легенда|He's a football legend.|Он легенда футбола.
+lens|n.|линза; объектив|I need a new camera lens.|Мне нужен новый объектив.
+lifetime|n.|жизнь, срок жизни|It's the chance of a lifetime.|Это шанс всей жизни.
+lighting|n.|освещение|The lighting in the room is poor.|В комнате плохое освещение.
+likewise|adv.|также, подобным образом|"Nice to meet you." "Likewise."|«Приятно познакомиться». — «Взаимно».
+limitation|n.|ограничение|Everyone has limitations.|У каждого есть свои ограничения.
+literally|adv.|буквально|The place was literally empty.|Там было буквально пусто.
+literary|adj.|литературный|She won a literary prize.|Она получила литературную премию.
+litre|n.|литр|Drink two litres of water a day.|Пейте два литра воды в день.
+litter|n.|мусор (на улице)|Don't drop litter.|Не мусорите.
+logo|n.|логотип|The logo is a red apple.|Логотип — красное яблоко.
+lottery|n.|лотерея|He won the lottery.|Он выиграл в лотерею.
+loyal|adj.|преданный, верный|Dogs are loyal animals.|Собаки — преданные животные.
+lyric|n.|текст песни (lyrics)|I don't know the lyrics.|Я не знаю слов песни.
+magnificent|adj.|великолепный|The palace is magnificent.|Дворец великолепен.
+make-up|n.|макияж, косметика|She doesn't wear much make-up.|Она почти не пользуется косметикой.
+making|n.|создание, изготовление|It's a film in the making.|Этот фильм в процессе создания.
+manufacture|v.|производить|They manufacture car parts.|Они производят автозапчасти.
+manufacturing|n.|производство|Manufacturing jobs are declining.|Рабочих мест в производстве становится меньше.
+marathon|n.|марафон|She ran her first marathon.|Она пробежала свой первый марафон.
+margin|n.|поле (страницы); разница, отрыв|They won by a narrow margin.|Они победили с небольшим отрывом.
+marker|n.|маркер; отметка|Write your name with a marker.|Напиши своё имя маркером.
+mate|n., v.|приятель; партнёр; спариваться|He went out with his mates.|Он пошёл гулять с друзьями.
+mayor|n.|мэр|The mayor opened the new park.|Мэр открыл новый парк.
+mechanic|n.|механик|The mechanic fixed my car.|Механик починил мою машину.
+mechanical|adj.|механический|The delay was due to a mechanical problem.|Задержка была вызвана технической неисправностью.
+mechanism|n.|механизм|The door has a locking mechanism.|У двери есть запирающий механизм.
+medal|n.|медаль|She won a gold medal.|Она выиграла золотую медаль.
+medication|n.|лекарство|Are you taking any medication?|Вы принимаете какие-нибудь лекарства?
+membership|n.|членство|Membership costs $50 a year.|Членство стоит 50 долларов в год.
+memorable|adj.|запоминающийся|It was a memorable trip.|Это была незабываемая поездка.
+metaphor|n.|метафора|Life is often described with the metaphor of a journey.|Жизнь часто описывают через метафору путешествия.
+miner|n.|шахтёр|Her father was a coal miner.|Её отец был шахтёром.
+miserable|adj.|несчастный; ужасный|I felt miserable all week.|Я всю неделю чувствовал себя несчастным.
+mode|n.|режим; способ|Put your phone in silent mode.|Переведите телефон в беззвучный режим.
+modest|adj.|скромный|He's very modest about his success.|Он очень скромен в отношении своего успеха.
+monster|n.|чудовище, монстр|The child was afraid of monsters.|Ребёнок боялся чудовищ.
+monthly|adj.|ежемесячный|What is your monthly income?|Каков ваш ежемесячный доход?
+monument|n.|памятник|They built a monument to the soldiers.|Они воздвигли памятник солдатам.
+moreover|adv.|более того|The plan is cheap; moreover, it's simple.|План дешёвый; более того, он простой.
+mortgage|n.|ипотека|We took out a mortgage on the house.|Мы взяли ипотеку на дом.
+mosque|n.|мечеть|There's a beautiful mosque in the old town.|В старом городе красивая мечеть.
+motion|n.|движение|The motion of the boat made me sick.|Меня укачало от качки лодки.
+motivate|v.|мотивировать|Good teachers motivate students.|Хорошие учителя мотивируют учеников.
+motivation|n.|мотивация|I've lost my motivation.|Я потерял мотивацию.
+moving|adj.|трогательный|It was a very moving film.|Это был очень трогательный фильм.
+myth|n.|миф|It's a myth that bats are blind.|То, что летучие мыши слепые, — миф.
+naked|adj.|голый|The baby was naked.|Ребёнок был голым.
+nasty|adj.|противный, мерзкий|What a nasty smell!|Какой противный запах!
+navigate|v.|ориентироваться, прокладывать путь|I navigated using a map.|Я ориентировался по карте.
+navigation|n.|навигация|The car has a navigation system.|В машине есть навигатор.
+nearby|adj., adv.|соседний; поблизости|Is there a bank nearby?|Здесь поблизости есть банк?
+necessity|n.|необходимость|A car is a necessity here.|Машина здесь — необходимость.
+negotiate|v.|вести переговоры|They negotiated a new contract.|Они договорились о новом контракте.
+negotiation|n.|переговоры|The negotiations lasted for weeks.|Переговоры длились неделями.
+neutral|adj.|нейтральный|Switzerland stayed neutral.|Швейцария сохраняла нейтралитет.
+newly|adv.|недавно, вновь|They are a newly married couple.|Они молодожёны.
+norm|n.|норма|Working from home is now the norm.|Работа из дома теперь норма.
+notebook|n.|блокнот, тетрадь|Write it down in your notebook.|Запиши это в блокнот.
+novelist|n.|писатель, романист|She is a famous novelist.|Она известная писательница.
+nowadays|adv.|в наши дни|Nowadays everyone has a phone.|В наши дни у всех есть телефон.
+nursing|adj.|сестринский; по уходу|She works in a nursing home.|Она работает в доме престарелых.
+nutrition|n.|питание|Good nutrition is important for kids.|Правильное питание важно для детей.
+obesity|n.|ожирение|Obesity is a growing problem.|Ожирение — растущая проблема.
+observer|n.|наблюдатель|Observers watched the election.|Наблюдатели следили за выборами.
+obstacle|n.|препятствие|We overcame many obstacles.|Мы преодолели много препятствий.
+occupation|n.|профессия, род занятий; оккупация|Please state your occupation.|Укажите вашу профессию.
+occupy|v.|занимать|Is this seat occupied?|Это место занято?
+offender|n.|правонарушитель|Young offenders need support.|Молодым правонарушителям нужна поддержка.
+ongoing|adj.|продолжающийся, текущий|The investigation is ongoing.|Расследование продолжается.
+openly|adv.|открыто|They talked openly about the problem.|Они открыто говорили о проблеме.
+opera|n.|опера|We went to the opera.|Мы ходили в оперу.
+operator|n.|оператор|Call the operator for help.|Позвоните оператору за помощью.
+optimistic|adj.|оптимистичный|I'm optimistic about the future.|Я смотрю в будущее с оптимизмом.
+orchestra|n.|оркестр|She plays violin in an orchestra.|Она играет на скрипке в оркестре.
+organic|adj.|органический|We buy organic vegetables.|Мы покупаем органические овощи.
+outfit|n.|наряд, комплект одежды|I love your outfit!|Обожаю твой наряд!
+output|n.|выпуск, производительность|Factory output rose by 5%.|Производство на заводе выросло на 5%.
+outstanding|adj.|выдающийся|She's an outstanding student.|Она выдающаяся студентка.
+overcome|v.|преодолевать|She overcame her fear of flying.|Она преодолела страх полётов.
+overnight|adv.|в течение ночи; за одну ночь|We stayed overnight in Paris.|Мы переночевали в Париже.
+overseas|adv., adj.|за границей; зарубежный|She works overseas.|Она работает за границей.
+ownership|n.|владение, собственность|Home ownership is falling.|Всё меньше людей владеют жильём.
+oxygen|n.|кислород|We need oxygen to live.|Нам нужен кислород, чтобы жить.
+packet|n.|пачка, пакет|A packet of crisps, please.|Пачку чипсов, пожалуйста.
+palm|n.|ладонь; пальма|Hold it in the palm of your hand.|Держите это на ладони.
+pandemic|n., adj.|пандемия|The pandemic changed how we work.|Пандемия изменила то, как мы работаем.
+panic|n.|паника|There was panic in the streets.|На улицах была паника.
+parade|n.|парад|We watched the parade.|Мы смотрели парад.
+parallel|adj., n.|параллельный; параллель|The road runs parallel to the river.|Дорога идёт параллельно реке.
+participation|n.|участие|Thanks for your participation.|Спасибо за ваше участие.

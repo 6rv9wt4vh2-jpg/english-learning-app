@@ -1,0 +1,99 @@
+suburb|n.|пригород|They live in the suburbs.|Они живут в пригороде.
+suffering|n.|страдание|The war caused great suffering.|Война принесла огромные страдания.
+sufficient|adj.|достаточный|We have sufficient food for a week.|У нас достаточно еды на неделю.
+super|adj.|отличный, супер|We had a super time.|Мы отлично провели время.
+surgeon|n.|хирург|She's a heart surgeon.|Она кардиохирург.
+survival|n.|выживание|The animals fight for survival.|Животные борются за выживание.
+survivor|n.|выживший|There were no survivors.|Выживших не было.
+suspend|v.|приостанавливать; отстранять|He was suspended from school.|Его временно исключили из школы.
+sustainable|adj.|устойчивый, экологичный|We need sustainable energy.|Нам нужна устойчивая энергетика.
+swallow|v.|глотать|Swallow the pill with water.|Проглотите таблетку, запив водой.
+sympathetic|adj.|сочувствующий|She was very sympathetic.|Она очень сочувствовала.
+tackle|v.|решать (проблему), браться за|We must tackle climate change.|Мы должны бороться с изменением климата.
+tag|n.|ярлык, бирка|The price tag says $20.|На ценнике написано 20 долларов.
+tap|v., n.|постукивать; кран|Someone tapped me on the shoulder.|Кто-то похлопал меня по плечу.
+tattoo|n., v.|татуировка; делать татуировку|He has a tattoo on his arm.|У него татуировка на руке.
+tease|v.|дразнить|Stop teasing your sister.|Перестань дразнить сестру.
+technological|adj.|технологический|There have been huge technological changes.|Произошли огромные технологические перемены.
+teens|n.|подростковый возраст (13–19)|She's in her teens.|Она подросток.
+temple|n.|храм; висок|We visited an ancient temple.|Мы посетили древний храм.
+temporarily|adv.|временно|The shop is temporarily closed.|Магазин временно закрыт.
+tendency|n.|склонность, тенденция|He has a tendency to talk too much.|Он склонен слишком много говорить.
+tension|n.|напряжение, напряжённость|There was tension in the room.|В комнате чувствовалось напряжение.
+terminal|n.|терминал|Our flight leaves from Terminal 2.|Наш рейс вылетает из терминала 2.
+terms|n.|условия; отношения|Read the terms and conditions.|Прочитайте условия.
+terribly|adv.|ужасно, очень|I'm terribly sorry.|Мне ужасно жаль.
+terrify|v.|ужасать, пугать|Spiders terrify me.|Пауки приводят меня в ужас.
+territory|n.|территория|The island is British territory.|Остров — британская территория.
+terror|n.|ужас; террор|She screamed in terror.|Она закричала от ужаса.
+terrorism|n.|терроризм|The world is fighting terrorism.|Мир борется с терроризмом.
+terrorist|n.|террорист|The terrorists were arrested.|Террористов арестовали.
+testing|n.|тестирование, испытания|The drug is still in testing.|Лекарство ещё проходит испытания.
+textbook|n.|учебник|Open your textbooks at page 10.|Откройте учебники на странице 10.
+theft|n.|кража|He was arrested for theft.|Его арестовали за кражу.
+therapist|n.|терапевт, психотерапевт|She sees a therapist every week.|Она каждую неделю ходит к психотерапевту.
+thesis|n.|диссертация, дипломная работа; тезис|She's writing her thesis.|Она пишет диссертацию.
+thorough|adj.|тщательный|The police made a thorough search.|Полиция провела тщательный обыск.
+thoroughly|adv.|тщательно; совершенно|Wash your hands thoroughly.|Тщательно мойте руки.
+thumb|n.|большой палец|He gave me a thumbs up.|Он показал мне большой палец.
+timeline|n.|хронология; сроки|What's the timeline for the project?|Каковы сроки проекта?
+timing|n.|выбор времени, расчёт времени|The timing was perfect.|Время было выбрано идеально.
+tissue|n.|бумажная салфетка; ткань (биол.)|Do you have a tissue?|У тебя есть салфетка?
+ton|n.|тонна; (тонны, масса)|I've got tons of work.|У меня куча работы.
+tonne|n.|метрическая тонна|The truck carries ten tonnes.|Грузовик везёт десять тонн.
+tournament|n.|турнир|They won the tennis tournament.|Они выиграли теннисный турнир.
+trace|v.|отслеживать, находить|The police traced the call.|Полиция отследила звонок.
+trading|n.|торговля|Trading on the stock market was busy.|Торги на бирже шли активно.
+tragedy|n.|трагедия|His death was a tragedy.|Его смерть стала трагедией.
+tragic|adj.|трагический|It was a tragic accident.|Это был трагический несчастный случай.
+trait|n.|черта (характера)|Honesty is her best trait.|Честность — её лучшая черта.
+transmit|v.|передавать|The disease is transmitted by mosquitoes.|Болезнь передаётся комарами.
+transportation|n.|транспорт, перевозка|Public transportation is cheap here.|Общественный транспорт здесь дешёвый.
+trap|v., n.|ловить в ловушку; ловушка|We were trapped in the lift.|Мы застряли в лифте.
+treasure|n.|сокровище|They found buried treasure.|Они нашли зарытый клад.
+tribe|n.|племя|The tribe lives in the jungle.|Это племя живёт в джунглях.
+trigger|v.|вызывать, провоцировать|Stress can trigger headaches.|Стресс может вызвать головную боль.
+trillion|number|триллион|The debt is over a trillion dollars.|Долг превышает триллион долларов.
+troop|n.|войска (troops)|Troops were sent to the border.|К границе были направлены войска.
+tsunami|n.|цунами|The tsunami destroyed the coast.|Цунами разрушило побережье.
+ultimate|adj.|окончательный, высший|Our ultimate goal is to win.|Наша конечная цель — победить.
+unacceptable|adj.|неприемлемый|This behaviour is unacceptable.|Такое поведение недопустимо.
+uncertainty|n.|неопределённость|There is uncertainty about the future.|Будущее неопределённо.
+undergo|v.|подвергаться, проходить|He underwent surgery.|Он перенёс операцию.
+undertake|v.|предпринимать, браться|They undertook a long journey.|Они отправились в долгое путешествие.
+unfold|v.|разворачиваться, раскрываться|We watched the events unfold.|Мы наблюдали, как разворачиваются события.
+unfortunate|adj.|неудачный, досадный|It was an unfortunate mistake.|Это была досадная ошибка.
+unite|v.|объединять(ся)|The country united behind the team.|Страна сплотилась вокруг команды.
+unity|n.|единство|We need unity now.|Сейчас нам нужно единство.
+universal|adj.|всеобщий, универсальный|Music is a universal language.|Музыка — универсальный язык.
+urgent|adj.|срочный|I have an urgent message.|У меня срочное сообщение.
+usage|n.|использование, употребление|Water usage is high in summer.|Летом расход воды высокий.
+useless|adj.|бесполезный|This map is useless.|Эта карта бесполезна.
+vaccinate|v.|вакцинировать|Children are vaccinated against measles.|Детей прививают от кори.
+vaccination|n.|вакцинация, прививка|Have you had your vaccination?|Ты сделал прививку?
+valid|adj.|действительный; обоснованный|Your passport is valid until 2030.|Ваш паспорт действителен до 2030 года.
+variation|n.|вариация, изменение|There's little variation in price.|Цены почти не отличаются.
+vertical|adj.|вертикальный|Draw a vertical line.|Нарисуйте вертикальную линию.
+viewpoint|n.|точка зрения; смотровая площадка|From my viewpoint, it's a mistake.|С моей точки зрения, это ошибка.
+villain|n.|злодей|The villain dies at the end.|Злодей в конце погибает.
+visa|n.|виза|Do I need a visa for Turkey?|Мне нужна виза в Турцию?
+visible|adj.|видимый|The island is visible from here.|Остров видно отсюда.
+voluntary|adj.|добровольный|Attendance is voluntary.|Посещение добровольное.
+voting|n.|голосование|Voting starts at 8 a.m.|Голосование начинается в 8 утра.
+wander|v.|бродить|We wandered around the old town.|Мы бродили по старому городу.
+warming|n.|потепление|Global warming is a threat.|Глобальное потепление — угроза.
+weekly|adj.|еженедельный|We have a weekly meeting.|У нас еженедельное собрание.
+weird|adj.|странный|That's a weird idea.|Это странная идея.
+welfare|n.|благополучие; социальное пособие|We care about animal welfare.|Мы заботимся о благополучии животных.
+wheat|n.|пшеница|Bread is made from wheat.|Хлеб делают из пшеницы.
+whilst|conj.|в то время как, пока|Whilst I agree, I have doubts.|Хотя я согласен, у меня есть сомнения.
+whisper|v., n.|шептать; шёпот|She whispered in my ear.|Она прошептала мне на ухо.
+whoever|pron.|кто бы ни, тот, кто|Whoever wins gets a prize.|Кто победит, получит приз.
+widespread|adj.|широко распространённый|The problem is widespread.|Проблема широко распространена.
+wisdom|n.|мудрость|He's a man of great wisdom.|Он очень мудрый человек.
+withdraw|v.|снимать (деньги); отзывать, выходить|I need to withdraw some cash.|Мне нужно снять наличные.
+workforce|n.|рабочая сила, персонал|Women make up half the workforce.|Женщины составляют половину работников.
+workplace|n.|рабочее место|Safety in the workplace is important.|Безопасность на рабочем месте важна.
+workshop|n.|мастерская; семинар, практикум|I went to a writing workshop.|Я ходил на писательский мастер-класс.
+worm|n.|червь|The bird caught a worm.|Птица поймала червяка.
+wrist|n.|запястье|She wears a watch on her wrist.|Она носит часы на запястье.

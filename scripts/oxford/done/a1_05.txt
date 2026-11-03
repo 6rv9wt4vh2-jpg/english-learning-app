@@ -1,0 +1,150 @@
+point|n.|точка; смысл; очко|What's the point?|Какой смысл?
+police|n.|полиция|Call the police!|Вызовите полицию!
+pool|n.|бассейн|The hotel has a pool.|В отеле есть бассейн.
+poor|adj.|бедный|They are very poor.|Они очень бедные.
+popular|adj.|популярный|This song is very popular.|Эта песня очень популярна.
+positive|adj.|положительный, позитивный|Stay positive!|Не унывай!
+possible|adj.|возможный|Is it possible?|Это возможно?
+post|n., v.|почта; пост; отправлять|I'll send it by post.|Я отправлю это по почте.
+potato|n.|картофель|I like baked potatoes.|Я люблю печёную картошку.
+pound|n.|фунт|It costs ten pounds.|Это стоит десять фунтов.
+practice|n.|практика, тренировка|Football practice is at four.|Тренировка по футболу в четыре.
+practise|v.|практиковаться|Practise speaking every day.|Практикуйтесь в разговоре каждый день.
+prefer|v.|предпочитать|I prefer tea to coffee.|Я предпочитаю чай кофе.
+prepare|v.|готовить(ся)|I'm preparing for the exam.|Я готовлюсь к экзамену.
+present|adj., n.|подарок; настоящее|This is a present for you.|Это подарок для тебя.
+pretty|adj., adv.|симпатичный; довольно|She's very pretty.|Она очень симпатичная.
+price|n.|цена|What's the price?|Какая цена?
+probably|adv.|вероятно|It will probably rain.|Вероятно, пойдёт дождь.
+problem|n.|проблема|No problem!|Без проблем!
+product|n.|продукт, товар|We sell local products.|Мы продаём местные продукты.
+programme|n.|программа, передача|What's your favourite TV programme?|Какая твоя любимая телепередача?
+project|n.|проект|We're working on a new project.|Мы работаем над новым проектом.
+purple|adj., n.|фиолетовый|She has a purple coat.|У неё фиолетовое пальто.
+put|v.|класть, ставить|Put it on the table.|Положи это на стол.
+quarter|n.|четверть|It's a quarter past three.|Сейчас четверть четвёртого.
+question|n.|вопрос|Can I ask a question?|Можно задать вопрос?
+quick|adj.|быстрый|Let's have a quick lunch.|Давай быстро пообедаем.
+quickly|adv.|быстро|Come quickly!|Иди скорее!
+quiet|adj.|тихий|Please be quiet.|Пожалуйста, тише.
+quite|adv.|довольно|It's quite cold.|Довольно холодно.
+radio|n.|радио|I listen to the radio in the car.|Я слушаю радио в машине.
+rain|n., v.|дождь; идти (о дожде)|It's raining.|Идёт дождь.
+read|v.|читать|I read every evening.|Я читаю каждый вечер.
+reader|n.|читатель|She's a fast reader.|Она быстро читает.
+reading|n.|чтение|Reading is my hobby.|Чтение — моё хобби.
+ready|adj.|готовый|Are you ready?|Ты готов?
+real|adj.|настоящий, реальный|Is that a real diamond?|Это настоящий бриллиант?
+really|adv.|действительно, очень|I really like it.|Мне это очень нравится.
+reason|n.|причина|What's the reason?|В чём причина?
+red|adj., n.|красный|She has a red car.|У неё красная машина.
+relax|v.|расслабляться, отдыхать|Sit down and relax.|Садись и отдыхай.
+remember|v.|помнить|I don't remember his name.|Я не помню, как его зовут.
+repeat|v.|повторять|Repeat after me.|Повторяйте за мной.
+report|n.|отчёт, доклад|I'm writing a report.|Я пишу отчёт.
+restaurant|n.|ресторан|Let's go to a restaurant.|Пойдём в ресторан.
+result|n.|результат|I got my exam results.|Я получил результаты экзамена.
+return|v., n.|возвращаться; возвращение|When do you return?|Когда ты вернёшься?
+rice|n.|рис|Chicken with rice, please.|Курицу с рисом, пожалуйста.
+rich|adj.|богатый|He's very rich.|Он очень богат.
+ride|v.|ехать верхом, кататься|I ride my bike to school.|Я езжу в школу на велосипеде.
+right|adj., adv., n.|правильный; правый; направо|Turn right.|Поверните направо.
+river|n.|река|The river is very wide.|Река очень широкая.
+road|n.|дорога|Be careful on the road.|Будь осторожен на дороге.
+room|n.|комната; место|My room is small.|Моя комната маленькая.
+routine|n.|распорядок, рутина|What's your morning routine?|Какой у тебя утренний распорядок?
+rule|n.|правило|Follow the rules.|Соблюдайте правила.
+run|v.|бегать|I run every morning.|Я бегаю каждое утро.
+sad|adj.|грустный|Why are you sad?|Почему ты грустишь?
+salad|n.|салат|I'll have a salad.|Я возьму салат.
+salt|n.|соль|Pass the salt, please.|Передай соль, пожалуйста.
+same|adj., pron., adv.|тот же самый|We have the same phone.|У нас одинаковые телефоны.
+sandwich|n.|бутерброд, сэндвич|I made a sandwich.|Я сделал бутерброд.
+Saturday|n.|суббота|Let's meet on Saturday.|Давай встретимся в субботу.
+say|v.|говорить, сказать|What did you say?|Что ты сказал?
+school|n.|школа|My son goes to school.|Мой сын ходит в школу.
+science|n.|наука|I love science.|Я люблю естественные науки.
+scientist|n.|учёный|She is a scientist.|Она учёный.
+sea|n.|море|We swam in the sea.|Мы купались в море.
+second|det./number|второй|This is my second visit.|Это мой второй визит.
+second|n.|секунда|Wait a second.|Подожди секунду.
+section|n.|раздел, часть|Read section two.|Прочитайте второй раздел.
+see|v.|видеть|I can see the sea.|Я вижу море.
+sell|v.|продавать|They sell flowers.|Они продают цветы.
+send|v.|отправлять|Send me a photo.|Пришли мне фото.
+sentence|n.|предложение|Write a sentence.|Напишите предложение.
+September|n.|сентябрь|School starts in September.|Учёба начинается в сентябре.
+seven|number|семь|There are seven days in a week.|В неделе семь дней.
+seventeen|number|семнадцать|She's seventeen.|Ей семнадцать.
+seventy|number|семьдесят|My grandfather is seventy.|Моему дедушке семьдесят.
+share|v.|делиться|Let's share the pizza.|Давай разделим пиццу.
+she|pron.|она|She is my sister.|Она моя сестра.
+sheep|n.|овца|There are sheep on the hill.|На холме овцы.
+shirt|n.|рубашка|He's wearing a white shirt.|На нём белая рубашка.
+shoe|n.|туфля, ботинок|These shoes are comfortable.|Эти туфли удобные.
+shop|n., v.|магазин; делать покупки|The shop closes at eight.|Магазин закрывается в восемь.
+shopping|n.|покупки, шопинг|Let's go shopping.|Пойдём по магазинам.
+short|adj.|короткий; низкий|She has short hair.|У неё короткие волосы.
+should|modal v.|следует, стоит|You should see a doctor.|Тебе стоит сходить к врачу.
+show|v., n.|показывать; шоу|Show me your photos.|Покажи мне свои фото.
+shower|n.|душ|I'm taking a shower.|Я принимаю душ.
+sick|adj.|больной|I feel sick.|Меня тошнит.
+similar|adj.|похожий|Our houses are similar.|Наши дома похожи.
+sing|v.|петь|She sings beautifully.|Она красиво поёт.
+singer|n.|певец|He's my favourite singer.|Он мой любимый певец.
+sister|n.|сестра|My sister is a teacher.|Моя сестра учительница.
+sit|v.|сидеть|Sit here, please.|Садитесь сюда, пожалуйста.
+situation|n.|ситуация|It's a difficult situation.|Это сложная ситуация.
+six|number|шесть|I get up at six.|Я встаю в шесть.
+sixteen|number|шестнадцать|He's sixteen.|Ему шестнадцать.
+sixty|number|шестьдесят|My mother is sixty.|Моей маме шестьдесят.
+skill|n.|навык|Cooking is a useful skill.|Готовить — полезный навык.
+skirt|n.|юбка|She's wearing a black skirt.|На ней чёрная юбка.
+sleep|v.|спать|I sleep eight hours a night.|Я сплю восемь часов в сутки.
+slow|adj.|медленный|The internet is slow.|Интернет медленный.
+small|adj.|маленький|It's a small town.|Это маленький город.
+snake|n.|змея|I'm afraid of snakes.|Я боюсь змей.
+snow|n., v.|снег; идти (о снеге)|It's snowing!|Идёт снег!
+so|adv., conj.|так; поэтому|I was tired, so I went to bed.|Я устал, поэтому лёг спать.
+some|det., pron.|немного, несколько|I need some water.|Мне нужно немного воды.
+somebody|pron.|кто-то|Somebody is at the door.|Кто-то стоит у двери.
+someone|pron.|кто-то|Someone called you.|Тебе кто-то звонил.
+something|pron.|что-то|I want something to eat.|Я хочу что-нибудь поесть.
+sometimes|adv.|иногда|I sometimes walk to work.|Иногда я хожу на работу пешком.
+son|n.|сын|Their son is ten.|Их сыну десять.
+song|n.|песня|I love this song.|Я обожаю эту песню.
+soon|adv.|скоро|See you soon!|До скорого!
+sorry|adj., exclam.|извините; жаль|Sorry, I'm late.|Извини, я опоздал.
+sound|n., v.|звук; звучать|That sounds great!|Звучит отлично!
+soup|n.|суп|The soup is hot.|Суп горячий.
+south|n., adj., adv.|юг; южный|We live in the south.|Мы живём на юге.
+space|n.|место; космос|There's no space in the car.|В машине нет места.
+speak|v.|говорить|Do you speak English?|Вы говорите по-английски?
+special|adj.|особенный|Today is a special day.|Сегодня особенный день.
+spell|v.|писать по буквам|How do you spell your name?|Как пишется ваше имя?
+spelling|n.|правописание|Check your spelling.|Проверь правописание.
+spend|v.|тратить; проводить (время)|I spend a lot on clothes.|Я трачу много на одежду.
+sport|n.|спорт|What sport do you play?|Каким спортом ты занимаешься?
+spring|n.|весна|Flowers grow in spring.|Весной растут цветы.
+stand|v.|стоять|Please stand up.|Пожалуйста, встаньте.
+star|n.|звезда|Look at the stars.|Посмотри на звёзды.
+start|v.|начинать(ся)|When does the class start?|Когда начинается урок?
+statement|n.|утверждение, заявление|Read the statements.|Прочитайте утверждения.
+station|n.|вокзал, станция|Where is the train station?|Где вокзал?
+stay|v.|оставаться, останавливаться|We stayed at a hotel.|Мы остановились в отеле.
+still|adv.|всё ещё|I'm still hungry.|Я всё ещё голоден.
+stop|v., n.|останавливать(ся); остановка|Stop the car!|Останови машину!
+story|n.|история, рассказ|Tell me a story.|Расскажи мне историю.
+street|n.|улица|I live on this street.|Я живу на этой улице.
+strong|adj.|сильный, крепкий|He's very strong.|Он очень сильный.
+student|n.|студент, ученик|I'm a student.|Я студент.
+study|n., v.|учёба; учиться|I study English.|Я изучаю английский.
+style|n.|стиль|I like your style.|Мне нравится твой стиль.
+subject|n.|предмет; тема|What's your favourite subject?|Какой твой любимый предмет?
+success|n.|успех|The party was a success.|Вечеринка удалась.
+sugar|n.|сахар|No sugar, thanks.|Без сахара, спасибо.
+summer|n.|лето|We go to the sea in summer.|Летом мы ездим на море.
+sun|n.|солнце|The sun is shining.|Светит солнце.
+Sunday|n.|воскресенье|I rest on Sunday.|В воскресенье я отдыхаю.
+sunny|adj.|солнечный|It's a sunny day.|Солнечный день.
+supermarket|n.|супермаркет|I buy food at the supermarket.|Я покупаю еду в супермаркете.

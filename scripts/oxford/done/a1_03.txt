@@ -1,0 +1,150 @@
+football|n.|футбол|They play football on Sundays.|По воскресеньям они играют в футбол.
+for|prep.|для; на (срок)|This is for you.|Это тебе.
+forget|v.|забывать|Don't forget your keys.|Не забудь ключи.
+form|n., v.|бланк, форма; образовывать|Fill in this form.|Заполните этот бланк.
+forty|number|сорок|My dad is forty.|Моему папе сорок.
+four|number|четыре|We have four children.|У нас четверо детей.
+fourteen|number|четырнадцать|She's fourteen.|Ей четырнадцать.
+fourth|number|четвёртый|It's on the fourth floor.|Это на пятом этаже.
+free|adj.|свободный; бесплатный|The museum is free.|Вход в музей бесплатный.
+Friday|n.|пятница|See you on Friday.|Увидимся в пятницу.
+friend|n.|друг|He's my best friend.|Он мой лучший друг.
+friendly|adj.|дружелюбный|People here are friendly.|Люди здесь дружелюбные.
+from|prep.|из, от|I'm from Russia.|Я из России.
+front|n., adj.|перед; передний|Sit in the front.|Садись впереди.
+fruit|n.|фрукты|Eat more fruit.|Ешь больше фруктов.
+full|adj.|полный|The bus is full.|Автобус полный.
+fun|n.|веселье|Have fun!|Повеселитесь!
+funny|adj.|смешной|He's very funny.|Он очень смешной.
+future|n.|будущее|What are your plans for the future?|Какие у тебя планы на будущее?
+game|n.|игра|Let's play a game.|Давай сыграем в игру.
+garden|n.|сад|We have a small garden.|У нас маленький сад.
+geography|n.|география|I like geography.|Мне нравится география.
+get|v.|получать; добираться; становиться|How do I get to the station?|Как добраться до вокзала?
+girl|n.|девочка, девушка|The girl is reading.|Девочка читает.
+girlfriend|n.|девушка (подруга)|His girlfriend is from Spain.|Его девушка из Испании.
+give|v.|давать|Give me your hand.|Дай мне руку.
+glass|n.|стакан; стекло|A glass of water, please.|Стакан воды, пожалуйста.
+go|v.|идти, ехать|Let's go home.|Пойдём домой.
+good|adj.|хороший|It's a good idea.|Хорошая идея.
+goodbye|exclam./n.|до свидания|Goodbye, see you soon.|До свидания, до скорой встречи.
+grandfather|n.|дедушка|My grandfather is ninety.|Моему дедушке девяносто.
+grandmother|n.|бабушка|I visit my grandmother every week.|Я навещаю бабушку каждую неделю.
+grandparent|n.|бабушка или дедушка|My grandparents live in a village.|Мои бабушка и дедушка живут в деревне.
+great|adj.|великий; отличный|That's great news!|Отличная новость!
+green|adj., n.|зелёный|I like green tea.|Я люблю зелёный чай.
+grey|adj., n.|серый|It's a grey day.|Сегодня пасмурный день.
+group|n.|группа|We work in groups.|Мы работаем в группах.
+grow|v.|расти; выращивать|Children grow fast.|Дети быстро растут.
+guess|v., n.|угадывать; догадка|Guess who I saw!|Угадай, кого я видел!
+guitar|n.|гитара|He plays the guitar.|Он играет на гитаре.
+gym|n.|спортзал|I go to the gym three times a week.|Я хожу в спортзал три раза в неделю.
+hair|n.|волосы|She has long hair.|У неё длинные волосы.
+half|n., det./pron.|половина|Half an hour.|Полчаса.
+hand|n.|рука (кисть)|Raise your hand.|Подними руку.
+happen|v.|случаться|What happened?|Что случилось?
+happy|adj.|счастливый|I'm very happy.|Я очень счастлив.
+hard|adj., adv.|трудный; твёрдый; усердно|She works hard.|Она усердно работает.
+hat|n.|шляпа, шапка|Wear a hat, it's cold.|Надень шапку, холодно.
+hate|v.|ненавидеть|I hate waiting.|Ненавижу ждать.
+have|v.|иметь|I have two sisters.|У меня две сестры.
+have to|modal v.|быть должным, приходиться|I have to go now.|Мне нужно идти.
+he|pron.|он|He is my brother.|Он мой брат.
+head|n.|голова|My head hurts.|У меня болит голова.
+health|n.|здоровье|Smoking is bad for your health.|Курение вредит здоровью.
+healthy|adj.|здоровый, полезный|Eat healthy food.|Ешь здоровую еду.
+hear|v.|слышать|Can you hear me?|Ты меня слышишь?
+hello|exclam./n.|привет, здравствуйте|Hello, how are you?|Привет, как дела?
+help|v., n.|помогать; помощь|Can you help me?|Можешь мне помочь?
+her|pron., det.|её, ей|I like her dress.|Мне нравится её платье.
+here|adv.|здесь, сюда|Come here.|Иди сюда.
+hey|exclam.|эй, привет|Hey, how's it going?|Привет, как жизнь?
+hi|exclam.|привет|Hi, I'm Anna.|Привет, я Анна.
+high|adj.|высокий|The mountain is very high.|Гора очень высокая.
+him|pron.|его, ему|I saw him yesterday.|Я видел его вчера.
+his|det.|его|This is his car.|Это его машина.
+history|n.|история|I love history.|Я люблю историю.
+hobby|n.|хобби|My hobby is photography.|Моё хобби — фотография.
+holiday|n.|отпуск, каникулы; праздник|We're on holiday.|Мы в отпуске.
+home|n., adv.|дом; домой|I'm going home.|Я иду домой.
+homework|n.|домашнее задание|Did you do your homework?|Ты сделал домашнее задание?
+hope|v.|надеяться|I hope you're well.|Надеюсь, у тебя всё хорошо.
+horse|n.|лошадь|She rides a horse.|Она ездит верхом.
+hospital|n.|больница|He's in hospital.|Он в больнице.
+hot|adj.|горячий, жаркий|It's very hot today.|Сегодня очень жарко.
+hotel|n.|гостиница|We stayed in a nice hotel.|Мы жили в хорошей гостинице.
+hour|n.|час|I'll be back in an hour.|Я вернусь через час.
+house|n.|дом|They have a big house.|У них большой дом.
+how|adv.|как|How are you?|Как дела?
+however|adv.|однако|It's expensive. However, it's good.|Это дорого. Однако качественно.
+hundred|number|сто|A hundred people came.|Пришли сто человек.
+hungry|adj.|голодный|I'm hungry.|Я голоден.
+husband|n.|муж|Her husband is a doctor.|Её муж — врач.
+I|pron.|я|I am a student.|Я студент.
+ice|n.|лёд|Water with ice, please.|Воду со льдом, пожалуйста.
+ice cream|n.|мороженое|I'd like chocolate ice cream.|Я хочу шоколадное мороженое.
+idea|n.|идея|Good idea!|Хорошая идея!
+if|conj.|если|Call me if you need help.|Позвони, если нужна помощь.
+imagine|v.|представлять|Imagine you're on a beach.|Представь, что ты на пляже.
+important|adj.|важный|This is very important.|Это очень важно.
+improve|v.|улучшать|I want to improve my English.|Я хочу улучшить свой английский.
+in|prep., adv.|в|The keys are in my bag.|Ключи в моей сумке.
+include|v.|включать|Breakfast is included.|Завтрак включён.
+information|n.|информация|I need more information.|Мне нужно больше информации.
+interest|n., v.|интерес; интересовать|I have no interest in sport.|Мне не интересен спорт.
+interested|adj.|заинтересованный|I'm interested in art.|Я интересуюсь искусством.
+interesting|adj.|интересный|What an interesting book!|Какая интересная книга!
+internet|n.|интернет|I found it on the internet.|Я нашёл это в интернете.
+interview|n., v.|интервью, собеседование|I have a job interview tomorrow.|Завтра у меня собеседование.
+into|prep.|в (движение внутрь)|Come into the room.|Заходи в комнату.
+introduce|v.|представлять, знакомить|Let me introduce my friend.|Позвольте представить моего друга.
+island|n.|остров|We stayed on a small island.|Мы жили на маленьком острове.
+it|pron.|оно, это|It's raining.|Идёт дождь.
+its|det.|его, её (о предмете)|The dog wagged its tail.|Собака виляла хвостом.
+jacket|n.|куртка, пиджак|Take your jacket.|Возьми куртку.
+January|n.|январь|It snows in January.|В январе идёт снег.
+jeans|n.|джинсы|I'm wearing jeans.|Я в джинсах.
+job|n.|работа|I love my job.|Я люблю свою работу.
+join|v.|присоединяться, вступать|Join us for dinner!|Присоединяйся к нам за ужином!
+journey|n.|поездка, путешествие|The journey took three hours.|Поездка заняла три часа.
+juice|n.|сок|Orange juice, please.|Апельсиновый сок, пожалуйста.
+July|n.|июль|It's hot in July.|В июле жарко.
+June|n.|июнь|School ends in June.|Учёба заканчивается в июне.
+just|adv.|только что; просто|I've just arrived.|Я только что приехал.
+keep|v.|хранить, держать; продолжать|Keep the change.|Сдачи не надо.
+key|n., adj.|ключ; ключевой|Where are my keys?|Где мои ключи?
+kilometre|n.|километр|It's five kilometres from here.|Это в пяти километрах отсюда.
+kind|n.|вид, сорт|What kind of music do you like?|Какую музыку ты любишь?
+kitchen|n.|кухня|Mum is in the kitchen.|Мама на кухне.
+know|v.|знать|I don't know.|Я не знаю.
+land|n.|земля, суша|They bought some land.|Они купили землю.
+language|n.|язык|How many languages do you speak?|На скольких языках ты говоришь?
+large|adj.|большой|A large coffee, please.|Большой кофе, пожалуйста.
+last|det.|последний; прошлый|I saw him last week.|Я видел его на прошлой неделе.
+late|adj., adv.|поздний; поздно|Sorry I'm late.|Извини, я опоздал.
+later|adv.|позже|See you later!|Увидимся позже!
+laugh|v., n.|смеяться; смех|Don't laugh at me.|Не смейся надо мной.
+learn|v.|учить, изучать|I'm learning English.|Я учу английский.
+leave|v.|уходить, уезжать; оставлять|I leave home at eight.|Я выхожу из дома в восемь.
+left|adj., adv., n.|левый; налево|Turn left.|Поверните налево.
+leg|n.|нога|I hurt my leg.|Я ушиб ногу.
+lesson|n.|урок|The lesson starts at nine.|Урок начинается в девять.
+let|v.|позволять; давай|Let's go!|Пошли!
+letter|n.|письмо; буква|I wrote a letter.|Я написал письмо.
+library|n.|библиотека|I study in the library.|Я занимаюсь в библиотеке.
+lie|v.|лежать|I lay on the beach all day.|Я весь день пролежал на пляже.
+life|n.|жизнь|Life is beautiful.|Жизнь прекрасна.
+light|n., adj.|свет; светлый, лёгкий|Turn on the light.|Включи свет.
+like|prep.|как, похожий на|She looks like her mother.|Она похожа на маму.
+like|v.|нравиться, любить|I like pizza.|Я люблю пиццу.
+line|n.|линия; очередь|Draw a line.|Нарисуй линию.
+lion|n.|лев|The lion is the king of animals.|Лев — царь зверей.
+list|n., v.|список; перечислять|Make a shopping list.|Составь список покупок.
+listen|v.|слушать|Listen to me.|Послушай меня.
+little|adj., det./pron.|маленький; немного|I have a little time.|У меня есть немного времени.
+live|v.|жить|Where do you live?|Где ты живёшь?
+local|adj.|местный|We buy food at the local market.|Мы покупаем еду на местном рынке.
+long|adj., adv.|длинный; долго|It's a long way.|Это долгий путь.
+look|v.|смотреть; выглядеть|Look at this!|Посмотри на это!
+lose|v.|терять; проигрывать|I lost my phone.|Я потерял телефон.
+lot|pron., det., adv.|много (a lot of)|I have a lot of work.|У меня много работы.

@@ -1,0 +1,150 @@
+love|n., v.|любовь; любить|I love you.|Я тебя люблю.
+lunch|n.|обед|Let's have lunch together.|Давай пообедаем вместе.
+machine|n.|машина, аппарат|The coffee machine is broken.|Кофемашина сломалась.
+magazine|n.|журнал|She reads a fashion magazine.|Она читает модный журнал.
+main|adj.|главный|This is the main street.|Это главная улица.
+make|v.|делать, создавать|I'll make some tea.|Я заварю чай.
+man|n.|мужчина, человек|Who is that man?|Кто тот мужчина?
+many|det./pron.|много|How many people are there?|Сколько там людей?
+map|n.|карта|Look at the map.|Посмотри на карту.
+March|n.|март|Spring starts in March.|Весна начинается в марте.
+market|n.|рынок|We buy fruit at the market.|Мы покупаем фрукты на рынке.
+married|adj.|женатый, замужняя|Are you married?|Вы женаты?
+match|n., v.|матч; подходить|Did you watch the match?|Ты смотрел матч?
+May|n.|май|We're getting married in May.|Мы женимся в мае.
+maybe|adv.|может быть|Maybe tomorrow.|Может быть, завтра.
+me|pron.|меня, мне|Call me.|Позвони мне.
+meal|n.|еда, приём пищи|We had a nice meal.|Мы хорошо поели.
+mean|v.|значить, иметь в виду|What does this word mean?|Что значит это слово?
+meaning|n.|значение|What's the meaning of this word?|Какое значение у этого слова?
+meat|n.|мясо|I don't eat meat.|Я не ем мясо.
+meet|v.|встречать(ся), знакомиться|Nice to meet you.|Приятно познакомиться.
+meeting|n.|встреча, собрание|I have a meeting at ten.|У меня встреча в десять.
+member|n.|член, участник|She's a member of the club.|Она член клуба.
+menu|n.|меню|Can I see the menu?|Можно меню?
+message|n.|сообщение|I sent you a message.|Я отправил тебе сообщение.
+metre|n.|метр|The pool is 25 metres long.|Бассейн длиной 25 метров.
+midnight|n.|полночь|The party ended at midnight.|Вечеринка закончилась в полночь.
+mile|n.|миля|It's two miles away.|Это в двух милях отсюда.
+milk|n.|молоко|Coffee with milk, please.|Кофе с молоком, пожалуйста.
+million|number|миллион|The city has a million people.|В городе миллион жителей.
+minute|n.|минута|Wait a minute.|Подожди минутку.
+miss|v.|скучать; пропускать, опаздывать|I miss you.|Я скучаю по тебе.
+mistake|n.|ошибка|Everyone makes mistakes.|Все ошибаются.
+model|n.|модель|She works as a model.|Она работает моделью.
+modern|adj.|современный|It's a modern building.|Это современное здание.
+moment|n.|момент, мгновение|Just a moment, please.|Минуточку, пожалуйста.
+Monday|n.|понедельник|I start work on Monday.|Я начинаю работать в понедельник.
+money|n.|деньги|I don't have much money.|У меня мало денег.
+month|n.|месяц|I'll see you next month.|Увидимся в следующем месяце.
+more|det./pron., adv.|больше, ещё|Can I have more tea?|Можно мне ещё чаю?
+morning|n.|утро|Good morning!|Доброе утро!
+most|det./pron., adv.|большинство; самый|Most people like music.|Большинство людей любят музыку.
+mother|n.|мать|My mother is a nurse.|Моя мама медсестра.
+mountain|n.|гора|We climbed a mountain.|Мы поднялись на гору.
+mouse|n.|мышь|The cat caught a mouse.|Кошка поймала мышь.
+mouth|n.|рот|Open your mouth.|Откройте рот.
+move|v.|двигать(ся); переезжать|We moved to a new flat.|Мы переехали в новую квартиру.
+movie|n.|фильм|Let's watch a movie.|Давай посмотрим фильм.
+much|det./pron., adv.|много; очень|Thank you very much.|Большое спасибо.
+mum|n.|мама|My mum makes great soup.|Моя мама готовит отличный суп.
+museum|n.|музей|We visited the museum.|Мы посетили музей.
+music|n.|музыка|I listen to music every day.|Я слушаю музыку каждый день.
+must|modal v.|должен|You must wear a seat belt.|Вы должны пристегнуться.
+my|det.|мой|This is my house.|Это мой дом.
+name|n., v.|имя, название; называть|What's your name?|Как тебя зовут?
+natural|adj.|естественный, природный|She has natural talent.|У неё природный талант.
+near|prep., adj., adv.|рядом, близко|I live near the park.|Я живу рядом с парком.
+need|v.|нуждаться, нужно|I need help.|Мне нужна помощь.
+negative|adj.|отрицательный, негативный|Don't be so negative.|Не будь таким пессимистом.
+neighbour|n.|сосед|Our neighbours are nice.|У нас хорошие соседи.
+never|adv.|никогда|I never eat meat.|Я никогда не ем мясо.
+new|adj.|новый|I have a new phone.|У меня новый телефон.
+news|n.|новости|Did you hear the news?|Ты слышал новости?
+newspaper|n.|газета|He reads the newspaper every morning.|Он читает газету каждое утро.
+next|adj., adv.|следующий; затем|See you next week.|Увидимся на следующей неделе.
+next to|prep.|рядом с|Sit next to me.|Садись рядом со мной.
+nice|adj.|приятный, милый|She's very nice.|Она очень милая.
+night|n.|ночь|Good night!|Спокойной ночи!
+nine|number|девять|The shop opens at nine.|Магазин открывается в девять.
+nineteen|number|девятнадцать|He's nineteen.|Ему девятнадцать.
+ninety|number|девяносто|She lived to ninety.|Она дожила до девяноста.
+no|exclam., det.|нет; никакой|There's no milk.|Молока нет.
+nobody|pron.|никто|Nobody called.|Никто не звонил.
+no one|pron.|никто|No one was at home.|Никого не было дома.
+north|n., adj., adv.|север; северный|We drove north.|Мы поехали на север.
+nose|n.|нос|He broke his nose.|Он сломал нос.
+not|adv.|не|I'm not tired.|Я не устал.
+note|n.|записка; заметка|I left you a note.|Я оставил тебе записку.
+nothing|pron.|ничего|There's nothing in the fridge.|В холодильнике ничего нет.
+November|n.|ноябрь|It rains a lot in November.|В ноябре много дождей.
+now|adv.|сейчас|I'm busy now.|Я сейчас занят.
+number|n.|число, номер|What's your phone number?|Какой у тебя номер телефона?
+nurse|n.|медсестра, медбрат|The nurse was very kind.|Медсестра была очень добра.
+object|n.|предмет, объект|What is this object?|Что это за предмет?
+o'clock|adv.|час (ровно)|It's three o'clock.|Сейчас три часа.
+October|n.|октябрь|Leaves turn yellow in October.|В октябре листья желтеют.
+of|prep.|из; (родительный падеж)|A cup of tea.|Чашка чая.
+off|adv., prep.|выключено; с, от|Turn off the light.|Выключи свет.
+office|n.|офис|I work in an office.|Я работаю в офисе.
+often|adv.|часто|I often go swimming.|Я часто хожу плавать.
+oh|exclam.|о, ах|Oh, I see.|А, понятно.
+OK|exclam., adj./adv.|хорошо, ладно|OK, let's go.|Ладно, пошли.
+old|adj.|старый|This is an old house.|Это старый дом.
+on|prep., adv.|на; включено|The book is on the table.|Книга на столе.
+once|adv.|однажды; один раз|I go there once a week.|Я хожу туда раз в неделю.
+one|number/det., pron.|один|I have one sister.|У меня одна сестра.
+onion|n.|лук|Chop the onion.|Нарежь лук.
+online|adj., adv.|онлайн, в интернете|I buy clothes online.|Я покупаю одежду в интернете.
+only|adj., adv.|единственный; только|I have only one euro.|У меня только один евро.
+open|adj., v.|открытый; открывать|The shop is open.|Магазин открыт.
+opinion|n.|мнение|What's your opinion?|Каково твоё мнение?
+opposite|adj., n., prep., adv.|противоположный; напротив|The bank is opposite the station.|Банк напротив вокзала.
+or|conj.|или|Tea or coffee?|Чай или кофе?
+orange|n., adj.|апельсин; оранжевый|I'd like an orange.|Я хочу апельсин.
+order|n., v.|заказ, порядок; заказывать|Are you ready to order?|Вы готовы сделать заказ?
+other|adj./pron.|другой|Where are the other students?|Где остальные студенты?
+our|det.|наш|This is our car.|Это наша машина.
+out|adv./prep.|вне, наружу|She's out at the moment.|Её сейчас нет.
+outside|adv.|снаружи, на улице|Let's eat outside.|Давай поедим на улице.
+over|prep., adv.|над; через; более|The film is over.|Фильм закончился.
+own|adj./pron.|собственный|I have my own room.|У меня своя комната.
+page|n.|страница|Open your books at page 20.|Откройте книги на странице 20.
+paint|v., n.|красить, рисовать; краска|We painted the kitchen white.|Мы покрасили кухню в белый.
+painting|n.|картина|I love this painting.|Мне очень нравится эта картина.
+pair|n.|пара|I bought a pair of shoes.|Я купил пару туфель.
+paper|n.|бумага|I need a piece of paper.|Мне нужен листок бумаги.
+paragraph|n.|абзац|Read the first paragraph.|Прочитайте первый абзац.
+parent|n.|родитель|My parents live in Sochi.|Мои родители живут в Сочи.
+park|n., v.|парк; парковать|We walked in the park.|Мы гуляли в парке.
+part|n.|часть|This is the best part.|Это лучшая часть.
+partner|n.|партнёр|This is my partner, Alex.|Это мой партнёр Алекс.
+party|n.|вечеринка; партия|Come to my party!|Приходи на мою вечеринку!
+passport|n.|паспорт|Don't forget your passport.|Не забудь паспорт.
+past|adj., n., prep.|прошлый; прошлое; мимо|It's half past six.|Сейчас половина седьмого.
+pay|v.|платить|Can I pay by card?|Можно заплатить картой?
+pen|n.|ручка|Can I borrow your pen?|Можно взять твою ручку?
+pencil|n.|карандаш|Write in pencil.|Пишите карандашом.
+people|n.|люди|Many people live here.|Здесь живёт много людей.
+pepper|n.|перец|Pass the salt and pepper.|Передай соль и перец.
+perfect|adj.|идеальный|The weather is perfect.|Погода идеальная.
+period|n.|период|It was a difficult period.|Это был трудный период.
+person|n.|человек|She's a nice person.|Она хороший человек.
+personal|adj.|личный|It's a personal question.|Это личный вопрос.
+phone|n., v.|телефон; звонить|My phone is dead.|У меня сел телефон.
+photo|n.|фото|Can I take a photo?|Можно сфотографировать?
+photograph|n.|фотография|This is an old photograph.|Это старая фотография.
+phrase|n.|фраза|Learn these phrases.|Выучите эти фразы.
+piano|n.|пианино|She plays the piano.|Она играет на пианино.
+picture|n.|картинка, фото|Look at the picture.|Посмотри на картинку.
+piece|n.|кусок, часть|A piece of cake, please.|Кусочек торта, пожалуйста.
+pig|n.|свинья|The pig is in the mud.|Свинья в грязи.
+pink|adj., n.|розовый|She has a pink bag.|У неё розовая сумка.
+pizza|n.|пицца|Let's order pizza.|Давай закажем пиццу.
+place|n.|место|This is a nice place.|Это хорошее место.
+plan|n., v.|план; планировать|What are your plans?|Какие у тебя планы?
+plane|n.|самолёт|The plane lands at five.|Самолёт приземляется в пять.
+plant|n.|растение|Water the plants.|Полей растения.
+play|v., n.|играть; пьеса|The children are playing.|Дети играют.
+player|n.|игрок|He's a great player.|Он отличный игрок.
+please|exclam.|пожалуйста|Sit down, please.|Садитесь, пожалуйста.

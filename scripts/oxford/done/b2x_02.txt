@@ -1,0 +1,150 @@
+deck|n.|палуба; колода|We sat on the deck of the ship.|Мы сидели на палубе корабля.
+defender|n.|защитник|He plays as a defender.|Он играет защитником.
+delete|v.|удалять|Delete the old messages.|Удали старые сообщения.
+democracy|n.|демократия|Free elections are key to democracy.|Свободные выборы — основа демократии.
+democratic|adj.|демократический|It's a democratic country.|Это демократическая страна.
+demonstration|n.|демонстрация; показ|Thousands joined the demonstration.|Тысячи людей вышли на демонстрацию.
+depart|v.|отправляться, уезжать|The train departs at 9:15.|Поезд отправляется в 9:15.
+dependent|adj.|зависимый|He's still dependent on his parents.|Он всё ещё зависит от родителей.
+deposit|n.|залог; вклад; первый взнос|We paid a deposit on the flat.|Мы внесли залог за квартиру.
+depression|n.|депрессия; спад|She suffers from depression.|Она страдает от депрессии.
+derive|v.|получать, происходить (от)|The word derives from Latin.|Это слово происходит от латыни.
+desperately|adv.|отчаянно; крайне|They desperately need help.|Им отчаянно нужна помощь.
+destruction|n.|разрушение|The storm caused great destruction.|Шторм причинил большие разрушения.
+determination|n.|решимость, целеустремлённость|She showed great determination.|Она проявила большую решимость.
+devote|v.|посвящать|He devoted his life to music.|Он посвятил жизнь музыке.
+diabetes|n.|диабет|My father has diabetes.|У моего отца диабет.
+differ|v.|отличаться|Our opinions differ.|Наши мнения расходятся.
+disability|n.|инвалидность, ограниченные возможности|The building is accessible for people with disabilities.|Здание доступно для людей с инвалидностью.
+disabled|adj.|с инвалидностью|There is parking for disabled drivers.|Есть парковка для водителей с инвалидностью.
+disagreement|n.|разногласие|We had a disagreement about money.|У нас были разногласия из-за денег.
+disappoint|v.|разочаровывать|I don't want to disappoint you.|Не хочу тебя разочаровать.
+disappointment|n.|разочарование|The film was a disappointment.|Фильм разочаровал.
+discourage|v.|отговаривать; обескураживать|Don't let one failure discourage you.|Не позволяй одной неудаче тебя расстроить.
+disorder|n.|расстройство; беспорядок|She has an eating disorder.|У неё расстройство пищевого поведения.
+distant|adj.|далёкий|We could hear distant music.|Мы слышали далёкую музыку.
+distinct|adj.|отчётливый; отдельный|There's a distinct smell of gas.|Отчётливо пахнет газом.
+distinguish|v.|различать|Can you distinguish the twins?|Ты можешь различить близнецов?
+distract|v.|отвлекать|Don't distract me while I'm driving.|Не отвлекай меня, пока я за рулём.
+disturb|v.|беспокоить, мешать|Please do not disturb.|Пожалуйста, не беспокоить.
+dive|v., n.|нырять; прыжок в воду|He dived into the pool.|Он нырнул в бассейн.
+diverse|adj.|разнообразный|London is a diverse city.|Лондон — очень разнообразный город.
+diversity|n.|разнообразие|We value cultural diversity.|Мы ценим культурное разнообразие.
+divorce|n., v.|развод; разводиться|Their parents got divorced.|Их родители развелись.
+dominant|adj.|доминирующий, господствующий|English is the dominant language online.|Английский — основной язык в интернете.
+donation|n.|пожертвование|They made a donation to charity.|Они сделали пожертвование на благотворительность.
+dot|n.|точка|The town is a small dot on the map.|Этот город — маленькая точка на карте.
+downtown|n., adj., adv.|центр города; в центре|Let's go downtown tonight.|Давай поедем в центр сегодня вечером.
+dramatically|adv.|резко, значительно|Prices have risen dramatically.|Цены резко выросли.
+drought|n.|засуха|The drought destroyed the crops.|Засуха уничтожила урожай.
+dull|adj.|скучный; тусклый|The lecture was really dull.|Лекция была очень скучной.
+dump|v.|сваливать, выбрасывать|They dumped rubbish in the river.|Они сбрасывали мусор в реку.
+duration|n.|продолжительность|The duration of the course is six weeks.|Продолжительность курса — шесть недель.
+dynamic|adj.|динамичный, энергичный|She's a dynamic leader.|Она энергичный лидер.
+economics|n.|экономика (наука)|He studies economics at university.|Он изучает экономику в университете.
+economist|n.|экономист|Economists expect growth next year.|Экономисты ожидают роста в следующем году.
+ecosystem|n.|экосистема|Pollution damages the ecosystem.|Загрязнение вредит экосистеме.
+editorial|adj.|редакционный|She has an editorial job at a magazine.|Она работает в редакции журнала.
+efficiently|adv.|эффективно|The system works efficiently.|Система работает эффективно.
+elbow|n.|локоть|I hurt my elbow.|Я ушиб локоть.
+electronics|n.|электроника|He works in electronics.|Он работает в сфере электроники.
+elegant|adj.|элегантный|She looked elegant in black.|Она выглядела элегантно в чёрном.
+elementary|adj.|начальный, элементарный|This is an elementary mistake.|Это элементарная ошибка.
+eliminate|v.|устранять, исключать|We want to eliminate waste.|Мы хотим устранить потери.
+embrace|v.|обнимать; принимать (идею)|The company embraced new technology.|Компания приняла новые технологии.
+emission|n.|выброс|Cars produce harmful emissions.|Автомобили производят вредные выбросы.
+empire|n.|империя|The Roman Empire was huge.|Римская империя была огромной.
+enjoyable|adj.|приятный|We had an enjoyable evening.|Мы приятно провели вечер.
+entertaining|adj.|занимательный, развлекательный|The show was very entertaining.|Шоу было очень увлекательным.
+entrepreneur|n.|предприниматель|She's a successful entrepreneur.|Она успешный предприниматель.
+envelope|n.|конверт|Put the letter in an envelope.|Положи письмо в конверт.
+equip|v.|оснащать|The kitchen is fully equipped.|Кухня полностью оборудована.
+equivalent|n., adj.|эквивалент; равноценный|It's the equivalent of a month's pay.|Это равно месячной зарплате.
+era|n.|эпоха, эра|It was the end of an era.|Это был конец эпохи.
+erupt|v.|извергаться|The volcano erupted last year.|Вулкан извергся в прошлом году.
+essentially|adv.|по сути|It's essentially the same thing.|По сути, это одно и то же.
+ethic|n.|этика, принципы|He has a strong work ethic.|Он очень добросовестно относится к работе.
+ethnic|adj.|этнический|The city has many ethnic groups.|В городе много этнических групп.
+evaluation|n.|оценка|We did an evaluation of the course.|Мы провели оценку курса.
+evident|adj.|очевидный|It was evident that she was tired.|Было очевидно, что она устала.
+evolution|n.|эволюция, развитие|Darwin's theory of evolution.|Теория эволюции Дарвина.
+evolve|v.|развиваться, эволюционировать|The company has evolved over time.|Со временем компания развивалась.
+exceed|v.|превышать|Don't exceed the speed limit.|Не превышайте скорость.
+exception|n.|исключение|Everyone came, with one exception.|Пришли все, за одним исключением.
+excessive|adj.|чрезмерный|Excessive drinking is dangerous.|Чрезмерное употребление алкоголя опасно.
+exclude|v.|исключать|Breakfast is excluded from the price.|Завтрак не входит в стоимость.
+exhibit|v., n.|выставлять; экспонат|Her paintings are exhibited in Paris.|Её картины выставляются в Париже.
+exit|n.|выход|Where's the exit?|Где выход?
+exotic|adj.|экзотический|We saw exotic birds.|Мы видели экзотических птиц.
+expansion|n.|расширение|The company plans further expansion.|Компания планирует дальнейшее расширение.
+expertise|n.|опыт, экспертные знания|We need your expertise.|Нам нужны ваши знания.
+exploit|v.|эксплуатировать; использовать|Workers were exploited by the company.|Компания эксплуатировала рабочих.
+exposure|n.|воздействие; разоблачение|Avoid exposure to the sun.|Избегайте пребывания на солнце.
+extension|n.|продление; пристройка; добавочный номер|I asked for an extension to the deadline.|Я попросил продлить срок.
+extensive|adj.|обширный|The house has extensive gardens.|У дома обширный сад.
+extract|n.|отрывок; экстракт|Read an extract from the novel.|Прочитайте отрывок из романа.
+fabric|n.|ткань|This fabric is soft.|Эта ткань мягкая.
+fabulous|adj.|потрясающий|You look fabulous!|Ты выглядишь потрясающе!
+fake|adj.|поддельный, фальшивый|He had a fake passport.|У него был поддельный паспорт.
+fame|n.|слава, известность|She found fame as a singer.|Она прославилась как певица.
+fantasy|n.|фантазия; фэнтези|He lives in a fantasy world.|Он живёт в мире фантазий.
+fare|n.|стоимость проезда|The bus fare is two dollars.|Проезд на автобусе стоит два доллара.
+federal|adj.|федеральный|It's a federal law.|Это федеральный закон.
+fever|n.|жар, лихорадка|The child has a high fever.|У ребёнка высокая температура.
+firefighter|n.|пожарный|Firefighters put out the fire.|Пожарные потушили огонь.
+firework|n.|фейерверк|We watched the fireworks.|Мы смотрели фейерверк.
+firm|adj.|твёрдый; решительный|The bed is too firm.|Кровать слишком жёсткая.
+firmly|adv.|твёрдо, крепко|She held my hand firmly.|Она крепко держала меня за руку.
+flavour|n.|вкус|Which flavour do you want?|Какой вкус ты хочешь?
+follower|n.|последователь; подписчик|She has a million followers.|У неё миллион подписчиков.
+fond|adj.|любящий (be fond of — любить)|I'm very fond of her.|Я её очень люблю.
+fool|n.|дурак|Don't be a fool.|Не будь дураком.
+footprint|n.|след ноги|There were footprints in the snow.|На снегу были следы.
+forbid|v.|запрещать|Smoking is forbidden here.|Здесь запрещено курить.
+forecast|n., v.|прогноз; прогнозировать|The forecast says it will rain.|По прогнозу будет дождь.
+format|n.|формат|Save the file in PDF format.|Сохраните файл в формате PDF.
+formation|n.|образование, формирование|The formation of the new government took weeks.|Формирование нового правительства заняло недели.
+formerly|adv.|ранее, прежде|The hotel was formerly a castle.|Раньше этот отель был замком.
+fortunate|adj.|удачливый, счастливый|We were fortunate to find a seat.|Нам повезло найти место.
+forum|n.|форум|Ask your question on the forum.|Задайте вопрос на форуме.
+fossil|n.|окаменелость, ископаемое|They found dinosaur fossils.|Они нашли окаменелости динозавров.
+foundation|n.|фонд; основа; фундамент|Trust is the foundation of friendship.|Доверие — основа дружбы.
+founder|n.|основатель|He's the founder of the company.|Он основатель компании.
+fraction|n.|доля, дробь|It costs a fraction of the price.|Это стоит лишь малую часть цены.
+fragment|n.|фрагмент, осколок|Fragments of glass were everywhere.|Повсюду были осколки стекла.
+framework|n.|структура, рамки|We need a legal framework.|Нам нужна правовая основа.
+fraud|n.|мошенничество|He was arrested for fraud.|Его арестовали за мошенничество.
+frequent|adj.|частый|She's a frequent visitor here.|Она здесь частый гость.
+fulfil|v.|выполнять, осуществлять|She fulfilled her dream.|Она осуществила свою мечту.
+full-time|adj./adv.|на полную ставку|She works full-time.|Она работает полный день.
+furious|adj.|разъярённый|He was furious with me.|Он был в ярости на меня.
+gaming|n.|компьютерные игры|Gaming is his hobby.|Компьютерные игры — его хобби.
+gay|adj.|гей, гомосексуальный|He is openly gay.|Он открытый гей.
+gene|n.|ген|Eye colour is controlled by genes.|Цвет глаз определяется генами.
+genetic|adj.|генетический|It's a genetic disease.|Это генетическое заболевание.
+genius|n.|гений|Einstein was a genius.|Эйнштейн был гением.
+genuine|adj.|подлинный, искренний|Is this a genuine diamond?|Это настоящий бриллиант?
+genuinely|adv.|искренне, по-настоящему|I'm genuinely sorry.|Мне искренне жаль.
+gesture|n.|жест|It was a kind gesture.|Это был добрый жест.
+globalization|n.|глобализация|Globalization has changed trade.|Глобализация изменила торговлю.
+globe|n.|земной шар; глобус|People from all over the globe came.|Приехали люди со всего мира.
+golden|adj.|золотой|She has golden hair.|У неё золотистые волосы.
+goodness|n.|доброта; (боже мой)|My goodness, you've grown!|Боже мой, как ты вырос!
+gorgeous|adj.|великолепный, красивый|What a gorgeous day!|Какой великолепный день!
+governor|n.|губернатор|The governor visited the school.|Губернатор посетил школу.
+graphic|adj.|графический; наглядный|She's a graphic designer.|Она графический дизайнер.
+graphics|n.|графика|The game has amazing graphics.|В игре потрясающая графика.
+greatly|adv.|очень, значительно|Your help is greatly appreciated.|Мы очень ценим вашу помощь.
+greenhouse|n.|теплица; парниковый|Greenhouse gases warm the planet.|Парниковые газы нагревают планету.
+grocery|n.|продуктовый магазин; продукты|I need to buy groceries.|Мне нужно купить продукты.
+guideline|n.|рекомендация, руководство|Follow the safety guidelines.|Соблюдайте правила безопасности.
+habitat|n.|среда обитания|The forest is a habitat for bears.|Лес — среда обитания медведей.
+harbour|n.|гавань, порт|Boats were in the harbour.|В гавани стояли лодки.
+headquarters|n.|штаб-квартира|The headquarters is in London.|Штаб-квартира находится в Лондоне.
+heal|v.|заживать, исцелять|The wound healed quickly.|Рана быстро зажила.
+healthcare|n.|здравоохранение|Everyone deserves good healthcare.|Каждый заслуживает хорошей медицинской помощи.
+helmet|n.|шлем|Always wear a helmet when cycling.|Всегда надевай шлем, когда катаешься на велосипеде.
+hence|adv.|следовательно, поэтому|It's handmade, hence the high price.|Это ручная работа, поэтому цена высокая.
+herb|n.|трава (пряная)|Add fresh herbs to the soup.|Добавьте в суп свежую зелень.
+hidden|adj.|скрытый, спрятанный|There's a hidden camera.|Там скрытая камера.
+highway|n.|шоссе, автомагистраль|We drove along the highway.|Мы ехали по шоссе.

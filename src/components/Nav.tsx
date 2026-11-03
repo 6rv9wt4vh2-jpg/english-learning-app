@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "Главная", icon: "🏠" },
   { href: "/vocabulary", label: "Слова", icon: "📚" },
   { href: "/practice", label: "Карточки", icon: "🧠" },
-  { href: "/b2", label: "B2 карточки", icon: "🎓" },
+  { href: "/cards", label: "Уровни", icon: "🎓" },
   { href: "/lessons", label: "Уроки", icon: "📖" },
   { href: "/listening", label: "Аудирование", icon: "🎧" },
   { href: "/progress", label: "Прогресс", icon: "📊" },
