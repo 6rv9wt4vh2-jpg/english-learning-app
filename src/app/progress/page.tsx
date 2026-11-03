@@ -6,6 +6,7 @@ import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
 import { lessons } from "@/data/lessons";
 import { words } from "@/data/words";
+import { b2Cards } from "@/data/b2";
 import { useProgress } from "@/lib/hooks";
 import { countLearnedWords, getAccuracy } from "@/lib/storage";
 import { isDue } from "@/lib/srs";
@@ -49,7 +50,7 @@ export default function ProgressPage() {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard label="Серия" value={`${progress.streak} дн.`} emoji="🔥" />
-        <StatCard label="Слов выучено" value={learned} emoji="✨" hint={`из ${words.length}`} />
+        <StatCard label="Слов выучено" value={learned} emoji="✨" hint={`из ${words.length + b2Cards.length}`} />
         <StatCard label="Точность" value={`${accuracy}%`} emoji="🎯" hint={`${progress.correctReviews}/${progress.totalReviews}`} />
         <StatCard label="К повторению" value={due} emoji="🧠" />
       </div>
@@ -61,7 +62,7 @@ export default function ProgressPage() {
           max={progress.dailyGoal || 20}
           label="Повторения"
         />
-        <ProgressBar value={learned} max={words.length} label="Словарь" />
+        <ProgressBar value={learned} max={words.length + b2Cards.length} label="Словарь (A1–B2)" />
         <ProgressBar
           value={progress.completedLessons.length}
           max={lessons.length}

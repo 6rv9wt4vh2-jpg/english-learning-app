@@ -6,6 +6,7 @@ import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
 import { lessons } from "@/data/lessons";
 import { words } from "@/data/words";
+import { b2Cards } from "@/data/b2";
 import { useProgress } from "@/lib/hooks";
 import { countLearnedWords, getAccuracy } from "@/lib/storage";
 import { isDue } from "@/lib/srs";
@@ -45,7 +46,7 @@ export default function HomePage() {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard label="Серия дней" value={progress.streak} emoji="🔥" hint="занимайтесь каждый день" />
-        <StatCard label="Выучено слов" value={learned} emoji="✨" hint={`из ${words.length}`} />
+        <StatCard label="Выучено слов" value={learned} emoji="✨" hint={`из ${words.length + b2Cards.length}`} />
         <StatCard label="Точность" value={`${accuracy}%`} emoji="🎯" />
         <StatCard label="К повторению" value={dueCount} emoji="🧠" />
       </div>

@@ -7,6 +7,7 @@ const links = [
   { href: "/", label: "Главная", icon: "🏠" },
   { href: "/vocabulary", label: "Слова", icon: "📚" },
   { href: "/practice", label: "Карточки", icon: "🧠" },
+  { href: "/b2", label: "B2 карточки", icon: "🎓" },
   { href: "/lessons", label: "Уроки", icon: "📖" },
   { href: "/listening", label: "Аудирование", icon: "🎧" },
   { href: "/progress", label: "Прогресс", icon: "📊" },
@@ -25,7 +26,7 @@ export default function Nav() {
             <span className="text-2xl">🇬🇧</span>
             <div>
               <div className="font-semibold text-slate-900 dark:text-slate-100">English RU</div>
-              <div className="text-xs text-slate-500">A1–B1 для русскоязычных</div>
+              <div className="text-xs text-slate-500">A1–B2 для русскоязычных</div>
             </div>
           </Link>
         </div>

@@ -68,3 +68,13 @@ export const DEFAULT_PROGRESS: AppProgress = {
   reviewsToday: 0,
   reviewsTodayDate: null,
 };
+
+export interface B2Card {
+  id: string;
+  en: string;
+  pos: string;
+  ru: string;
+  example: string;
+  exampleRu: string;
+  batch: number;
+}
