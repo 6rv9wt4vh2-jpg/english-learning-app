@@ -1,17 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
 import { Loading } from "@/components/ui";
 import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel } from "@/data/course";
 import { deckCards } from "@/data/decks";
-import { words } from "@/data/words";
-import { DECKS } from "@/lib/decks";
+import { DECKS, countEasyAll } from "@/lib/decks";
 import { useProgress } from "@/lib/hooks";
-import { countLearnedWords, getAccuracy } from "@/lib/storage";
-import { isDue } from "@/lib/srs";
+import { getAccuracy } from "@/lib/storage";
 import { useUnitProgress } from "@/lib/units";
 
 const totalCards = DECKS.reduce((s, d) => s + deckCards[d.slug].length, 0);
@@ -24,7 +21,10 @@ const TILES = [
   { href: "/vocabulary", emoji: "📚", en: "Words", ru: "Словарь", grad: "from-emerald-400 to-teal-600" },
   { href: "/cards", emoji: "🃏", en: "Cards", ru: "Карточки", grad: "from-amber-400 to-orange-600" },
   { href: "/lessons", emoji: "🎓", en: "Lessons", ru: "Уроки", grad: "from-fuchsia-500 to-purple-600" },
-  { href: "/practice", emoji: "🧠", en: "Practice", ru: "Тренировка", grad: "from-pink-500 to-rose-600" },
+  { href: "/speaking", emoji: "🎙️", en: "Speaking", ru: "Говорение", grad: "from-rose-400 to-pink-600" },
+  { href: "/grammar", emoji: "📐", en: "Grammar", ru: "Грамматика", grad: "from-fuchsia-500 to-purple-600" },
+  { href: "/reading", emoji: "📖", en: "Reading", ru: "Чтение", grad: "from-cyan-400 to-blue-600" },
+  { href: "/writing", emoji: "✍️", en: "Writing", ru: "Письмо", grad: "from-amber-400 to-orange-600" },
   { href: "/listening", emoji: "🎧", en: "Listening", ru: "Аудирование", grad: "from-cyan-400 to-blue-600" },
   { href: "/progress", emoji: "📊", en: "Progress", ru: "Прогресс", grad: "from-lime-400 to-green-600" },
 ];
@@ -32,9 +32,8 @@ const TILES = [
 export default function HomePage() {
   const { progress, ready } = useProgress();
   const units = useUnitProgress();
-  const dueCount = useMemo(() => words.filter((w) => isDue(progress.words[w.id])).length, [progress.words]);
-  const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
-  const learned = countLearnedWords(progress);
+    const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
+  const learned = typeof window === "undefined" ? 0 : countEasyAll(DECKS.map((d) => d.slug));
   const accuracy = getAccuracy(progress);
   const goal = progress.dailyGoal || 20;
   const today = progress.reviewsToday || 0;
@@ -70,7 +69,7 @@ export default function HomePage() {
         </div>
         <ProgressBar value={today} max={goal} />
         <div className="flex flex-wrap gap-3 pt-1">
-          <Link href="/practice" className="btn-primary">🧠 Practice <span className="opacity-75">/ Тренировать</span>{dueCount ? ` (${dueCount})` : ""}</Link>
+          <Link href="/speaking" className="btn-primary">🎙️ Speaking <span className="opacity-75">/ Говорить</span></Link>
           <Link href="/cards" className="btn-warm">🃏 Learn cards <span className="opacity-75">/ Учить</span></Link>
           <Link href="/listening" className="btn-ghost">🎧 Listening <span className="opacity-60">/ Аудирование</span></Link>
         </div>
@@ -103,7 +102,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      <section className="grid grid-cols-3 gap-3">
         {TILES.map((t) => (
           <Link key={t.href} href={t.href} className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${t.grad} hover:scale-[1.03] transition`}>
             <div className="text-3xl">{t.emoji}</div>

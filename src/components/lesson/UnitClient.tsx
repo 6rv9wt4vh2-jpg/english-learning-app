@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import GrammarCheck from "@/components/GrammarCheck";
 import SpeakButton from "@/components/SpeakButton";
 import { PageHero } from "@/components/ui";
 import { LEVEL_META, TYPE_META, unitsByLevel, type Exercise, type GrammarUnit, type Question, type ReadingUnit, type Unit, type WritingUnit } from "@/data/course";
@@ -175,6 +176,7 @@ function Writing({ u, onPass, done }: { u: WritingUnit; onPass: () => void; done
           <span className="rounded-full px-3 py-1 font-semibold text-white bg-sky-500">Phrases used: {usedPhrases}/{u.phrases.length}</span>
           {saved && <span className="rounded-full px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-500">💾 Saved on this device</span>}
         </div>
+        <GrammarCheck text={text} label="Check my writing / Проверить ошибки" />
       </Section>
       <Section title="Self-check" ru="Самопроверка" emoji="✅">
         <ul className="space-y-2">

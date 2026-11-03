@@ -1,10 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import SpeakButton from "@/components/SpeakButton";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
 import { deckCards } from "@/data/decks";
-import { DECKS } from "@/lib/decks";
+import { DECKS, readStatus } from "@/lib/decks";
 import { useProgress } from "@/lib/hooks";
 
 const POS: [string, string, RegExp][] = [
@@ -16,14 +16,16 @@ const all = DECKS.flatMap((d) => deckCards[d.slug].map((c) => ({ ...c, deck: d.s
 const PAGE = 60;
 
 export default function WordsPage() {
-  const { progress, ready } = useProgress();
+  const { ready } = useProgress();
   const [q, setQ] = useState("");
   const [level, setLevel] = useState("all");
   const [pos, setPos] = useState("all");
   const [status, setStatus] = useState<"all" | "new" | "learned">("all");
   const [limit, setLimit] = useState(PAGE);
 
-  const isLearned = (id: string) => { const w = progress.words[id]; return !!w && (w.repetitions >= 2 || w.correctCount >= 2); };
+  const [easy, setEasy] = useState<Set<string>>(new Set());
+  useEffect(() => { const s = new Set<string>(); DECKS.forEach((d) => Object.entries(readStatus(d.slug)).forEach(([k, v]) => v === "easy" && s.add(k))); setEasy(s); }, []);
+  const isLearned = (id: string) => easy.has(id);
   const filtered = useMemo(() => {
     const s = q.trim().toLowerCase();
     return all.filter((c) =>
@@ -32,7 +34,7 @@ export default function WordsPage() {
       (status === "all" || (status === "learned") === isLearned(c.id)) &&
       (!s || c.en.toLowerCase().includes(s) || c.ru.toLowerCase().includes(s)));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, level, pos, status, progress.words]);
+  }, [q, level, pos, status, easy]);
 
   if (!ready) return <Loading />;
   const reset = () => setLimit(PAGE);

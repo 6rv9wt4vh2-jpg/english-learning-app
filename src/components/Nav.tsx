@@ -5,18 +5,23 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "Home", icon: "🏠", grad: "from-sky-400 to-indigo-500" },
-  { href: "/vocabulary", label: "Words", icon: "📚", grad: "from-emerald-400 to-teal-500" },
   { href: "/cards", label: "Cards", icon: "🃏", grad: "from-amber-400 to-orange-500" },
-  { href: "/lessons", label: "Lessons", icon: "🎓", grad: "from-fuchsia-500 to-purple-600" },
-  { href: "/practice", label: "Practice", icon: "🧠", grad: "from-pink-500 to-rose-600" },
+  { href: "/grammar", label: "Grammar", icon: "📐", grad: "from-fuchsia-500 to-purple-600" },
+  { href: "/reading", label: "Reading", icon: "📖", grad: "from-cyan-400 to-blue-600" },
+  { href: "/writing", label: "Writing", icon: "✍️", grad: "from-amber-400 to-orange-600" },
+  { href: "/speaking", label: "Speaking", icon: "🎙️", grad: "from-rose-400 to-pink-600" },
+  { href: "/vocabulary", label: "Words", icon: "📚", grad: "from-emerald-400 to-teal-500" },
   { href: "/listening", label: "Listening", icon: "🎧", grad: "from-cyan-400 to-blue-600" },
   { href: "/progress", label: "Progress", icon: "📊", grad: "from-lime-400 to-green-600" },
   { href: "/settings", label: "Settings", icon: "⚙️", grad: "from-slate-400 to-slate-600" },
 ];
-const mobile = [...links.slice(0, 5), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
-const moreRoutes = ["/more", "/listening", "/progress", "/settings"];
+const mobile = [...links.slice(0, 6), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
+const moreRoutes = ["/more", "/vocabulary", "/listening", "/progress", "/settings", "/practice"];
+const LESSON_TYPE: Record<string, string> = { g: "/grammar", r: "/reading", w: "/writing" };
 
 function isActive(pathname: string, href: string) {
+  const m = pathname.match(/^\/lessons\/[a-z0-9]+-([grw])-/);
+  if (m) return LESSON_TYPE[m[1]] === href;
   if (href === "/more") return moreRoutes.some((r) => pathname.startsWith(r));
   return pathname === href || (href !== "/" && pathname.startsWith(href));
 }
@@ -50,12 +55,12 @@ export default function Nav() {
       </aside>
 
       <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t border-white/50 dark:border-slate-800 bg-white/95 dark:bg-slate-950/95 backdrop-blur safe-bottom">
-        <div className="flex justify-around px-1 py-1.5">
+        <div className="flex justify-between px-0.5 py-1.5">
           {mobile.map((l) => {
             const active = isActive(pathname, l.href);
             return (
-              <Link key={l.href} href={l.href} className="flex flex-col items-center gap-0.5 px-1 py-0.5 text-[10px] font-semibold">
-                <span className={`flex h-8 w-10 items-center justify-center rounded-xl text-lg leading-none transition ${
+              <Link key={l.href} href={l.href} className="flex flex-col items-center gap-0.5 min-w-0 flex-1 px-0 py-0.5 text-[9px] font-semibold">
+                <span className={`flex h-8 w-9 items-center justify-center rounded-xl text-lg leading-none transition ${
                   active ? `bg-gradient-to-br ${l.grad} shadow-md scale-110` : ""}`}>{l.icon}</span>
                 <span className={active ? "text-slate-900 dark:text-white" : "text-slate-500"}>{l.label}</span>
               </Link>

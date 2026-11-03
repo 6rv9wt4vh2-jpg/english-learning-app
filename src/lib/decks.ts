@@ -43,3 +43,42 @@ export function readPos(deck: string, group: number): number {
 export function writePos(deck: string, group: number, pos: number) {
   localStorage.setItem(posKey(deck, group), String(pos));
 }
+
+/* ---------- Study status: only "easy" counts as learned ---------- */
+export type CardStatus = "hard" | "good" | "easy";
+export type StatusMap = Record<string, CardStatus>;
+export const MAX_CARRY = 30;
+
+const statKey = (deck: string) => `deckstat:${deck}`;
+const sessKey = (deck: string, g: number) => `decksess:${deck}:${g}`;
+
+export function readStatus(deck: string): StatusMap {
+  if (typeof window === "undefined") return {};
+  try { return JSON.parse(localStorage.getItem(statKey(deck)) || "{}"); } catch { return {}; }
+}
+export function writeStatus(deck: string, m: StatusMap) {
+  localStorage.setItem(statKey(deck), JSON.stringify(m));
+}
+export function countEasyAll(slugs: string[]): number {
+  return slugs.reduce((n, s) => n + Object.values(readStatus(s)).filter((v) => v === "easy").length, 0);
+}
+
+export interface Session { ids: string[]; pos: number; }
+export function readSession(deck: string, g: number): Session | null {
+  try { const v = JSON.parse(localStorage.getItem(sessKey(deck, g)) || "null"); return v && Array.isArray(v.ids) ? v : null; } catch { return null; }
+}
+export function writeSession(deck: string, g: number, s: Session) {
+  localStorage.setItem(sessKey(deck, g), JSON.stringify(s));
+  writePos(deck, g, s.pos);
+}
+
+/** Hard/Good words from earlier groups that are still not Easy — they are carried into group g. */
+export function carriedInto(cards: DeckCard[], g: number, st: StatusMap): DeckCard[] {
+  return cards.slice(0, (g - 1) * GROUP_SIZE).filter((c) => st[c.id] === "hard" || st[c.id] === "good").slice(0, MAX_CARRY);
+}
+
+export function groupStats(items: DeckCard[], st: StatusMap) {
+  let easy = 0, hard = 0, good = 0;
+  for (const c of items) { const s = st[c.id]; if (s === "easy") easy++; else if (s === "hard") hard++; else if (s === "good") good++; }
+  return { easy, hard, good, fresh: items.length - easy - hard - good, total: items.length, complete: easy === items.length };
+}

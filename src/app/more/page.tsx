@@ -2,10 +2,11 @@ import Link from "next/link";
 import { PageHero } from "@/components/ui";
 
 const items = [
+  { href: "/vocabulary", title: "Words", ru: "Словарь", emoji: "📚", grad: "from-emerald-400 to-teal-600" },
   { href: "/listening", title: "Listening", ru: "Аудирование", emoji: "🎧", grad: "from-cyan-400 to-blue-600" },
   { href: "/progress", title: "Progress", ru: "Прогресс", emoji: "📊", grad: "from-lime-400 to-green-600" },
   { href: "/settings", title: "Settings", ru: "Настройки", emoji: "⚙️", grad: "from-slate-500 to-slate-700" },
-  { href: "/practice", title: "Practice", ru: "Тренировка SRS", emoji: "🧠", grad: "from-pink-500 to-rose-600" },
+  { href: "/lessons", title: "All lessons", ru: "Все уроки", emoji: "🎓", grad: "from-fuchsia-500 to-purple-600" },
 ];
 
 export default function MorePage() {
