@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PageHero } from "@/components/ui";
 
 const items = [
+  { href: "/", title: "Home", ru: "Главная", emoji: "🏠", grad: "from-sky-400 to-indigo-500" },
   { href: "/vocabulary", title: "Words", ru: "Словарь", emoji: "📚", grad: "from-emerald-400 to-teal-600" },
   { href: "/listening", title: "Listening", ru: "Аудирование", emoji: "🎧", grad: "from-cyan-400 to-blue-600" },
   { href: "/progress", title: "Progress", ru: "Прогресс", emoji: "📊", grad: "from-lime-400 to-green-600" },

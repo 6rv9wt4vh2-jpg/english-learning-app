@@ -10,19 +10,21 @@ const links = [
   { href: "/reading", label: "Reading", icon: "📖", grad: "from-cyan-400 to-blue-600" },
   { href: "/writing", label: "Writing", icon: "✍️", grad: "from-amber-400 to-orange-600" },
   { href: "/speaking", label: "Speaking", icon: "🎙️", grad: "from-rose-400 to-pink-600" },
-  { href: "/vocabulary", label: "Words", icon: "📚", grad: "from-emerald-400 to-teal-500" },
   { href: "/listening", label: "Listening", icon: "🎧", grad: "from-cyan-400 to-blue-600" },
-  { href: "/progress", label: "Progress", icon: "📊", grad: "from-lime-400 to-green-600" },
+  { href: "/vocabulary", label: "Words", icon: "📚", grad: "from-emerald-400 to-teal-500" },
+    { href: "/progress", label: "Progress", icon: "📊", grad: "from-lime-400 to-green-600" },
   { href: "/settings", label: "Settings", icon: "⚙️", grad: "from-slate-400 to-slate-600" },
 ];
-const mobile = [...links.slice(0, 6), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
-const moreRoutes = ["/more", "/vocabulary", "/listening", "/progress", "/settings", "/practice"];
+const linkBy = (h: string) => links.find((l) => l.href === h)!;
+// Mobile bar (7 max): Home moved under More to make room for Listening
+const mobile = [...["/cards", "/grammar", "/reading", "/writing", "/speaking", "/listening"].map(linkBy), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
+const moreRoutes = ["/more", "/vocabulary", "/progress", "/settings", "/practice"];
 const LESSON_TYPE: Record<string, string> = { g: "/grammar", r: "/reading", w: "/writing" };
 
 function isActive(pathname: string, href: string) {
   const m = pathname.match(/^\/lessons\/[a-z0-9]+-([grw])-/);
   if (m) return LESSON_TYPE[m[1]] === href;
-  if (href === "/more") return moreRoutes.some((r) => pathname.startsWith(r));
+  if (href === "/more") return pathname === "/" || moreRoutes.some((r) => pathname.startsWith(r));
   return pathname === href || (href !== "/" && pathname.startsWith(href));
 }
 

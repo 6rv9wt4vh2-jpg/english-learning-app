@@ -1,127 +1,78 @@
 "use client";
 
-import { PageHero } from "@/components/ui";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { words } from "@/data/words";
-import { useProgress } from "@/lib/hooks";
-import { speakEnglish, stopSpeaking } from "@/lib/speech";
-import type { Word } from "@/lib/types";
+import Link from "next/link";
+import { useState } from "react";
+import ProgressBar from "@/components/ProgressBar";
+import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
+import { LEVELS, LEVEL_META, type Level } from "@/data/course";
+import { KIND_META, allListening, listeningByLevel, type ListenKind } from "@/data/listening";
+import { useUnitProgress } from "@/lib/units";
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function buildOptions(correct: Word, pool: Word[]): string[] {
-  const distractors = shuffle(pool.filter((w) => w.id !== correct.id)).slice(0, 3);
-  return shuffle([correct.ru, ...distractors.map((d) => d.ru)]);
-}
+const KINDS = Object.keys(KIND_META) as ListenKind[];
 
 export default function ListeningPage() {
-  const { progress, ready, onReview } = useProgress();
-  const [current, setCurrent] = useState<Word | null>(null);
-  const [options, setOptions] = useState<string[]>([]);
-  const [selected, setSelected] = useState<string | null>(null);
-  const [score, setScore] = useState({ correct: 0, total: 0 });
-  const [round, setRound] = useState(0);
-
-  const nextQuestion = useCallback(() => {
-    stopSpeaking();
-    const w = words[Math.floor(Math.random() * words.length)];
-    setCurrent(w);
-    setOptions(buildOptions(w, words));
-    setSelected(null);
-    setRound((r) => r + 1);
-    // slight delay so UI updates before speech
-    setTimeout(() => speakEnglish(w.en), 200);
-  }, []);
-
-  useEffect(() => {
-    if (ready) nextQuestion();
-    return () => stopSpeaking();
-  }, [ready, nextQuestion]);
-
-  const accuracy = useMemo(() => {
-    if (!score.total) return 0;
-    return Math.round((score.correct / score.total) * 100);
-  }, [score]);
-
-  const choose = (opt: string) => {
-    if (!current || selected) return;
-    setSelected(opt);
-    const ok = opt === current.ru;
-    setScore((s) => ({ correct: s.correct + (ok ? 1 : 0), total: s.total + 1 }));
-    onReview(current.id, ok ? "good" : "again");
-  };
-
-  if (!ready || !current) return <div className="text-slate-500">Загрузка…</div>;
+  const { done, ready } = useUnitProgress();
+  const [level, setLevel] = useState<Level | "all">("all");
+  const [kind, setKind] = useState<ListenKind | "all">("all");
+  if (!ready) return <Loading />;
+  const list = allListening.filter((l) => (level === "all" || l.level === level) && (kind === "all" || l.kind === kind));
 
   return (
-    <div className="space-y-6 max-w-lg mx-auto">
-      <PageHero title="Listening" subtitle="Аудирование · слушайте слово и выберите правильный перевод" emoji="🎧" gradient="from-cyan-400 to-blue-600" />
+    <div className="space-y-6">
+      <PageHero title="Listening" subtitle="Аудирование · Dialogues · Monologues · Dictation · A1–C1" emoji="🎧" gradient="from-cyan-400 to-blue-600">
+        <p className="mt-2 text-sm font-semibold">{allListening.filter((u) => done.includes(u.id)).length}/{allListening.length} completed</p>
+      </PageHero>
 
-      <div className="flex gap-3 text-sm text-slate-500">
-        <span>Раунд {round}</span>
-        <span>·</span>
-        <span>
-          Верно {score.correct}/{score.total} ({accuracy}%)
-        </span>
-        <span>·</span>
-        <span>Серия {progress.streak}🔥</span>
-      </div>
-
-      <div className="card p-8 text-center space-y-4">
-        <p className="text-sm text-slate-500">Прослушайте английское слово</p>
-        <button
-          type="button"
-          onClick={() => speakEnglish(current.en)}
-          className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-sky-600 hover:bg-sky-700 text-white text-3xl shadow-lg transition"
-          aria-label="Прослушать"
-        >
-          🔊
-        </button>
-        <p className="text-xs text-slate-500">Нажмите ещё раз, чтобы повторить</p>
-        {selected && (
-          <p className="text-lg font-medium pt-2">
-            Это было: <span className="text-sky-700 dark:text-sky-300">{current.en}</span>
-          </p>
-        )}
-      </div>
-
-      <div className="grid gap-2">
-        {options.map((opt) => {
-          let style = "border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800";
-          if (selected) {
-            if (opt === current.ru) style = "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30";
-            else if (opt === selected) style = "border-rose-400 bg-rose-50 dark:bg-rose-900/30";
-          }
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {LEVELS.map((l) => {
+          const u = listeningByLevel[l];
+          const d = u.filter((x) => done.includes(x.id)).length;
           return (
-            <button
-              key={opt}
-              type="button"
-              disabled={!!selected}
-              onClick={() => choose(opt)}
-              className={`rounded-xl border px-4 py-3 text-left text-sm font-medium transition ${style}`}
-            >
-              {opt}
+            <button key={l} type="button" onClick={() => setLevel(level === l ? "all" : l)} className={`card p-4 text-left ${level === l ? "ring-4 ring-cyan-300" : ""}`}>
+              <div className="flex items-center justify-between mb-2">
+                <span className={`rounded-full px-3 py-1 text-sm font-bold text-white bg-gradient-to-r ${LEVEL_META[l].gradient}`}>{LEVEL_META[l].emoji} {l}</span>
+                <span className="text-xs text-slate-500">{LEVEL_META[l].ru} · {u.length} lessons</span>
+              </div>
+              <ProgressBar value={d} max={u.length} label="Progress" />
             </button>
           );
         })}
       </div>
 
-      {selected && (
-        <button
-          type="button"
-          onClick={nextQuestion}
-          className="w-full rounded-xl bg-sky-600 hover:bg-sky-700 text-white py-3 text-sm font-medium"
-        >
-          Следующее слово →
-        </button>
-      )}
+      <div className="card p-4 space-y-3">
+        <FilterRow label="Level / Уровень">
+          <Chip active={level === "all"} onClick={() => setLevel("all")}>All</Chip>
+          {LEVELS.map((l) => <Chip key={l} active={level === l} onClick={() => setLevel(l)} color={`bg-gradient-to-r ${LEVEL_META[l].gradient}`}>{LEVEL_META[l].emoji} {l}</Chip>)}
+        </FilterRow>
+        <FilterRow label="Type / Тип">
+          <Chip active={kind === "all"} onClick={() => setKind("all")}>All</Chip>
+          {KINDS.map((k) => <Chip key={k} active={kind === k} onClick={() => setKind(k)} color={`bg-gradient-to-r ${KIND_META[k].gradient}`}>{KIND_META[k].emoji} {KIND_META[k].label}</Chip>)}
+        </FilterRow>
+        <p className="text-sm text-slate-500">Found: {list.length}</p>
+      </div>
+
+      <div className="grid sm:grid-cols-2 gap-4">
+        {list.map((u) => {
+          const km = KIND_META[u.kind];
+          return (
+            <Link key={u.id} href={`/listening/${u.id}`} className={`pop-in relative overflow-hidden rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${km.gradient} hover:scale-[1.02] transition`}>
+              <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-white/15" />
+              <div className="flex flex-wrap items-center gap-2 text-xs font-bold">
+                <span className={`rounded-full px-2.5 py-0.5 bg-gradient-to-r ${LEVEL_META[u.level].gradient} shadow`}>{u.level}</span>
+                <span className="rounded-full px-2.5 py-0.5 bg-white/25">{km.emoji} {km.label}</span>
+                {done.includes(u.id) && <span className="rounded-full px-2.5 py-0.5 bg-emerald-500 shadow">✓ Done</span>}
+              </div>
+              <div className="mt-3 text-lg font-bold leading-snug">{u.title}</div>
+              <div className="text-sm opacity-90">{u.titleRu}</div>
+            </Link>
+          );
+        })}
+      </div>
+
+      <Link href="/listening/words" className="card p-4 flex items-center gap-3">
+        <span className="text-3xl">🔤</span>
+        <div><div className="font-bold">Word listening quiz</div><div className="text-sm text-slate-500">Слушайте слово и выберите перевод</div></div>
+      </Link>
     </div>
   );
 }
