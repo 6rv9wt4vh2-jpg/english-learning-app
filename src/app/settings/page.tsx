@@ -57,8 +57,8 @@ export default function SettingsPage() {
         <ul className="text-sm text-slate-600 dark:text-slate-400 space-y-1 list-disc pl-5">
           <li>Next.js App Router + TypeScript + Tailwind</li>
           <li>Произношение: Web Speech API (speechSynthesis)</li>
-          <li>Прогресс: localStorage</li>
-          <li>Без авторизации и платных API</li>
+          <li>Progress: localStorage (this browser only)</li>
+          <li>App login is Basic Auth; progress stays local</li>
         </ul>
         <Link href="/progress" className="text-sm text-sky-600 dark:text-sky-400 inline-block">
           Смотреть прогресс →
@@ -68,7 +68,7 @@ export default function SettingsPage() {
       <section className="card p-5 space-y-3 border-rose-200 dark:border-rose-900">
         <h2 className="font-semibold text-rose-700 dark:text-rose-300">Сброс прогресса</h2>
         <p className="text-sm text-slate-500">
-          Удалит серию, ответы SRS, пройденные уроки и статистику на этом устройстве.
+          Deletes streak, SRS, card Easy/Hard/Good, lesson completion, speaking scores and level filters on this device.
         </p>
         {!confirmReset ? (
           <button

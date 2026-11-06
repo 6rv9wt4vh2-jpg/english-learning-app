@@ -1,20 +1,53 @@
 "use client";
-import { useCallback, useEffect, useState } from "react";
 
-const KEY = "unitdone";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
+import { createStore, persistStatus } from "./persist";
+
+export const UNIT_DONE_KEY = "unitdone";
+
+const isEmpty = (v: string[]) => !v || v.length === 0;
+
+export const unitDoneStore = createStore<string[]>(
+  UNIT_DONE_KEY,
+  () => {
+    if (typeof window === "undefined") return [];
+    try {
+      return JSON.parse(localStorage.getItem(UNIT_DONE_KEY) || "[]");
+    } catch {
+      return [];
+    }
+  },
+  isEmpty,
+);
+
 export function readDone(): string[] {
-  if (typeof window === "undefined") return [];
-  try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { return []; }
+  return unitDoneStore.get();
 }
+
 export function useUnitProgress() {
-  const [done, setDone] = useState<string[]>([]);
+  const done = useSyncExternalStore(
+    unitDoneStore.subscribe,
+    () => unitDoneStore.get(),
+    () => [],
+  );
   const [ready, setReady] = useState(false);
-  useEffect(() => { setDone(readDone()); setReady(true); }, []);
-  const mark = useCallback((id: string) => {
-    const cur = readDone();
-    if (!cur.includes(id)) { cur.push(id); localStorage.setItem(KEY, JSON.stringify(cur)); }
-    setDone([...cur]);
+
+  useEffect(() => {
+    unitDoneStore.hydrate();
+    setReady(true);
   }, []);
-  return { done, ready, mark, isDone: (id: string) => done.includes(id) };
+
+  const mark = useCallback((id: string) => {
+    unitDoneStore.update((cur) => (cur.includes(id) ? cur : [...cur, id]));
+  }, []);
+
+  return {
+    done,
+    ready,
+    mark,
+    isDone: (id: string) => done.includes(id),
+    storageStatus: persistStatus(),
+  };
 }
+
 export const draftKey = (id: string) => `writing:${id}`;

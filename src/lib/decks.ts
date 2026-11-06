@@ -41,7 +41,8 @@ export function readPos(deck: string, group: number): number {
 }
 
 export function writePos(deck: string, group: number, pos: number) {
-  localStorage.setItem(posKey(deck, group), String(pos));
+  if (typeof window === "undefined") return;
+  try { localStorage.setItem(posKey(deck, group), String(pos)); } catch { /* ignore */ }
 }
 
 /* ---------- Study status: only "easy" counts as learned ---------- */
@@ -56,8 +57,15 @@ export function readStatus(deck: string): StatusMap {
   if (typeof window === "undefined") return {};
   try { return JSON.parse(localStorage.getItem(statKey(deck)) || "{}"); } catch { return {}; }
 }
-export function writeStatus(deck: string, m: StatusMap) {
-  localStorage.setItem(statKey(deck), JSON.stringify(m));
+export function writeStatus(deck: string, m: StatusMap, force = false) {
+  if (typeof window === "undefined") return;
+  try {
+    if (!force && Object.keys(m).length === 0) {
+      const existing = localStorage.getItem(statKey(deck));
+      if (existing && existing !== "{}" && existing !== "") return; // refuse empty overwrite
+    }
+    localStorage.setItem(statKey(deck), JSON.stringify(m));
+  } catch { /* quota / private mode */ }
 }
 export function countEasyAll(slugs: string[]): number {
   return slugs.reduce((n, s) => n + Object.values(readStatus(s)).filter((v) => v === "easy").length, 0);
@@ -68,8 +76,18 @@ export function readSession(deck: string, g: number): Session | null {
   try { const v = JSON.parse(localStorage.getItem(sessKey(deck, g)) || "null"); return v && Array.isArray(v.ids) ? v : null; } catch { return null; }
 }
 export function writeSession(deck: string, g: number, s: Session) {
-  localStorage.setItem(sessKey(deck, g), JSON.stringify(s));
-  writePos(deck, g, s.pos);
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(sessKey(deck, g), JSON.stringify(s));
+    writePos(deck, g, s.pos);
+  } catch { /* ignore */ }
+}
+
+/** Merge one card grade into disk status (always read-fresh — avoids stale React state). */
+export function gradeCard(deck: string, id: string, grade: CardStatus): StatusMap {
+  const st = { ...readStatus(deck), [id]: grade };
+  writeStatus(deck, st);
+  return st;
 }
 
 /** Hard/Good words from earlier groups that are still not Easy — they are carried into group g. */

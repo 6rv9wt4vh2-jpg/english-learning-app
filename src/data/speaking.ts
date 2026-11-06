@@ -1,93 +1,100 @@
 import type { Level } from "@/data/course";
 
-export type SpeakKind = "read" | "answer" | "describe";
-export interface SpeakTask { id: string; level: Level; kind: SpeakKind; en: string; ru: string; hint?: string; minWords?: number; }
+export type SpeakKind = "answer" | "describe" | "opinion";
 
-const R: Record<Level, [string, string][]> = {
+export interface SpeakTask {
+  id: string;
+  level: Level;
+  kind: SpeakKind;
+  prompt: string;
+  promptRu: string;
+  hints: string[];
+  targetWords: number;
+  targetSeconds: number;
+  example: string;
+}
+
+type Row = [SpeakKind, string, string, string[], number, number, string];
+
+const TASKS: Record<Level, Row[]> = {
   A1: [
-    ["Hello, my name is Anna.", "Привет, меня зовут Анна."],
-    ["I live in a small flat in Moscow.", "Я живу в маленькой квартире в Москве."],
-    ["My brother is ten years old.", "Моему брату десять лет."],
-    ["I like coffee, but I don't like tea.", "Я люблю кофе, но не люблю чай."],
-    ["Where is the bus station, please?", "Где автовокзал, пожалуйста?"],
-    ["We have English on Monday and Friday.", "У нас английский в понедельник и пятницу."],
+    ["answer", "Tell me about yourself.", "Расскажите о себе.", ["My name is…", "I am … years old", "I live in…", "I like…"], 40, 45, "My name is Anna. I am twenty-five years old. I live in a small flat in Moscow with my sister. I work in a shop. In my free time I like reading and walking in the park."],
+    ["describe", "Describe your family.", "Опишите свою семью.", ["There are … people", "My mother/father is…", "We usually…"], 40, 45, "There are four people in my family: my parents, my brother and me. My mother is a teacher and my father works in an office. We have dinner together every evening."],
+    ["describe", "Describe your room or home.", "Опишите свою комнату или дом.", ["In my room there is/are…", "It is big/small", "I like my room because…"], 40, 40, "My room is not very big. There is a bed, a desk and a wardrobe. On the wall there are some photos. I like my room because it is quiet and bright."],
+    ["answer", "What do you usually do every day?", "Что вы обычно делаете каждый день?", ["I usually get up at…", "Then I…", "In the evening I…"], 45, 50, "I usually get up at seven o'clock. I have breakfast and go to work by bus. I finish work at six. In the evening I cook dinner, watch TV and go to bed at eleven."],
+    ["answer", "What do you like eating?", "Что вы любите есть?", ["I like…", "I don't like…", "For breakfast/lunch I usually…"], 35, 40, "I like fruit, pasta and soup. I don't like fish very much. For breakfast I usually eat bread with cheese and drink tea. For lunch I often have a salad."],
+    ["describe", "Describe your favourite place in your town.", "Опишите любимое место в вашем городе.", ["My favourite place is…", "I go there when…", "You can…"], 40, 45, "My favourite place is the big park near the river. I go there at the weekend. You can walk, ride a bike or sit on a bench and read. It is quiet and beautiful."],
+    ["answer", "Talk about your best friend.", "Расскажите о лучшем друге.", ["My best friend is…", "We met…", "We like to…"], 40, 45, "My best friend is Olga. We met at school. She is kind and funny. We like to go shopping and watch films together. I can talk to her about everything."],
+    ["answer", "What did you do last weekend?", "Что вы делали в прошлые выходные?", ["Last weekend I…", "On Saturday…", "On Sunday…"], 40, 45, "Last weekend I stayed at home on Saturday because it was raining. I cleaned my flat and cooked. On Sunday I visited my grandparents and we had a big lunch."],
+    ["opinion", "Is it better to live in a city or in the country? Why?", "Лучше жить в городе или за городом? Почему?", ["I think…", "In a city you can…", "But in the country…"], 45, 50, "I think it is better to live in a city. You can find a good job and there are many shops and cinemas. But the country is quieter and the air is cleaner. For me a city is more interesting."],
+    ["answer", "What are your plans for next week?", "Какие у вас планы на следующую неделю?", ["I'm going to…", "On Monday…", "I also want to…"], 40, 45, "Next week I'm going to work every day. On Wednesday I have an English lesson. At the weekend I want to meet my friends and maybe go to the cinema."],
   ],
   A2: [
-    ["Last weekend I visited my grandparents.", "В прошлые выходные я навестил бабушку и дедушку."],
-    ["Could you tell me the way to the museum?", "Не подскажете дорогу к музею?"],
-    ["I'm going to start a new job next month.", "В следующем месяце я начну новую работу."],
-    ["It was much colder yesterday than today.", "Вчера было намного холоднее, чем сегодня."],
-    ["Have you ever been to London?", "Ты когда-нибудь был в Лондоне?"],
-    ["I usually get up at seven o'clock.", "Обычно я встаю в семь часов."],
+    ["answer", "Describe a typical day at work or school.", "Опишите обычный день на работе или в школе.", ["I start at…", "During the day I…", "The most difficult part is…"], 60, 60, "I start work at nine. In the morning I answer emails and have meetings. After lunch I work on projects with my team. The most difficult part is when we have tight deadlines, but I enjoy learning new things."],
+    ["describe", "Talk about a holiday you remember well.", "Расскажите об отпуске, который хорошо помните.", ["A few years ago I went to…", "We stayed…", "What I enjoyed most was…"], 70, 70, "A few years ago I went to Turkey with my family. We stayed in a hotel by the sea for ten days. Every morning we swam and in the evenings we walked along the beach. What I enjoyed most was the food and the warm weather."],
+    ["answer", "What are you going to do this year to improve your English?", "Что вы собираетесь делать в этом году, чтобы улучшить английский?", ["I'm going to…", "I will try to…", "I hope that…"], 60, 60, "I'm going to practise speaking every day for at least ten minutes. I will also watch short videos without subtitles and write a short diary in English. I hope that by the end of the year I will feel more confident."],
+    ["describe", "Describe your neighbourhood.", "Опишите свой район.", ["I live in…", "There is/are…", "The best thing about it is…"], 60, 60, "I live in a quiet neighbourhood not far from the centre. There are two parks, a supermarket and a small café. The best thing about it is that I can walk everywhere and it is safe at night."],
+    ["opinion", "Do you prefer studying alone or with other people? Why?", "Вы предпочитаете учиться один или с другими? Почему?", ["I prefer… because…", "On the one hand…", "On the other hand…"], 65, 65, "I prefer studying with other people because we can share ideas and help each other. On the one hand it can be noisy. On the other hand I stay motivated longer when I am not alone."],
+    ["answer", "Tell me about a skill you would like to learn.", "Расскажите о навыке, которому хотите научиться.", ["I would like to learn…", "It is useful because…", "To learn it I need to…"], 60, 60, "I would like to learn to drive. It is useful because I could travel more easily and help my parents. To learn it I need to take lessons and practise a lot."],
+    ["describe", "Describe a person who has influenced you.", "Опишите человека, который на вас повлиял.", ["This person is…", "I admire him/her because…", "He/She taught me…"], 70, 70, "This person is my uncle. I admire him because he always stays calm and works hard. He taught me to finish what I start and to be kind to people even when I am tired."],
+    ["answer", "What do you usually do to stay healthy?", "Что вы обычно делаете, чтобы оставаться здоровым?", ["I try to…", "I also…", "Sometimes it is hard to…"], 60, 60, "I try to walk every day and drink enough water. I also sleep at least seven hours. Sometimes it is hard to eat healthy food when I am busy, but I cook at home when I can."],
+    ["opinion", "Is social media good or bad for young people?", "Соцсети полезны или вредны для молодых людей?", ["In my opinion…", "One advantage is…", "However…"], 70, 70, "In my opinion social media is both good and bad. One advantage is that friends can stay in contact easily. However, young people often spend too much time online and compare themselves to others, which can make them unhappy."],
+    ["answer", "Talk about your plans for the next five years.", "Расскажите о планах на ближайшие пять лет.", ["In the next five years I hope to…", "First…", "After that…"], 70, 70, "In the next five years I hope to get a better job and improve my English to B2. First I want to finish a course. After that I would like to travel to an English-speaking country for a month."],
   ],
   B1: [
-    ["I've been learning English for three years.", "Я учу английский уже три года."],
-    ["If I had more free time, I would travel more.", "Если бы у меня было больше времени, я бы больше путешествовал."],
-    ["The film was better than I had expected.", "Фильм оказался лучше, чем я ожидал."],
-    ["I'm not used to working late at night.", "Я не привык работать поздно ночью."],
-    ["She asked me whether I could help her.", "Она спросила, могу ли я ей помочь."],
-    ["Recycling is one of the easiest ways to protect the environment.", "Переработка — один из самых простых способов защитить природу."],
+    ["answer", "Why are you learning English, and how do you practise?", "Зачем вы учите английский и как практикуетесь?", ["I'm learning English because…", "I practise by…", "The biggest challenge is…"], 90, 75, "I'm learning English because I need it for work and I want to travel more confidently. I practise by listening to podcasts, reviewing flashcards and speaking in this app. The biggest challenge is finding time to speak every day, but short sessions help."],
+    ["describe", "Describe a memorable trip and what you learned from it.", "Опишите запомнившуюся поездку и чему вы научились.", ["A trip that stands out is…", "During the trip…", "I learned that…"], 100, 90, "A trip that stands out is my first solo journey to Georgia. During the trip I had to ask for directions and book rooms in English. I learned that making mistakes is fine if people understand you, and that preparation makes travel much less stressful."],
+    ["opinion", "Should students have less homework? Give reasons.", "Должно ли у школьников быть меньше домашнего задания?", ["I believe…", "One reason is…", "That said…"], 100, 90, "I believe students should have less homework. One reason is that long evenings of exercises leave little time for hobbies and family. That said, some practice at home is useful, so homework should be shorter and more meaningful rather than removed completely."],
+    ["answer", "What would you do if you won a large amount of money?", "Что бы вы сделали, если бы выиграли крупную сумму?", ["If I won…, I would…", "First of all…", "I would also…"], 90, 80, "If I won a large amount of money, I would pay off any debts and help my family. First of all I would save a part of it. I would also travel for a few months and then invest in education or a small business."],
+    ["describe", "Talk about a difficulty you overcame.", "Расскажите о трудности, которую вы преодолели.", ["A few years ago I…", "At first…", "In the end…"], 100, 90, "A few years ago I changed careers and felt completely lost. At first I doubted myself every day. I asked mentors for advice and studied in the evenings. In the end I found a role I enjoy, and I became more patient with myself."],
+    ["opinion", "Are online courses as effective as classroom learning?", "Онлайн-курсы так же эффективны, как обучение в классе?", ["It depends on…", "Online courses are flexible…", "However, classrooms offer…"], 100, 90, "It depends on the student and the subject. Online courses are flexible and often cheaper, which helps busy adults. However, classrooms offer immediate feedback and social pressure to continue. A mix of both often works best."],
+    ["answer", "How has technology changed your daily life?", "Как технологии изменили вашу повседневную жизнь?", ["Over the last years…", "For example…", "On the downside…"], 90, 80, "Over the last years technology has made my daily life faster. For example I pay bills, order food and study languages on my phone. On the downside I check notifications too often and find it harder to focus for long periods."],
+    ["describe", "Describe your ideal job.", "Опишите идеальную работу.", ["My ideal job would involve…", "I would like to work with…", "The most important thing is…"], 90, 80, "My ideal job would involve solving problems and communicating with people from different countries. I would like to work with a small international team. The most important thing is a healthy balance between responsibility and free time."],
+    ["opinion", "Is it better to specialise early or try many things first?", "Лучше рано специализироваться или сначала пробовать разное?", ["In my view…", "Specialising early can…", "Trying many things helps…"], 100, 90, "In my view it is better to try many things first, at least while you are young. Specialising early can lead to a stable career, but trying many things helps you discover what you truly enjoy. After that, focusing deeply makes sense."],
+    ["answer", "Talk about a book, film or show that changed how you think.", "Расскажите о книге, фильме или сериале, который изменил ваше мышление.", ["One title that affected me is…", "It made me realise…", "Since then I…"], 100, 90, "One title that affected me is a documentary about climate change. It made me realise how everyday choices add up. Since then I waste less food and pay more attention to news about the environment."],
   ],
   B2: [
-    ["Had I known about the delay, I would have taken a later train.", "Знай я о задержке, сел бы на более поздний поезд."],
-    ["The project is expected to be completed by the end of the year.", "Ожидается, что проект завершат к концу года."],
-    ["Despite the heavy rain, the concert went ahead as planned.", "Несмотря на ливень, концерт прошёл по плану."],
-    ["It's high time we dealt with this problem seriously.", "Давно пора заняться этой проблемой всерьёз."],
-    ["Working from home has its advantages and drawbacks.", "У удалённой работы есть плюсы и минусы."],
-    ["I'd rather you didn't mention it to anyone.", "Я бы предпочёл, чтобы ты никому об этом не говорил."],
+    ["opinion", "Should university education be free? Why or why not?", "Должно ли высшее образование быть бесплатным?", ["In my view…", "One strong argument is…", "Critics claim…", "On balance…"], 140, 100, "In my view university education should be largely free or heavily subsidised. One strong argument is that talent should not depend on a family's income. Critics claim free tuition wastes public money on students who are not serious. On balance, means-tested support plus clear performance standards seems fairest."],
+    ["answer", "How has remote work changed the way people work in your country?", "Как удалёнка изменила работу в вашей стране?", ["Over the last decade…", "As a result…", "Nevertheless…"], 130, 100, "Over the last decade remote and hybrid work have become common in offices. As a result many people moved to cheaper cities and saved commuting time. Nevertheless, some managers still prefer face-to-face control, and junior staff sometimes get less mentoring."],
+    ["describe", "Describe a difficult decision and how you made it.", "Опишите трудное решение и как вы его приняли.", ["I had to decide whether…", "I weighed…", "In the end…"], 130, 100, "I had to decide whether to accept a higher-paid job abroad or stay close to my family. I weighed salary, career growth and emotional cost. In the end I stayed for a year, improved my skills, and later moved when the timing felt right."],
+    ["opinion", "Discuss the pros and cons of living in a big city.", "Плюсы и минусы жизни в большом городе.", ["While big cities offer…", "They also…", "Personally…"], 130, 95, "While big cities offer jobs, culture and transport links, they also bring high rents, noise and stress. Personally I enjoy the opportunities of a city but I need parks and quiet evenings to balance the pace."],
+    ["answer", "What role should governments play in regulating social media?", "Какую роль должно играть государство в регулировании соцсетей?", ["Governments should…", "At the same time…", "A sensible approach would be…"], 140, 100, "Governments should require platforms to remove illegal content quickly and be transparent about algorithms. At the same time, heavy censorship risks limiting free speech. A sensible approach would be clear rules, independent oversight and media literacy in schools."],
+    ["describe", "Talk about a trend in your field or country that concerns you.", "Опишите тенденцию, которая вас беспокоит.", ["One development that troubles me is…", "Its roots lie in…", "If it continues…"], 130, 100, "One development that troubles me is burnout among young professionals. Its roots lie in constant connectivity and unstable contracts. If it continues, talent will leave demanding industries and public health costs will rise."],
+    ["opinion", "Is lifelong learning a necessity or a buzzword?", "Непрерывное обучение — необходимость или модное слово?", ["I would argue that…", "Employers increasingly…", "However…"], 130, 95, "I would argue that lifelong learning is a necessity, not a slogan. Employers increasingly expect people to retrain as tools change. However, access to quality courses is unequal, so calling it a personal duty without support is unfair."],
+    ["answer", "How do you evaluate success in life?", "Как вы оцениваете успех в жизни?", ["For me success means…", "Money and status…", "Ultimately…"], 120, 90, "For me success means having meaningful work, close relationships and enough stability to help others. Money and status matter less than freedom over my time. Ultimately I judge a year by what I learned and whom I supported."],
+    ["describe", "Describe a project you are proud of.", "Опишите проект, которым гордитесь.", ["I am proud of…", "The challenge was…", "What I took away was…"], 130, 100, "I am proud of a volunteer project that taught basic English to teenagers. The challenge was keeping everyone motivated with limited materials. What I took away was that clear goals and humour matter as much as perfect lesson plans."],
+    ["opinion", "Can artificial intelligence replace teachers?", "Может ли ИИ заменить учителей?", ["AI can support…", "Yet it cannot…", "Therefore…"], 140, 100, "AI can support teachers with feedback, drills and personalised practice. Yet it cannot fully replace human encouragement, classroom management and ethical judgement. Therefore the best outcome is teachers who use AI well, not classrooms without teachers."],
   ],
   C1: [
-    ["Not only did the policy fail, but it also deepened public distrust.", "Политика не только провалилась, но и усилила недоверие общества."],
-    ["The findings shed light on a long-overlooked aspect of the issue.", "Результаты проливают свет на давно упускаемый аспект проблемы."],
-    ["Were it not for her persistence, the initiative would have collapsed.", "Если бы не её упорство, инициатива бы рухнула."],
-    ["It remains to be seen whether these measures will prove effective.", "Ещё предстоит увидеть, окажутся ли эти меры эффективными."],
-    ["The debate hinges on how we define personal responsibility.", "Спор упирается в то, как мы определяем личную ответственность."],
-    ["Arguably, technology has outpaced our ability to regulate it.", "Пожалуй, технологии опередили нашу способность их регулировать."],
+    ["opinion", "To what extent should governments regulate artificial intelligence?", "Насколько государство должно регулировать ИИ?", ["I would argue that…", "That said…", "A workable framework…"], 180, 120, "I would argue that governments must regulate high-risk AI systems, especially in healthcare, policing and finance. That said, over-regulation could slow beneficial research. A workable framework would combine mandatory audits, transparency duties and sandboxes for responsible experimentation."],
+    ["answer", "Is it ever justified to break the rules?", "Оправдано ли когда-нибудь нарушать правила?", ["It largely depends on…", "A case in point is…", "Nevertheless…"], 170, 110, "It largely depends on whether the rule protects people or merely preserves power. A case in point is civil disobedience against unjust laws. Nevertheless, routine rule-breaking erodes trust, so justification should be rare, transparent and aimed at a clearer moral good."],
+    ["describe", "Describe a trend in your country that concerns you and propose a response.", "Опишите тревожную тенденцию и предложите ответ.", ["One development that troubles me is…", "Its drivers include…", "A credible response would…"], 180, 120, "One development that troubles me is declining trust in public institutions. Its drivers include polarised media and repeated policy U-turns. A credible response would invest in independent journalism, clearer communication and measurable public services rather than slogans."],
+    ["opinion", "Evaluate the impact of globalisation on local cultures.", "Оцените влияние глобализации на местные культуры.", ["Globalisation has undeniably…", "Yet…", "The challenge is to…"], 180, 120, "Globalisation has undeniably expanded access to ideas, travel and markets. Yet it can flatten local traditions into tourist products. The challenge is to stay open to exchange while funding language, crafts and public spaces that keep communities distinct."],
+    ["answer", "How should education systems prepare people for an uncertain labour market?", "Как образованию готовить людей к нестабильному рынку труда?", ["Beyond specific skills…", "Curricula should…", "Equally important…"], 170, 110, "Beyond specific skills, education should build adaptability, critical thinking and collaboration. Curricula should mix deep knowledge with project work and internships. Equally important is guidance so students can retrain without stigma when industries shift."],
+    ["describe", "Discuss a public debate in your country and your position on it.", "Обсудите общественную дискуссию в вашей стране и вашу позицию.", ["A heated debate concerns…", "Supporters argue…", "I lean towards…"], 180, 120, "A heated debate concerns urban densification versus preserving low-rise neighbourhoods. Supporters argue denser housing cuts sprawl and prices. Opponents fear overcrowding. I lean towards careful densification near transport hubs, paired with parks and school capacity."],
+    ["opinion", "Does remote work weaken company culture?", "Ослабляет ли удалёнка культуру компании?", ["Arguably…", "However…", "In practice…"], 170, 110, "Arguably remote work can weaken spontaneous mentoring and shared identity. However, culture is not an office kitchen; it is norms, recognition and clarity. In practice hybrid teams with deliberate rituals often outperform offices that confuse presence with performance."],
+    ["answer", "What ethical limits should apply to persuasive advertising?", "Какие этические пределы должны быть у убеждающей рекламы?", ["Advertising becomes problematic when…", "Particularly…", "Regulation and norms should…"], 170, 110, "Advertising becomes problematic when it exploits children, addiction or opaque data. Particularly, targeting based on vulnerability crosses a line. Regulation and norms should require clear disclosure, restrict certain audiences and give users real control over tracking."],
+    ["describe", "Reflect on a failure and how it changed your approach.", "Вспомните неудачу и как она изменила ваш подход.", ["I once…", "Looking back…", "Since then I…"], 170, 110, "I once launched a side project without talking to users first and wasted months. Looking back, enthusiasm replaced evidence. Since then I interview people early, define a smallest test, and treat feedback as data rather than criticism."],
+    ["opinion", "Can economic growth be reconciled with environmental limits?", "Можно ли совместить экономический рост с экологическими пределами?", ["The conventional view…", "A more nuanced position…", "Ultimately…"], 180, 120, "The conventional view treats growth and green goals as opposites. A more nuanced position separates harmful throughput from valuable services and innovation. Ultimately absolute decoupling is hard, so priorities, pricing of carbon and circular design matter as much as GDP."],
   ],
 };
 
-const Q: Record<Level, [SpeakKind, string, string, string][]> = {
-  A1: [
-    ["answer", "What is your name and where are you from?", "Как вас зовут и откуда вы?", "My name is… I'm from…"],
-    ["answer", "What do you usually eat for breakfast?", "Что вы обычно едите на завтрак?", "I usually eat… and drink…"],
-    ["describe", "Describe your family.", "Опишите свою семью.", "There are … people in my family. My mother is…"],
-    ["describe", "Describe your room.", "Опишите свою комнату.", "In my room there is/are…"],
-  ],
-  A2: [
-    ["answer", "What did you do last weekend?", "Что вы делали в прошлые выходные?", "Last weekend I went/visited/watched…"],
-    ["answer", "What are your plans for the summer?", "Какие у вас планы на лето?", "I'm going to…"],
-    ["describe", "Describe your town or city.", "Опишите свой город.", "My town is… There are… The best place is…"],
-    ["describe", "Describe your best friend.", "Опишите своего лучшего друга.", "My best friend is… He/She likes…"],
-  ],
-  B1: [
-    ["answer", "Why are you learning English?", "Зачем вы учите английский?", "I'm learning English because… It helps me…"],
-    ["answer", "What would you do if you won a lot of money?", "Что бы вы сделали, если бы выиграли много денег?", "If I won…, I would…"],
-    ["describe", "Describe a memorable trip you have taken.", "Опишите запомнившуюся поездку.", "A few years ago I went to… What I remember most is…"],
-    ["describe", "Talk about the advantages and disadvantages of social media.", "Плюсы и минусы соцсетей.", "On the one hand… On the other hand…"],
-  ],
-  B2: [
-    ["answer", "Should university education be free? Why or why not?", "Должно ли высшее образование быть бесплатным?", "In my view… One reason is… However…"],
-    ["answer", "How has technology changed the way people work?", "Как технологии изменили работу людей?", "Over the last decade… As a result…"],
-    ["describe", "Describe a difficult decision you had to make.", "Опишите трудное решение, которое вам пришлось принять.", "I had to decide whether… In the end…"],
-    ["describe", "Discuss the pros and cons of living in a big city.", "Плюсы и минусы жизни в большом городе.", "While big cities offer…, they also…"],
-  ],
-  C1: [
-    ["answer", "To what extent should governments regulate artificial intelligence?", "Насколько государство должно регулировать ИИ?", "I would argue that… That said…"],
-    ["answer", "Is it ever justified to break the rules?", "Оправдано ли когда-нибудь нарушать правила?", "It largely depends on… A case in point is…"],
-    ["describe", "Describe a trend in your country that concerns you.", "Опишите тенденцию в вашей стране, которая вас беспокоит.", "One development that troubles me is… Its roots lie in…"],
-    ["describe", "Evaluate the impact of globalisation on local cultures.", "Оцените влияние глобализации на местные культуры.", "Globalisation has undeniably… Yet…"],
-  ],
-};
-
-const MIN: Record<Level, number> = { A1: 10, A2: 20, B1: 35, B2: 50, C1: 60 };
-
-export const speakingTasks: SpeakTask[] = (Object.keys(R) as Level[]).flatMap((l) => [
-  ...R[l].map(([en, ru], i) => ({ id: `${l.toLowerCase()}-s-read-${i + 1}`, level: l, kind: "read" as const, en, ru })),
-  ...Q[l].map(([kind, en, ru, hint], i) => ({ id: `${l.toLowerCase()}-s-${kind}-${i + 1}`, level: l, kind, en, ru, hint, minWords: MIN[l] })),
-]);
+export const speakingTasks: SpeakTask[] = (Object.keys(TASKS) as Level[]).flatMap((level) =>
+  TASKS[level].map(([kind, prompt, promptRu, hints, targetWords, targetSeconds, example], i) => ({
+    id: `${level.toLowerCase()}-s-${kind}-${i + 1}`,
+    level,
+    kind,
+    prompt,
+    promptRu,
+    hints,
+    targetWords,
+    targetSeconds,
+    example,
+  })),
+);
 
 export const KIND_META: Record<SpeakKind, { label: string; ru: string; emoji: string; gradient: string }> = {
-  read: { label: "Read aloud", ru: "Прочитать вслух", emoji: "📢", gradient: "from-sky-400 to-indigo-600" },
-  answer: { label: "Answer a question", ru: "Ответить на вопрос", emoji: "💬", gradient: "from-emerald-400 to-teal-600" },
-  describe: { label: "Describe a topic", ru: "Рассказать на тему", emoji: "🗣️", gradient: "from-rose-400 to-pink-600" },
+  answer: { label: "Answer", ru: "Ответ", emoji: "💬", gradient: "from-emerald-400 to-teal-600" },
+  describe: { label: "Describe", ru: "Описание", emoji: "🗣️", gradient: "from-sky-400 to-indigo-600" },
+  opinion: { label: "Opinion", ru: "Мнение", emoji: "💭", gradient: "from-rose-400 to-pink-600" },
 };

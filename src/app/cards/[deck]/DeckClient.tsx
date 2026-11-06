@@ -5,7 +5,7 @@ import Link from "next/link";
 import SpeakButton from "@/components/SpeakButton";
 import { useProgress } from "@/lib/hooks";
 import {
-  GROUP_SIZE, carriedInto, groupCount, groupStats, readPos, readSession, readStatus, writeSession, writeStatus,
+  GROUP_SIZE, carriedInto, gradeCard, groupCount, groupStats, readPos, readSession, readStatus, writeSession,
   type CardStatus, type DeckCard, type DeckMeta, type StatusMap,
 } from "@/lib/decks";
 
@@ -80,10 +80,10 @@ export default function DeckClient({ meta, cards }: { meta: DeckMeta; cards: Dec
   const grade = (gr: CardStatus) => {
     if (!group) return;
     const id = ids[index];
-    const st = { ...readStatus(meta.slug), [id]: gr };
-    writeStatus(meta.slug, st);
+    // Always merge into fresh disk state — never overwrite from stale React memory
+    const st = gradeCard(meta.slug, id, gr);
     setStatus(st);
-    onReview(id, gr); // still feeds the SRS schedule
+    onReview(id, gr); // feeds the shared SRS progress store
     const next = index + 1;
     writeSession(meta.slug, group, { ids, pos: next });
     setFlipped(false);

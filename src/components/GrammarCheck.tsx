@@ -8,7 +8,7 @@ const kindColor = (m: LTMatch) =>
   : m.rule.category.id === "GRAMMAR" ? "decoration-amber-500 bg-amber-100 dark:bg-amber-900/40"
   : "decoration-sky-500 bg-sky-100 dark:bg-sky-900/40";
 
-export default function GrammarCheck({ text, label = "Check my English / Проверить ошибки" }: { text: string; label?: string }) {
+export default function GrammarCheck({ text, label = "Check my English / Проверить ошибки", onChecked }: { text: string; label?: string; onChecked?: () => void }) {
   const [state, setState] = useState<{ text: string; matches: LTMatch[] } | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -19,7 +19,7 @@ export default function GrammarCheck({ text, label = "Check my English / Про�
     setLoading(true); setError(""); setOpen(null);
     const r = await checkText(text);
     setLoading(false);
-    if (r.ok) setState({ text, matches: r.matches }); else setError(r.error);
+    if (r.ok) { setState({ text, matches: r.matches }); onChecked?.(); } else setError(r.error);
   };
 
   const parts: React.ReactNode[] = [];

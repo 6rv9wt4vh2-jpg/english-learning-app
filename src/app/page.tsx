@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
 import { Loading } from "@/components/ui";
@@ -33,7 +34,8 @@ export default function HomePage() {
   const { progress, ready } = useProgress();
   const units = useUnitProgress();
     const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
-  const learned = typeof window === "undefined" ? 0 : countEasyAll(DECKS.map((d) => d.slug));
+  const [learned, setLearned] = useState(0);
+  useEffect(() => { setLearned(countEasyAll(DECKS.map((d) => d.slug))); }, [ready, progress.totalReviews, units.done.length]);
   const accuracy = getAccuracy(progress);
   const goal = progress.dailyGoal || 20;
   const today = progress.reviewsToday || 0;

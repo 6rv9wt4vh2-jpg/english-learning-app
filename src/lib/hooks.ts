@@ -1,67 +1,60 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import {
-  loadProgress,
-  markLessonComplete,
-  recordReview,
+  applyDailyGoal,
+  applyLessonComplete,
+  applyReview,
+  persistStatus,
+  progressStore,
+  resetAllLocalData,
   resetProgress,
-  saveProgress,
-  setDailyGoal,
 } from "./storage";
 import type { AppProgress, SRSGrade } from "./types";
 
 export function useProgress() {
-  const [progress, setProgress] = useState<AppProgress | null>(null);
+  const progress = useSyncExternalStore(
+    progressStore.subscribe,
+    () => progressStore.get(),
+    progressStore.serverSnapshot,
+  );
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setProgress(loadProgress());
+    progressStore.hydrate();
     setReady(true);
   }, []);
 
   const refresh = useCallback(() => {
-    setProgress(loadProgress());
+    progressStore.hydrate();
   }, []);
 
   const onReview = useCallback((wordId: string, grade: SRSGrade) => {
-    setProgress((prev) => {
-      const base = prev ?? loadProgress();
-      return recordReview(base, wordId, grade);
-    });
+    progressStore.update((prev) => applyReview(prev, wordId, grade));
   }, []);
 
   const onCompleteLesson = useCallback((lessonId: string) => {
-    setProgress((prev) => {
-      const base = prev ?? loadProgress();
-      return markLessonComplete(base, lessonId);
-    });
+    progressStore.update((prev) => applyLessonComplete(prev, lessonId));
   }, []);
 
   const onSetGoal = useCallback((goal: number) => {
-    setProgress((prev) => {
-      const base = prev ?? loadProgress();
-      return setDailyGoal(base, goal);
-    });
+    progressStore.update((prev) => applyDailyGoal(prev, goal));
   }, []);
 
   const onReset = useCallback(() => {
-    const fresh = resetProgress();
-    setProgress(fresh);
+    resetAllLocalData();
+    resetProgress();
   }, []);
 
   const update = useCallback((updater: (p: AppProgress) => AppProgress) => {
-    setProgress((prev) => {
-      const base = prev ?? loadProgress();
-      const next = updater(base);
-      saveProgress(next);
-      return next;
-    });
+    progressStore.update(updater);
   }, []);
 
   return {
-    progress: progress ?? loadProgress(),
+    progress,
     ready,
+    storageOk: persistStatus() === "ok",
+    storageStatus: persistStatus(),
     refresh,
     onReview,
     onCompleteLesson,
