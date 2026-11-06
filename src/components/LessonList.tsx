@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
-import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel, type UnitType } from "@/data/course";
+import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel, type Level, type UnitType } from "@/data/course";
 import { lessons } from "@/data/lessons";
+import { useAuth } from "@/components/AuthProvider";
 import { useProgress } from "@/lib/hooks";
-import { useLevelFilter } from "@/lib/levelFilter";
+import { cefrFromMyLevel, useLevelFilter } from "@/lib/levelFilter";
 import { useUnitProgress } from "@/lib/units";
 
 const TYPES = Object.keys(TYPE_META) as UnitType[];
@@ -15,53 +16,75 @@ const TYPES = Object.keys(TYPE_META) as UnitType[];
 export default function LessonList({ fixedType }: { fixedType?: UnitType }) {
   const { done, ready: progressReady } = useUnitProgress();
   const { progress } = useProgress();
+  const { myLevel, ready: authReady } = useAuth();
   const sectionKey = fixedType ?? "lessons";
-  const { level, setLevel, ready: levelReady } = useLevelFilter(sectionKey);
+  const defaultLevel = useMemo(() => cefrFromMyLevel(myLevel), [myLevel]);
+  const { level, setLevel, ready: levelReady } = useLevelFilter(sectionKey, defaultLevel);
   const [type, setType] = useState<UnitType | "all">(fixedType ?? "all");
   const activeType = fixedType ?? type;
 
-  const scope = allUnits.filter((u) => !fixedType || u.type === fixedType);
+  if (!progressReady || !levelReady || !authReady) return <Loading />;
+
+  const levelUnits = unitsByLevel[level].filter((x) => !fixedType || x.type === fixedType);
+  const levelDone = levelUnits.filter((x) => done.includes(x.id)).length;
+  const list = allUnits.filter((u) => u.level === level && (activeType === "all" || u.type === activeType));
+  const showStarter = !fixedType && activeType === "all" && (level === "A1" || level === "A2");
+
   const hero = fixedType
-    ? { title: TYPE_META[fixedType].label, sub: `${TYPE_META[fixedType].ru} · A1–C1`, emoji: TYPE_META[fixedType].emoji, gradient: TYPE_META[fixedType].gradient }
-    : { title: "Lessons", sub: "Уроки · Grammar · Reading · Writing · A1–C1", emoji: "🎓", gradient: "from-fuchsia-500 to-purple-600" };
-  if (!progressReady || !levelReady) return <Loading />;
-  const list = allUnits.filter((u) => (level === "all" || u.level === level) && (activeType === "all" || u.type === activeType));
-  const showStarter = !fixedType && activeType === "all" && (level === "all" || level === "A1" || level === "A2");
+    ? { title: TYPE_META[fixedType].label, sub: `${TYPE_META[fixedType].ru} · ${level}`, emoji: TYPE_META[fixedType].emoji, gradient: TYPE_META[fixedType].gradient }
+    : { title: "Lessons", sub: `Уроки · ${level}`, emoji: "🎓", gradient: "from-fuchsia-500 to-purple-600" };
+
+  // Order level chips: My CEFR first
+  const orderedLevels: Level[] = [defaultLevel, ...LEVELS.filter((l) => l !== defaultLevel)];
 
   return (
     <div className="space-y-6">
       <PageHero title={hero.title} subtitle={hero.sub} emoji={hero.emoji} gradient={hero.gradient}>
-        <p className="mt-2 text-sm font-semibold">{scope.filter((u) => done.includes(u.id)).length}/{scope.length} completed</p>
+        <p className="mt-2 text-sm font-semibold">
+          {level} · {levelDone}/{levelUnits.length} completed
+        </p>
       </PageHero>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {LEVELS.map((l) => {
+        {orderedLevels.map((l) => {
           const u = unitsByLevel[l].filter((x) => !fixedType || x.type === fixedType);
           const d = u.filter((x) => done.includes(x.id)).length;
           return (
-            <button key={l} type="button" onClick={() => setLevel(level === l ? "all" : l)} className={`card p-4 text-left ${level === l ? "ring-4 ring-fuchsia-300" : ""}`}>
+            <button key={l} type="button" onClick={() => setLevel(l)} className={`card p-4 text-left ${level === l ? "ring-4 ring-fuchsia-300" : ""}`}>
               <div className="flex items-center justify-between mb-2">
-                <span className={`rounded-full px-3 py-1 text-sm font-bold text-white bg-gradient-to-r ${LEVEL_META[l].gradient}`}>{LEVEL_META[l].emoji} {l}</span>
-                <span className="text-xs text-slate-500">{LEVEL_META[l].ru}</span>
+                <span className={`rounded-full px-3 py-1 text-sm font-bold text-white bg-gradient-to-r ${LEVEL_META[l].gradient}`}>
+                  {LEVEL_META[l].emoji} {l}
+                  {l === defaultLevel ? " · My level" : ""}
+                </span>
+                <span className="text-xs text-slate-500">{d}/{u.length}</span>
               </div>
-              <ProgressBar value={d} max={u.length} label="Progress" />
+              <ProgressBar value={d} max={u.length || 1} label="Progress" />
             </button>
           );
         })}
       </div>
 
       <div className="card p-4 space-y-3">
-        <FilterRow label="Level / Уровень">
-          <Chip active={level === "all"} onClick={() => setLevel("all")}>All</Chip>
-          {LEVELS.map((l) => <Chip key={l} active={level === l} onClick={() => setLevel(l)} color={`bg-gradient-to-r ${LEVEL_META[l].gradient}`}>{LEVEL_META[l].emoji} {l}</Chip>)}
+        <FilterRow label="Level">
+          {orderedLevels.map((l) => (
+            <Chip key={l} active={level === l} onClick={() => setLevel(l)} color={`bg-gradient-to-r ${LEVEL_META[l].gradient}`}>
+              {LEVEL_META[l].emoji} {l}
+            </Chip>
+          ))}
         </FilterRow>
         {!fixedType && (
-          <FilterRow label="Type / Тип">
-            <Chip active={activeType === "all"} onClick={() => setType("all")}>All</Chip>
-            {TYPES.map((t) => <Chip key={t} active={activeType === t} onClick={() => setType(t)} color={`bg-gradient-to-r ${TYPE_META[t].gradient}`}>{TYPE_META[t].emoji} {TYPE_META[t].label}</Chip>)}
+          <FilterRow label="Type">
+            <Chip active={activeType === "all"} onClick={() => setType("all")}>All types</Chip>
+            {TYPES.map((t) => (
+              <Chip key={t} active={activeType === t} onClick={() => setType(t)} color={`bg-gradient-to-r ${TYPE_META[t].gradient}`}>
+                {TYPE_META[t].emoji} {TYPE_META[t].label}
+              </Chip>
+            ))}
           </FilterRow>
         )}
-        <p className="text-sm text-slate-500">Found: {list.length}{level !== "all" ? ` · ${level}` : ""}</p>
+        <p className="text-sm text-slate-500">
+          {level}: {list.length} lessons
+        </p>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-4">
@@ -85,9 +108,9 @@ export default function LessonList({ fixedType }: { fixedType?: UnitType }) {
 
       {showStarter && (
         <section className="space-y-3">
-          <h2 className="text-lg font-bold">🌟 Starter topics <span className="text-sm font-medium text-slate-400">/ Стартовые темы A1–A2</span></h2>
+          <h2 className="text-lg font-bold">🌟 Starter topics · {level}</h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            {lessons.filter((l) => level === "all" || l.level === level).map((l) => (
+            {lessons.filter((l) => l.level === level).map((l) => (
               <Link key={l.id} href={`/lessons/${l.id}`} className="card p-4">
                 <div className="flex items-center gap-2">
                   <span className="rounded-full px-2.5 py-0.5 text-xs font-bold text-white bg-gradient-to-r from-emerald-400 to-teal-500">{l.level}</span>

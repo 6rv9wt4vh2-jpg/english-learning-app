@@ -5,7 +5,9 @@ import SpeakButton from "@/components/SpeakButton";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
 import { deckCards } from "@/data/decks";
 import { DECKS, readStatus } from "@/lib/decks";
+import { useAuth } from "@/components/AuthProvider";
 import { useProgress } from "@/lib/hooks";
+import { LEVEL_CARD } from "@/lib/levels";
 
 const POS: [string, string, RegExp][] = [
   ["noun", "Noun", /^n\./], ["verb", "Verb", /^(v\.|modal)/], ["adj", "Adjective", /^adj/], ["adv", "Adverb", /^adv/],
@@ -17,8 +19,10 @@ const PAGE = 60;
 
 export default function WordsPage() {
   const { ready } = useProgress();
+  const { myLevel, ready: authReady } = useAuth();
+  const defaultDeck = (myLevel in LEVEL_CARD ? myLevel : "a1") as string;
   const [q, setQ] = useState("");
-  const [level, setLevel] = useState("all");
+  const [level, setLevel] = useState<string | null>(null);
   const [pos, setPos] = useState("all");
   const [status, setStatus] = useState<"all" | "new" | "learned">("all");
   const [limit, setLimit] = useState(PAGE);
@@ -26,27 +30,32 @@ export default function WordsPage() {
   const [easy, setEasy] = useState<Set<string>>(new Set());
   useEffect(() => { const s = new Set<string>(); DECKS.forEach((d) => Object.entries(readStatus(d.slug)).forEach(([k, v]) => v === "easy" && s.add(k))); setEasy(s); }, []);
   const isLearned = (id: string) => easy.has(id);
+  const activeForFilter = level ?? defaultDeck;
   const filtered = useMemo(() => {
     const s = q.trim().toLowerCase();
     return all.filter((c) =>
-      (level === "all" || c.deck === level) &&
+      (c.deck === activeForFilter) &&
       (pos === "all" || posKey(c.pos) === pos) &&
       (status === "all" || (status === "learned") === isLearned(c.id)) &&
       (!s || c.en.toLowerCase().includes(s) || c.ru.toLowerCase().includes(s)));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, level, pos, status, easy]);
+  }, [q, level, defaultDeck, pos, status, easy]);
 
-  if (!ready) return <Loading />;
+  if (!ready || !authReady) return <Loading />;
   const reset = () => setLimit(PAGE);
+  const activeLevel = level ?? defaultDeck;
+  const orderedDecks = [defaultDeck, ...DECKS.map((d) => d.slug).filter((s) => s !== defaultDeck)];
 
   return (
     <div className="space-y-6">
-      <PageHero title="Words" subtitle={`Словарь · ${all.length} words · A1–C1 (Oxford 3000/5000)`} emoji="📚" gradient="from-emerald-400 to-teal-600" />
+      <PageHero title="Words" subtitle={`Dictionary · ${DECKS.find((d)=>d.slug===activeLevel)?.title ?? activeLevel}`} emoji="📚" gradient="from-emerald-400 to-teal-600" />
       <div className="card p-4 space-y-3">
-        <input type="search" className="input" value={q} onChange={(e) => { setQ(e.target.value); reset(); }} placeholder="🔍 Search / Поиск: hello, спасибо…" />
-        <FilterRow label="Level / Уровень">
-          <Chip active={level === "all"} onClick={() => { setLevel("all"); reset(); }}>All</Chip>
-          {DECKS.map((d) => <Chip key={d.slug} active={level === d.slug} onClick={() => { setLevel(d.slug); reset(); }} color={`bg-gradient-to-r ${d.gradient}`}>{d.emoji} {d.title}</Chip>)}
+        <input type="search" className="input" value={q} onChange={(e) => { setQ(e.target.value); reset(); }} placeholder="🔍 Search: hello, спасибо…" />
+        <FilterRow label="Level">
+          {orderedDecks.map((slug) => {
+            const d = DECKS.find((x) => x.slug === slug)!;
+            return <Chip key={slug} active={activeLevel === slug} onClick={() => { setLevel(slug); reset(); }} color={`bg-gradient-to-r ${d.gradient}`}>{d.emoji} {d.title}{slug===defaultDeck?" · My":""}</Chip>;
+          })}
         </FilterRow>
         <FilterRow label="Part of speech / Часть речи">
           <Chip active={pos === "all"} onClick={() => { setPos("all"); reset(); }}>All</Chip>

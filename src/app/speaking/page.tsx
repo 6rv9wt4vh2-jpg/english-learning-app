@@ -4,9 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import GrammarCheck from "@/components/GrammarCheck";
 import LevelBreadcrumb from "@/components/LevelBreadcrumb";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
-import { LEVELS, LEVEL_META } from "@/data/course";
+import { LEVELS, LEVEL_META, type Level } from "@/data/course";
 import { KIND_META, speakingTasks, type SpeakKind, type SpeakTask } from "@/data/speaking";
-import { useLevelFilter } from "@/lib/levelFilter";
+import { useAuth } from "@/components/AuthProvider";
+import { cefrFromMyLevel, useLevelFilter } from "@/lib/levelFilter";
 import { createStore } from "@/lib/persist";
 import { progressStore, touchStudyDay } from "@/lib/storage";
 import { hintCoverage, useContinuousRecognition } from "@/lib/recognition";
@@ -224,7 +225,9 @@ function Practice({
 }
 
 export default function SpeakingPage() {
-  const { level, setLevel, ready: levelReady } = useLevelFilter("speaking");
+  const { myLevel, ready: authReady } = useAuth();
+  const defaultLevel = useMemo(() => cefrFromMyLevel(myLevel), [myLevel]);
+  const { level, setLevel, ready: levelReady } = useLevelFilter("speaking", defaultLevel);
   const [kind, setKind] = useState<SpeakKind | "all">("all");
   const [active, setActive] = useState<SpeakTask | null>(null);
   const [scores, setScores] = useState<ScoreMap>({});
@@ -251,37 +254,41 @@ export default function SpeakingPage() {
     progressStore.update((p) => touchStudyDay(p));
   };
 
-  if (!levelReady || !ready) return <Loading />;
+  if (!levelReady || !ready || !authReady) return <Loading />;
 
-  const list = speakingTasks.filter((t) => (level === "all" || t.level === level) && (kind === "all" || t.kind === kind));
-  const doneCount = speakingTasks.filter((t) => (scores[t.id]?.words ?? 0) >= t.targetWords * 0.8).length;
+  const list = speakingTasks.filter((t) => t.level === level && (kind === "all" || t.kind === kind));
+  const levelTasks = speakingTasks.filter((t) => t.level === level);
+  const doneCount = levelTasks.filter((t) => {
+    const sc = scores[t.id];
+    return sc && (sc.words >= t.targetWords * 0.8 || !!sc.checkedAt);
+  }).length;
+  const orderedLevels: Level[] = [defaultLevel, ...LEVELS.filter((l) => l !== defaultLevel)];
   const sameLevel = active ? speakingTasks.filter((t) => t.level === active.level) : [];
   const activeIdx = active ? sameLevel.findIndex((t) => t.id === active.id) : -1;
   const nextTask = activeIdx >= 0 ? sameLevel[activeIdx + 1] : undefined;
 
   return (
     <div className="space-y-6">
-      <PageHero title="Speaking" subtitle="Extended answers · 30s–2min · grammar check · A1–C1" emoji="🎙️" gradient="from-rose-400 to-pink-600">
-        <p className="mt-2 text-sm font-semibold">{doneCount}/{speakingTasks.length} completed</p>
+      <PageHero title="Speaking" subtitle={`Extended answers · ${level}`} emoji="🎙️" gradient="from-rose-400 to-pink-600">
+        <p className="mt-2 text-sm font-semibold">{level} · {doneCount}/{levelTasks.length} completed</p>
       </PageHero>
       <div className="card p-4 space-y-3">
         <FilterRow label="Level">
-          <Chip active={level === "all"} onClick={() => setLevel("all")}>All</Chip>
-          {LEVELS.map((l) => (
+          {orderedLevels.map((l) => (
             <Chip key={l} active={level === l} onClick={() => setLevel(l)} color={`bg-gradient-to-r ${LEVEL_META[l].gradient}`}>
-              {LEVEL_META[l].emoji} {l}
+              {LEVEL_META[l].emoji} {l}{l === defaultLevel ? " · My" : ""}
             </Chip>
           ))}
         </FilterRow>
         <FilterRow label="Task type">
-          <Chip active={kind === "all"} onClick={() => setKind("all")}>All</Chip>
+          <Chip active={kind === "all"} onClick={() => setKind("all")}>All types</Chip>
           {(Object.keys(KIND_META) as SpeakKind[]).map((k) => (
             <Chip key={k} active={kind === k} onClick={() => setKind(k)} color={`bg-gradient-to-r ${KIND_META[k].gradient}`}>
               {KIND_META[k].emoji} {KIND_META[k].label}
             </Chip>
           ))}
         </FilterRow>
-        <p className="text-sm text-slate-500">Found: {list.length}{level !== "all" ? ` · ${level}` : ""} · open questions only (no repeat-after-me)</p>
+        <p className="text-sm text-slate-500">{level}: {list.length} tasks</p>
       </div>
       {active && (
         <Practice
