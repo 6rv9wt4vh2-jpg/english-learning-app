@@ -8,6 +8,7 @@ const items = [
   { href: "/lessons", title: "All lessons", ru: "Все уроки", emoji: "🎓", grad: "from-fuchsia-500 to-purple-600" },
   { href: "/progress", title: "Progress", ru: "Прогресс", emoji: "📊", grad: "from-lime-400 to-green-600" },
   { href: "/settings", title: "Settings", ru: "Настройки", emoji: "⚙️", grad: "from-slate-500 to-slate-700" },
+  { href: "/admin", title: "Admin", ru: "Учитель", emoji: "👩‍🏫", grad: "from-slate-600 to-indigo-700" },
 ];
 
 export default function MorePage() {

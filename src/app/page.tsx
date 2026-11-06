@@ -2,121 +2,119 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import HomeProgressSummary from "@/components/HomeProgressSummary";
-import ProgressBar from "@/components/ProgressBar";
-import StatCard from "@/components/StatCard";
+import { useAuth } from "@/components/AuthProvider";
 import { Loading } from "@/components/ui";
-import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel } from "@/data/course";
-import { deckCards } from "@/data/decks";
-import { DECKS, countEasyAll } from "@/lib/decks";
-import { useProgress } from "@/lib/hooks";
-import { getAccuracy } from "@/lib/storage";
-import { useUnitProgress } from "@/lib/units";
+import { LEVEL_CARD, LEVEL_SLUGS, type LevelSlug } from "@/lib/levels";
+import { getLevelProgress, levelOverallPct, type LevelProgress } from "@/lib/levelProgress";
 
-const totalCards = DECKS.reduce((s, d) => s + deckCards[d.slug].length, 0);
-
-function Bi({ en, ru }: { en: string; ru: string }) {
-  return <>{en} <span className="font-medium opacity-60">/ {ru}</span></>;
-}
-
-const TILES = [
-  { href: "/vocabulary", emoji: "📚", en: "Words", ru: "Словарь", grad: "from-emerald-400 to-teal-600" },
-  { href: "/cards", emoji: "🃏", en: "Cards", ru: "Карточки", grad: "from-amber-400 to-orange-600" },
-  { href: "/lessons", emoji: "🎓", en: "Lessons", ru: "Уроки", grad: "from-fuchsia-500 to-purple-600" },
-  { href: "/speaking", emoji: "🎙️", en: "Speaking", ru: "Говорение", grad: "from-rose-400 to-pink-600" },
-  { href: "/grammar", emoji: "📐", en: "Grammar", ru: "Грамматика", grad: "from-fuchsia-500 to-purple-600" },
-  { href: "/reading", emoji: "📖", en: "Reading", ru: "Чтение", grad: "from-cyan-400 to-blue-600" },
-  { href: "/writing", emoji: "✍️", en: "Writing", ru: "Письмо", grad: "from-amber-400 to-orange-600" },
-  { href: "/listening", emoji: "🎧", en: "Listening", ru: "Аудирование", grad: "from-cyan-400 to-blue-600" },
-  { href: "/progress", emoji: "📊", en: "Progress", ru: "Прогресс", grad: "from-lime-400 to-green-600" },
+const SKILLS: { key: keyof Omit<LevelProgress, "slug">; label: string }[] = [
+  { key: "words", label: "Words" },
+  { key: "grammar", label: "Grammar" },
+  { key: "reading", label: "Reading" },
+  { key: "writing", label: "Writing" },
+  { key: "speaking", label: "Speaking" },
+  { key: "listening", label: "Listening" },
 ];
 
 export default function HomePage() {
-  const { progress, ready } = useProgress();
-  const units = useUnitProgress();
-  const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
-  const [learned, setLearned] = useState(0);
-  useEffect(() => {
-    setLearned(countEasyAll(DECKS.map((d) => d.slug)));
-  }, [ready, progress.totalReviews, units.done.length]);
-  const accuracy = getAccuracy(progress);
-  const goal = progress.dailyGoal || 20;
-  const today = progress.reviewsToday || 0;
+  const { user, ready, myLevel, setMyLevel } = useAuth();
+  const [rows, setRows] = useState<{ slug: LevelSlug; p: LevelProgress; pct: number; done: number; total: number }[]>([]);
 
-  if (!ready || !units.ready) return <Loading />;
-  const tm = TYPE_META[nextUnit.type];
+  useEffect(() => {
+    if (!ready) return;
+    const ordered = [
+      myLevel,
+      ...LEVEL_SLUGS.filter((s) => s !== myLevel),
+    ];
+    setRows(
+      ordered.map((slug) => {
+        const p = getLevelProgress(slug);
+        const o = levelOverallPct(p);
+        return { slug, p, ...o };
+      }),
+    );
+  }, [ready, myLevel, user?.username]);
+
+  if (!ready) return <Loading />;
 
   return (
-    <div className="space-y-8">
-      <header className="pop-in relative overflow-hidden rounded-3xl p-6 sm:p-8 text-white shadow-xl bg-gradient-to-br from-sky-400 via-indigo-500 to-fuchsia-500">
-        <div className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-white/15" />
-        <div className="absolute right-16 -bottom-12 h-28 w-28 rounded-full bg-white/10" />
-        <p className="relative text-sm font-semibold opacity-90">Welcome!</p>
-        <h1 className="relative mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight">Learn English calmly</h1>
-        <p className="relative text-lg font-semibold opacity-90">Учим английский спокойно</p>
-        <p className="relative mt-3 max-w-xl text-sm opacity-90">
-          Words, spaced repetition, lessons and listening — saved in this browser.
+    <div className="space-y-6">
+      <header className="pop-in relative overflow-hidden rounded-3xl p-6 text-white shadow-xl bg-gradient-to-br from-sky-400 via-indigo-500 to-fuchsia-500">
+        <div className="absolute -right-8 -top-8 h-36 w-36 rounded-full bg-white/15" />
+        <p className="relative text-sm font-semibold opacity-90">
+          {user ? `Hi, ${user.username}` : "Welcome"}
+          {user?.role === "admin" ? " · teacher" : ""}
+        </p>
+        <h1 className="relative text-3xl font-extrabold tracking-tight">Choose a level</h1>
+        <p className="relative mt-1 text-sm opacity-90">
+          Each level keeps its own words & lessons progress. Your level is highlighted first.
         </p>
       </header>
 
-      <HomeProgressSummary />
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <StatCard index={0} label="Streak" value={progress.streak} emoji="🔥" hint="days" />
-        <StatCard index={1} label="Learned" value={learned} emoji="✨" hint={`of ${totalCards}`} />
-        <StatCard index={2} label="Accuracy" value={`${accuracy}%`} emoji="🎯" />
-        <StatCard index={3} label="Lessons" value={`${units.done.length}/${allUnits.length}`} emoji="🎓" />
+      <div className="grid sm:grid-cols-2 gap-4">
+        {rows.map(({ slug, p, pct, done, total }) => {
+          const meta = LEVEL_CARD[slug];
+          const mine = slug === myLevel;
+          return (
+            <Link
+              key={slug}
+              href={`/level/${slug}`}
+              className={`pop-in relative overflow-hidden rounded-3xl p-5 text-white shadow-xl bg-gradient-to-br ${meta.gradient} hover:scale-[1.02] transition ${
+                mine ? "ring-4 ring-white/80 ring-offset-2 ring-offset-transparent" : ""
+              }`}
+            >
+              <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-white/15" />
+              <div className="relative flex items-start justify-between gap-2">
+                <div>
+                  <div className="text-4xl">{meta.emoji}</div>
+                  <h2 className="text-2xl font-extrabold mt-1">{meta.title}</h2>
+                  <p className="text-sm opacity-90">{meta.subtitle}</p>
+                </div>
+                {mine && (
+                  <span className="rounded-full bg-white text-slate-900 px-3 py-1 text-xs font-bold shadow">My level</span>
+                )}
+              </div>
+              <div className="relative mt-4 space-y-2">
+                <div className="flex justify-between text-sm font-bold">
+                  <span>Progress</span>
+                  <span>
+                    {done}/{total} · {pct}%
+                  </span>
+                </div>
+                <div className="h-2 rounded-full bg-black/20 overflow-hidden">
+                  <div className="h-full rounded-full bg-white" style={{ width: `${pct}%` }} />
+                </div>
+                <div className="grid grid-cols-2 gap-1.5 pt-1">
+                  {SKILLS.map((s) => {
+                    const c = p[s.key];
+                    return (
+                      <div key={s.key} className="rounded-xl bg-white/15 px-2 py-1.5 text-[11px] font-semibold">
+                        <div className="opacity-90">{s.label}</div>
+                        <div>
+                          {c.done}/{c.total}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+              {!mine && (
+                <button
+                  type="button"
+                  className="relative mt-3 rounded-full bg-white/25 px-3 py-1 text-xs font-bold hover:bg-white/40"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setMyLevel(slug);
+                  }}
+                >
+                  Set as my level
+                </button>
+              )}
+            </Link>
+          );
+        })}
       </div>
-
-      <section className="card p-5 space-y-4">
-        <div className="flex items-center justify-between gap-3">
-          <h2 className="font-bold text-lg">Today&apos;s goal</h2>
-          <span className="text-sm text-slate-500">{today} / {goal} reviews</span>
-        </div>
-        <ProgressBar value={today} max={goal} />
-        <div className="flex flex-wrap gap-3 pt-1">
-          <Link href="/speaking" className="btn-primary">🎙️ Speaking</Link>
-          <Link href="/cards" className="btn-warm">🃏 Learn cards</Link>
-          <Link href="/listening" className="btn-ghost">🎧 Listening</Link>
-        </div>
-      </section>
-
-      <Link href={`/lessons/${nextUnit.id}`} className={`block pop-in relative overflow-hidden rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${tm.gradient} hover:scale-[1.01] transition`}>
-        <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/15" />
-        <p className="text-xs font-bold uppercase tracking-wide opacity-90">Lesson of the day</p>
-        <h2 className="mt-1 text-xl font-extrabold">{tm.emoji} {nextUnit.title}</h2>
-        <p className="text-sm opacity-90">{nextUnit.titleRu} · {nextUnit.level} · {tm.label}</p>
-        <span className="mt-3 inline-block rounded-xl bg-white/25 px-4 py-2 text-sm font-semibold">Open lesson →</span>
-      </Link>
-
-      <section className="space-y-3">
-        <h2 className="font-bold text-lg"><Bi en="Your levels" ru="Ваши уровни" /></h2>
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
-          {LEVELS.map((l) => {
-            const u = unitsByLevel[l];
-            const d = u.filter((x) => units.done.includes(x.id)).length;
-            return (
-              <Link key={l} href={`/lessons?level=${l}`} className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${LEVEL_META[l].gradient} hover:scale-105 transition`}>
-                <div className="text-2xl">{LEVEL_META[l].emoji}</div>
-                <div className="text-xl font-extrabold">{l}</div>
-                <div className="text-xs opacity-90">{LEVEL_META[l].ru}</div>
-                <div className="mt-2 h-1.5 rounded-full bg-white/30"><div className="h-full rounded-full bg-white" style={{ width: `${(d / u.length) * 100}%` }} /></div>
-                <div className="mt-1 text-[11px] font-semibold">{d}/{u.length} lessons</div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="grid grid-cols-3 gap-3">
-        {TILES.map((t) => (
-          <Link key={t.href} href={t.href} className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${t.grad} hover:scale-[1.03] transition`}>
-            <div className="text-3xl">{t.emoji}</div>
-            <div className="mt-1 font-bold">{t.en}</div>
-            <div className="text-sm opacity-90">{t.ru}</div>
-          </Link>
-        ))}
-      </section>
     </div>
   );
 }

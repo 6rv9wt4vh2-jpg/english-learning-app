@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useAuth } from "@/components/AuthProvider";
 
 const links = [
   { href: "/", label: "Home", icon: "🏠", grad: "from-sky-400 to-indigo-500" },
@@ -16,12 +17,12 @@ const links = [
   { href: "/settings", label: "Settings", icon: "⚙️", grad: "from-slate-400 to-slate-600" },
 ];
 const linkBy = (h: string) => links.find((l) => l.href === h)!;
-// Mobile (7): Home first so the summary is one tap away; Writing lives under More
 const mobile = [...["/", "/cards", "/grammar", "/reading", "/speaking", "/listening"].map(linkBy), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
-const moreRoutes = ["/more", "/vocabulary", "/progress", "/settings", "/practice", "/writing", "/lessons"];
+const moreRoutes = ["/more", "/vocabulary", "/progress", "/settings", "/practice", "/writing", "/lessons", "/admin"];
 const LESSON_TYPE: Record<string, string> = { g: "/grammar", r: "/reading", w: "/writing" };
 
 function isActive(pathname: string, href: string) {
+  if (pathname.startsWith("/level/")) return href === "/";
   const m = pathname.match(/^\/lessons\/[a-z0-9]+-([grw])-/);
   if (m) return LESSON_TYPE[m[1]] === href;
   if (href === "/more") return moreRoutes.some((r) => pathname === r || (r !== "/" && pathname.startsWith(r)));
@@ -31,6 +32,9 @@ function isActive(pathname: string, href: string) {
 
 export default function Nav() {
   const pathname = usePathname();
+  const { user, logout } = useAuth();
+  if (pathname === "/login") return null;
+
   return (
     <>
       <aside className="hidden md:flex md:w-56 md:flex-col md:fixed md:inset-y-0 border-r border-white/50 dark:border-slate-800 bg-white/80 dark:bg-slate-950/80 backdrop-blur z-40">
@@ -39,11 +43,11 @@ export default function Nav() {
             <span className="text-2xl">🇬🇧</span>
             <div>
               <div className="font-extrabold bg-gradient-to-r from-sky-500 to-pink-500 bg-clip-text text-transparent">English RU</div>
-              <div className="text-xs text-slate-500">A1–C1 · для русскоязычных</div>
+              <div className="text-xs text-slate-500">{user ? user.username : "A1–C1"}</div>
             </div>
           </Link>
         </div>
-        <nav className="flex-1 px-3 space-y-1">
+        <nav className="flex-1 px-3 space-y-1 overflow-y-auto">
           {links.map((l) => {
             const active = isActive(pathname, l.href);
             return (
@@ -54,7 +58,19 @@ export default function Nav() {
               </Link>
             );
           })}
+          {user?.role === "admin" && (
+            <Link href="/admin" className={`flex items-center gap-3 rounded-2xl px-3 py-2.5 text-sm font-semibold transition ${pathname.startsWith("/admin") ? "bg-gradient-to-r from-slate-600 to-indigo-700 text-white shadow-md" : "text-slate-600 hover:bg-slate-100"}`}>
+              <span>👩‍🏫</span>Admin
+            </Link>
+          )}
         </nav>
+        {user && (
+          <div className="p-3 border-t border-slate-200 dark:border-slate-800">
+            <button type="button" onClick={() => void logout()} className="w-full rounded-2xl px-3 py-2 text-sm font-semibold text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/30">
+              Sign out
+            </button>
+          </div>
+        )}
       </aside>
 
       <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t border-white/50 dark:border-slate-800 bg-white/95 dark:bg-slate-950/95 backdrop-blur safe-bottom">
