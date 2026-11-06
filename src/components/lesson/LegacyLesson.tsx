@@ -2,14 +2,17 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import AfterLessonNav from "@/components/AfterLessonNav";
+import LevelBreadcrumb from "@/components/LevelBreadcrumb";
 import SpeakButton from "@/components/SpeakButton";
-import { getLessonById } from "@/data/lessons";
+import { PageHero } from "@/components/ui";
+import { LEVEL_META } from "@/data/course";
+import { getLessonById, lessons } from "@/data/lessons";
 import { getWordsByLesson } from "@/data/words";
 import { useProgress } from "@/lib/hooks";
+import type { Level } from "@/data/course";
 
 export default function LegacyLesson({ id }: { id: string }) {
-
-
   const lesson = getLessonById(id);
   const lessonWords = useMemo(() => (lesson ? getWordsByLesson(lesson.id) : []), [lesson]);
   const { progress, ready, onCompleteLesson } = useProgress();
@@ -19,21 +22,30 @@ export default function LegacyLesson({ id }: { id: string }) {
   if (!lesson) {
     return (
       <div className="space-y-4">
-        <h1 className="text-2xl font-bold">Урок не найден</h1>
-        <Link href="/lessons" className="text-sky-600">
-          ← Ко всем урокам
-        </Link>
+        <h1 className="text-2xl font-bold">Lesson not found</h1>
+        <Link href="/lessons" className="text-sky-600">← All lessons</Link>
       </div>
     );
   }
 
-  if (!ready) return <div className="text-slate-500">Загрузка…</div>;
+  if (!ready) return <div className="text-slate-500">Loading…</div>;
 
+  const level = lesson.level as Level;
+  const lm = LEVEL_META[level] ?? LEVEL_META.A1;
+  const siblings = lessons.filter((l) => l.level === lesson.level);
+  const idx = siblings.findIndex((l) => l.id === lesson.id);
+  const next = siblings[idx + 1];
   const done = progress.completedLessons.includes(lesson.id);
   const allAnswered = lesson.exercises.every((_, i) => answers[i] != null);
-  const score = lesson.exercises.reduce((acc, ex, i) => {
-    return acc + (answers[i] === ex.correctIndex ? 1 : 0);
-  }, 0);
+  const score = lesson.exercises.reduce((acc, ex, i) => acc + (answers[i] === ex.correctIndex ? 1 : 0), 0);
+  const nav = (
+    <AfterLessonNav
+      level={level}
+      sectionHref="/lessons"
+      nextHref={next ? `/lessons/${next.id}` : undefined}
+      nextTitle={next?.title}
+    />
+  );
 
   const finish = () => {
     setChecked(true);
@@ -44,31 +56,29 @@ export default function LegacyLesson({ id }: { id: string }) {
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href="/lessons" className="text-sm text-sky-600 dark:text-sky-400">
-          ← Уроки
-        </Link>
-        <h1 className="text-2xl font-bold mt-2">{lesson.titleRu}</h1>
-        <p className="text-slate-500">
-          {lesson.title} · {lesson.level}
-          {done ? " · ✓ пройден" : ""}
-        </p>
-        <p className="mt-2 text-slate-600 dark:text-slate-400">{lesson.descriptionRu}</p>
-      </div>
+      <PageHero
+        title={lesson.title}
+        subtitle={lesson.titleRu}
+        emoji="🌟"
+        gradient="from-emerald-400 to-teal-500"
+        breadcrumb={<LevelBreadcrumb sectionHref="/lessons" sectionLabel="🎓 Lessons" level={level} />}
+      >
+        <div className="mt-3 flex flex-wrap gap-2 text-xs font-bold">
+          <Link href={`/lessons?level=${level}`} className={`rounded-full px-3 py-1 bg-gradient-to-r ${lm.gradient} shadow hover:brightness-110`}>{level}</Link>
+          {done && <span className="rounded-full px-3 py-1 bg-emerald-500 shadow">✓ Done</span>}
+        </div>
+      </PageHero>
+
+      <p className="text-slate-600 dark:text-slate-400">{lesson.descriptionRu}</p>
 
       {lesson.sections.map((section, idx) => (
         <section key={idx} className="card p-5 space-y-3">
           <h2 className="font-semibold text-lg">{section.title}</h2>
-          <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
-            {section.content}
-          </p>
+          <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">{section.content}</p>
           {section.examples && section.examples.length > 0 && (
             <ul className="space-y-2 mt-2">
               {section.examples.map((ex, i) => (
-                <li
-                  key={i}
-                  className="rounded-xl bg-slate-50 dark:bg-slate-800/60 px-3 py-2 flex flex-wrap items-center justify-between gap-2"
-                >
+                <li key={i} className="rounded-xl bg-slate-50 dark:bg-slate-800/60 px-3 py-2 flex flex-wrap items-center justify-between gap-2">
                   <div>
                     <div className="font-medium">{ex.en}</div>
                     <div className="text-sm text-slate-500">{ex.ru}</div>
@@ -82,7 +92,7 @@ export default function LegacyLesson({ id }: { id: string }) {
       ))}
 
       <section className="space-y-3">
-        <h2 className="font-semibold text-lg">Слова урока</h2>
+        <h2 className="font-semibold text-lg">Lesson words</h2>
         <div className="grid sm:grid-cols-2 gap-2">
           {lessonWords.map((w) => (
             <div key={w.id} className="card p-3 flex items-center justify-between gap-2">
@@ -97,7 +107,7 @@ export default function LegacyLesson({ id }: { id: string }) {
       </section>
 
       <section className="space-y-4">
-        <h2 className="font-semibold text-lg">Упражнения</h2>
+        <h2 className="font-semibold text-lg">Exercises</h2>
         {lesson.exercises.map((ex, i) => (
           <div key={i} className="card p-4 space-y-3">
             <p className="font-medium">{ex.question}</p>
@@ -113,13 +123,8 @@ export default function LegacyLesson({ id }: { id: string }) {
                   style = "border-sky-400 bg-sky-50 dark:bg-sky-900/30";
                 }
                 return (
-                  <button
-                    key={oi}
-                    type="button"
-                    disabled={checked}
-                    onClick={() => setAnswers((a) => ({ ...a, [i]: oi }))}
-                    className={`w-full text-left rounded-xl border px-3 py-2.5 text-sm transition ${style}`}
-                  >
+                  <button key={oi} type="button" disabled={checked} onClick={() => setAnswers((a) => ({ ...a, [i]: oi }))}
+                    className={`w-full text-left rounded-xl border px-3 py-2.5 text-sm transition ${style}`}>
                     {opt}
                   </button>
                 );
@@ -129,30 +134,31 @@ export default function LegacyLesson({ id }: { id: string }) {
         ))}
 
         {!checked ? (
-          <button
-            type="button"
-            disabled={!allAnswered}
-            onClick={finish}
-            className="rounded-xl bg-teal-600 hover:bg-teal-700 disabled:opacity-40 text-white px-5 py-2.5 text-sm font-medium"
-          >
-            Проверить ответы
+          <button type="button" disabled={!allAnswered} onClick={finish} className="btn-primary disabled:opacity-40">
+            Check answers
           </button>
         ) : (
-          <div className="card p-4 space-y-2">
-            <p className="font-semibold">
-              Результат: {score}/{lesson.exercises.length}
-            </p>
-            <p className="text-sm text-slate-500">
-              {score === lesson.exercises.length
-                ? "Отлично! Урок отмечен как пройденный."
-                : score >= Math.ceil(lesson.exercises.length * 0.66)
-                  ? "Хорошо! Урок засчитан. Можно повторить позже."
-                  : "Попробуйте ещё раз — нужно минимум 2 из 3."}
-            </p>
-            {done && <p className="text-sm text-emerald-600">Урок в прогрессе ✓</p>}
+          <div className="space-y-3">
+            <div className="card p-4 space-y-2">
+              <p className="font-semibold">Score: {score}/{lesson.exercises.length}</p>
+              <p className="text-sm text-slate-500">
+                {score === lesson.exercises.length
+                  ? "Excellent! Lesson marked complete."
+                  : score >= Math.ceil(lesson.exercises.length * 0.66)
+                    ? "Good! Lesson counted. You can retry later."
+                    : "Try again — you need at least 2 out of 3."}
+              </p>
+              {done && <p className="text-sm text-emerald-600">In your progress ✓</p>}
+            </div>
+            {nav}
           </div>
         )}
       </section>
+
+      <div className="card p-5 space-y-2">
+        <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Continue</p>
+        {nav}
+      </div>
     </div>
   );
 }

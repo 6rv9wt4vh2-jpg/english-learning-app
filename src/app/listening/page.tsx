@@ -4,17 +4,18 @@ import Link from "next/link";
 import { useState } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
-import { LEVELS, LEVEL_META, type Level } from "@/data/course";
+import { LEVELS, LEVEL_META } from "@/data/course";
 import { KIND_META, allListening, listeningByLevel, type ListenKind } from "@/data/listening";
+import { useLevelFilter } from "@/lib/levelFilter";
 import { useUnitProgress } from "@/lib/units";
 
 const KINDS = Object.keys(KIND_META) as ListenKind[];
 
 export default function ListeningPage() {
-  const { done, ready } = useUnitProgress();
-  const [level, setLevel] = useState<Level | "all">("all");
+  const { done, ready: progressReady } = useUnitProgress();
+  const { level, setLevel, ready: levelReady } = useLevelFilter("listening");
   const [kind, setKind] = useState<ListenKind | "all">("all");
-  if (!ready) return <Loading />;
+  if (!progressReady || !levelReady) return <Loading />;
   const list = allListening.filter((l) => (level === "all" || l.level === level) && (kind === "all" || l.kind === kind));
 
   return (
@@ -48,7 +49,7 @@ export default function ListeningPage() {
           <Chip active={kind === "all"} onClick={() => setKind("all")}>All</Chip>
           {KINDS.map((k) => <Chip key={k} active={kind === k} onClick={() => setKind(k)} color={`bg-gradient-to-r ${KIND_META[k].gradient}`}>{KIND_META[k].emoji} {KIND_META[k].label}</Chip>)}
         </FilterRow>
-        <p className="text-sm text-slate-500">Found: {list.length}</p>
+        <p className="text-sm text-slate-500">Found: {list.length}{level !== "all" ? ` · ${level}` : ""}</p>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-4">

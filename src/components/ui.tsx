@@ -1,12 +1,13 @@
 import type { ReactNode } from "react";
 
-export function PageHero({ title, subtitle, emoji, gradient = "from-sky-400 to-indigo-500", children }: {
-  title: string; subtitle?: string; emoji?: string; gradient?: string; children?: ReactNode;
+export function PageHero({ title, subtitle, emoji, gradient = "from-sky-400 to-indigo-500", breadcrumb, children }: {
+  title: string; subtitle?: string; emoji?: string; gradient?: string; breadcrumb?: ReactNode; children?: ReactNode;
 }) {
   return (
     <header className={`pop-in relative overflow-hidden rounded-3xl p-6 text-white shadow-xl bg-gradient-to-br ${gradient}`}>
       <div className="absolute -right-6 -top-6 h-32 w-32 rounded-full bg-white/15" />
       <div className="absolute right-10 -bottom-10 h-24 w-24 rounded-full bg-white/10" />
+      {breadcrumb && <div className="relative mb-4">{breadcrumb}</div>}
       <div className="relative flex items-start gap-4">
         {emoji && <div className="float text-4xl sm:text-5xl drop-shadow">{emoji}</div>}
         <div className="min-w-0">

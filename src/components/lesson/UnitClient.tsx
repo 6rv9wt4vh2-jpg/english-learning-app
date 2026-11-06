@@ -1,17 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
+import AfterLessonNav from "@/components/AfterLessonNav";
 import GrammarCheck from "@/components/GrammarCheck";
+import LevelBreadcrumb from "@/components/LevelBreadcrumb";
 import SpeakButton from "@/components/SpeakButton";
 import { PageHero } from "@/components/ui";
-import { LEVEL_META, TYPE_META, unitsByLevel, type Exercise, type GrammarUnit, type Question, type ReadingUnit, type Unit, type WritingUnit } from "@/data/course";
+import { LEVEL_META, TYPE_META, allUnits, type Exercise, type GrammarUnit, type Question, type ReadingUnit, type Unit, type WritingUnit } from "@/data/course";
 import { draftKey, useUnitProgress } from "@/lib/units";
 
 const norm = (s: string) => s.trim().toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, " ").replace(/[.!?]$/, "");
 const isRight = (ex: Exercise, a: string) => ex.answer.split("/").some((v) => norm(v) === norm(a));
 
-function Section({ title, ru, emoji, children }: { title: string; ru?: string; emoji: string; children: React.ReactNode }) {
+function Section({ title, ru, emoji, children }: { title: string; ru?: string; emoji: string; children: ReactNode }) {
   return (
     <section className="card pop-in p-5 space-y-3">
       <h2 className="text-lg font-bold flex items-center gap-2"><span>{emoji}</span>{title}{ru && <span className="text-sm font-medium text-slate-400">/ {ru}</span>}</h2>
@@ -20,18 +22,21 @@ function Section({ title, ru, emoji, children }: { title: string; ru?: string; e
   );
 }
 
-function ResultBox({ score, total, onRetry }: { score: number; total: number; onRetry: () => void }) {
+function ResultBox({ score, total, onRetry, nav }: { score: number; total: number; onRetry: () => void; nav?: ReactNode }) {
   const pass = score >= Math.ceil(total * 0.6);
   return (
-    <div className={`pop-in rounded-3xl p-4 text-white shadow-lg bg-gradient-to-r ${pass ? "from-emerald-400 to-teal-600" : "from-orange-400 to-rose-500"}`}>
-      <div className="text-xl font-extrabold">{pass ? "🎉 Great job!" : "💪 Try again"} {score}/{total}</div>
-      <div className="text-sm opacity-90">{pass ? "Lesson completed / Урок пройден ✓" : "Нужно минимум 60% правильных ответов"}</div>
-      <button type="button" onClick={onRetry} className="mt-3 rounded-xl bg-white/25 px-4 py-1.5 text-sm font-semibold hover:bg-white/35">Retry / Ещё раз</button>
+    <div className="space-y-3">
+      <div className={`pop-in rounded-3xl p-4 text-white shadow-lg bg-gradient-to-r ${pass ? "from-emerald-400 to-teal-600" : "from-orange-400 to-rose-500"}`}>
+        <div className="text-xl font-extrabold">{pass ? "🎉 Great job!" : "💪 Try again"} {score}/{total}</div>
+        <div className="text-sm opacity-90">{pass ? "Lesson completed / Урок пройден ✓" : "Нужно минимум 60% правильных ответов"}</div>
+        <button type="button" onClick={onRetry} className="mt-3 rounded-xl bg-white/25 px-4 py-1.5 text-sm font-semibold hover:bg-white/35">Retry</button>
+      </div>
+      {nav}
     </div>
   );
 }
 
-function Exercises({ items, onPass }: { items: Exercise[]; onPass: () => void }) {
+function Exercises({ items, onPass, nav }: { items: Exercise[]; onPass: () => void; nav?: ReactNode }) {
   const [ans, setAns] = useState<Record<number, string>>({});
   const [checked, setChecked] = useState(false);
   const score = items.filter((ex, i) => isRight(ex, ans[i] || "")).length;
@@ -60,17 +65,17 @@ function Exercises({ items, onPass }: { items: Exercise[]; onPass: () => void })
         );
       })}
       {!checked
-        ? <button type="button" className="btn-primary" disabled={items.some((_, i) => !(ans[i] || "").trim())} onClick={check}>Check answers / Проверить</button>
-        : <ResultBox score={score} total={items.length} onRetry={() => { setAns({}); setChecked(false); }} />}
+        ? <button type="button" className="btn-primary" disabled={items.some((_, i) => !(ans[i] || "").trim())} onClick={check}>Check answers</button>
+        : <ResultBox score={score} total={items.length} onRetry={() => { setAns({}); setChecked(false); }} nav={nav} />}
     </div>
   );
 }
 
-function Questions({ items, onPass }: { items: Question[]; onPass: () => void }) {
-  return <Exercises items={items.map((q) => ({ q: q.q, options: q.options, answer: q.options[q.correct] }))} onPass={onPass} />;
+function Questions({ items, onPass, nav }: { items: Question[]; onPass: () => void; nav?: ReactNode }) {
+  return <Exercises items={items.map((q) => ({ q: q.q, options: q.options, answer: q.options[q.correct] }))} onPass={onPass} nav={nav} />;
 }
 
-function Grammar({ u, onPass }: { u: GrammarUnit; onPass: () => void }) {
+function Grammar({ u, onPass, nav }: { u: GrammarUnit; onPass: () => void; nav?: ReactNode }) {
   return (
     <>
       <Section title="Rule" ru="Правило" emoji="📐">
@@ -86,7 +91,7 @@ function Grammar({ u, onPass }: { u: GrammarUnit; onPass: () => void }) {
           ))}
         </ul>
       </Section>
-      <Section title="Exercise" ru="Упражнение" emoji="🎯"><Exercises items={u.exercises} onPass={onPass} /></Section>
+      <Section title="Exercise" ru="Упражнение" emoji="🎯"><Exercises items={u.exercises} onPass={onPass} nav={nav} /></Section>
     </>
   );
 }
@@ -118,7 +123,7 @@ function TapText({ text, glossary }: { text: string; glossary: [string, string][
   );
 }
 
-function Reading({ u, onPass }: { u: ReadingUnit; onPass: () => void }) {
+function Reading({ u, onPass, nav }: { u: ReadingUnit; onPass: () => void; nav?: ReactNode }) {
   const [showRu, setShowRu] = useState(false);
   return (
     <>
@@ -141,12 +146,12 @@ function Reading({ u, onPass }: { u: ReadingUnit; onPass: () => void }) {
           ))}
         </div>
       </Section>
-      <Section title="Comprehension" ru="Вопросы к тексту" emoji="❓"><Questions items={u.questions} onPass={onPass} /></Section>
+      <Section title="Comprehension" ru="Вопросы к тексту" emoji="❓"><Questions items={u.questions} onPass={onPass} nav={nav} /></Section>
     </>
   );
 }
 
-function Writing({ u, onPass, done }: { u: WritingUnit; onPass: () => void; done: boolean }) {
+function Writing({ u, onPass, done, nav }: { u: WritingUnit; onPass: () => void; done: boolean; nav?: ReactNode }) {
   const [text, setText] = useState("");
   const [checks, setChecks] = useState<boolean[]>([]);
   const [showModel, setShowModel] = useState(false);
@@ -196,8 +201,9 @@ function Writing({ u, onPass, done }: { u: WritingUnit; onPass: () => void; done
       <Section title="Model answer" ru="Образец" emoji="🌟">
         {showModel
           ? <div className="pop-in space-y-3"><p className="whitespace-pre-line leading-relaxed">{u.model}</p><SpeakButton text={u.model} label="Pronounce text" /></div>
-          : <button type="button" className="btn-warm" onClick={() => setShowModel(true)}>Show model answer / Показать образец</button>}
+          : <button type="button" className="btn-warm" onClick={() => setShowModel(true)}>Show model answer</button>}
       </Section>
+      {nav}
     </>
   );
 }
@@ -206,30 +212,42 @@ export default function UnitClient({ unit }: { unit: Unit }) {
   const { isDone, mark } = useUnitProgress();
   const lm = LEVEL_META[unit.level];
   const tm = TYPE_META[unit.type];
-  const list = unitsByLevel[unit.level];
-  const idx = list.findIndex((u) => u.id === unit.id);
-  const next = list[idx + 1];
+  const sectionHref = `/${unit.type}`;
+  const siblings = allUnits.filter((u) => u.level === unit.level && u.type === unit.type);
+  const idx = siblings.findIndex((u) => u.id === unit.id);
+  const next = siblings[idx + 1];
   const done = isDone(unit.id);
   const pass = () => mark(unit.id);
+  const nav = (
+    <AfterLessonNav
+      level={unit.level}
+      sectionHref={sectionHref}
+      nextHref={next ? `/lessons/${next.id}` : undefined}
+      nextTitle={next ? next.title : undefined}
+    />
+  );
   return (
     <div className="space-y-6">
-      <Link href="/lessons" className="text-sm font-semibold text-fuchsia-600 dark:text-fuchsia-400">← All lessons / Все уроки</Link>
-      <PageHero title={unit.title} subtitle={unit.titleRu} emoji={tm.emoji} gradient={`${tm.gradient}`}>
+      <PageHero
+        title={unit.title}
+        subtitle={unit.titleRu}
+        emoji={tm.emoji}
+        gradient={`${tm.gradient}`}
+        breadcrumb={<LevelBreadcrumb sectionHref={sectionHref} sectionLabel={`${tm.emoji} ${tm.label}`} level={unit.level} />}
+      >
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-bold">
-          <span className={`rounded-full px-3 py-1 bg-gradient-to-r ${lm.gradient} shadow`}>{lm.emoji} {unit.level}</span>
-          <span className="rounded-full px-3 py-1 bg-white/25">{tm.label} · {tm.ru}</span>
+          <Link href={`${sectionHref}?level=${unit.level}`} className={`rounded-full px-3 py-1 bg-gradient-to-r ${lm.gradient} shadow hover:brightness-110`}>{lm.emoji} {unit.level}</Link>
+          <span className="rounded-full px-3 py-1 bg-white/25">{tm.label}</span>
           {done && <span className="rounded-full px-3 py-1 bg-emerald-500 shadow">✓ Done</span>}
         </div>
       </PageHero>
-      {unit.type === "grammar" && <Grammar u={unit} onPass={pass} />}
-      {unit.type === "reading" && <Reading u={unit} onPass={pass} />}
-      {unit.type === "writing" && <Writing u={unit} onPass={pass} done={done} />}
-      {next && (
-        <Link href={`/lessons/${next.id}`} className={`block rounded-3xl p-5 text-white shadow-lg bg-gradient-to-r ${lm.gradient} hover:scale-[1.01] transition`}>
-          <div className="text-xs font-bold uppercase opacity-90">Next lesson / Следующий урок →</div>
-          <div className="text-lg font-bold">{TYPE_META[next.type].emoji} {next.title}</div>
-        </Link>
-      )}
+      {unit.type === "grammar" && <Grammar u={unit} onPass={pass} nav={nav} />}
+      {unit.type === "reading" && <Reading u={unit} onPass={pass} nav={nav} />}
+      {unit.type === "writing" && <Writing u={unit} onPass={pass} done={done} nav={nav} />}
+      <div className="card p-5 space-y-2">
+        <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Continue</p>
+        {nav}
+      </div>
     </div>
   );
 }

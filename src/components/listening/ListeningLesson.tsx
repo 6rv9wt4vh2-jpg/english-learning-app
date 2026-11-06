@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import AfterLessonNav from "@/components/AfterLessonNav";
+import LevelBreadcrumb from "@/components/LevelBreadcrumb";
 import { LEVEL_META } from "@/data/course";
-import { KIND_META, type ListenLesson } from "@/data/listening";
+import { KIND_META, listeningByLevel, type ListenLesson } from "@/data/listening";
 import { diffWords, speakLines, stopAll, ttsSupported } from "@/lib/listenSpeech";
 import { useUnitProgress } from "@/lib/units";
 
@@ -50,22 +52,32 @@ export default function ListeningLesson({ lesson }: { lesson: ListenLesson }) {
   const done = isDone(lesson.id);
   const speaker = (s: string) => s === "N" ? "" : (lesson.speakers?.[s as "A" | "B"] ?? s);
 
+  const siblings = listeningByLevel[lesson.level];
+  const idx = siblings.findIndex((l) => l.id === lesson.id);
+  const next = siblings[idx + 1];
+  const lessonNav = (
+    <AfterLessonNav
+      level={lesson.level}
+      sectionHref="/listening"
+      nextHref={next ? `/listening/${next.id}` : undefined}
+      nextTitle={next?.title}
+    />
+  );
+
   return (
     <div className="space-y-5">
-      <nav className="text-sm font-semibold text-slate-500 flex flex-wrap gap-1">
-        <Link href="/listening" className="text-cyan-600 hover:underline">Listening</Link><span>›</span>
-        <span>{lesson.level}</span><span>›</span><span className="text-slate-700 dark:text-slate-200">{lesson.title}</span>
-      </nav>
-
       <header className={`pop-in relative overflow-hidden rounded-3xl p-6 text-white shadow-xl bg-gradient-to-br ${km.gradient}`}>
         <div className="absolute -right-6 -top-6 h-32 w-32 rounded-full bg-white/15" />
-        <div className="flex flex-wrap gap-2 text-xs font-bold">
-          <span className={`rounded-full px-2.5 py-0.5 bg-gradient-to-r ${LEVEL_META[lesson.level].gradient} shadow`}>{lesson.level}</span>
-          <span className="rounded-full px-2.5 py-0.5 bg-white/25">{km.emoji} {km.label} · {km.ru}</span>
+        <div className="relative mb-4">
+          <LevelBreadcrumb sectionHref="/listening" sectionLabel="🎧 Listening" level={lesson.level} currentTitle={lesson.title} />
+        </div>
+        <div className="relative flex flex-wrap gap-2 text-xs font-bold">
+          <Link href={`/listening?level=${lesson.level}`} className={`rounded-full px-2.5 py-0.5 bg-gradient-to-r ${LEVEL_META[lesson.level].gradient} shadow hover:brightness-110`}>{lesson.level}</Link>
+          <span className="rounded-full px-2.5 py-0.5 bg-white/25">{km.emoji} {km.label}</span>
           {done && <span className="rounded-full px-2.5 py-0.5 bg-emerald-500 shadow">✓ Done</span>}
         </div>
-        <h1 className="mt-3 text-2xl sm:text-3xl font-extrabold">{lesson.title}</h1>
-        <p className="opacity-90">{lesson.titleRu}</p>
+        <h1 className="relative mt-3 text-2xl sm:text-3xl font-extrabold">{lesson.title}</h1>
+        <p className="relative opacity-90">{lesson.titleRu}</p>
       </header>
 
       <section className="card pop-in p-5 space-y-4">
@@ -126,8 +138,12 @@ export default function ListeningLesson({ lesson }: { lesson: ListenLesson }) {
             </div>
           </div>
         ))}
-        {mcChecked ? <p className="font-bold">Score: {mcScore}/{lesson.questions.length} <button type="button" className="ml-2 text-sm text-cyan-600 underline" onClick={() => { setMcChecked(false); setMc({}); }}>Try again</button></p>
-          : <button type="button" className="btn-primary" disabled={lesson.questions.some((_, i) => mc[i] === undefined)} onClick={() => setMcChecked(true)}>Check answers / Проверить</button>}
+        {mcChecked ? (
+          <div className="space-y-3">
+            <p className="font-bold">Score: {mcScore}/{lesson.questions.length} <button type="button" className="ml-2 text-sm text-cyan-600 underline" onClick={() => { setMcChecked(false); setMc({}); }}>Try again</button></p>
+            {lessonNav}
+          </div>
+        ) : <button type="button" className="btn-primary" disabled={lesson.questions.some((_, i) => mc[i] === undefined)} onClick={() => setMcChecked(true)}>Check answers</button>}
       </section>
 
       <section className="card pop-in p-5 space-y-4">
@@ -179,12 +195,14 @@ export default function ListeningLesson({ lesson }: { lesson: ListenLesson }) {
         </section>
       )}
 
-      <section className="card p-5 flex flex-wrap items-center gap-3">
-        <button type="button" className="btn-success" disabled={done || !allChecked} onClick={() => mark(lesson.id)}>
-          {done ? "✓ Completed / Пройдено" : "Complete lesson / Завершить урок"}
-        </button>
-        {!allChecked && !done && <span className="text-sm text-slate-500">Check every exercise first / Сначала проверьте все упражнения</span>}
-        <Link href="/listening" className="btn-ghost">← All listening</Link>
+      <section className="card p-5 space-y-4">
+        <div className="flex flex-wrap items-center gap-3">
+          <button type="button" className="btn-success" disabled={done || !allChecked} onClick={() => mark(lesson.id)}>
+            {done ? "✓ Completed" : "Complete lesson"}
+          </button>
+          {!allChecked && !done && <span className="text-sm text-slate-500">Check every exercise first</span>}
+        </div>
+        {lessonNav}
       </section>
     </div>
   );

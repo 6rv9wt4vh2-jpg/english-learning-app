@@ -4,25 +4,29 @@ import Link from "next/link";
 import { useState } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import { Chip, FilterRow, Loading, PageHero } from "@/components/ui";
-import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel, type Level, type UnitType } from "@/data/course";
+import { LEVELS, LEVEL_META, TYPE_META, allUnits, unitsByLevel, type UnitType } from "@/data/course";
 import { lessons } from "@/data/lessons";
 import { useProgress } from "@/lib/hooks";
+import { useLevelFilter } from "@/lib/levelFilter";
 import { useUnitProgress } from "@/lib/units";
 
 const TYPES = Object.keys(TYPE_META) as UnitType[];
 
 export default function LessonList({ fixedType }: { fixedType?: UnitType }) {
-  const { done, ready } = useUnitProgress();
+  const { done, ready: progressReady } = useUnitProgress();
   const { progress } = useProgress();
-  const [level, setLevel] = useState<Level | "all">("all");
+  const sectionKey = fixedType ?? "lessons";
+  const { level, setLevel, ready: levelReady } = useLevelFilter(sectionKey);
   const [type, setType] = useState<UnitType | "all">(fixedType ?? "all");
+  const activeType = fixedType ?? type;
+
   const scope = allUnits.filter((u) => !fixedType || u.type === fixedType);
   const hero = fixedType
     ? { title: TYPE_META[fixedType].label, sub: `${TYPE_META[fixedType].ru} · A1–C1`, emoji: TYPE_META[fixedType].emoji, gradient: TYPE_META[fixedType].gradient }
     : { title: "Lessons", sub: "Уроки · Grammar · Reading · Writing · A1–C1", emoji: "🎓", gradient: "from-fuchsia-500 to-purple-600" };
-  if (!ready) return <Loading />;
-  const list = allUnits.filter((u) => (level === "all" || u.level === level) && (type === "all" || u.type === type));
-  const showStarter = !fixedType && type === "all" && (level === "all" || level === "A1" || level === "A2");
+  if (!progressReady || !levelReady) return <Loading />;
+  const list = allUnits.filter((u) => (level === "all" || u.level === level) && (activeType === "all" || u.type === activeType));
+  const showStarter = !fixedType && activeType === "all" && (level === "all" || level === "A1" || level === "A2");
 
   return (
     <div className="space-y-6">
@@ -51,11 +55,13 @@ export default function LessonList({ fixedType }: { fixedType?: UnitType }) {
           <Chip active={level === "all"} onClick={() => setLevel("all")}>All</Chip>
           {LEVELS.map((l) => <Chip key={l} active={level === l} onClick={() => setLevel(l)} color={`bg-gradient-to-r ${LEVEL_META[l].gradient}`}>{LEVEL_META[l].emoji} {l}</Chip>)}
         </FilterRow>
-        {!fixedType && <FilterRow label="Type / Тип">
-          <Chip active={type === "all"} onClick={() => setType("all")}>All</Chip>
-          {TYPES.map((t) => <Chip key={t} active={type === t} onClick={() => setType(t)} color={`bg-gradient-to-r ${TYPE_META[t].gradient}`}>{TYPE_META[t].emoji} {TYPE_META[t].label}</Chip>)}
-        </FilterRow>}
-        <p className="text-sm text-slate-500">Found: {list.length}</p>
+        {!fixedType && (
+          <FilterRow label="Type / Тип">
+            <Chip active={activeType === "all"} onClick={() => setType("all")}>All</Chip>
+            {TYPES.map((t) => <Chip key={t} active={activeType === t} onClick={() => setType(t)} color={`bg-gradient-to-r ${TYPE_META[t].gradient}`}>{TYPE_META[t].emoji} {TYPE_META[t].label}</Chip>)}
+          </FilterRow>
+        )}
+        <p className="text-sm text-slate-500">Found: {list.length}{level !== "all" ? ` · ${level}` : ""}</p>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-4">
@@ -81,7 +87,7 @@ export default function LessonList({ fixedType }: { fixedType?: UnitType }) {
         <section className="space-y-3">
           <h2 className="text-lg font-bold">🌟 Starter topics <span className="text-sm font-medium text-slate-400">/ Стартовые темы A1–A2</span></h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            {lessons.map((l) => (
+            {lessons.filter((l) => level === "all" || l.level === level).map((l) => (
               <Link key={l.id} href={`/lessons/${l.id}`} className="card p-4">
                 <div className="flex items-center gap-2">
                   <span className="rounded-full px-2.5 py-0.5 text-xs font-bold text-white bg-gradient-to-r from-emerald-400 to-teal-500">{l.level}</span>
