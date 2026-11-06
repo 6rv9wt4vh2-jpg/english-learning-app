@@ -28,14 +28,12 @@ export default function LegacyLesson({ id }: { id: string }) {
     );
   }
 
-  if (!ready) return <div className="text-slate-500">Loading…</div>;
-
   const level = lesson.level as Level;
   const lm = LEVEL_META[level] ?? LEVEL_META.A1;
   const siblings = lessons.filter((l) => l.level === lesson.level);
   const idx = siblings.findIndex((l) => l.id === lesson.id);
   const next = siblings[idx + 1];
-  const done = progress.completedLessons.includes(lesson.id);
+  const done = ready && progress.completedLessons.includes(lesson.id);
   const allAnswered = lesson.exercises.every((_, i) => answers[i] != null);
   const score = lesson.exercises.reduce((acc, ex, i) => acc + (answers[i] === ex.correctIndex ? 1 : 0), 0);
   const nav = (
