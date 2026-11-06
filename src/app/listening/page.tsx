@@ -91,13 +91,6 @@ export default function ListeningPage() {
         })}
       </div>
 
-      <Link href="/listening/words" className="card p-4 flex items-center gap-3">
-        <span className="text-3xl">🔤</span>
-        <div>
-          <div className="font-bold">Word listening quiz</div>
-          <div className="text-sm text-slate-500">Listen and choose the translation</div>
-        </div>
-      </Link>
     </div>
   );
 }
