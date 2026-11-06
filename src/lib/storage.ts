@@ -31,6 +31,7 @@ export function normalizeProgress(p: AppProgress): AppProgress {
     ...p,
     words: p.words ?? {},
     completedLessons: Array.isArray(p.completedLessons) ? p.completedLessons : [],
+    studyDays: Array.isArray(p.studyDays) ? p.studyDays : [],
     dailyGoal: p.dailyGoal || 20,
     reviewsToday,
     reviewsTodayDate,
@@ -75,10 +76,23 @@ export function resetProgress(): AppProgress {
 
 export function bumpStreak(progress: AppProgress): AppProgress {
   const today = todayStr();
-  if (progress.lastPracticeDate === today) return progress;
+  const days = Array.isArray(progress.studyDays) ? [...progress.studyDays] : [];
+  if (!days.includes(today)) {
+    days.push(today);
+    // keep at most ~2 years of days
+    if (days.length > 800) days.splice(0, days.length - 800);
+  }
+  if (progress.lastPracticeDate === today) {
+    return { ...progress, studyDays: days, lastPracticeDate: today };
+  }
   let streak = 1;
   if (progress.lastPracticeDate === yesterdayStr()) streak = (progress.streak || 0) + 1;
-  return { ...progress, streak, lastPracticeDate: today };
+  return { ...progress, streak, lastPracticeDate: today, studyDays: days };
+}
+
+/** Record a study day (lessons/speaking/listening) without counting a card review. */
+export function touchStudyDay(progress: AppProgress): AppProgress {
+  return bumpStreak(progress);
 }
 
 /** Pure: does not write. */

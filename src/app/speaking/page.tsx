@@ -8,6 +8,7 @@ import { LEVELS, LEVEL_META } from "@/data/course";
 import { KIND_META, speakingTasks, type SpeakKind, type SpeakTask } from "@/data/speaking";
 import { useLevelFilter } from "@/lib/levelFilter";
 import { createStore } from "@/lib/persist";
+import { progressStore, touchStudyDay } from "@/lib/storage";
 import { hintCoverage, useContinuousRecognition } from "@/lib/recognition";
 
 const SCORE_KEY = "speakdone:v2";
@@ -237,10 +238,17 @@ export default function SpeakingPage() {
   const save = (id: string, s: ScoreMap[string]) => {
     scoreStore.update((prev) => {
       const cur = prev[id];
-      if (cur && cur.words >= s.words && cur.hints >= s.hints) return prev;
-      return { ...prev, [id]: s };
+      // Always record a Check; keep best word/hint counts
+      const next = {
+        words: Math.max(cur?.words ?? 0, s.words),
+        seconds: Math.max(cur?.seconds ?? 0, s.seconds),
+        hints: Math.max(cur?.hints ?? 0, s.hints),
+        checkedAt: s.checkedAt,
+      };
+      return { ...prev, [id]: next };
     });
     setScores(scoreStore.get());
+    progressStore.update((p) => touchStudyDay(p));
   };
 
   if (!levelReady || !ready) return <Loading />;

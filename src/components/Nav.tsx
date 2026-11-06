@@ -12,20 +12,21 @@ const links = [
   { href: "/speaking", label: "Speaking", icon: "🎙️", grad: "from-rose-400 to-pink-600" },
   { href: "/listening", label: "Listening", icon: "🎧", grad: "from-cyan-400 to-blue-600" },
   { href: "/vocabulary", label: "Words", icon: "📚", grad: "from-emerald-400 to-teal-500" },
-    { href: "/progress", label: "Progress", icon: "📊", grad: "from-lime-400 to-green-600" },
+  { href: "/progress", label: "Progress", icon: "📊", grad: "from-lime-400 to-green-600" },
   { href: "/settings", label: "Settings", icon: "⚙️", grad: "from-slate-400 to-slate-600" },
 ];
 const linkBy = (h: string) => links.find((l) => l.href === h)!;
-// Mobile bar (7 max): Home moved under More to make room for Listening
-const mobile = [...["/cards", "/grammar", "/reading", "/writing", "/speaking", "/listening"].map(linkBy), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
-const moreRoutes = ["/more", "/vocabulary", "/progress", "/settings", "/practice"];
+// Mobile (7): Home first so the summary is one tap away; Writing lives under More
+const mobile = [...["/", "/cards", "/grammar", "/reading", "/speaking", "/listening"].map(linkBy), { href: "/more", label: "More", icon: "✨", grad: "from-violet-400 to-purple-600" }];
+const moreRoutes = ["/more", "/vocabulary", "/progress", "/settings", "/practice", "/writing", "/lessons"];
 const LESSON_TYPE: Record<string, string> = { g: "/grammar", r: "/reading", w: "/writing" };
 
 function isActive(pathname: string, href: string) {
   const m = pathname.match(/^\/lessons\/[a-z0-9]+-([grw])-/);
   if (m) return LESSON_TYPE[m[1]] === href;
-  if (href === "/more") return pathname === "/" || moreRoutes.some((r) => pathname.startsWith(r));
-  return pathname === href || (href !== "/" && pathname.startsWith(href));
+  if (href === "/more") return moreRoutes.some((r) => pathname === r || (r !== "/" && pathname.startsWith(r)));
+  if (href === "/") return pathname === "/";
+  return pathname === href || pathname.startsWith(href);
 }
 
 export default function Nav() {

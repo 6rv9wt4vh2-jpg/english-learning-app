@@ -50,6 +50,12 @@ export default function ListeningLesson({ lesson }: { lesson: ListenLesson }) {
   const dictScore = dictRes.reduce((a, r) => a + r.correct, 0), dictTotal = dictRes.reduce((a, r) => a + r.total, 0);
   const allChecked = mcChecked && gapsChecked && (!isDict || dictChecked);
   const done = isDone(lesson.id);
+
+  // auto-complete when all exercises checked
+  useEffect(() => {
+    if (allChecked && !isDone(lesson.id)) mark(lesson.id);
+  }, [allChecked, lesson.id, mark, isDone]);
+
   const speaker = (s: string) => s === "N" ? "" : (lesson.speakers?.[s as "A" | "B"] ?? s);
 
   const siblings = listeningByLevel[lesson.level];

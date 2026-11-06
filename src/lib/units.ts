@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import { createStore, persistStatus } from "./persist";
+import { progressStore, touchStudyDay } from "./storage";
 
 export const UNIT_DONE_KEY = "unitdone";
 
@@ -39,6 +40,7 @@ export function useUnitProgress() {
 
   const mark = useCallback((id: string) => {
     unitDoneStore.update((cur) => (cur.includes(id) ? cur : [...cur, id]));
+    progressStore.update((p) => touchStudyDay(p));
   }, []);
 
   return {

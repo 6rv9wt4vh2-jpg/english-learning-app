@@ -100,3 +100,24 @@ export function groupStats(items: DeckCard[], st: StatusMap) {
   for (const c of items) { const s = st[c.id]; if (s === "easy") easy++; else if (s === "hard") hard++; else if (s === "good") good++; }
   return { easy, hard, good, fresh: items.length - easy - hard - good, total: items.length, complete: easy === items.length };
 }
+
+/** First group to continue: in-progress session, else first not-all-Easy, else last group. */
+export function continueGroup(deck: string, cards: DeckCard[]): number {
+  const total = groupCount(cards.length);
+  const st = readStatus(deck);
+  for (let g = 1; g <= total; g++) {
+    const sess = readSession(deck, g);
+    if (sess && sess.pos > 0 && sess.pos < sess.ids.length) return g;
+  }
+  for (let g = 1; g <= total; g++) {
+    const items = cards.slice((g - 1) * GROUP_SIZE, g * GROUP_SIZE);
+    if (!groupStats(items, st).complete) return g;
+  }
+  return Math.max(1, total);
+}
+
+export function deckProgress(deck: string, cards: DeckCard[]) {
+  const st = readStatus(deck);
+  const s = groupStats(cards, st);
+  return { ...s, continueAt: continueGroup(deck, cards) };
+}

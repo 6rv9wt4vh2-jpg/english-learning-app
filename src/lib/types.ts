@@ -55,6 +55,7 @@ export interface AppProgress {
   dailyGoal: number;
   reviewsToday: number;
   reviewsTodayDate: string | null;
+  studyDays: string[]; // YYYY-MM-DD days with any study activity
 }
 
 export const DEFAULT_PROGRESS: AppProgress = {
@@ -67,6 +68,7 @@ export const DEFAULT_PROGRESS: AppProgress = {
   dailyGoal: 20,
   reviewsToday: 0,
   reviewsTodayDate: null,
+  studyDays: [],
 };
 
 export interface B2Card {

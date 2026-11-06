@@ -40,7 +40,11 @@ function Exercises({ items, onPass, nav }: { items: Exercise[]; onPass: () => vo
   const [ans, setAns] = useState<Record<number, string>>({});
   const [checked, setChecked] = useState(false);
   const score = items.filter((ex, i) => isRight(ex, ans[i] || "")).length;
-  const check = () => { setChecked(true); if (score >= Math.ceil(items.length * 0.6)) onPass(); };
+  const check = () => {
+    const sc = items.filter((ex, i) => isRight(ex, ans[i] || "")).length;
+    setChecked(true);
+    if (sc >= Math.ceil(items.length * 0.6)) onPass();
+  };
   return (
     <div className="space-y-4">
       {items.map((ex, i) => {
@@ -181,7 +185,13 @@ function Writing({ u, onPass, done, nav }: { u: WritingUnit; onPass: () => void;
           <span className="rounded-full px-3 py-1 font-semibold text-white bg-sky-500">Phrases used: {usedPhrases}/{u.phrases.length}</span>
           {saved && <span className="rounded-full px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-500">💾 Saved on this device</span>}
         </div>
-        <GrammarCheck text={text} label="Check my writing / Проверить ошибки" />
+        <GrammarCheck
+          text={text}
+          label="Check my writing"
+          onChecked={() => {
+            if (words >= u.minWords) onPass();
+          }}
+        />
       </Section>
       <Section title="Self-check" ru="Самопроверка" emoji="✅">
         <ul className="space-y-2">

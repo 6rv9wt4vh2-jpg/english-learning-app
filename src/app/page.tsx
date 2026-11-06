@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import HomeProgressSummary from "@/components/HomeProgressSummary";
 import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard";
 import { Loading } from "@/components/ui";
@@ -33,9 +34,11 @@ const TILES = [
 export default function HomePage() {
   const { progress, ready } = useProgress();
   const units = useUnitProgress();
-    const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
+  const nextUnit = allUnits.find((u) => !units.done.includes(u.id)) ?? allUnits[0];
   const [learned, setLearned] = useState(0);
-  useEffect(() => { setLearned(countEasyAll(DECKS.map((d) => d.slug))); }, [ready, progress.totalReviews, units.done.length]);
+  useEffect(() => {
+    setLearned(countEasyAll(DECKS.map((d) => d.slug)));
+  }, [ready, progress.totalReviews, units.done.length]);
   const accuracy = getAccuracy(progress);
   const goal = progress.dailyGoal || 20;
   const today = progress.reviewsToday || 0;
@@ -48,41 +51,42 @@ export default function HomePage() {
       <header className="pop-in relative overflow-hidden rounded-3xl p-6 sm:p-8 text-white shadow-xl bg-gradient-to-br from-sky-400 via-indigo-500 to-fuchsia-500">
         <div className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-white/15" />
         <div className="absolute right-16 -bottom-12 h-28 w-28 rounded-full bg-white/10" />
-        <p className="relative text-sm font-semibold opacity-90">Welcome! · Добро пожаловать!</p>
+        <p className="relative text-sm font-semibold opacity-90">Welcome!</p>
         <h1 className="relative mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight">Learn English calmly</h1>
         <p className="relative text-lg font-semibold opacity-90">Учим английский спокойно</p>
         <p className="relative mt-3 max-w-xl text-sm opacity-90">
-          Words, spaced repetition, lessons and listening — offline in your browser.
-          <br /><span className="opacity-80">Слова, интервальные повторения, уроки и аудирование — всё офлайн в браузере.</span>
+          Words, spaced repetition, lessons and listening — saved in this browser.
         </p>
       </header>
 
+      <HomeProgressSummary />
+
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <StatCard index={0} label="Streak / Серия" value={progress.streak} emoji="🔥" hint="days / дней" />
-        <StatCard index={1} label="Learned / Выучено" value={learned} emoji="✨" hint={`of / из ${totalCards}`} />
-        <StatCard index={2} label="Accuracy / Точность" value={`${accuracy}%`} emoji="🎯" />
-        <StatCard index={3} label="Lessons / Уроки" value={`${units.done.length}/${allUnits.length}`} emoji="🎓" />
+        <StatCard index={0} label="Streak" value={progress.streak} emoji="🔥" hint="days" />
+        <StatCard index={1} label="Learned" value={learned} emoji="✨" hint={`of ${totalCards}`} />
+        <StatCard index={2} label="Accuracy" value={`${accuracy}%`} emoji="🎯" />
+        <StatCard index={3} label="Lessons" value={`${units.done.length}/${allUnits.length}`} emoji="🎓" />
       </div>
 
       <section className="card p-5 space-y-4">
         <div className="flex items-center justify-between gap-3">
-          <h2 className="font-bold text-lg"><Bi en="Today's goal" ru="Цель на сегодня" /></h2>
-          <span className="text-sm text-slate-500">{today} / {goal} reviews · повторений</span>
+          <h2 className="font-bold text-lg">Today&apos;s goal</h2>
+          <span className="text-sm text-slate-500">{today} / {goal} reviews</span>
         </div>
         <ProgressBar value={today} max={goal} />
         <div className="flex flex-wrap gap-3 pt-1">
-          <Link href="/speaking" className="btn-primary">🎙️ Speaking <span className="opacity-75">/ Говорить</span></Link>
-          <Link href="/cards" className="btn-warm">🃏 Learn cards <span className="opacity-75">/ Учить</span></Link>
-          <Link href="/listening" className="btn-ghost">🎧 Listening <span className="opacity-60">/ Аудирование</span></Link>
+          <Link href="/speaking" className="btn-primary">🎙️ Speaking</Link>
+          <Link href="/cards" className="btn-warm">🃏 Learn cards</Link>
+          <Link href="/listening" className="btn-ghost">🎧 Listening</Link>
         </div>
       </section>
 
       <Link href={`/lessons/${nextUnit.id}`} className={`block pop-in relative overflow-hidden rounded-3xl p-5 text-white shadow-lg bg-gradient-to-br ${tm.gradient} hover:scale-[1.01] transition`}>
         <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/15" />
-        <p className="text-xs font-bold uppercase tracking-wide opacity-90">Lesson of the day · Урок дня</p>
+        <p className="text-xs font-bold uppercase tracking-wide opacity-90">Lesson of the day</p>
         <h2 className="mt-1 text-xl font-extrabold">{tm.emoji} {nextUnit.title}</h2>
-        <p className="text-sm opacity-90">{nextUnit.titleRu} · {nextUnit.level} · {tm.label} / {tm.ru}</p>
-        <span className="mt-3 inline-block rounded-xl bg-white/25 px-4 py-2 text-sm font-semibold">Open lesson / Открыть урок →</span>
+        <p className="text-sm opacity-90">{nextUnit.titleRu} · {nextUnit.level} · {tm.label}</p>
+        <span className="mt-3 inline-block rounded-xl bg-white/25 px-4 py-2 text-sm font-semibold">Open lesson →</span>
       </Link>
 
       <section className="space-y-3">
@@ -92,7 +96,7 @@ export default function HomePage() {
             const u = unitsByLevel[l];
             const d = u.filter((x) => units.done.includes(x.id)).length;
             return (
-              <Link key={l} href="/lessons" className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${LEVEL_META[l].gradient} hover:scale-105 transition`}>
+              <Link key={l} href={`/lessons?level=${l}`} className={`rounded-3xl p-4 text-white shadow-md bg-gradient-to-br ${LEVEL_META[l].gradient} hover:scale-105 transition`}>
                 <div className="text-2xl">{LEVEL_META[l].emoji}</div>
                 <div className="text-xl font-extrabold">{l}</div>
                 <div className="text-xs opacity-90">{LEVEL_META[l].ru}</div>
